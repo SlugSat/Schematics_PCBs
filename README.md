@@ -1,2 +1,3 @@
 # Schematics_PCBs
-PCB Schematics for RF
+PCB Schematics for the whole team
+
