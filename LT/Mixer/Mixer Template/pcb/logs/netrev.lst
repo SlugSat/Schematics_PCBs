@@ -1,0 +1,86 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Allegro Netrev Import Logic                                      )
+(                                                                     )
+(    Drawing          : Mixer Template.brd                            )
+(    Software Version : 17.2S022                                      )
+(    Date/Time        : Sun Apr 08 18:04:02 2018                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+------ Directives ------------
+
+Ripup etch:                  No
+Ripup delete first segment:  No
+Ripup retain bondwire:       No
+Ripup symbols:               Always
+Missing symbol has error:    No
+DRC update:                  Yes
+Schematic directory:         'C:/Users/teaves/Desktop/Mixer/Mixer Template/pcb/netlist'
+Design Directory:            'C:/Users/teaves/Desktop/Mixer/Mixer Template/pcb'
+Old design name:             'C:/Users/teaves/Desktop/Mixer/Mixer Template/pcb/Mixer Template.brd'
+New design name:             'C:/Users/teaves/Desktop/Mixer/Mixer Template/pcb/Mixer Template.brd'
+
+CmdLine: netrev -$ -i C:/Users/teaves/Desktop/Mixer/Mixer Template/pcb/netlist -y 1 -h -q netrev_constraint_report.xml C:/Users/teaves/Desktop/Mixer/Mixer Template/pcb/#Taaaamv14576.tmp
+
+------ Preparing to read pst files ------
+
+Starting to read C:/Users/teaves/Desktop/Mixer/Mixer Template/pcb/netlist/pstchip.dat 
+   Finished reading C:/Users/teaves/Desktop/Mixer/Mixer Template/pcb/netlist/pstchip.dat (00:00:00.02)
+Starting to read C:/Users/teaves/Desktop/Mixer/Mixer Template/pcb/netlist/pstxprt.dat 
+   Finished reading C:/Users/teaves/Desktop/Mixer/Mixer Template/pcb/netlist/pstxprt.dat (00:00:00.00)
+Starting to read C:/Users/teaves/Desktop/Mixer/Mixer Template/pcb/netlist/pstxnet.dat 
+   Finished reading C:/Users/teaves/Desktop/Mixer/Mixer Template/pcb/netlist/pstxnet.dat (00:00:00.00)
+
+------ Oversights/Warnings/Errors ------
+
+
+------ Library Paths ------
+MODULEPATH =  C:/Cadence/SPB_17.2/share/local/pcb/modules 
+           ../../lib/modules 
+
+PSMPATH =  C:/Cadence/SPB_17.2/share/local/pcb/symbols 
+           C:/Cadence/SPB_17.2/share/pcb/pcb_lib/symbols 
+           C:/Cadence/SPB_17.2/share/pcb/allegrolib/symbols 
+           ../../lib.symbols 
+           C:/Users/teaves/Desktop/Mixer/Lib/symbols 
+
+PADPATH =  C:/Cadence/SPB_17.2/share/local/pcb/padstacks 
+           C:/Cadence/SPB_17.2/share/pcb/pcb_lib/symbols 
+           C:/Cadence/SPB_17.2/share/pcb/allegrolib/symbols 
+           ../../lib/padstacks 
+           ../../lib/symbols 
+
+
+------ Summary Statistics ------
+
+
+netrev run on Apr 8 18:04:02 2018
+   DESIGN NAME : 'MIXER TEMPLATE'
+   PACKAGING ON Mar 20 2017 11:21:40
+
+   COMPILE 'logic'
+   CHECK_PIN_NAMES OFF
+   CROSS_REFERENCE OFF
+   FEEDBACK OFF
+   INCREMENTAL OFF
+   INTERFACE_TYPE PHYSICAL
+   MAX_ERRORS 500
+   MERGE_MINIMUM 5
+   NET_NAME_CHARS '#%&()*+-./:=>?@[]^_`|'
+   NET_NAME_LENGTH 24
+   OVERSIGHTS ON
+   REPLACE_CHECK OFF
+   SINGLE_NODE_NETS ON
+   SPLIT_MINIMUM 0
+   SUPPRESS   20
+   WARNINGS ON
+
+ No error detected
+ No oversight detected
+ No warning detected
+
+cpu time      0:00:32
+elapsed time  0:00:01
+

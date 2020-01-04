@@ -1,0 +1,30 @@
+\t (00:00:02) allegro 17.2 S022 Windows SPB 64-bit Edition
+\t (00:00:02)     Journal start - Sun Apr 08 17:24:00 2018
+\t (00:00:02)         Host=BE308PC10 User=teaves Pid=13016 CPUs=4
+\t (00:00:02) CmdLine= c:\cadence\spb_17.2\tools\bin\allegro.exe C:\Users\teaves\Desktop\Mixer\Lib\symbols\SMA_440W_200L.dra
+\t (00:00:02) 
+   (00:00:02) Loading axlcore.cxt 
+\t (00:00:02) Opening existing design...
+\d (00:00:02) Design opened: C:/Users/teaves/Desktop/Mixer/Lib/symbols/SMA_440W_200L.dra
+\i (00:00:02) trapsize 65
+\i (00:00:02) trapsize 66
+\i (00:00:02) trapsize 66
+\i (00:00:02) generaledit 
+\i (00:00:37) padeditdb 
+\i (00:00:43) setwindow form.mini
+\i (00:00:43) FORM mini padlist SMA_POW_210L_100W 
+\i (00:00:46) FORM mini padlist SMA_POW_210L_100W 
+\i (00:00:46) FORMDBLCLK mini padlist SMA_POW_210L_100W 
+\i (00:01:34) setwindow pcb
+\i (00:01:34) pick grid -759.5 -44.9
+\t (00:01:34) last pick:  -760.0 -40.0
+\i (00:01:48) setwindow form.mini
+\i (00:01:48) FORM mini padlist SMA_GND_210L_105W 
+\i (00:01:51) FORM mini padlist SMA_GND_210L_105W 
+\i (00:01:51) FORMDBLCLK mini padlist SMA_GND_210L_105W 
+\i (00:05:04) setwindow pcb
+\i (00:05:04) exit 
+\e (00:05:04) Do you want to save the changes you made to SMA_440W_200L.dra?
+\i (00:05:08) fillin yes 
+\t (00:05:08) Symbol 'sma_440w_200l.psm' created.
+\t (00:05:08)     Journal end - Sun Apr 08 17:29:07 2018

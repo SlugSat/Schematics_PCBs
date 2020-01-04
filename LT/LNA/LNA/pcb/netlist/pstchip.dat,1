@@ -1,0 +1,96 @@
+FILE_TYPE=LIBRARY_PARTS;
+{ Using PSTWRITER 17.2.0 d001May-20-2018 at 19:21:31}
+primitive 'C_SMC0805_1N';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='C';
+    JEDEC_TYPE='SMC0805';
+    VALUE='1n';
+  end_body;
+end_primitive;
+primitive 'C_SMC_TRIM_1N';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='C';
+    JEDEC_TYPE='SMC_Trim';
+    VALUE='1n';
+  end_body;
+end_primitive;
+primitive '2PIN HEADER_SMA_440W_200L_2PIN';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='2Pin Header';
+    JEDEC_TYPE='SMA_440W_200L';
+    VALUE='2Pin Header';
+  end_body;
+end_primitive;
+primitive '7M3_TRIMMER_7M3_INDUCTOR_TRIM_7';
+  pin
+    'L1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    'L2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    'NC1':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+    'NC2':
+      PIN_NUMBER='(4)';
+      PINUSE='UNSPEC';
+    'TAB1':
+      PIN_NUMBER='(5)';
+      PINUSE='UNSPEC';
+    'TAB2':
+      PIN_NUMBER='(6)';
+      PINUSE='UNSPEC';
+    'NC3':
+      PIN_NUMBER='(7)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='7M3_Trimmer';
+    JEDEC_TYPE='7M3_Inductor_Trim';
+    VALUE='7M3';
+  end_body;
+end_primitive;
+primitive 'JFET N DSG_0_SMSOT23DSG_MMFB548';
+  pin
+    '3':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='JFET N DSG_0';
+    JEDEC_TYPE='SMSOT23DSG';
+    VALUE='MMFB5486';
+  end_body;
+end_primitive;
+END.

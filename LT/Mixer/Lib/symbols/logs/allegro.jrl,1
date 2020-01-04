@@ -1,0 +1,28 @@
+\t (00:00:02) allegro 17.2 S022 Windows SPB 64-bit Edition
+\t (00:00:02)     Journal start - Sun Apr 08 17:19:49 2018
+\t (00:00:02)         Host=BE308PC10 User=teaves Pid=11096 CPUs=4
+\t (00:00:02) CmdLine= c:\cadence\spb_17.2\tools\bin\allegro.exe C:\Users\teaves\Desktop\Mixer\Lib\symbols\SMA_440W_200L.dra
+\t (00:00:02) 
+   (00:00:02) Loading axlcore.cxt 
+\t (00:00:02) Opening existing design...
+\d (00:00:02) Design opened: C:/Users/teaves/Desktop/Mixer/Lib/symbols/SMA_440W_200L.dra
+\i (00:00:02) trapsize 65
+\i (00:00:02) trapsize 66
+\i (00:00:02) trapsize 66
+\i (00:00:03) generaledit 
+\i (00:00:07) pick grid 375.9 -131.0
+\t (00:00:07) last pick:  380.0 -130.0
+\i (00:00:10) drag_start grid 328.2 -3.8
+\i (00:00:11) drag_stop 447.4 -205.2
+\i (00:00:13) prepopup 342.7 -132.3
+\i (00:00:14) pop dyn_option_select @:@Delete 
+\i (00:00:14) delete 
+\i (00:00:14) generaledit 
+\i (00:00:15) pick grid 324.2 -307.2
+\t (00:00:15) last pick:  320.0 -310.0
+\i (00:00:22) save 
+\i (00:00:25) fillin yes 
+\t (00:00:25) Symbol 'sma_440w_200l.psm' created.
+\i (00:00:25) generaledit 
+\i (00:00:31) exit 
+\t (00:00:31)     Journal end - Sun Apr 08 17:20:18 2018

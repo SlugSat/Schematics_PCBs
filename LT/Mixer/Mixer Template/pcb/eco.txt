@@ -1,0 +1,78 @@
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   1  |
+|------------------------------------------------------------------------------|
+|  C:/Users/teaves/Desktop/Mixer/Mixer Template/pcb/Mixer Template.brd         |
+|                                                    Sun Apr 08 18:04:02 2018  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  GND          pins MOVED FROM this net (to net name listed on right)
+                                 U1.8            12115.0  9300.0
+                                                                         N02165
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N00864       pins MOVED FROM this net (to net name listed on right)
+                                 U1.4            12265.0  9080.0
+                                                                         N01557
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N01037       pins MOVED FROM this net (to net name listed on right)
+                                 U1.3            12215.0  9080.0
+                                                                            GND
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N01317       pins MOVED FROM this net (to net name listed on right)
+                                 U1.6            12215.0  9300.0
+                                                                         N01037
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N01557       pins MOVED FROM this net (to net name listed on right)
+                                 U1.5            12265.0  9300.0
+                                                                         N01317
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N02165       pins MOVED FROM this net (to net name listed on right)
+                                 U1.7            12165.0  9300.0
+                                                                         N00864
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   2  |
+|------------------------------------------------------------------------------|
+|  C:/Users/teaves/Desktop/Mixer/Mixer Template/pcb/Mixer Template.brd         |
+|                                                    Sun Apr 08 18:04:02 2018  |
+|------------------------------------------------------------------------------|
+| COMPONENT DEFINITION added to design                                         |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    device type                                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ SA602_SO8_SA602
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   3  |
+|------------------------------------------------------------------------------|
+|  C:/Users/teaves/Desktop/Mixer/Mixer Template/pcb/Mixer Template.brd         |
+|                                                    Sun Apr 08 18:04:02 2018  |
+|------------------------------------------------------------------------------|
+| COMPONENTS CHANGED from one device type to another in design                 |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        | new device type     |   x   |   y   |  old  device type  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ U1                  SA602_SO8_SA602       12190.0  9190.0 SA602_SO8_SA602
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   4  |
+|------------------------------------------------------------------------------|
+|  C:/Users/teaves/Desktop/Mixer/Mixer Template/pcb/Mixer Template.brd         |
+|                                                    Sun Apr 08 18:04:02 2018  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ U1.8           12190.0  9190.0 PRIM_FILE      .\pstchip.dat
+|------------------------------------------------------------------------------|
+|       Nets changed          :       6                                        |
+|       Comp definitions added:       1                                        |
+|       Components changed    :       1                                        |
+|       Slot property added   :       1                                        |
+|                                                                              |
+|   Total ECO changes reported:       9                                        |
+|------------------------------------------------------------------------------|

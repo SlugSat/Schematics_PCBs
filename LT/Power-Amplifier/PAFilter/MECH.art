@@ -1,0 +1,32 @@
+G04 ================== begin FILE IDENTIFICATION RECORD ==================*
+G04 Layout Name:  Filter.brd*
+G04 Film Name:    MECH*
+G04 File Format:  Gerber RS274X*
+G04 File Origin:  Cadence Allegro 17.2-S029*
+G04 Origin Date:  Mon Apr 29 21:28:21 2019*
+G04 *
+G04 Layer:  BOARD GEOMETRY/OUTLINE*
+G04 Layer:  BOARD GEOMETRY/DIMENSION*
+G04 Layer:  BOARD GEOMETRY/CUT_MARKS*
+G04 *
+G04 Offset:    (0.0000 0.0000)*
+G04 Mirror:    No*
+G04 Mode:      Positive*
+G04 Rotation:  0*
+G04 FullContactRelief:  No*
+G04 UndefLineWidth:     0.0000*
+G04 ================== end FILE IDENTIFICATION RECORD ====================*
+%FSLAX25Y25*MOIN*%
+%IR0*IPPOS*OFA0.00000B0.00000*MIA0B0*SFA1.00000B1.00000*%
+%ADD10C,.03937*%
+G75*
+%LPD*%
+G75*
+G54D10*
+G01X1134252Y913780D02*
+Y866929D01*
+X1336220D01*
+Y938583D01*
+X1134252D01*
+Y913780D01*
+M02*

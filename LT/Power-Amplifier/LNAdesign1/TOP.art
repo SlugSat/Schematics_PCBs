@@ -1,0 +1,31 @@
+G04 ================== begin FILE IDENTIFICATION RECORD ==================*
+G04 Layout Name:  DevinLNA.brd*
+G04 Film Name:    TOP*
+G04 File Format:  Gerber RS274X*
+G04 File Origin:  Cadence Allegro 17.2-S029*
+G04 Origin Date:  Mon May 20 16:53:47 2019*
+G04 *
+G04 Layer:  ETCH/TOP*
+G04 Layer:  PIN/TOP*
+G04 Layer:  VIA CLASS/TOP*
+G04 *
+G04 Offset:    (0.0 0.0)*
+G04 Mirror:    No*
+G04 Mode:      Positive*
+G04 Rotation:  0*
+G04 FullContactRelief:  No*
+G04 UndefLineWidth:     0.0*
+G04 ================== end FILE IDENTIFICATION RECORD ====================*
+%FSLAX45Y45*MOIN*%
+%IR0*IPPOS*OFA0.00000B0.00000*MIA0B0*SFA1.00000B1.00000*%
+%ADD11C,.058*%
+%ADD10R,.058X.058*%
+%LPD*%
+G75*
+G54D10*
+X1197500Y592500D03*
+X1285000Y522500D03*
+X1397500Y595000D03*
+G54D11*
+X1275000Y522500D03*
+M02*

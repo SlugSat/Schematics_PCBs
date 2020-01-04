@@ -1,0 +1,14 @@
+M48
+INCH,LZ
+T01C.02
+;LEADER: 12 
+;HEADER: 
+;CODE  : ASCII 
+;FILE  : LNA-1-2.drl for  ... layers TOP and BOTTOM
+;DESIGN: LNA.brd
+;T01 Holesize 1. = 20.000000 Tolerance = +0.000000/-0.000000 PLATED MILS Quantity = 1
+%
+G90
+T01
+X15013Y05815
+M30

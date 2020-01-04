@@ -1,0 +1,81 @@
+FILE_TYPE=LIBRARY_PARTS;
+{ Using PSTWRITER 17.2.0 d001Apr-08-2018 at 18:03:50}
+primitive 'C NP_SMC0805_C NP';
+  pin
+    'A':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    'B':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='C NP';
+    JEDEC_TYPE='SMC0805';
+    VALUE='C NP';
+  end_body;
+end_primitive;
+primitive '2PIN HEADER_SMA_440W_200L_2PIN';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='2Pin Header';
+    JEDEC_TYPE='SMA_440W_200L';
+    VALUE='2Pin Header';
+  end_body;
+end_primitive;
+primitive 'INDUCTOR_SML0805_INDUCTOR';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='INDUCTOR';
+    JEDEC_TYPE='SML0805';
+    VALUE='INDUCTOR';
+  end_body;
+end_primitive;
+primitive 'SA602_SO8_SA602';
+  pin
+    'I1':
+      PIN_NUMBER='(1)';
+      INPUT_LOAD='(*)';
+    'I2':
+      PIN_NUMBER='(2)';
+      INPUT_LOAD='(*)';
+    'OSC_B':
+      PIN_NUMBER='(6)';
+      INPUT_LOAD='(*)';
+    'OSC_E':
+      PIN_NUMBER='(7)';
+      INPUT_LOAD='(*)';
+    'O1':
+      PIN_NUMBER='(4)';
+      OUTPUT_LOAD='(*)';
+    'O2':
+      PIN_NUMBER='(5)';
+      OUTPUT_LOAD='(*)';
+    'GND':
+      PIN_NUMBER='(3)';
+      PINUSE='POWER';
+    'VCC':
+      PIN_NUMBER='(8)';
+      PINUSE='POWER';
+  end_pin;
+  body
+    PART_NAME='SA602';
+    JEDEC_TYPE='so8';
+    VALUE='SA602';
+  end_body;
+end_primitive;
+END.

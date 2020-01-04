@@ -1,0 +1,557 @@
+\t (00:00:03) allegro 17.2 S022 Windows SPB 64-bit Edition
+\t (00:00:03)     Journal start - Thu May 31 16:34:37 2018
+\t (00:00:03)         Host=BE308PC01 User=teaves Pid=4892 CPUs=4
+\t (00:00:03) CmdLine= c:\cadence\spb_17.2\tools\bin\allegro.exe C:\Users\teaves\Desktop\LNA\LNA\pcb\LNAv2.brd
+\t (00:00:03) 
+   (00:00:03) Loading axlcore.cxt 
+\t (00:00:04) Opening existing design...
+\d (00:00:04) Design opened: C:/Users/teaves/Desktop/LNA/LNA/pcb/LNAv2.brd
+\i (00:00:04) trapsize 96
+\i (00:00:04) trapsize 98
+\i (00:00:04) trapsize 98
+\i (00:00:04) etchedit 
+\i (00:00:13) etchedit 
+\i (00:00:15) setwindow form.find
+\i (00:00:15) FORM find all_off  
+\i (00:00:17) setwindow pcb
+\i (00:00:17) etchedit 
+\i (00:00:18) etchedit 
+\i (00:00:21) setwindow form.find
+\i (00:00:21) FORM find clines YES 
+\i (00:00:22) FORM find cline_segs YES 
+\i (00:00:36) setwindow pcb
+\i (00:00:36) prepopup 15439.3 8300.2
+\i (00:00:37) pop dyn_option_select @:@Delete 
+\i (00:00:38) delete 
+\i (00:00:38) etchedit 
+\i (00:00:39) prepopup 15339.7 8423.4
+\i (00:00:41) pop dyn_option_select @:@Delete 
+\i (00:00:41) delete 
+\i (00:00:41) etchedit 
+\i (00:00:47) setwindow form.find
+\i (00:00:47) FORM find pins YES 
+\i (00:00:49) setwindow pcb
+\i (00:00:49) pick grid 15449.1 8423.4
+\t (00:00:49) last pick:  15450.0 8425.0
+\i (00:00:49) add connect 
+\t (00:00:49) Pick first element.
+\t (00:00:49) Target Symbol Pin is defined on TOP.
+\t (00:00:49) last pick:  15440.0 8425.0
+\i (00:00:53) setwindow form.mini
+\i (00:00:53) FORM mini acon_line_width 50 
+\i (00:01:02) setwindow pcb
+\i (00:01:02) pick grid 15441.3 8313.9
+\t (00:01:02) last pick:  15440.0 8315.0
+\t (00:01:02) No DRC errors detected.
+\i (00:01:02) pick grid dbl 15441.3 8313.9
+\t (00:01:02) last pick:  15440.0 8315.0
+\t (00:01:02) PAD30CIR20D used for drill.
+\t (00:01:02) No DRC errors detected.
+\i (00:01:03) prepopup 15441.3 8315.9
+\i (00:01:04) oops 
+\t (00:01:04) last pick:  15440.0 8315.0
+\i (00:01:06) prepopup 15441.3 8372.6
+\i (00:01:08) pop dyn_option_select 'Change Active Layer@:@BOTTOM' 
+\i (00:01:09) prepopup 15447.2 8343.2
+\i (00:01:11) pop dyn_option_select 'Change Active Layer@:@BOTTOM' 
+\i (00:01:12) prepopup 15447.2 8343.2
+\i (00:01:13) oops 
+\t (00:01:13) last pick:  15440.0 8425.0
+\i (00:01:13) prepopup 15447.2 8343.2
+\i (00:01:14) done 
+\i (00:01:14) etchedit 
+\i (00:01:16) pick grid 15447.2 8421.4
+\t (00:01:16) last pick:  15445.0 8420.0
+\i (00:01:16) add connect 
+\t (00:01:16) Pick first element.
+\t (00:01:16) Target Symbol Pin is defined on TOP.
+\t (00:01:16) last pick:  15440.0 8425.0
+\i (00:01:17) prepopup 15435.4 8374.5
+\i (00:01:18) pop dyn_option_select 'Change Active Layer@:@BOTTOM' 
+\i (00:01:22) pick grid 15435.4 8312.0
+\t (00:01:22) last pick:  15435.0 8310.0
+\t (00:01:22) No DRC errors detected.
+\t (00:01:22) last pick:  15440.0 8315.0
+\i (00:01:22) pick grid dbl 15435.4 8312.0
+\t (00:01:22) last pick:  15435.0 8310.0
+\t (00:01:22) PAD30CIR20D used for drill.
+\t (00:01:22) No DRC errors detected.
+\i (00:01:24) mouse_pos 15425.7 8255.3
+\i (00:01:25) pick grid 15423.7 8196.6
+\t (00:01:25) last pick:  15425.0 8195.0
+\t (00:01:25) No DRC errors detected.
+\t (00:01:25) Pick first element.
+\i (00:01:25) etchedit 
+\i (00:01:46) prepopup 15439.3 8730.3
+\i (00:01:47) pop dyn_option_select @:@Delete 
+\i (00:01:47) delete 
+\i (00:01:47) etchedit 
+\i (00:01:48) pick grid 15447.2 8601.3
+\t (00:01:48) last pick:  15445.0 8600.0
+\i (00:01:48) add connect 
+\t (00:01:49) Pick first element.
+\t (00:01:49) Target Symbol Pin is defined on TOP.
+\t (00:01:49) last pick:  15440.0 8602.0
+\i (00:01:50) prepopup 15431.5 8677.5
+\i (00:01:52) pop dyn_option_select 'Change Active Layer@:@BOTTOM' 
+\i (00:01:57) pick grid 15429.6 8728.3
+\t (00:01:57) last pick:  15430.0 8730.0
+\t (00:01:57) No DRC errors detected.
+\t (00:01:57) last pick:  15440.0 8720.0
+\i (00:01:58) pick grid dbl 15429.6 8728.3
+\t (00:01:58) last pick:  15430.0 8730.0
+\t (00:01:58) PAD30CIR20D used for drill.
+\t (00:01:58) No DRC errors detected.
+\i (00:01:59) mouse_pos 15429.6 8783.1
+\i (00:02:00) pick grid 15427.6 8792.8
+\t (00:02:00) last pick:  15430.0 8795.0
+\t (00:02:00) No DRC errors detected.
+\t (00:02:00) Pick first element.
+\i (00:02:00) etchedit 
+\i (00:02:16) prepopup 15189.1 8777.2
+\i (00:02:17) pop dyn_option_select @:@Delete 
+\i (00:02:17) delete 
+\i (00:02:17) etchedit 
+\i (00:02:35) placementedit 
+\i (00:02:38) pick grid 15144.2 8663.8
+\t (00:02:38) last pick:  15145.0 8665.0
+\i (00:02:39) pick grid 15195.0 8661.9
+\t (00:02:39) last pick:  15195.0 8660.0
+\i (00:02:39) move 
+\t (00:02:39) last pick:  15045.0 8665.0
+\t (00:02:39) Moving C5 / C_SMC_TRIM_1N / SMC_TRIM.
+\t (00:02:39) Pick new location for the element(s).
+\i (00:02:44) prepopup 15044.5 8648.2
+\i (00:02:45) oops 
+\i (00:02:45) placementedit 
+\i (00:02:46) etchedit 
+\i (00:02:47) prepopup 14937.0 8665.8
+\i (00:02:49) pop dyn_option_select @:@Delete 
+\i (00:02:49) delete 
+\i (00:02:49) etchedit 
+\i (00:02:49) prepopup 14841.2 8740.1
+\i (00:02:51) pop dyn_option_select @:@Delete 
+\i (00:02:51) delete 
+\i (00:02:51) etchedit 
+\i (00:02:51) prepopup 14680.9 8675.5
+\i (00:02:52) pop dyn_option_select @:@Delete 
+\i (00:02:52) delete 
+\i (00:02:52) etchedit 
+\i (00:02:53) placementedit 
+\i (00:02:57) pick grid 15050.4 8656.0
+\t (00:02:57) last pick:  15050.0 8655.0
+\i (00:02:57) move 
+\t (00:02:57) last pick:  15045.0 8665.0
+\t (00:02:57) Moving C5 / C_SMC_TRIM_1N / SMC_TRIM.
+\t (00:02:57) Pick new location for the element(s).
+\i (00:03:06) pick grid 15044.5 8601.3
+\t (00:03:06) last pick:  15045.0 8600.0
+\i (00:03:06) placementedit 
+\i (00:03:07) pick grid 15275.2 8429.3
+\t (00:03:07) last pick:  15275.0 8430.0
+\i (00:03:07) move 
+\t (00:03:07) last pick:  15280.0 8425.0
+\t (00:03:07) Moving C1 / C_SMC0805_1N / SMC0805.
+\t (00:03:07) Pick new location for the element(s).
+\i (00:03:13) pick grid 15288.8 8425.3
+\t (00:03:13) last pick:  15290.0 8425.0
+\i (00:03:13) placementedit 
+\i (00:03:14) pick grid 15198.9 8603.2
+\t (00:03:14) last pick:  15200.0 8605.0
+\i (00:03:14) move 
+\t (00:03:14) last pick:  15045.0 8600.0
+\t (00:03:14) Moving C5 / C_SMC_TRIM_1N / SMC_TRIM.
+\t (00:03:14) Pick new location for the element(s).
+\i (00:03:18) pick grid 15046.4 8595.4
+\t (00:03:18) last pick:  15045.0 8595.0
+\i (00:03:18) placementedit 
+\i (00:03:19) pick grid 14858.8 8644.3
+\t (00:03:19) last pick:  14860.0 8645.0
+\i (00:03:19) move 
+\t (00:03:19) last pick:  14850.0 8665.0
+\t (00:03:19) Moving C4 / C_SMC0805_1N / SMC0805.
+\t (00:03:19) Pick new location for the element(s).
+\i (00:03:23) pick grid 14851.0 8597.4
+\t (00:03:23) last pick:  14850.0 8595.0
+\i (00:03:23) placementedit 
+\i (00:03:23) pick grid 14579.3 8626.7
+\t (00:03:23) last pick:  14580.0 8625.0
+\i (00:03:23) move 
+\t (00:03:23) last pick:  14645.0 8885.0
+\t (00:03:23) Moving J3 / 2PIN HEADER_SMA_440W_200L_2PIN / SMA_440W_200L.
+\t (00:03:23) Pick new location for the element(s).
+\i (00:03:28) pick grid 14647.7 8814.3
+\t (00:03:28) last pick:  14650.0 8815.0
+\i (00:03:28) placementedit 
+\i (00:03:33) pick grid 14845.1 8771.3
+\t (00:03:33) last pick:  14845.0 8770.0
+\i (00:03:33) move 
+\t (00:03:33) last pick:  15190.0 8855.0
+\t (00:03:33) Moving L2 / 7M3_TRIMMER_7M3_INDUCTOR_TRIM_7 / 7M3_INDUCTOR_TRIM.
+\t (00:03:33) Pick new location for the element(s).
+\i (00:03:34) prepopup 14843.2 8742.0
+\i (00:03:35) oops 
+\i (00:03:35) placementedit 
+\i (00:03:36) pick grid 14794.3 8802.6
+\t (00:03:36) last pick:  14795.0 8805.0
+\i (00:03:36) move 
+\t (00:03:36) last pick:  14850.0 8885.0
+\t (00:03:36) Moving C7 / C_SMC0805_1N / SMC0805.
+\t (00:03:36) Pick new location for the element(s).
+\i (00:03:42) pick grid 14851.0 8808.5
+\t (00:03:42) last pick:  14850.0 8810.0
+\i (00:03:42) placementedit 
+\i (00:03:44) etchedit 
+\i (00:03:47) pick grid 15183.3 8855.4
+\t (00:03:47) last pick:  15185.0 8855.0
+\i (00:03:47) add connect 
+\t (00:03:47) Pick first element.
+\t (00:03:47) Target Symbol Pin is defined on TOP.
+\t (00:03:47) last pick:  15190.0 8855.0
+\i (00:03:48) prepopup 15179.4 8755.7
+\i (00:03:49) pop dyn_option_select 'Change Active Layer@:@BOTTOM' 
+\i (00:03:54) pick grid 15193.1 8736.1
+\t (00:03:54) last pick:  15195.0 8735.0
+\t (00:03:54) No DRC errors detected.
+\t (00:03:54) last pick:  15190.0 8740.0
+\i (00:03:54) pick grid dbl 15193.1 8734.2
+\t (00:03:54) last pick:  15195.0 8735.0
+\t (00:03:54) PAD30CIR20D used for drill.
+\t (00:03:54) No DRC errors detected.
+\i (00:03:55) mouse_pos 15193.1 8630.6
+\i (00:03:56) pick grid 15193.1 8626.7
+\t (00:03:56) last pick:  15195.0 8625.0
+\t (00:03:56) No DRC errors detected.
+\t (00:03:56) Pick first element.
+\i (00:03:56) etchedit 
+\i (00:03:59) prepopup 15277.1 8843.7
+\i (00:04:00) pop dyn_option_select @:@Delete 
+\i (00:04:00) delete 
+\i (00:04:00) etchedit 
+\i (00:04:07) prepopup 15187.2 8781.1
+\i (00:04:09) pop dyn_option_select @:@Delete 
+\i (00:04:09) delete 
+\i (00:04:09) etchedit 
+\i (00:04:10) prepopup 15204.8 8673.6
+\i (00:04:11) pop dyn_option_select @:@Delete 
+\i (00:04:11) delete 
+\i (00:04:11) etchedit 
+\i (00:04:15) undo 
+\i (00:04:15) trapsize 98
+\i (00:04:15) etchedit 
+\i (00:04:15) undo 
+\i (00:04:15) trapsize 98
+\i (00:04:15) etchedit 
+\i (00:04:16) undo 
+\i (00:04:16) trapsize 98
+\i (00:04:16) etchedit 
+\i (00:04:18) undo 
+\i (00:04:18) trapsize 98
+\i (00:04:18) etchedit 
+\i (00:04:22) prepopup 15275.2 8831.9
+\i (00:04:23) pop dyn_option_select @:@Delete 
+\i (00:04:23) delete 
+\i (00:04:24) etchedit 
+\i (00:04:25) prepopup 15296.7 8841.7
+\i (00:04:28) pop dyn_option_select @:@Delete 
+\i (00:04:28) delete 
+\i (00:04:28) etchedit 
+\i (00:04:32) prepopup 15286.9 8847.6
+\i (00:04:33) pop dyn_option_select @:@Delete 
+\i (00:04:34) delete 
+\i (00:04:34) etchedit 
+\i (00:04:38) placementedit 
+\i (00:04:41) pick grid 14866.6 8710.7
+\t (00:04:41) last pick:  14865.0 8710.0
+\i (00:04:41) move 
+\t (00:04:41) last pick:  14850.0 8810.0
+\t (00:04:41) Moving C7 / C_SMC0805_1N / SMC0805.
+\t (00:04:41) Pick new location for the element(s).
+\i (00:04:42) prepopup 14798.2 8429.3
+\i (00:04:43) rotate 
+\t (00:04:43) Spin the element(s).
+\i (00:04:46) iangle 180.000
+\t (00:04:46) last angle:  90.000 Degrees
+\i (00:04:54) pick grid 14849.0 8353.0
+\t (00:04:54) last pick:  14850.0 8355.0
+\i (00:04:54) placementedit 
+\i (00:04:55) pick grid 14960.4 8939.4
+\t (00:04:55) last pick:  14960.0 8940.0
+\i (00:04:55) move 
+\t (00:04:55) last pick:  15190.0 8855.0
+\t (00:04:55) Moving L2 / 7M3_TRIMMER_7M3_INDUCTOR_TRIM_7 / 7M3_INDUCTOR_TRIM.
+\t (00:04:55) Pick new location for the element(s).
+\i (00:05:08) pick grid 15107.0 8853.4
+\t (00:05:08) last pick:  15105.0 8855.0
+\i (00:05:08) placementedit 
+\i (00:05:12) pick grid 15026.9 8597.4
+\t (00:05:12) last pick:  15025.0 8595.0
+\i (00:05:12) move 
+\t (00:05:12) last pick:  15045.0 8595.0
+\t (00:05:12) Moving C5 / C_SMC_TRIM_1N / SMC_TRIM.
+\t (00:05:12) Pick new location for the element(s).
+\i (00:05:15) pick grid 14962.4 8595.4
+\t (00:05:15) last pick:  14960.0 8595.0
+\i (00:05:15) placementedit 
+\i (00:05:19) etchedit 
+\i (00:05:21) pick grid 15112.9 8845.6
+\t (00:05:21) last pick:  15115.0 8845.0
+\i (00:05:21) add connect 
+\t (00:05:21) Pick first element.
+\t (00:05:21) Target Symbol Pin is defined on TOP.
+\t (00:05:21) last pick:  15105.0 8855.0
+\i (00:05:21) prepopup 15187.2 8851.5
+\i (00:05:23) pop dyn_option_select 'Change Active Layer@:@BOTTOM' 
+\i (00:05:25) pick grid 15243.9 8853.4
+\t (00:05:25) last pick:  15245.0 8855.0
+\t (00:05:25) No DRC errors detected.
+\i (00:05:25) pick grid dbl 15245.8 8853.4
+\t (00:05:25) last pick:  15245.0 8855.0
+\t (00:05:25) PAD30CIR20D used for drill.
+\t (00:05:25) No DRC errors detected.
+\i (00:05:26) mouse_pos 15327.9 8853.4
+\i (00:05:28) pick grid 15333.8 8853.4
+\t (00:05:28) last pick:  15335.0 8855.0
+\t (00:05:28) No DRC errors detected.
+\t (00:05:28) Pick first element.
+\i (00:05:28) etchedit 
+\i (00:05:31) pick grid 15095.3 8855.4
+\t (00:05:31) last pick:  15095.0 8855.0
+\i (00:05:31) add connect 
+\t (00:05:31) Pick first element.
+\t (00:05:31) Target Symbol Pin is defined on TOP.
+\t (00:05:31) last pick:  15105.0 8855.0
+\i (00:05:31) prepopup 15095.3 8785.0
+\i (00:05:33) pop dyn_option_select 'Change Active Layer@:@BOTTOM' 
+\i (00:05:34) pick grid 15103.1 8738.1
+\t (00:05:34) last pick:  15105.0 8740.0
+\t (00:05:34) No DRC errors detected.
+\i (00:05:34) pick grid dbl 15103.1 8738.1
+\t (00:05:35) last pick:  15105.0 8740.0
+\t (00:05:35) PAD30CIR20D used for drill.
+\t (00:05:35) No DRC errors detected.
+\i (00:05:35) mouse_pos 15105.1 8630.6
+\i (00:05:36) pick grid 15105.1 8616.9
+\t (00:05:36) last pick:  15105.0 8615.0
+\t (00:05:36) No DRC errors detected.
+\t (00:05:36) Pick first element.
+\i (00:05:36) etchedit 
+\i (00:05:38) pick grid 14946.8 8589.5
+\t (00:05:38) last pick:  14945.0 8590.0
+\i (00:05:38) add connect 
+\t (00:05:38) Pick first element.
+\t (00:05:38) Target Symbol Pin is defined on TOP.
+\t (00:05:38) last pick:  14960.0 8595.0
+\i (00:05:38) mouse_pos 14880.3 8587.6
+\i (00:05:39) pick grid 14856.8 8587.6
+\t (00:05:39) last pick:  14855.0 8590.0
+\t (00:05:39) No DRC errors detected.
+\t (00:05:39) Pick first element.
+\i (00:05:39) etchedit 
+\i (00:05:39) pick grid 14772.8 8585.6
+\t (00:05:39) last pick:  14775.0 8585.0
+\i (00:05:39) add connect 
+\t (00:05:39) Pick first element.
+\t (00:05:39) Target Symbol Pin is defined on TOP.
+\t (00:05:39) last pick:  14766.0 8595.0
+\i (00:05:40) mouse_pos 14659.4 8585.6
+\i (00:05:40) pick grid 14616.4 8589.5
+\t (00:05:40) last pick:  14615.0 8590.0
+\t (00:05:40) No DRC errors detected.
+\t (00:05:40) Pick first element.
+\i (00:05:40) etchedit 
+\i (00:05:42) pick grid 14856.8 8452.7
+\t (00:05:42) last pick:  14855.0 8455.0
+\i (00:05:42) add connect 
+\t (00:05:42) Pick first element.
+\t (00:05:42) Target Symbol Pin is defined on TOP.
+\t (00:05:42) last pick:  14850.0 8439.0
+\i (00:05:42) mouse_pos 14841.2 8560.2
+\i (00:05:43) pick grid 14833.4 8577.8
+\t (00:05:43) last pick:  14835.0 8580.0
+\t (00:05:43) No DRC errors detected.
+\t (00:05:43) Pick first element.
+\i (00:05:43) etchedit 
+\i (00:05:46) placementedit 
+\i (00:05:53) pick grid 15310.3 8411.7
+\t (00:05:53) last pick:  15310.0 8410.0
+\i (00:05:53) move 
+\t (00:05:53) last pick:  15290.0 8425.0
+\t (00:05:53) Moving C1 / C_SMC0805_1N / SMC0805.
+\t (00:05:53) Pick new location for the element(s).
+\i (00:06:10) pick grid 15271.2 8341.3
+\t (00:06:10) last pick:  15270.0 8340.0
+\i (00:06:10) placementedit 
+\i (00:06:13) etchedit 
+\i (00:06:17) pick grid 15447.2 8304.1
+\t (00:06:17) last pick:  15445.0 8305.0
+\i (00:06:17) slide 
+\t (00:06:18) Waiting for the destination pick.
+\i (00:06:20) prepopup 15320.1 8272.9
+\i (00:06:21) oops 
+\i (00:06:21) etchedit 
+\i (00:06:23) pick grid 15281.0 8333.5
+\t (00:06:23) last pick:  15280.0 8335.0
+\i (00:06:23) add connect 
+\t (00:06:23) Pick first element.
+\t (00:06:23) Target Via is defined from TOP to BOTTOM.
+\t (00:06:23) last pick:  15270.0 8340.0
+\i (00:06:23) mouse_pos 15406.1 8302.2
+\i (00:06:24) mouse_pos 15404.2 8300.2
+\i (00:06:25) prepopup 15357.3 8308.1
+\i (00:06:26) oops 
+\t (00:06:26) Pick first element.
+\i (00:06:26) etchedit 
+\i (00:06:27) pick grid 15441.3 8212.3
+\t (00:06:27) last pick:  15440.0 8210.0
+\i (00:06:27) add connect 
+\t (00:06:27) Pick first element.
+\t (00:06:27) Target Symbol Pin is defined on TOP.
+\t (00:06:27) last pick:  15440.0 8145.0
+\i (00:06:27) mouse_pos 15441.3 8212.3
+\i (00:06:28) mouse_pos 15421.8 8274.8
+\i (00:06:28) mouse_pos 15419.8 8278.7
+\i (00:06:28) mouse_pos 15417.8 8284.6
+\i (00:06:28) mouse_pos 15400.3 8298.3
+\i (00:06:28) mouse_pos 15300.6 8325.7
+\i (00:06:29) mouse_pos 15308.4 8331.5
+\i (00:06:32) pick grid 15380.7 8313.9
+\t (00:06:32) last pick:  15380.0 8315.0
+\t (00:06:32) No DRC errors detected.
+\t (00:06:32) last pick:  15380.0 8307.1
+\i (00:06:33) mouse_pos 15302.5 8333.5
+\i (00:06:34) mouse_pos 15308.4 8345.2
+\i (00:06:34) mouse_pos 15302.5 8345.2
+\i (00:06:36) mouse_pos 15306.4 8331.5
+\i (00:06:36) prepopup 15363.1 8304.1
+\i (00:06:38) oops 
+\t (00:06:38) last pick:  15440.0 8145.0
+\i (00:06:39) prepopup 15355.3 8302.2
+\i (00:06:40) oops 
+\t (00:06:40) Pick first element.
+\i (00:06:40) etchedit 
+\i (00:06:42) pick grid 15441.3 8319.8
+\t (00:06:42) last pick:  15440.0 8320.0
+\i (00:06:42) slide 
+\t (00:06:42) Waiting for the destination pick.
+\i (00:06:43) prepopup 15343.6 8331.5
+\i (00:06:44) oops 
+\i (00:06:44) etchedit 
+\i (00:07:11) placementedit 
+\i (00:07:13) zoom out 1 
+\i (00:07:13) setwindow pcb
+\i (00:07:13) zoom out 15126.6 8460.5
+\i (00:07:13) trapsize 195
+\i (00:07:14) zoom in 1 
+\i (00:07:14) setwindow pcb
+\i (00:07:14) zoom in 15150.0 8484.0
+\i (00:07:14) trapsize 98
+\i (00:07:16) pick grid 15255.6 8349.2
+\t (00:07:16) last pick:  15255.0 8350.0
+\i (00:07:16) move 
+\t (00:07:16) last pick:  15270.0 8340.0
+\t (00:07:16) Moving C1 / C_SMC0805_1N / SMC0805.
+\t (00:07:16) Pick new location for the element(s).
+\i (00:07:35) pick grid 15259.5 8427.4
+\t (00:07:35) last pick:  15260.0 8425.0
+\i (00:07:35) placementedit 
+\i (00:07:40) etchedit 
+\i (00:07:41) pick grid 15443.2 8429.3
+\t (00:07:41) last pick:  15445.0 8430.0
+\i (00:07:41) add connect 
+\t (00:07:41) Pick first element.
+\t (00:07:41) Target Symbol Pin is defined on TOP.
+\t (00:07:41) last pick:  15440.0 8425.0
+\i (00:07:42) mouse_pos 15290.8 8445.0
+\i (00:07:43) pick grid 15269.3 8437.1
+\t (00:07:43) last pick:  15270.0 8435.0
+\t (00:07:43) No DRC errors detected.
+\t (00:07:43) Pick first element.
+\i (00:07:43) etchedit 
+\i (00:07:52) prepopup 15359.2 8411.7
+\i (00:07:54) pop dyn_option_select @:@Delete 
+\i (00:07:54) delete 
+\i (00:07:54) etchedit 
+\i (00:07:57) pick grid 15443.2 8425.4
+\t (00:07:57) last pick:  15445.0 8425.0
+\i (00:07:57) add connect 
+\t (00:07:57) Pick first element.
+\t (00:07:57) Target Symbol Pin is defined on TOP.
+\t (00:07:57) last pick:  15440.0 8425.0
+\i (00:07:58) prepopup 15380.7 8423.5
+\i (00:07:59) pop dyn_option_select 'Change Active Layer@:@BOTTOM' 
+\i (00:08:02) prepopup 15337.7 8435.2
+\i (00:08:04) oops 
+\t (00:08:04) Pick first element.
+\i (00:08:04) etchedit 
+\i (00:08:09) placementedit 
+\i (00:08:10) pick grid 15269.3 8407.8
+\t (00:08:10) last pick:  15270.0 8410.0
+\i (00:08:10) move 
+\t (00:08:10) last pick:  15260.0 8425.0
+\t (00:08:10) Moving C1 / C_SMC0805_1N / SMC0805.
+\t (00:08:10) Pick new location for the element(s).
+\i (00:08:14) pick grid 15200.8 8423.5
+\t (00:08:14) last pick:  15200.0 8425.0
+\i (00:08:14) placementedit 
+\i (00:08:17) etchedit 
+\i (00:08:19) pick grid 15439.3 8429.3
+\t (00:08:19) last pick:  15440.0 8430.0
+\i (00:08:19) add connect 
+\t (00:08:19) Pick first element.
+\t (00:08:19) Target Symbol Pin is defined on TOP.
+\t (00:08:19) last pick:  15440.0 8425.0
+\i (00:08:20) prepopup 15320.1 8423.5
+\i (00:08:21) pop dyn_option_select 'Change Active Layer@:@BOTTOM' 
+\i (00:08:23) pick grid 15320.1 8423.5
+\t (00:08:23) last pick:  15320.0 8425.0
+\t (00:08:23) No DRC errors detected.
+\i (00:08:23) pick grid dbl 15322.0 8423.5
+\t (00:08:23) last pick:  15320.0 8425.0
+\t (00:08:23) PAD30CIR20D used for drill.
+\t (00:08:23) No DRC errors detected.
+\i (00:08:24) mouse_pos 15234.1 8427.4
+\i (00:08:24) pick grid 15222.3 8427.4
+\t (00:08:24) last pick:  15220.0 8425.0
+\t (00:08:24) No DRC errors detected.
+\t (00:08:24) Pick first element.
+\i (00:08:24) etchedit 
+\i (00:08:27) save 
+\i (00:08:28) fillin yes 
+\i (00:08:28) etchedit 
+\i (00:14:07) artwork 
+\i (00:14:08) setwindow form.film_control
+\i (00:14:08) FORM film_control general_parameters  
+\i (00:14:50) FORM film_control film_control  
+\i (00:14:53) FORM film_control filmtree 'MULTISEL YES' BOTTOM 
+\i (00:14:53) FORM film_control filmtree 'MULTISEL YES' MECH 
+\i (00:14:53) FORM film_control filmtree  MECH 
+\i (00:14:54) FORM film_control filmtree 'MULTISEL YES' TOP 
+\i (00:14:54) FORM film_control filmtree  TOP 
+\i (00:15:03) FORM film_control create  
+\t (00:15:03) Checking db records
+\t (00:15:03)     checking for orphans...
+\t (00:15:03)     Checked 100 percent
+\t (00:15:03) Done dbdoctor.
+\t (00:15:03) Starting Create artwork films...
+\t (00:15:04) Plot generated.
+\i (00:15:06) FORM film_control ok  
+\i (00:15:06) setwindow pcb
+\i (00:15:06) etchedit 
+\i (00:15:11) ncdrill param 
+\i (00:15:11) etchedit 
+\i (00:15:28) setwindow form.nc_parameters
+\i (00:15:28) FORM nc_parameters done  
+\i (00:15:31) setwindow pcb
+\i (00:15:31) nctape_full 
+\i (00:15:35) setwindow form.nc_drill
+\i (00:15:35) FORM nc_drill execute  
+\t (00:15:35) Starting Generating NC Drill...
+\i (00:15:39) FORM nc_drill close  
+\i (00:15:39) setwindow pcb
+\i (00:15:39) etchedit 
+\i (00:16:41) exit 
+\e (00:16:41) Do you want to save the changes you made to C:/Users/teaves/Desktop/LNA/LNA/pcb/LNAv2.brd?
+\i (00:16:42) fillin yes 
+   (00:16:42) Loading signal.cxt 
+\t (00:16:43)     Journal end - Thu May 31 16:51:17 2018

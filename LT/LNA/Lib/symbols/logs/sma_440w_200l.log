@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : SMA_440W_200L.dra                             )
+(    Software Version : 17.2S022                                      )
+(    Date/Time        : Mon Apr 09 18:52:51 2018                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = C:/Users/teaves/Desktop/LNA/Lib/symbols
+    Name      = sma_440w_200l.psm
+    User      = teaves
+    Machine   = BE308PC01
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

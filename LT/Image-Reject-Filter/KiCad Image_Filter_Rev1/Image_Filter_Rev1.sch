@@ -1,0 +1,232 @@
+EESchema Schematic File Version 4
+LIBS:Image_Filter_Rev1-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:C C1
+U 1 1 5CAD0F21
+P 2200 2250
+F 0 "C1" H 2315 2296 50  0000 L CNN
+F 1 "27pF" H 2315 2205 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2238 2100 50  0001 C CNN
+F 3 "~" H 2200 2250 50  0001 C CNN
+	1    2200 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C3
+U 1 1 5CAD104E
+P 3900 2250
+F 0 "C3" H 4015 2296 50  0000 L CNN
+F 1 "27pF" H 4015 2205 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3938 2100 50  0001 C CNN
+F 3 "~" H 3900 2250 50  0001 C CNN
+	1    3900 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C2
+U 1 1 5CAD10AE
+P 3150 2300
+F 0 "C2" V 2898 2300 50  0000 C CNN
+F 1 "180pF" V 2989 2300 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3188 2150 50  0001 C CNN
+F 3 "~" H 3150 2300 50  0001 C CNN
+	1    3150 2300
+	0    1    1    0   
+$EndComp
+$Comp
+L pspice:INDUCTOR L2
+U 1 1 5CAD1149
+P 3150 1850
+F 0 "L2" H 3150 2065 50  0000 C CNN
+F 1 "82nH" H 3150 1974 50  0000 C CNN
+F 2 "Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3150 1850 50  0001 C CNN
+F 3 "~" H 3150 1850 50  0001 C CNN
+	1    3150 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:INDUCTOR L1
+U 1 1 5CAD11AF
+P 2200 2950
+F 0 "L1" V 2154 3027 50  0000 L CNN
+F 1 "470nH" V 2245 3027 50  0000 L CNN
+F 2 "Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2200 2950 50  0001 C CNN
+F 3 "~" H 2200 2950 50  0001 C CNN
+	1    2200 2950
+	0    1    1    0   
+$EndComp
+$Comp
+L pspice:INDUCTOR L3
+U 1 1 5CAD1219
+P 3900 2950
+F 0 "L3" V 3854 3027 50  0000 L CNN
+F 1 "470nH" V 3945 3027 50  0000 L CNN
+F 2 "Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3900 2950 50  0001 C CNN
+F 3 "~" H 3900 2950 50  0001 C CNN
+	1    3900 2950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2200 2400 2200 2700
+Wire Wire Line
+	3900 2400 3900 2700
+Wire Wire Line
+	2200 2100 2700 2100
+Wire Wire Line
+	2700 2100 2700 1850
+Wire Wire Line
+	2700 1850 2900 1850
+Wire Wire Line
+	2700 2100 2700 2300
+Wire Wire Line
+	2700 2300 3000 2300
+Connection ~ 2700 2100
+Wire Wire Line
+	3300 2300 3600 2300
+Wire Wire Line
+	3600 2300 3600 2100
+Wire Wire Line
+	3600 1850 3400 1850
+Wire Wire Line
+	3600 2100 3900 2100
+Connection ~ 3600 2100
+Wire Wire Line
+	3600 2100 3600 1850
+$Comp
+L power:GND #PWR0101
+U 1 1 5CAD1657
+P 3900 3200
+F 0 "#PWR0101" H 3900 2950 50  0001 C CNN
+F 1 "GND" H 3905 3027 50  0000 C CNN
+F 2 "" H 3900 3200 50  0001 C CNN
+F 3 "" H 3900 3200 50  0001 C CNN
+	1    3900 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 5CAD1681
+P 2200 3200
+F 0 "#PWR0102" H 2200 2950 50  0001 C CNN
+F 1 "GND" H 2205 3027 50  0000 C CNN
+F 2 "" H 2200 3200 50  0001 C CNN
+F 3 "" H 2200 3200 50  0001 C CNN
+	1    2200 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J1
+U 1 1 5CAD16E0
+P 1600 2100
+F 0 "J1" H 1700 1984 50  0000 L CNN
+F 1 "Conn_Coaxial" H 1700 2075 50  0000 L CNN
+F 2 "Connector_Coaxial:SMA_Molex_73251-1153_EdgeMount_Horizontal" H 1600 2100 50  0001 C CNN
+F 3 " ~" H 1600 2100 50  0001 C CNN
+	1    1600 2100
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0103
+U 1 1 5CAD1852
+P 1600 1900
+F 0 "#PWR0103" H 1600 1650 50  0001 C CNN
+F 1 "GND" H 1605 1727 50  0000 C CNN
+F 2 "" H 1600 1900 50  0001 C CNN
+F 3 "" H 1600 1900 50  0001 C CNN
+	1    1600 1900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1800 2100 1950 2100
+Connection ~ 2200 2100
+$Comp
+L Connector:Conn_Coaxial J2
+U 1 1 5CAD1901
+P 4750 2100
+F 0 "J2" H 4849 2076 50  0000 L CNN
+F 1 "Conn_Coaxial" H 4849 1985 50  0000 L CNN
+F 2 "Connector_Coaxial:SMA_Molex_73251-1153_EdgeMount_Horizontal" H 4750 2100 50  0001 C CNN
+F 3 " ~" H 4750 2100 50  0001 C CNN
+	1    4750 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 2100 4300 2100
+Connection ~ 3900 2100
+$Comp
+L power:GND #PWR0104
+U 1 1 5CAD1A24
+P 4750 2300
+F 0 "#PWR0104" H 4750 2050 50  0001 C CNN
+F 1 "GND" H 4755 2127 50  0000 C CNN
+F 2 "" H 4750 2300 50  0001 C CNN
+F 3 "" H 4750 2300 50  0001 C CNN
+	1    4750 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Variable C4
+U 1 1 5CBE46FC
+P 1950 2250
+F 0 "C4" H 1750 2300 50  0000 L CNN
+F 1 "C_Variable" H 1500 2150 50  0000 L CNN
+F 2 "Capacitor_SMD:C_Trimmer_Murata_TZB4-B" H 1950 2250 50  0001 C CNN
+F 3 "~" H 1950 2250 50  0001 C CNN
+	1    1950 2250
+	1    0    0    -1  
+$EndComp
+Connection ~ 1950 2100
+Wire Wire Line
+	1950 2100 2200 2100
+Wire Wire Line
+	1950 2400 2200 2400
+Connection ~ 2200 2400
+$Comp
+L Device:C_Variable C5
+U 1 1 5CBE48FC
+P 3150 2550
+F 0 "C5" V 3400 2650 50  0000 L CNN
+F 1 "C_Variable" V 3300 2400 50  0000 L CNN
+F 2 "Capacitor_SMD:C_Trimmer_Murata_TZB4-B" H 3150 2550 50  0001 C CNN
+F 3 "~" H 3150 2550 50  0001 C CNN
+	1    3150 2550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3000 2300 3000 2550
+Connection ~ 3000 2300
+Wire Wire Line
+	3300 2550 3300 2300
+Connection ~ 3300 2300
+$Comp
+L Device:C_Variable C6
+U 1 1 5CBE4C60
+P 4300 2250
+F 0 "C6" H 4300 1950 50  0000 L CNN
+F 1 "C_Variable" H 4150 2050 50  0000 L CNN
+F 2 "Capacitor_SMD:C_Trimmer_Murata_TZB4-B" H 4300 2250 50  0001 C CNN
+F 3 "~" H 4300 2250 50  0001 C CNN
+	1    4300 2250
+	1    0    0    -1  
+$EndComp
+Connection ~ 4300 2100
+Wire Wire Line
+	4300 2100 4550 2100
+Wire Wire Line
+	4300 2400 3900 2400
+Connection ~ 3900 2400
+$EndSCHEMATC

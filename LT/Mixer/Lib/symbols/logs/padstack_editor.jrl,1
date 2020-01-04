@@ -1,0 +1,9 @@
+\t (00:00:00) padstack_editor 17.2 S021 Windows SPB 64-bit Edition
+\t (00:00:00)     Journal start - Sun Apr 08 17:24:44 2018
+\t (00:00:00)         Host=BE308PC10 User=teaves Pid=8240 CPUs=4
+\t (00:00:00) CmdLine= padstack_editor -mpssession teaves -file ./#Taaaaaa13016.tmp -pname SMA_POW_210L_100W -data C:/Users/teaves/AppData/Local/Temp/#Taaaaac13016.tmp
+\t (00:00:00) 
+\d (00:00:13) QtSignal MainWindow SaveAs triggered
+\d (00:00:38) QtFillin ../padstacks/SMA_POW_210L_100W.pad
+\d (00:00:46) QtSignal MainWindow UpdateToDesignExit triggered
+\t (00:00:46)     Journal end - Sun Apr 08 17:25:30 2018

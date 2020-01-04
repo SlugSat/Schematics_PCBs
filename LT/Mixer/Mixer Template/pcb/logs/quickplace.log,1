@@ -1,0 +1,55 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    QUICKPLACE LOG                                                   )
+(                                                                     )
+(    Drawing          : Mixer Template.brd                            )
+(    Software Version : 17.2S022                                      )
+(    Date/Time        : Sun Apr 08 17:17:20 2018                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+State: Placing on layer TOP
+
+ERROR:   Could not find symbol:  U1 / SA602_SO8_SA602 / SO8
+         Placed symbol:  C10 / C NP_SMC0805_C NP / SMC0805 at (10036.5 9061.0)
+         Placed symbol:  C11 / C NP_SMC0805_C NP / SMC0805 at (10210.5 9061.0)
+         Placed symbol:  C12 / C NP_SMC0805_C NP / SMC0805 at (10384.5 9061.0)
+         Placed symbol:  C13 / C NP_SMC0805_C NP / SMC0805 at (10558.5 9061.0)
+         Placed symbol:  C14 / C NP_SMC0805_C NP / SMC0805 at (10732.5 9061.0)
+         Placed symbol:  C15 / C NP_SMC0805_C NP / SMC0805 at (10906.5 9061.0)
+         Placed symbol:  C16 / C NP_SMC0805_C NP / SMC0805 at (11080.5 9061.0)
+         Placed symbol:  C18 / C NP_SMC0805_C NP / SMC0805 at (11254.5 9061.0)
+         Placed symbol:  C17 / C NP_SMC0805_C NP / SMC0805 at (11428.5 9061.0)
+         Placed symbol:  C19 / C NP_SMC0805_C NP / SMC0805 at (11602.5 9061.0)
+         Placed symbol:  C2 / C NP_SMC0805_C NP / SMC0805 at (11776.5 9061.0)
+         Placed symbol:  C3 / C NP_SMC0805_C NP / SMC0805 at (10036.5 9150.0)
+         Placed symbol:  C4 / C NP_SMC0805_C NP / SMC0805 at (10210.5 9150.0)
+         Placed symbol:  C5 / C NP_SMC0805_C NP / SMC0805 at (10384.5 9150.0)
+         Placed symbol:  C6 / C NP_SMC0805_C NP / SMC0805 at (10558.5 9150.0)
+         Placed symbol:  C7 / C NP_SMC0805_C NP / SMC0805 at (10732.5 9150.0)
+         Placed symbol:  C9 / C NP_SMC0805_C NP / SMC0805 at (10906.5 9150.0)
+         Placed symbol:  C8 / C NP_SMC0805_C NP / SMC0805 at (11080.5 9150.0)
+ERROR:   Could not find symbol:  J1 / 2PIN HEADER_SMA_440W_200L_2PIN / SMA_440W_200L
+ERROR:   Could not find symbol:  J2 / 2PIN HEADER_SMA_440W_200L_2PIN / SMA_440W_200L
+ERROR:   Could not find symbol:  J3 / 2PIN HEADER_SMA_440W_200L_2PIN / SMA_440W_200L
+ERROR:   Could not find symbol:  J4 / 2PIN HEADER_SMA_440W_200L_2PIN / SMA_440W_200L
+         Placed symbol:  L1 / INDUCTOR_SML0805_INDUCTOR / SML0805 at (11252.5 9152.5)
+         Placed symbol:  L10 / INDUCTOR_SML0805_INDUCTOR / SML0805 at (11416.5 9152.5)
+         Placed symbol:  L11 / INDUCTOR_SML0805_INDUCTOR / SML0805 at (11580.5 9152.5)
+         Placed symbol:  L12 / INDUCTOR_SML0805_INDUCTOR / SML0805 at (11744.5 9152.5)
+         Placed symbol:  L2 / INDUCTOR_SML0805_INDUCTOR / SML0805 at (10034.5 9246.5)
+         Placed symbol:  L3 / INDUCTOR_SML0805_INDUCTOR / SML0805 at (10198.5 9246.5)
+         Placed symbol:  L4 / INDUCTOR_SML0805_INDUCTOR / SML0805 at (10362.5 9246.5)
+         Placed symbol:  L5 / INDUCTOR_SML0805_INDUCTOR / SML0805 at (10526.5 9246.5)
+         Placed symbol:  L6 / INDUCTOR_SML0805_INDUCTOR / SML0805 at (10690.5 9246.5)
+         Placed symbol:  L7 / INDUCTOR_SML0805_INDUCTOR / SML0805 at (10854.5 9246.5)
+         Placed symbol:  L8 / INDUCTOR_SML0805_INDUCTOR / SML0805 at (11018.5 9246.5)
+         Placed symbol:  L9 / INDUCTOR_SML0805_INDUCTOR / SML0805 at (11182.5 9246.5)
+         Placed symbol:  C1 / C NP_SMC0805_C NP / SMC0805 at (11348.5 9244.0)
+
+
+Placed 31 of 36 applicable (36 total) symbols.
+
+-----------------------------------------------------------------------
+

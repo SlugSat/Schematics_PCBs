@@ -1,0 +1,19 @@
+\t (00:00:02) allegro 17.2 S022 Windows SPB 64-bit Edition
+\t (00:00:02)     Journal start - Sun May 20 19:41:39 2018
+\t (00:00:02)         Host=BE308PC01 User=teaves Pid=10112 CPUs=4
+\t (00:00:02) CmdLine= c:\cadence\spb_17.2\tools\bin\allegro.exe C:\Users\teaves\Desktop\LNA\Lib\symbols\7M3_Inductor_Trim.dra
+\t (00:00:02) 
+   (00:00:02) Loading axlcore.cxt 
+\t (00:00:02) Opening existing design...
+\d (00:00:02) Design opened: C:/Users/teaves/Desktop/LNA/Lib/symbols/7M3_Inductor_Trim.dra
+\i (00:00:02) trapsize 34
+\i (00:00:02) trapsize 35
+\i (00:00:02) trapsize 35
+\i (00:00:02) etchedit 
+\i (00:00:03) trapsize 51
+\i (00:00:07) save_as 
+\i (00:00:11) fillin "7M3_Inductor_Trim.dra"
+\t (00:00:11) Symbol '7m3_inductor_trim.psm' created.
+\i (00:00:11) etchedit 
+\i (00:00:12) exit 
+\t (00:00:12)     Journal end - Sun May 20 19:41:49 2018

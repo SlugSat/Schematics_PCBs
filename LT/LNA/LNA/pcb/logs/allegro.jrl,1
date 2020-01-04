@@ -1,0 +1,1792 @@
+\t (00:01:14) allegro 17.2 S022 Windows SPB 64-bit Edition
+\t (00:01:14)     Journal start - Sun May 20 19:10:20 2018
+\t (00:01:14)         Host=BE308PC01 User=teaves Pid=9908 CPUs=4
+\t (00:01:14) CmdLine= C:\Cadence\SPB_17.2\tools\bin\allegro.exe
+\t (00:01:14) 
+\t (00:01:14) Starting new design...
+\i (00:01:14) trapsize 1126
+\i (00:01:14) trapsize 1126
+\i (00:01:14) etchedit 
+\i (00:01:16) save 
+\i (00:01:16) etchedit 
+\i (00:01:21) param in 
+\i (00:01:22) setwindow form.parm_in
+\i (00:01:22) FORM parm_in libbrowse  
+\i (00:01:24) fillin "2_layer_rev1"
+\i (00:01:24) FORM parm_in execute  
+\t (00:01:24) Starting Importing parameter file...
+\t (00:01:25) Opening existing design...
+\i (00:01:25) setwindow pcb
+\i (00:01:25) trapsize 1126
+\t (00:01:26) Parameter file read completed.
+\i (00:01:27) setwindow form.parm_in
+\i (00:01:27) FORM parm_in cancel  
+\i (00:01:27) setwindow pcb
+\i (00:01:27) etchedit 
+\i (00:01:30) techfile in 
+\i (00:01:31) setwindow form.tech_in
+\i (00:01:31) FORM tech_in libbrowse  
+\i (00:01:33) fillin "2_layer_B_rev1_1.tcf"
+\i (00:01:33) FORM tech_in execute  
+\t (00:01:33) Starting Importing techfile...
+\t (00:01:34) Opening existing design...
+\i (00:01:34) setwindow pcb
+\i (00:01:34) trapsize 1126
+\t (00:01:35) Performing DRC...
+\t (00:01:35) Multithreaded DRC update (4 threads).
+\t (00:01:35) No DRC errors detected.
+\i (00:01:36) setwindow form.tech_in
+\i (00:01:36) FORM tech_in cancel  
+\i (00:01:36) setwindow pcb
+\i (00:01:36) etchedit 
+\i (00:01:37) save 
+\i (00:01:38) fillin yes 
+\i (00:01:39) etchedit 
+\i (00:04:59) netin 
+\i (00:05:01) setwindow form.niparams
+\i (00:05:01) FORM niparams capture_netlist YES 
+\i (00:05:03) FORM niparams browse  
+\i (00:05:23) fillin "netlist"
+\i (00:05:25) FORM niparams import  
+\t (00:05:25) Starting Cadence Logic Import...
+\w (00:05:26) WARNING(SPMHGE-269): netrev had warnings, use Viewlog to review the log file.
+\t (00:05:26) Opening existing design...
+\i (00:05:26) setwindow pcb
+\i (00:05:26) trapsize 1126
+\i (00:05:27) etchedit 
+\i (00:08:47) save 
+\i (00:08:48) fillin yes 
+\i (00:08:48) etchedit 
+\i (00:09:04) netin 
+\i (00:09:05) setwindow form.niparams
+\i (00:09:05) FORM niparams import  
+\t (00:09:05) Starting Cadence Logic Import...
+\w (00:09:05) WARNING(SPMHGE-269): netrev had warnings, use Viewlog to review the log file.
+\t (00:09:05) Opening existing design...
+\i (00:09:05) setwindow pcb
+\i (00:09:05) trapsize 1126
+\i (00:09:06) etchedit 
+\i (00:10:02) enved 
+\i (00:10:03) etchedit 
+\i (00:10:06) setwindow form.prfedit
+\i (00:10:06) FORM prfedit treelist  Library Paths 
+\i (00:10:12) FORM prfedit modulepath  
+\i (00:10:19) FORM prfedit parampath  
+\i (00:10:22) FORM prfedit psmpath  
+\i (00:10:48) FORM prfedit psmpath  
+\i (00:11:04) FORM prfedit apply  
+\i (00:11:05) FORM prfedit done  
+\i (00:11:10) setwindow pcb
+\i (00:11:10) netin 
+\i (00:11:15) setwindow form.niparams
+\i (00:11:15) FORM niparams import  
+\t (00:11:15) Starting Cadence Logic Import...
+\w (00:11:15) WARNING(SPMHGE-269): netrev had warnings, use Viewlog to review the log file.
+\t (00:11:15) Opening existing design...
+\i (00:11:15) setwindow pcb
+\i (00:11:15) trapsize 1126
+\i (00:11:16) etchedit 
+\i (00:11:29) xrefdes Q1 
+\t (00:11:29) Can not select unplaced component Q1.
+\t (00:11:29) Can not select unplaced component Q1.
+\i (00:11:29) xname_flush 
+\i (00:11:32) xdehilite 
+\i (00:11:32) xrefdes Q1 
+\t (00:11:32) Can not select unplaced component Q1.
+\t (00:11:32) Can not select unplaced component Q1.
+\i (00:11:32) xname_flush 
+\i (00:11:32) done 
+\i (00:11:32) etchedit 
+\i (00:11:33) xrefdes Q1.2 
+\t (00:11:33) Can not select unplaced component Q1.
+\i (00:11:33) xname_flush 
+\i (00:11:34) xdehilite 
+\i (00:11:34) xrefdes Q1.2 
+\t (00:11:34) Can not select unplaced component Q1.
+\i (00:11:34) xname_flush 
+\i (00:11:34) done 
+\i (00:11:34) xhilite 
+\i (00:11:34) xrefdes Q1 
+\t (00:11:34) Can not select unplaced component Q1.
+\t (00:11:34) Can not select unplaced component Q1.
+\i (00:11:34) xname_flush 
+\i (00:11:34) done 
+\i (00:11:34) etchedit 
+\i (00:12:32) setwindow text
+\i (00:12:32) close
+\i (00:12:34) netin 
+\i (00:12:36) setwindow form.niparams
+\i (00:12:36) FORM niparams import  
+\t (00:12:36) Starting Cadence Logic Import...
+\w (00:12:36) WARNING(SPMHGE-269): netrev had warnings, use Viewlog to review the log file.
+\t (00:12:36) Opening existing design...
+\i (00:12:36) setwindow pcb
+\i (00:12:36) trapsize 1126
+\i (00:12:37) etchedit 
+\i (00:13:47) xrefdes Q1 
+\t (00:13:47) Can not select unplaced component Q1.
+\t (00:13:47) Can not select unplaced component Q1.
+\i (00:13:47) xname_flush 
+\i (00:13:50) xdehilite 
+\i (00:13:50) xrefdes Q1 
+\t (00:13:50) Can not select unplaced component Q1.
+\t (00:13:50) Can not select unplaced component Q1.
+\i (00:13:50) xname_flush 
+\i (00:13:50) done 
+\i (00:13:50) etchedit 
+\i (00:13:50) xrefdes Q1 
+\t (00:13:50) Can not select unplaced component Q1.
+\t (00:13:50) Can not select unplaced component Q1.
+\i (00:13:50) xname_flush 
+\i (00:13:51) xdehilite 
+\i (00:13:51) xrefdes Q1 
+\t (00:13:51) Can not select unplaced component Q1.
+\t (00:13:51) Can not select unplaced component Q1.
+\i (00:13:51) xname_flush 
+\i (00:13:51) done 
+\i (00:13:51) etchedit 
+\i (00:13:51) xrefdes Q1.2 
+\t (00:13:51) Can not select unplaced component Q1.
+\i (00:13:51) xname_flush 
+\i (00:13:52) xdehilite 
+\i (00:13:52) xrefdes Q1.2 
+\t (00:13:52) Can not select unplaced component Q1.
+\i (00:13:52) xname_flush 
+\i (00:13:52) done 
+\i (00:13:52) xhilite 
+\i (00:13:52) xrefdes Q1 
+\t (00:13:52) Can not select unplaced component Q1.
+\t (00:13:52) Can not select unplaced component Q1.
+\i (00:13:52) xname_flush 
+\i (00:13:52) done 
+\i (00:13:52) etchedit 
+\i (00:15:21) enved 
+\i (00:15:22) etchedit 
+\i (00:15:24) setwindow form.prfedit
+\i (00:15:24) FORM prfedit psmpath  
+\i (00:15:46) FORM prfedit apply  
+\i (00:15:46) FORM prfedit done  
+\i (00:15:48) setwindow pcb
+\i (00:15:48) netin 
+\i (00:15:50) setwindow form.niparams
+\i (00:15:50) FORM niparams import  
+\t (00:15:50) Starting Cadence Logic Import...
+\w (00:15:50) WARNING(SPMHGE-269): netrev had warnings, use Viewlog to review the log file.
+\t (00:15:50) Opening existing design...
+\i (00:15:50) setwindow pcb
+\i (00:15:50) trapsize 1126
+\i (00:15:51) etchedit 
+\i (00:17:10) enved 
+\i (00:17:10) etchedit 
+\i (00:17:12) setwindow form.prfedit
+\i (00:17:12) FORM prfedit psmpath  
+\i (00:17:35) FORM prfedit apply  
+\i (00:17:36) FORM prfedit done  
+\i (00:17:39) setwindow pcb
+\i (00:17:39) netin 
+\i (00:17:46) setwindow form.niparams
+\i (00:17:46) FORM niparams import  
+\t (00:17:46) Starting Cadence Logic Import...
+\w (00:17:47) WARNING(SPMHGE-269): netrev had warnings, use Viewlog to review the log file.
+\t (00:17:47) Opening existing design...
+\i (00:17:47) setwindow pcb
+\i (00:17:47) trapsize 1126
+\i (00:17:48) etchedit 
+\i (00:18:15) netin 
+\i (00:18:17) setwindow form.niparams
+\i (00:18:17) FORM niparams import  
+\t (00:18:17) Starting Cadence Logic Import...
+\w (00:18:17) WARNING(SPMHGE-269): netrev had warnings, use Viewlog to review the log file.
+\t (00:18:17) Opening existing design...
+\i (00:18:17) setwindow pcb
+\i (00:18:17) trapsize 1126
+\i (00:18:18) etchedit 
+\i (00:18:36) xrefdes Q1 
+\t (00:18:36) Can not select unplaced component Q1.
+\t (00:18:36) Can not select unplaced component Q1.
+\i (00:18:36) xname_flush 
+\i (00:20:32) xhilite 
+\i (00:20:32) xname_flush 
+\i (00:20:32) done 
+\i (00:20:32) etchedit 
+\i (00:24:34) xname_flush 
+\i (00:26:38) xname_flush 
+\i (00:26:41) xdehilite 
+\i (00:26:41) xname_flush 
+\i (00:26:41) done 
+\i (00:26:41) etchedit 
+\i (00:26:45) xname_flush 
+\i (00:26:45) xdehilite 
+\i (00:26:45) xname_flush 
+\i (00:26:45) done 
+\i (00:26:45) xhilite 
+\i (00:26:45) xname_flush 
+\i (00:26:45) done 
+\i (00:26:45) etchedit 
+\i (00:27:17) xrefdes Q1 
+\t (00:27:17) Can not select unplaced component Q1.
+\t (00:27:17) Can not select unplaced component Q1.
+\i (00:27:17) xname_flush 
+\i (00:28:11) xhilite 
+\i (00:28:11) xname_flush 
+\i (00:28:11) done 
+\i (00:28:11) etchedit 
+\i (00:28:13) setwindow text
+\i (00:28:13) close
+\i (00:28:15) netin 
+\i (00:28:17) setwindow form.niparams
+\i (00:28:17) FORM niparams import  
+\t (00:28:17) Starting Cadence Logic Import...
+\w (00:28:17) WARNING(SPMHGE-269): netrev had warnings, use Viewlog to review the log file.
+\t (00:28:17) Opening existing design...
+\i (00:28:17) setwindow pcb
+\i (00:28:17) trapsize 1126
+\i (00:28:18) etchedit 
+\i (00:29:20) enved 
+\i (00:29:20) etchedit 
+\i (00:29:24) setwindow form.prfedit
+\i (00:29:24) FORM prfedit psmpath  
+\i (00:30:04) FORM prfedit apply  
+\i (00:30:05) FORM prfedit apply  
+\i (00:30:06) FORM prfedit apply  
+\i (00:30:06) FORM prfedit apply  
+\i (00:30:06) FORM prfedit done  
+\i (00:30:22) setwindow pcb
+\i (00:30:22) netin 
+\i (00:30:25) setwindow form.niparams
+\i (00:30:25) FORM niparams import  
+\t (00:30:25) Starting Cadence Logic Import...
+\w (00:30:25) WARNING(SPMHGE-269): netrev had warnings, use Viewlog to review the log file.
+\t (00:30:25) Opening existing design...
+\i (00:30:25) setwindow pcb
+\i (00:30:25) trapsize 1126
+\i (00:30:26) etchedit 
+\i (00:32:16) xhilite 
+\i (00:32:16) xname_flush 
+\i (00:32:16) done 
+\i (00:32:16) etchedit 
+\i (00:32:43) xhilite 
+\i (00:32:43) xname_flush 
+\i (00:32:43) done 
+\i (00:32:43) etchedit 
+\i (00:32:53) netin 
+\i (00:32:55) setwindow form.niparams
+\i (00:32:55) FORM niparams import  
+\t (00:32:55) Starting Cadence Logic Import...
+\w (00:32:55) WARNING(SPMHGE-269): netrev had warnings, use Viewlog to review the log file.
+\t (00:32:55) Opening existing design...
+\i (00:32:55) setwindow pcb
+\i (00:32:55) trapsize 1126
+\i (00:32:56) etchedit 
+\i (00:34:13) netin 
+\i (00:34:16) setwindow form.niparams
+\i (00:34:16) FORM niparams import  
+\t (00:34:16) Starting Cadence Logic Import...
+\t (00:34:16) Opening existing design...
+\i (00:34:16) setwindow pcb
+\i (00:34:16) trapsize 1126
+\i (00:34:17) etchedit 
+\i (00:34:22) setwindow form.mini
+\i (00:34:22) FORM mini class BOARD GEOMETRY 
+\i (00:34:23) FORM mini subclass OUTLINE 
+\i (00:34:25) setwindow pcb
+\i (00:34:25) save 
+\i (00:34:26) fillin yes 
+\i (00:34:26) etchedit 
+\i (00:34:30) define grid 
+\t (00:34:30) Spacing fields allow simple equations to aid calculations; prefix with =
+\i (00:34:30) etchedit 
+\i (00:34:32) setwindow form.grid
+\i (00:34:32) FORM grid non_etch non_etch_x_grids 1000 
+\i (00:34:33) FORM grid non_etch non_etch_y_grids 1000 
+\i (00:34:33) FORM grid done  
+\i (00:34:34) setwindow pcb
+\i (00:34:34) xymode toggle 
+\t (00:34:34) XY readout mode is relative to last pick
+\i (00:34:35) pick grid 13600.0 8218.5
+\t (00:34:35) last pick:  14000.0 8000.0
+\i (00:34:36) zoom in 1 
+\i (00:34:36) setwindow pcb
+\i (00:34:36) zoom in 13600.0 8218.5
+\i (00:34:36) trapsize 563
+\i (00:34:37) save 
+\i (00:34:38) fillin yes 
+\i (00:34:38) etchedit 
+\i (00:34:40) add line 
+\i (00:34:46) setwindow form.mini
+\i (00:34:46) FORM mini line_width 25.0 
+\i (00:34:49) setwindow pcb
+\i (00:34:49) pick grid 13601.3 7644.4
+\t (00:34:49) last pick:  14000.0 8000.0
+\i (00:34:50) pick grid 13623.8 8500.0
+\t (00:34:50) last pick:  14000.0 9000.0
+   (00:34:50) WARNING(SPMHA2-118): 'DESIGN_OUTLINE' and 'CUTOUT' are the preferred subclasses for defining an outline. Use these subclasses instead of the 'OUTLINE' subclass. [help]
+\i (00:34:51) fillin confirm
+\i (00:34:54) pick grid 16505.9 8759.0
+\t (00:34:54) last pick:  17000.0 9000.0
+\i (00:34:55) pick grid 16731.1 8477.5
+\t (00:34:55) last pick:  17000.0 8000.0
+\i (00:34:55) pick grid 14490.7 7914.6
+\t (00:34:55) last pick:  14000.0 8000.0
+\i (00:34:56) prepopup 14141.7 7340.4
+\i (00:34:56) done 
+\i (00:34:56) etchedit 
+\i (00:34:57) pick grid 14637.1 7779.5
+\t (00:34:57) last pick:  15000.0 8000.0
+\i (00:34:57) zoom in 1 
+\i (00:34:57) setwindow pcb
+\i (00:34:57) zoom in 15413.9 8477.5
+\i (00:34:57) trapsize 281
+\i (00:34:59) save 
+\i (00:35:00) fillin yes 
+\i (00:35:00) etchedit 
+\i (00:35:07) quickplace 
+\i (00:35:10) setwindow form.quickplc
+\i (00:35:10) FORM quickplc left_edge YES 
+\i (00:35:12) FORM quickplc place  
+\i (00:35:15) FORM quickplc done  
+\i (00:35:15) setwindow pcb
+\i (00:35:15) etchedit 
+\i (00:35:16) zoom in 1 
+\i (00:35:16) setwindow pcb
+\i (00:35:16) zoom in 16207.6 8713.9
+\i (00:35:16) trapsize 141
+\i (00:35:17) save 
+\i (00:35:18) fillin yes 
+\i (00:35:18) etchedit 
+\i (00:35:27) generaledit 
+\i (00:35:27) generaledit 
+\i (00:35:29) setwindow form.find
+\i (00:35:29) FORM find all_off  
+\i (00:35:30) FORM find text YES 
+\i (00:35:31) setwindow pcb
+\i (00:35:31) prepopup 16587.6 9167.1
+\i (00:35:32) pop dyn_option_select @:@Delete 
+\i (00:35:32) delete 
+\i (00:35:33) generaledit 
+\i (00:35:33) prepopup 16075.3 9113.6
+\i (00:35:34) pop dyn_option_select @:@Delete 
+\i (00:35:34) delete 
+\i (00:35:34) generaledit 
+\i (00:35:35) prepopup 16058.4 9178.4
+\i (00:35:36) pop dyn_option_select @:@Delete 
+\i (00:35:36) delete 
+\i (00:35:36) generaledit 
+\i (00:35:37) prepopup 15616.6 9110.8
+\i (00:35:38) pop dyn_option_select @:@Delete 
+\i (00:35:38) delete 
+\i (00:35:38) generaledit 
+\i (00:35:39) prepopup 14085.4 8916.6
+\i (00:35:39) pop dyn_option_select @:@Delete 
+\i (00:35:39) delete 
+\i (00:35:40) generaledit 
+\i (00:35:40) prepopup 13438.1 8846.3
+\i (00:35:41) pop dyn_option_select @:@Delete 
+\i (00:35:41) delete 
+\i (00:35:41) generaledit 
+\i (00:35:43) save 
+\i (00:35:45) fillin yes 
+\i (00:35:45) generaledit 
+\i (00:35:50) placementedit 
+\i (00:35:51) setwindow form.find
+\i (00:35:51) FORM find all_off  
+\i (00:35:52) FORM find symbols YES 
+\i (00:35:53) setwindow pcb
+\i (00:35:53) pick grid 13753.3 8863.1
+\t (00:35:53) last pick:  14000.0 9000.0
+\i (00:35:53) move 
+\t (00:35:53) last pick:  13529.5 8994.5
+\t (00:35:53) Moving J3 / 2PIN HEADER_SMA_440W_200L_2PIN / SMA_440W_200L.
+\t (00:35:53) Pick new location for the element(s).
+\i (00:35:56) define grid 
+\t (00:35:56) Spacing fields allow simple equations to aid calculations; prefix with =
+\i (00:35:58) setwindow form.grid
+\i (00:35:58) FORM grid non_etch non_etch_x_grids 10 
+\i (00:35:59) FORM grid non_etch non_etch_y_grids 10 
+\i (00:35:59) FORM grid done  
+\i (00:36:00) setwindow pcb
+\i (00:36:00) prepopup 14583.6 8463.5
+\i (00:36:02) rotate 
+\t (00:36:02) Spin the element(s).
+\i (00:36:02) iangle -90.000
+\t (00:36:02) last angle:  270.000 Degrees
+\i (00:36:04) pick grid 14223.3 8697.1
+\t (00:36:04) last pick:  14220.0 8700.0
+\i (00:36:04) placementedit 
+\i (00:36:05) pick grid 15926.2 9155.9
+\t (00:36:05) last pick:  15930.0 9160.0
+\i (00:36:05) move 
+\t (00:36:05) last pick:  15727.5 9230.5
+\t (00:36:05) Moving J1 / 2PIN HEADER_SMA_440W_200L_2PIN / SMA_440W_200L.
+\t (00:36:05) Pick new location for the element(s).
+\i (00:36:06) prepopup 16455.3 8626.7
+\i (00:36:07) rotate 
+\t (00:36:07) Spin the element(s).
+\i (00:36:08) iangle 90.000
+\t (00:36:08) last angle:  90.000 Degrees
+\i (00:36:10) pick grid 16776.2 8300.2
+\t (00:36:10) last pick:  16780.0 8300.0
+\i (00:36:10) placementedit 
+\i (00:36:10) pick grid 16362.4 9068.6
+\t (00:36:10) last pick:  16360.0 9070.0
+\i (00:36:11) move 
+\t (00:36:11) last pick:  16203.5 9230.5
+\t (00:36:11) Moving J2 / 2PIN HEADER_SMA_440W_200L_2PIN / SMA_440W_200L.
+\t (00:36:11) Pick new location for the element(s).
+\i (00:36:13) pick grid 15287.2 8967.3
+\t (00:36:13) last pick:  15290.0 8970.0
+\i (00:36:13) placementedit 
+\i (00:36:15) pick grid 14333.1 9186.8
+\t (00:36:15) last pick:  14330.0 9190.0
+\i (00:36:15) move 
+\t (00:36:15) last pick:  14087.5 9291.5
+\t (00:36:15) Moving L2 / 7M3_TRIMMER_7M3_INDUCTOR_TRIM_7 / 7M3_INDUCTOR_TRIM.
+\t (00:36:15) Pick new location for the element(s).
+\i (00:36:17) pick grid 14845.4 8550.7
+\t (00:36:17) last pick:  14850.0 8550.0
+\i (00:36:17) placementedit 
+\i (00:36:18) color192 
+\i (00:36:18) placementedit 
+\i (00:36:20) QtSignal CVDColorTable CVDColorButton4:27 clicked
+\i (00:36:21) QtSignal CVDNetTable CVDNetTableDelegate clickedColor 0 0
+\i (00:36:21) QtSignal CVDNetSplitter CVDNetTable dataChanged "[Net] Gnd" Net
+\i (00:36:21) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (00:36:22) QtSignal ColorVisibilityDialog CVDApplyButton clicked
+\i (00:36:23) QtSignal ColorVisibilityDialog CVDOkButton clicked
+\i (00:36:24) cmgr 
+\i (00:36:24) placementedit 
+\i (00:36:28) setwindow cmgr
+\i (00:36:28) cm select ( frame ( kConsmgr workbook 144:Properties 14:Net "36:General Properties" ) )
+\i (00:36:31) cm scope Design "LNAv2"
+\i (00:36:31) cm putValue ( Net "GND" ) NO_RAT On 0
+\i (00:36:31) cm endUndoBlock
+\i (00:36:32) cm close ( frame ( kConsmgr workbook 144:Properties 14:Net "36:General Properties" ) )
+\i (00:36:32) cm exit
+\i (00:36:33) setwindow pcb
+\i (00:36:33) save 
+\i (00:36:34) fillin yes 
+   (00:36:34) Loading consmgr.cxt 
+   (00:36:34) Loading acns_formula.cxt 
+\i (00:36:34) placementedit 
+\i (00:36:38) placementedit 
+\i (00:36:39) pick grid 14980.5 9054.5
+\t (00:36:39) last pick:  14980.0 9050.0
+\i (00:36:39) move 
+\t (00:36:39) last pick:  14918.5 9061.0
+\t (00:36:39) Moving C4 / C_SMC0805_1N / SMC0805.
+\t (00:36:39) Pick new location for the element(s).
+\i (00:36:39) prepopup 14459.8 8502.9
+\i (00:36:40) rotate 
+\t (00:36:40) Spin the element(s).
+\i (00:36:41) iangle 180.000
+\t (00:36:41) last angle:  180.000 Degrees
+\i (00:36:43) pick grid 14403.5 8483.2
+\t (00:36:43) last pick:  14400.0 8480.0
+\i (00:36:43) placementedit 
+\i (00:36:44) pick grid 15357.6 9054.5
+\t (00:36:44) last pick:  15360.0 9050.0
+\i (00:36:44) move 
+\t (00:36:44) last pick:  15266.5 9061.0
+\t (00:36:44) Moving C7 / C_SMC0805_1N / SMC0805.
+\t (00:36:44) Pick new location for the element(s).
+\i (00:36:46) prepopup 14307.8 8272.1
+\i (00:36:47) rotate 
+\t (00:36:47) Spin the element(s).
+\i (00:36:48) iangle 90.000
+\t (00:36:48) last angle:  90.000 Degrees
+\i (00:36:49) pick grid 14397.8 8269.3
+\t (00:36:49) last pick:  14400.0 8270.0
+\i (00:36:49) placementedit 
+\i (00:36:51) pick grid 15532.1 9037.7
+\t (00:36:51) last pick:  15530.0 9040.0
+\i (00:36:51) move 
+\t (00:36:51) last pick:  15440.5 9061.0
+\t (00:36:51) Moving C3 / C_SMC0805_1N / SMC0805.
+\t (00:36:51) Pick new location for the element(s).
+\i (00:36:53) pick grid 15326.7 8632.4
+\t (00:36:53) last pick:  15330.0 8630.0
+\i (00:36:53) placementedit 
+\i (00:36:55) pick grid 15670.0 9175.6
+\t (00:36:55) last pick:  15670.0 9180.0
+\i (00:36:55) move 
+\t (00:36:55) last pick:  15639.5 9187.0
+\t (00:36:55) Moving C5 / C_SMC_TRIM_1N / SMC_TRIM.
+\t (00:36:55) Pick new location for the element(s).
+\i (00:36:56) prepopup 14634.3 8587.3
+\i (00:36:57) rotate 
+\t (00:36:57) Spin the element(s).
+\i (00:36:57) iangle 90.000
+\t (00:36:57) last angle:  90.000 Degrees
+\i (00:37:01) pick grid 14524.5 8480.4
+\t (00:37:01) last pick:  14520.0 8480.0
+\i (00:37:01) placementedit 
+\i (00:37:02) pick grid 14786.3 8421.3
+\t (00:37:02) last pick:  14790.0 8420.0
+\i (00:37:02) move 
+\t (00:37:02) last pick:  14850.0 8550.0
+\t (00:37:02) Moving L2 / 7M3_TRIMMER_7M3_INDUCTOR_TRIM_7 / 7M3_INDUCTOR_TRIM.
+\t (00:37:02) Pick new location for the element(s).
+\i (00:37:03) prepopup 14856.6 8486.0
+\i (00:37:04) rotate 
+\t (00:37:04) Spin the element(s).
+\i (00:37:07) iangle 0.000
+\t (00:37:07) last angle:  0.000 Degrees
+\i (00:37:09) pick grid 14859.4 8435.3
+\t (00:37:09) last pick:  14860.0 8440.0
+\i (00:37:09) placementedit 
+\i (00:37:09) pick grid 15515.2 8274.9
+\t (00:37:09) last pick:  15520.0 8270.0
+\i (00:37:24) pick grid 15529.3 8832.2
+\t (00:37:24) last pick:  15530.0 8830.0
+\i (00:37:24) move 
+\t (00:37:24) last pick:  15290.0 8970.0
+\t (00:37:24) Moving J2 / 2PIN HEADER_SMA_440W_200L_2PIN / SMA_440W_200L.
+\t (00:37:24) Pick new location for the element(s).
+\i (00:37:25) pick grid 15653.1 8970.1
+\t (00:37:25) last pick:  15650.0 8970.0
+\i (00:37:25) placementedit 
+\i (00:37:26) pick grid 15408.3 8618.3
+\t (00:37:26) last pick:  15410.0 8620.0
+\i (00:37:26) move 
+\t (00:37:26) last pick:  15330.0 8630.0
+\t (00:37:26) Moving C3 / C_SMC0805_1N / SMC0805.
+\t (00:37:26) Pick new location for the element(s).
+\i (00:37:27) pick grid 15706.6 8632.4
+\t (00:37:27) last pick:  15710.0 8630.0
+\i (00:37:27) placementedit 
+\i (00:37:28) pick grid 15405.5 8570.4
+\t (00:37:28) last pick:  15410.0 8570.0
+\i (00:37:35) pick grid 15087.4 8325.6
+\t (00:37:35) last pick:  15090.0 8330.0
+\i (00:37:35) move 
+\t (00:37:35) last pick:  14860.0 8440.0
+\t (00:37:35) Moving L2 / 7M3_TRIMMER_7M3_INDUCTOR_TRIM_7 / 7M3_INDUCTOR_TRIM.
+\t (00:37:35) Pick new location for the element(s).
+\i (00:37:36) prepopup 15048.0 8466.3
+\i (00:37:37) rotate 
+\t (00:37:37) Spin the element(s).
+\i (00:37:37) iangle -90.000
+\t (00:37:37) last angle:  270.000 Degrees
+\i (00:37:41) pick grid 14977.6 8305.9
+\t (00:37:41) last pick:  14980.0 8310.0
+\i (00:37:41) placementedit 
+\i (00:37:42) pick grid 15039.6 8688.6
+\t (00:37:42) last pick:  15040.0 8690.0
+\i (00:37:45) pick grid 14831.3 9119.3
+\t (00:37:45) last pick:  14830.0 9120.0
+\i (00:37:45) move 
+\t (00:37:45) last pick:  14837.5 9055.5
+\t (00:37:45) Moving Q1 / JFET N DSG_3_SMSOT23DSG_MMFB548 / SMSOT23DSG.
+\t (00:37:45) Pick new location for the element(s).
+\i (00:37:46) prepopup 15309.8 8581.7
+\i (00:37:47) rotate 
+\t (00:37:47) Spin the element(s).
+\i (00:37:48) iangle 90.000
+\t (00:37:48) last angle:  90.000 Degrees
+\i (00:37:49) pick grid 15214.1 8480.4
+\t (00:37:49) last pick:  15210.0 8480.0
+\i (00:37:49) placementedit 
+\i (00:37:49) pick grid 15436.4 8410.0
+\t (00:37:49) last pick:  15440.0 8410.0
+\i (00:37:58) pick grid 15135.3 8435.3
+\t (00:37:58) last pick:  15140.0 8440.0
+\i (00:37:58) move 
+\t (00:37:58) last pick:  15210.0 8480.0
+\t (00:37:58) Moving Q1 / JFET N DSG_3_SMSOT23DSG_MMFB548 / SMSOT23DSG.
+\t (00:37:58) Pick new location for the element(s).
+\i (00:37:59) pick grid 15332.3 8545.1
+\t (00:37:59) last pick:  15330.0 8550.0
+\i (00:37:59) placementedit 
+\i (00:37:59) pick grid 15399.8 8325.6
+\t (00:37:59) last pick:  15400.0 8330.0
+\i (00:38:01) pick grid 15253.5 8511.3
+\t (00:38:01) last pick:  15250.0 8510.0
+\i (00:38:01) move 
+\t (00:38:01) last pick:  15330.0 8550.0
+\t (00:38:01) Moving Q1 / JFET N DSG_3_SMSOT23DSG_MMFB548 / SMSOT23DSG.
+\t (00:38:01) Pick new location for the element(s).
+\i (00:38:11) pick grid 15219.7 8517.0
+\t (00:38:11) last pick:  15220.0 8520.0
+\i (00:38:11) placementedit 
+\i (00:38:17) save 
+\i (00:38:19) fillin yes 
+\i (00:38:19) placementedit 
+\i (00:38:22) pick grid 14704.6 9189.6
+\t (00:38:22) last pick:  14700.0 9190.0
+\i (00:38:22) move 
+\t (00:38:22) last pick:  14455.5 9291.5
+\t (00:38:22) Moving L1 / 7M3_TRIMMER_7M3_INDUCTOR_TRIM_7 / 7M3_INDUCTOR_TRIM.
+\t (00:38:22) Pick new location for the element(s).
+\i (00:38:24) pick grid 15329.5 8162.3
+\t (00:38:24) last pick:  15330.0 8160.0
+\i (00:38:24) placementedit 
+\i (00:38:27) placementedit 
+\i (00:38:41) pick grid 15149.3 8477.5
+\t (00:38:41) last pick:  15150.0 8480.0
+\i (00:38:41) move 
+\t (00:38:41) last pick:  15220.0 8520.0
+\t (00:38:41) Moving Q1 / JFET N DSG_3_SMSOT23DSG_MMFB548 / SMSOT23DSG.
+\t (00:38:41) Pick new location for the element(s).
+\i (00:38:42) pick grid 15295.7 8835.0
+\t (00:38:42) last pick:  15300.0 8840.0
+\i (00:38:42) placementedit 
+\i (00:38:43) pick grid 15571.5 8086.3
+\t (00:38:43) last pick:  15570.0 8090.0
+\i (00:38:43) move 
+\t (00:38:43) last pick:  15330.0 8160.0
+\t (00:38:43) Moving L1 / 7M3_TRIMMER_7M3_INDUCTOR_TRIM_7 / 7M3_INDUCTOR_TRIM.
+\t (00:38:43) Pick new location for the element(s).
+\i (00:38:44) prepopup 16081.0 8415.6
+\i (00:38:45) rotate 
+\t (00:38:45) Spin the element(s).
+\i (00:38:45) iangle 90.000
+\t (00:38:45) last angle:  90.000 Degrees
+\i (00:38:46) pick grid 16097.9 8356.5
+\t (00:38:46) last pick:  16100.0 8360.0
+\i (00:38:46) placementedit 
+\i (00:38:47) pick grid 15746.0 8638.0
+\t (00:38:47) last pick:  15750.0 8640.0
+\i (00:38:47) move 
+\t (00:38:47) last pick:  15710.0 8630.0
+\t (00:38:47) Moving C3 / C_SMC0805_1N / SMC0805.
+\t (00:38:47) Pick new location for the element(s).
+\i (00:38:47) pick grid 16297.7 8826.6
+\t (00:38:47) last pick:  16300.0 8830.0
+\i (00:38:47) placementedit 
+\i (00:38:48) pick grid 15920.5 8818.1
+\t (00:38:48) last pick:  15920.0 8820.0
+\i (00:38:48) move 
+\t (00:38:48) last pick:  15650.0 8970.0
+\t (00:38:48) Moving J2 / 2PIN HEADER_SMA_440W_200L_2PIN / SMA_440W_200L.
+\t (00:38:48) Pick new location for the element(s).
+\i (00:38:49) pick grid 15200.0 8215.8
+\t (00:38:49) last pick:  15200.0 8220.0
+\i (00:38:49) placementedit 
+\i (00:38:52) pick grid 16182.3 8584.5
+\t (00:38:52) last pick:  16180.0 8580.0
+\i (00:38:52) move 
+\t (00:38:52) last pick:  16100.0 8360.0
+\t (00:38:52) Moving L1 / 7M3_TRIMMER_7M3_INDUCTOR_TRIM_7 / 7M3_INDUCTOR_TRIM.
+\t (00:38:52) Pick new location for the element(s).
+\i (00:38:56) pick grid 15436.4 8353.7
+\t (00:38:56) last pick:  15440.0 8350.0
+\i (00:38:56) placementedit 
+\i (00:38:58) pick grid 15312.6 8770.3
+\t (00:38:58) last pick:  15310.0 8770.0
+\i (00:38:58) move 
+\t (00:38:58) last pick:  15300.0 8840.0
+\t (00:38:58) Moving Q1 / JFET N DSG_3_SMSOT23DSG_MMFB548 / SMSOT23DSG.
+\t (00:38:58) Pick new location for the element(s).
+\i (00:39:02) pick grid 15439.2 8784.3
+\t (00:39:02) last pick:  15440.0 8780.0
+\i (00:39:02) placementedit 
+\i (00:39:24) placementedit 
+\i (00:39:26) zoom in 1 
+\i (00:39:26) setwindow pcb
+\i (00:39:26) zoom in 15501.2 8699.9
+\i (00:39:26) trapsize 70
+\i (00:39:27) zoom out 1 
+\i (00:39:27) setwindow pcb
+\i (00:39:27) zoom out 15459.0 8685.8
+\i (00:39:27) trapsize 141
+\i (00:39:27) pick grid 15352.1 8756.2
+\t (00:39:27) last pick:  15350.0 8760.0
+\i (00:39:27) move 
+\t (00:39:27) last pick:  15440.0 8780.0
+\t (00:39:27) Moving Q1 / JFET N DSG_3_SMSOT23DSG_MMFB548 / SMSOT23DSG.
+\t (00:39:27) Pick new location for the element(s).
+\i (00:39:33) pick grid 15444.9 8885.7
+\t (00:39:33) last pick:  15440.0 8890.0
+\i (00:39:33) placementedit 
+\i (00:39:35) pick grid 15529.4 8573.3
+\t (00:39:35) last pick:  15530.0 8570.0
+\i (00:39:35) move 
+\t (00:39:35) last pick:  15440.0 8350.0
+\t (00:39:35) Moving L1 / 7M3_TRIMMER_7M3_INDUCTOR_TRIM_7 / 7M3_INDUCTOR_TRIM.
+\t (00:39:35) Pick new location for the element(s).
+\i (00:39:42) pick grid 15436.5 8412.8
+\t (00:39:42) last pick:  15440.0 8410.0
+\i (00:39:42) placementedit 
+\i (00:40:02) pick grid 15433.7 8030.1
+\t (00:40:02) last pick:  15430.0 8030.0
+\i (00:40:02) move 
+\t (00:40:02) last pick:  15200.0 8220.0
+\t (00:40:02) Moving J2 / 2PIN HEADER_SMA_440W_200L_2PIN / SMA_440W_200L.
+\t (00:40:02) Pick new location for the element(s).
+\i (00:40:03) prepopup 16219.0 8497.3
+\i (00:40:04) rotate 
+\t (00:40:04) Spin the element(s).
+\i (00:40:04) iangle 90.000
+\t (00:40:04) last angle:  90.000 Degrees
+\i (00:40:05) pick grid 17125.3 8477.6
+\t (00:40:05) last pick:  17130.0 8480.0
+\i (00:40:05) placementedit 
+\i (00:40:06) pick grid 16956.4 8545.1
+\t (00:40:06) last pick:  16960.0 8550.0
+\i (00:40:06) move 
+\t (00:40:06) last pick:  16780.0 8300.0
+\t (00:40:06) Moving J1 / 2PIN HEADER_SMA_440W_200L_2PIN / SMA_440W_200L.
+\t (00:40:06) Pick new location for the element(s).
+\i (00:40:06) prepopup 16058.5 8179.2
+\i (00:40:08) rotate 
+\t (00:40:08) Spin the element(s).
+\i (00:40:09) iangle -90.000
+\t (00:40:09) last angle:  0.000 Degrees
+\i (00:40:11) pick grid 15222.6 8213.0
+\t (00:40:11) last pick:  15220.0 8210.0
+\i (00:40:11) placementedit 
+\i (00:40:12) pick grid 15436.5 8179.2
+\t (00:40:12) last pick:  15440.0 8180.0
+\i (00:40:12) move 
+\t (00:40:12) last pick:  15220.0 8210.0
+\t (00:40:12) Moving J1 / 2PIN HEADER_SMA_440W_200L_2PIN / SMA_440W_200L.
+\t (00:40:12) Pick new location for the element(s).
+\i (00:40:15) pick grid 15217.0 8221.4
+\t (00:40:15) last pick:  15220.0 8220.0
+\i (00:40:15) placementedit 
+\i (00:40:17) pick grid 16390.7 8832.2
+\t (00:40:17) last pick:  16390.0 8830.0
+\i (00:40:18) move 
+\t (00:40:18) last pick:  16300.0 8830.0
+\t (00:40:18) Moving C3 / C_SMC0805_1N / SMC0805.
+\t (00:40:18) Pick new location for the element(s).
+\i (00:40:18) pick grid 15962.8 8244.0
+\t (00:40:18) last pick:  15960.0 8240.0
+\i (00:40:18) placementedit 
+\i (00:40:19) pick grid 15971.3 8244.0
+\t (00:40:19) last pick:  15970.0 8240.0
+\i (00:40:19) move 
+\t (00:40:19) last pick:  15960.0 8240.0
+\t (00:40:19) Moving C3 / C_SMC0805_1N / SMC0805.
+\t (00:40:19) Pick new location for the element(s).
+\i (00:40:21) pick grid 16556.7 8553.6
+\t (00:40:21) last pick:  16560.0 8550.0
+\i (00:40:21) placementedit 
+\i (00:40:21) pick grid 16717.1 9077.1
+\t (00:40:21) last pick:  16720.0 9080.0
+\i (00:40:22) move 
+\t (00:40:22) last pick:  16702.5 9061.0
+\t (00:40:22) Moving C1 / C_SMC0805_1N / SMC0805.
+\t (00:40:22) Pick new location for the element(s).
+\i (00:40:30) prepopup 15197.3 8356.5
+\i (00:40:30) rotate 
+\t (00:40:30) Spin the element(s).
+\i (00:40:31) iangle -180.000
+\t (00:40:31) last angle:  180.000 Degrees
+\i (00:40:34) pick grid 15284.5 8407.2
+\t (00:40:34) last pick:  15280.0 8410.0
+\i (00:40:34) placementedit 
+\i (00:40:54) pick grid 14904.5 8075.1
+\t (00:40:54) last pick:  14900.0 8080.0
+\i (00:40:54) move 
+\t (00:40:54) last pick:  14980.0 8310.0
+\t (00:40:54) Moving L2 / 7M3_TRIMMER_7M3_INDUCTOR_TRIM_7 / 7M3_INDUCTOR_TRIM.
+\t (00:40:54) Pick new location for the element(s).
+\i (00:40:55) prepopup 15050.9 8773.1
+\i (00:40:56) rotate 
+\t (00:40:56) Spin the element(s).
+\i (00:40:57) iangle 180.000
+\t (00:40:57) last angle:  90.000 Degrees
+\i (00:40:58) prepopup 14929.9 8649.3
+\i (00:40:59) rotate 
+\t (00:40:59) Spin the element(s).
+\i (00:41:00) iangle -90.000
+\t (00:41:00) last angle:  180.000 Degrees
+\i (00:41:06) prepopup 15056.5 8654.9
+\i (00:41:08) rotate 
+\t (00:41:08) Spin the element(s).
+\i (00:41:09) iangle 180.000
+\t (00:41:09) last angle:  90.000 Degrees
+\i (00:41:10) pick grid 14845.4 8649.3
+\t (00:41:10) last pick:  14850.0 8650.0
+\i (00:41:10) placementedit 
+\i (00:41:11) generaledit 
+\i (00:41:12) setwindow form.find
+\i (00:41:12) FORM find all_off  
+\i (00:41:14) FORM find lines YES 
+\i (00:41:14) FORM find lines NO 
+\i (00:41:15) FORM find lines YES 
+\i (00:41:16) setwindow pcb
+\i (00:41:16) prepopup 16995.8 8252.4
+\i (00:41:19) pop dyn_option_select @:@Delete 
+\i (00:41:19) delete 
+\i (00:41:19) generaledit 
+\i (00:41:21) placementedit 
+\i (00:41:22) pick grid 15118.5 9065.8
+\t (00:41:22) last pick:  15120.0 9070.0
+\i (00:41:22) move 
+\t (00:41:22) last pick:  15092.5 9061.0
+\t (00:41:22) Moving C6 / C_SMC0805_1N / SMC0805.
+\t (00:41:22) Pick new location for the element(s).
+\i (00:41:22) pick grid 15909.4 9299.4
+\t (00:41:22) last pick:  15910.0 9300.0
+\i (00:41:22) placementedit 
+\i (00:41:23) pick grid 14932.7 8593.0
+\t (00:41:23) last pick:  14930.0 8590.0
+\i (00:41:23) move 
+\t (00:41:23) last pick:  14850.0 8650.0
+\t (00:41:23) Moving L2 / 7M3_TRIMMER_7M3_INDUCTOR_TRIM_7 / 7M3_INDUCTOR_TRIM.
+\t (00:41:23) Pick new location for the element(s).
+\i (00:41:26) prepopup 15003.1 8854.7
+\i (00:41:27) rotate 
+\t (00:41:27) Spin the element(s).
+\i (00:41:27) iangle 90.000
+\t (00:41:27) last angle:  180.000 Degrees
+\i (00:42:02) pick grid 15146.6 8851.9
+\t (00:42:02) last pick:  15150.0 8850.0
+\i (00:42:02) placementedit 
+\i (00:42:14) pick grid 15543.5 8626.7
+\t (00:42:14) last pick:  15540.0 8630.0
+\i (00:42:14) move 
+\t (00:42:14) last pick:  15440.0 8410.0
+\t (00:42:14) Moving L1 / 7M3_TRIMMER_7M3_INDUCTOR_TRIM_7 / 7M3_INDUCTOR_TRIM.
+\t (00:42:14) Pick new location for the element(s).
+\i (00:42:17) pick grid 15436.5 8477.6
+\t (00:42:17) last pick:  15440.0 8480.0
+\i (00:42:17) placementedit 
+\i (00:42:20) pick grid 15202.9 8393.1
+\t (00:42:20) last pick:  15200.0 8390.0
+\i (00:42:20) move 
+\t (00:42:20) last pick:  15280.0 8410.0
+\t (00:42:20) Moving C1 / C_SMC0805_1N / SMC0805.
+\t (00:42:20) Pick new location for the element(s).
+\i (00:42:23) pick grid 15307.0 8477.6
+\t (00:42:23) last pick:  15310.0 8480.0
+\i (00:42:23) placementedit 
+\i (00:42:28) pick grid 15461.8 8049.8
+\t (00:42:28) last pick:  15460.0 8050.0
+\i (00:42:28) move 
+\t (00:42:28) last pick:  15220.0 8220.0
+\t (00:42:28) Moving J1 / 2PIN HEADER_SMA_440W_200L_2PIN / SMA_440W_200L.
+\t (00:42:28) Pick new location for the element(s).
+\i (00:42:30) pick grid 15217.0 8334.0
+\t (00:42:30) last pick:  15220.0 8330.0
+\i (00:42:30) placementedit 
+\i (00:42:34) pick grid 14901.7 8933.5
+\t (00:42:34) last pick:  14900.0 8930.0
+\i (00:42:34) move 
+\t (00:42:34) last pick:  15150.0 8850.0
+\t (00:42:34) Moving L2 / 7M3_TRIMMER_7M3_INDUCTOR_TRIM_7 / 7M3_INDUCTOR_TRIM.
+\t (00:42:34) Pick new location for the element(s).
+\i (00:42:39) pick grid 15169.1 8854.7
+\t (00:42:39) last pick:  15170.0 8850.0
+\i (00:42:39) placementedit 
+\i (00:42:51) pick grid 14662.5 8457.9
+\t (00:42:51) last pick:  14660.0 8460.0
+\i (00:42:51) move 
+\t (00:42:51) last pick:  14520.0 8480.0
+\t (00:42:51) Moving C5 / C_SMC_TRIM_1N / SMC_TRIM.
+\t (00:42:51) Pick new location for the element(s).
+\i (00:42:51) prepopup 14938.3 8578.9
+\i (00:42:52) rotate 
+\t (00:42:52) Spin the element(s).
+\i (00:42:53) iangle 90.000
+\t (00:42:53) last angle:  180.000 Degrees
+\i (00:43:01) prepopup 14918.6 8528.2
+\i (00:43:02) rotate 
+\t (00:43:02) Spin the element(s).
+\i (00:43:04) iangle -360.000
+\t (00:43:04) last angle:  90.000 Degrees
+\i (00:43:10) pick grid 15034.0 8646.5
+\t (00:43:10) last pick:  15030.0 8650.0
+\i (00:43:10) placementedit 
+\i (00:43:11) pick grid 14389.5 8494.5
+\t (00:43:11) last pick:  14390.0 8490.0
+\i (00:43:11) move 
+\t (00:43:11) last pick:  14400.0 8480.0
+\t (00:43:11) Moving C4 / C_SMC0805_1N / SMC0805.
+\t (00:43:11) Pick new location for the element(s).
+\i (00:43:16) pick grid 14786.3 8654.9
+\t (00:43:16) last pick:  14790.0 8650.0
+\i (00:43:16) placementedit 
+\i (00:43:17) pick grid 14383.8 8258.0
+\t (00:43:17) last pick:  14380.0 8260.0
+\i (00:43:17) move 
+\t (00:43:17) last pick:  14400.0 8270.0
+\t (00:43:17) Moving C7 / C_SMC0805_1N / SMC0805.
+\t (00:43:17) Pick new location for the element(s).
+\i (00:43:17) prepopup 14561.2 8818.1
+\i (00:43:18) rotate 
+\t (00:43:18) Spin the element(s).
+\i (00:43:19) iangle -270.000
+\t (00:43:19) last angle:  180.000 Degrees
+\i (00:43:19) prepopup 14561.2 8821.0
+\i (00:43:20) rotate 
+\t (00:43:20) Spin the element(s).
+\i (00:43:21) iangle -360.000
+\t (00:43:21) last angle:  90.000 Degrees
+\i (00:43:22) prepopup 14499.2 8843.5
+\i (00:43:22) rotate 
+\t (00:43:22) Spin the element(s).
+\i (00:43:24) iangle -180.000
+\t (00:43:24) last angle:  270.000 Degrees
+\i (00:43:26) pick grid 14786.3 8871.6
+\t (00:43:26) last pick:  14790.0 8870.0
+\i (00:43:26) placementedit 
+\i (00:44:52) pick grid 14175.6 8477.6
+\t (00:44:52) last pick:  14180.0 8480.0
+\i (00:44:52) move 
+\t (00:44:52) last pick:  14220.0 8700.0
+\t (00:44:52) Moving J3 / 2PIN HEADER_SMA_440W_200L_2PIN / SMA_440W_200L.
+\t (00:44:52) Pick new location for the element(s).
+\i (00:44:54) pick grid 14586.5 8871.6
+\t (00:44:54) last pick:  14590.0 8870.0
+\i (00:44:54) placementedit 
+\i (00:45:03) zoom out 1 
+\i (00:45:03) setwindow pcb
+\i (00:45:03) zoom out 16247.1 8691.5
+\i (00:45:03) trapsize 281
+\i (00:45:04) zoom in 1 
+\i (00:45:04) setwindow pcb
+\i (00:45:04) zoom in 16247.1 8691.5
+\i (00:45:04) trapsize 141
+\i (00:45:08) pick grid 16922.6 9184.0
+\t (00:45:08) last pick:  16920.0 9180.0
+\i (00:45:08) move 
+\t (00:45:08) last pick:  16901.5 9187.0
+\t (00:45:08) Moving C2 / C_SMC_TRIM_1N / SMC_TRIM.
+\t (00:45:08) Pick new location for the element(s).
+\i (00:45:13) pick grid 15892.5 8908.2
+\t (00:45:13) last pick:  15890.0 8910.0
+\i (00:45:13) placementedit 
+\i (00:45:15) zoom in 1 
+\i (00:45:15) setwindow pcb
+\i (00:45:15) zoom in 15619.5 8984.2
+\i (00:45:15) trapsize 70
+\i (00:45:15) zoom in 1 
+\i (00:45:15) setwindow pcb
+\i (00:45:15) zoom in 15619.5 8984.2
+\i (00:45:15) trapsize 35
+\i (00:45:40) xNet N00189 
+\t (00:45:40) Nets are not selectable at this time.
+\i (00:45:40) xname_flush 
+\i (00:45:49) xNet N01379 
+\t (00:45:49) Nets are not selectable at this time.
+\i (00:45:49) xname_flush 
+\i (00:45:51) xrefdes C2 
+\i (00:45:51) xname_flush 
+\i (00:45:51) trapsize 28
+\i (00:45:57) xrefdes C3 
+\i (00:45:57) xname_flush 
+\i (00:45:57) trapsize 28
+\i (00:46:00) xrefdes J2 
+\i (00:46:00) xname_flush 
+\i (00:46:00) trapsize 98
+\i (00:46:14) zoom out 1 
+\i (00:46:14) setwindow pcb
+\i (00:46:14) zoom out 16611.2 8986.1
+\i (00:46:14) trapsize 195
+\i (00:46:14) zoom out 1 
+\i (00:46:14) setwindow pcb
+\i (00:46:14) zoom out 16611.1 8986.0
+\i (00:46:14) trapsize 391
+\i (00:46:15) zoom in 1 
+\i (00:46:15) setwindow pcb
+\i (00:46:15) zoom in 15181.9 9353.6
+\i (00:46:15) trapsize 195
+\i (00:46:16) zoom in 1 
+\i (00:46:16) setwindow pcb
+\i (00:46:16) zoom in 15412.5 9083.8
+\i (00:46:16) trapsize 98
+\i (00:46:16) zoom out 1 
+\i (00:46:16) setwindow pcb
+\i (00:46:16) zoom out 15592.3 8970.5
+\i (00:46:16) trapsize 195
+\i (00:46:17) zoom in 1 
+\i (00:46:17) setwindow pcb
+\i (00:46:17) zoom in 15905.1 8782.8
+\i (00:46:17) trapsize 98
+\i (00:46:18) zoom out 1 
+\i (00:46:18) setwindow pcb
+\i (00:46:18) zoom out 15918.8 8775.0
+\i (00:46:18) trapsize 195
+\i (00:46:18) zoom in 1 
+\i (00:46:18) setwindow pcb
+\i (00:46:18) zoom in 16137.7 8650.0
+\i (00:46:18) trapsize 98
+\i (00:46:19) zoom out 1 
+\i (00:46:19) setwindow pcb
+\i (00:46:19) zoom out 16165.1 8685.2
+\i (00:46:19) trapsize 195
+\i (00:46:20) zoom in 1 
+\i (00:46:20) setwindow pcb
+\i (00:46:20) zoom in 16298.1 8896.3
+\i (00:46:20) trapsize 98
+\i (00:46:27) netin 
+\i (00:46:29) setwindow form.niparams
+\i (00:46:29) FORM niparams import  
+\t (00:46:29) Starting Cadence Logic Import...
+\t (00:46:30) Opening existing design...
+\i (00:46:30) setwindow pcb
+\i (00:46:30) trapsize 98
+\i (00:46:31) placementedit 
+\i (00:46:33) save 
+\i (00:46:58) fillin yes 
+\i (00:46:58) placementedit 
+\i (00:47:00) placementedit 
+\i (00:47:01) pick grid 15899.3 8747.8
+\t (00:47:01) last pick:  15900.0 8750.0
+\i (00:47:01) move 
+\t (00:47:01) last pick:  15890.0 8910.0
+\t (00:47:01) Moving C2 / C_SMC_TRIM_1N / SMC_TRIM.
+\t (00:47:01) Pick new location for the element(s).
+\i (00:47:01) prepopup 15881.7 8718.5
+\i (00:47:02) rotate 
+\t (00:47:02) Spin the element(s).
+\i (00:47:03) iangle 90.000
+\t (00:47:03) last angle:  90.000 Degrees
+\i (00:47:08) pick grid 15625.7 8818.1
+\t (00:47:08) last pick:  15630.0 8820.0
+\i (00:47:08) placementedit 
+\i (00:47:09) pick grid 16526.8 8546.4
+\t (00:47:09) last pick:  16530.0 8550.0
+\i (00:47:09) move 
+\t (00:47:09) last pick:  16560.0 8550.0
+\t (00:47:09) Moving C3 / C_SMC0805_1N / SMC0805.
+\t (00:47:09) Pick new location for the element(s).
+\i (00:47:11) pick grid 15891.5 8824.0
+\t (00:47:11) last pick:  15890.0 8820.0
+\i (00:47:11) placementedit 
+\i (00:47:12) pick grid 15916.9 9301.0
+\t (00:47:12) last pick:  15920.0 9300.0
+\i (00:47:12) move 
+\t (00:47:12) last pick:  15910.0 9300.0
+\t (00:47:12) Moving C6 / C_SMC0805_1N / SMC0805.
+\t (00:47:12) Pick new location for the element(s).
+\i (00:47:15) prepopup 15776.2 9003.8
+\i (00:47:16) rotate 
+\t (00:47:16) Spin the element(s).
+\i (00:47:17) iangle 90.000
+\t (00:47:17) last angle:  90.000 Degrees
+\i (00:47:18) pick grid 15772.3 8964.7
+\t (00:47:18) last pick:  15770.0 8960.0
+\i (00:47:18) placementedit 
+\i (00:47:19) pick grid 17242.2 8657.9
+\t (00:47:19) last pick:  17240.0 8660.0
+\i (00:47:19) move 
+\t (00:47:19) last pick:  17130.0 8480.0
+\t (00:47:19) Moving J2 / 2PIN HEADER_SMA_440W_200L_2PIN / SMA_440W_200L.
+\t (00:47:19) Pick new location for the element(s).
+\i (00:47:22) pick grid 16083.1 8595.3
+\t (00:47:22) last pick:  16080.0 8600.0
+\i (00:47:22) placementedit 
+\i (00:47:22) zoom out 1 
+\i (00:47:22) setwindow pcb
+\i (00:47:22) zoom out 16247.3 8544.5
+\i (00:47:22) trapsize 195
+\i (00:47:23) zoom in 1 
+\i (00:47:23) setwindow pcb
+\i (00:47:23) zoom in 15301.2 8290.3
+\i (00:47:23) trapsize 98
+\i (00:47:25) save 
+\i (00:47:26) fillin yes 
+\i (00:47:26) placementedit 
+\i (00:47:56) define grid 
+\t (00:47:56) Spacing fields allow simple equations to aid calculations; prefix with =
+\i (00:47:56) placementedit 
+\i (00:47:59) setwindow form.grid
+\i (00:47:59) FORM grid non_etch non_etch_x_grids 5 
+\i (00:48:00) FORM grid non_etch non_etch_y_grids 5 
+\i (00:48:00) FORM grid done  
+\i (00:48:01) setwindow pcb
+\i (00:48:01) zoom in 1 
+\i (00:48:01) setwindow pcb
+\i (00:48:01) zoom in 15424.4 8761.4
+\i (00:48:01) trapsize 49
+\i (00:48:02) zoom in 1 
+\i (00:48:02) setwindow pcb
+\i (00:48:02) zoom in 15424.4 8761.4
+\i (00:48:02) trapsize 24
+\i (00:48:02) zoom out 1 
+\i (00:48:02) setwindow pcb
+\i (00:48:02) zoom out 15424.4 8761.5
+\i (00:48:02) trapsize 49
+\i (00:48:04) pick grid 15638.5 8811.3
+\t (00:48:04) last pick:  15640.0 8810.0
+\i (00:48:04) move 
+\t (00:48:04) last pick:  15630.0 8820.0
+\t (00:48:04) Moving C2 / C_SMC_TRIM_1N / SMC_TRIM.
+\t (00:48:04) Pick new location for the element(s).
+\i (00:48:16) pick grid 15624.8 8817.1
+\t (00:48:16) last pick:  15625.0 8815.0
+\i (00:48:16) placementedit 
+\i (00:48:17) pick grid 15892.6 8816.2
+\t (00:48:17) last pick:  15895.0 8815.0
+\i (00:48:17) move 
+\t (00:48:17) last pick:  15890.0 8820.0
+\t (00:48:17) Moving C3 / C_SMC0805_1N / SMC0805.
+\t (00:48:17) Pick new location for the element(s).
+\i (00:48:20) pick grid 15890.6 8813.2
+\t (00:48:20) last pick:  15890.0 8815.0
+\i (00:48:20) placementedit 
+\i (00:48:20) zoom out 1 
+\i (00:48:20) setwindow pcb
+\i (00:48:20) zoom out 15877.0 8773.2
+\i (00:48:20) trapsize 98
+\i (00:48:23) zoom in 1 
+\i (00:48:23) setwindow pcb
+\i (00:48:23) zoom in 15194.8 8882.6
+\i (00:48:23) trapsize 49
+\i (00:48:27) pick grid 15215.3 8928.5
+\t (00:48:27) last pick:  15215.0 8930.0
+\i (00:48:27) move 
+\t (00:48:27) last pick:  15170.0 8850.0
+\t (00:48:27) Moving L2 / 7M3_TRIMMER_7M3_INDUCTOR_TRIM_7 / 7M3_INDUCTOR_TRIM.
+\t (00:48:27) Pick new location for the element(s).
+\i (00:48:39) pick grid 15189.9 8853.3
+\t (00:48:39) last pick:  15190.0 8855.0
+\i (00:48:39) placementedit 
+\i (00:48:40) pick grid 15179.1 8635.3
+\t (00:48:40) last pick:  15180.0 8635.0
+\i (00:48:40) move 
+\t (00:48:40) last pick:  15030.0 8650.0
+\t (00:48:40) Moving C5 / C_SMC_TRIM_1N / SMC_TRIM.
+\t (00:48:40) Pick new location for the element(s).
+\i (00:48:45) pick grid 15045.2 8687.1
+\t (00:48:45) last pick:  15045.0 8685.0
+\i (00:48:45) placementedit 
+\i (00:48:46) pick grid 15179.1 8689.1
+\t (00:48:46) last pick:  15180.0 8690.0
+\i (00:48:46) move 
+\t (00:48:46) last pick:  15045.0 8685.0
+\t (00:48:46) Moving C5 / C_SMC_TRIM_1N / SMC_TRIM.
+\t (00:48:46) Pick new location for the element(s).
+\i (00:48:53) pick grid 15045.2 8662.7
+\t (00:48:53) last pick:  15045.0 8665.0
+\i (00:48:53) placementedit 
+\i (00:48:54) pick grid 14785.3 8759.5
+\t (00:48:54) last pick:  14785.0 8760.0
+\i (00:48:54) move 
+\t (00:48:54) last pick:  14790.0 8650.0
+\t (00:48:54) Moving C4 / C_SMC0805_1N / SMC0805.
+\t (00:48:54) Pick new location for the element(s).
+\i (00:48:56) pick grid 14862.5 8666.6
+\t (00:48:56) last pick:  14865.0 8665.0
+\i (00:48:56) placementedit 
+\i (00:48:56) pick grid 14789.2 8782.9
+\t (00:48:56) last pick:  14790.0 8785.0
+\i (00:48:56) move 
+\t (00:48:56) last pick:  14865.0 8665.0
+\t (00:48:56) Moving C4 / C_SMC0805_1N / SMC0805.
+\t (00:48:56) Pick new location for the element(s).
+\i (00:48:58) pick grid 14842.9 8657.8
+\t (00:48:58) last pick:  14845.0 8660.0
+\i (00:48:58) placementedit 
+\i (00:48:59) pick grid 14806.8 8844.5
+\t (00:48:59) last pick:  14805.0 8845.0
+\i (00:48:59) move 
+\t (00:48:59) last pick:  14790.0 8870.0
+\t (00:48:59) Moving C7 / C_SMC0805_1N / SMC0805.
+\t (00:48:59) Pick new location for the element(s).
+\i (00:48:59) pick grid 14852.7 8927.6
+\t (00:48:59) last pick:  14855.0 8930.0
+\i (00:48:59) placementedit 
+\i (00:49:00) pick grid 14845.9 8680.3
+\t (00:49:00) last pick:  14845.0 8680.0
+\i (00:49:00) move 
+\t (00:49:00) last pick:  14845.0 8660.0
+\t (00:49:00) Moving C4 / C_SMC0805_1N / SMC0805.
+\t (00:49:00) Pick new location for the element(s).
+\i (00:49:04) pick grid 14851.7 8665.6
+\t (00:49:04) last pick:  14850.0 8665.0
+\i (00:49:04) placementedit 
+\i (00:49:05) pick grid 14848.8 8856.2
+\t (00:49:05) last pick:  14850.0 8855.0
+\i (00:49:05) move 
+\t (00:49:05) last pick:  14855.0 8930.0
+\t (00:49:05) Moving C7 / C_SMC0805_1N / SMC0805.
+\t (00:49:05) Pick new location for the element(s).
+\i (00:49:06) pick grid 14849.8 8882.6
+\t (00:49:06) last pick:  14850.0 8885.0
+\i (00:49:06) placementedit 
+\i (00:49:08) pick grid 14573.2 8641.2
+\t (00:49:08) last pick:  14575.0 8640.0
+\i (00:49:08) move 
+\t (00:49:08) last pick:  14590.0 8870.0
+\t (00:49:08) Moving J3 / 2PIN HEADER_SMA_440W_200L_2PIN / SMA_440W_200L.
+\t (00:49:08) Pick new location for the element(s).
+\i (00:49:11) pick grid 14657.2 8886.5
+\t (00:49:11) last pick:  14655.0 8885.0
+\i (00:49:11) placementedit 
+\i (00:49:11) zoom out 1 
+\i (00:49:11) setwindow pcb
+\i (00:49:11) zoom out 14870.3 8686.2
+\i (00:49:11) trapsize 98
+\i (00:49:13) zoom in 1 
+\i (00:49:13) setwindow pcb
+\i (00:49:13) zoom in 15708.9 8803.4
+\i (00:49:13) trapsize 49
+\i (00:49:15) zoom out 1 
+\i (00:49:15) setwindow pcb
+\i (00:49:15) zoom out 15635.6 8792.6
+\i (00:49:15) trapsize 98
+\i (00:49:20) zoom out 1 
+\i (00:49:20) setwindow pcb
+\i (00:49:20) zoom out 15625.8 8278.6
+\i (00:49:20) trapsize 195
+\i (00:49:21) zoom in 1 
+\i (00:49:21) setwindow pcb
+\i (00:49:21) zoom in 15625.9 8278.6
+\i (00:49:21) trapsize 98
+\i (00:49:24) zoom in 1 
+\i (00:49:24) setwindow pcb
+\i (00:49:24) zoom in 15516.5 8112.5
+\i (00:49:24) trapsize 49
+\i (00:49:26) pick grid 15409.0 8313.9
+\t (00:49:26) last pick:  15410.0 8315.0
+\i (00:49:26) move 
+\t (00:49:26) last pick:  15220.0 8330.0
+\t (00:49:26) Moving J1 / 2PIN HEADER_SMA_440W_200L_2PIN / SMA_440W_200L.
+\t (00:49:26) Pick new location for the element(s).
+\i (00:49:28) pick grid 15218.4 8270.9
+\t (00:49:28) last pick:  15220.0 8270.0
+\i (00:49:28) placementedit 
+\i (00:49:29) pick grid 15433.4 8454.6
+\t (00:49:29) last pick:  15435.0 8455.0
+\i (00:49:29) move 
+\t (00:49:29) last pick:  15440.0 8480.0
+\t (00:49:29) Moving L1 / 7M3_TRIMMER_7M3_INDUCTOR_TRIM_7 / 7M3_INDUCTOR_TRIM.
+\t (00:49:29) Pick new location for the element(s).
+\i (00:49:33) pick grid 15439.3 8427.2
+\t (00:49:33) last pick:  15440.0 8425.0
+\i (00:49:33) placementedit 
+\i (00:49:33) pick grid 15311.2 8475.1
+\t (00:49:33) last pick:  15310.0 8475.0
+\i (00:49:33) move 
+\t (00:49:33) last pick:  15310.0 8480.0
+\t (00:49:33) Moving C1 / C_SMC0805_1N / SMC0805.
+\t (00:49:33) Pick new location for the element(s).
+\i (00:49:38) pick grid 15278.0 8427.2
+\t (00:49:38) last pick:  15280.0 8425.0
+\i (00:49:38) placementedit 
+\i (00:49:39) zoom out 1 
+\i (00:49:39) setwindow pcb
+\i (00:49:39) zoom out 15279.0 8424.3
+\i (00:49:39) trapsize 98
+\i (00:49:40) zoom out 1 
+\i (00:49:40) setwindow pcb
+\i (00:49:40) zoom out 15380.6 9038.1
+\i (00:49:40) trapsize 195
+\i (00:49:41) zoom out 1 
+\i (00:49:41) setwindow pcb
+\i (00:49:41) zoom out 14727.8 8111.6
+\i (00:49:41) trapsize 391
+\i (00:49:42) zoom in 1 
+\i (00:49:42) setwindow pcb
+\i (00:49:42) zoom in 15463.4 9378.3
+\i (00:49:42) trapsize 195
+\i (00:49:43) zoom in 1 
+\i (00:49:43) setwindow pcb
+\i (00:49:43) zoom in 15299.2 8666.8
+\i (00:49:43) trapsize 98
+\i (00:49:44) save 
+\i (00:49:45) fillin yes 
+\i (00:49:45) placementedit 
+\i (00:50:00) generaledit 
+\i (00:50:04) setwindow form.mini
+\i (00:50:04) FORM mini class BOARD GEOMETRY 
+\i (00:50:06) setwindow pcb
+\i (00:50:06) add line 
+\i (00:50:08) define grid 
+\t (00:50:08) Spacing fields allow simple equations to aid calculations; prefix with =
+\i (00:50:11) setwindow form.grid
+\i (00:50:11) FORM grid non_etch non_etch_x_grids 25 
+\i (00:50:11) FORM grid non_etch non_etch_y_grids 25 
+\i (00:50:12) FORM grid done  
+\i (00:50:17) setwindow pcb
+\i (00:50:17) pick grid 14423.5 9153.6
+\t (00:50:17) last pick:  14425.0 9150.0
+\i (00:50:22) pick grid 16313.8 9159.4
+\t (00:50:22) last pick:  16325.0 9150.0
+   (00:50:22) WARNING(SPMHA2-118): 'DESIGN_OUTLINE' and 'CUTOUT' are the preferred subclasses for defining an outline. Use these subclasses instead of the 'OUTLINE' subclass. [help]
+\i (00:50:23) fillin confirm
+\i (00:50:31) pick grid 16333.3 8014.0
+\t (00:50:31) last pick:  16325.0 8025.0
+\i (00:50:36) pick grid 14413.8 8021.8
+\t (00:50:36) last pick:  14425.0 8025.0
+\i (00:50:41) pick grid 14423.5 9137.9
+\t (00:50:41) last pick:  14425.0 9150.0
+\i (00:50:41) prepopup 14490.0 9061.7
+\i (00:50:42) done 
+\i (00:50:42) generaledit 
+\i (00:50:45) save 
+\i (00:50:46) fillin yes 
+\i (00:50:46) generaledit 
+\i (00:50:48) placementedit 
+\i (00:50:49) zoom in 1 
+\i (00:50:49) setwindow pcb
+\i (00:50:49) zoom in 14632.7 8614.1
+\i (00:50:49) trapsize 49
+\i (00:50:50) zoom in 1 
+\i (00:50:50) setwindow pcb
+\i (00:50:50) zoom in 14581.9 8660.1
+\i (00:50:50) trapsize 24
+\i (00:50:50) zoom out 1 
+\i (00:50:50) setwindow pcb
+\i (00:50:50) zoom out 14579.5 8660.1
+\i (00:50:50) trapsize 49
+\i (00:50:51) zoom in 1 
+\i (00:50:51) setwindow pcb
+\i (00:50:51) zoom in 14437.7 8691.3
+\i (00:50:51) trapsize 24
+\i (00:50:52) zoom out 1 
+\i (00:50:52) setwindow pcb
+\i (00:50:52) zoom out 14567.7 8672.7
+\i (00:50:52) trapsize 49
+\i (00:50:52) zoom in 1 
+\i (00:50:52) setwindow pcb
+\i (00:50:52) zoom in 14581.4 8735.3
+\i (00:50:52) trapsize 24
+\i (00:50:53) pick grid 14589.7 8676.7
+\t (00:50:53) last pick:  14600.0 8675.0
+\i (00:50:53) move 
+\t (00:50:53) last pick:  14655.0 8885.0
+\t (00:50:53) Moving J3 / 2PIN HEADER_SMA_440W_200L_2PIN / SMA_440W_200L.
+\t (00:50:53) Pick new location for the element(s).
+\i (00:50:55) zoom out 1 
+\i (00:50:55) setwindow pcb
+\i (00:50:55) zoom out 14630.3 8835.5
+\i (00:50:55) trapsize 49
+\i (00:50:56) zoom out 1 
+\i (00:50:56) setwindow pcb
+\i (00:50:56) zoom out 14612.7 8520.8
+\i (00:50:56) trapsize 98
+\i (00:50:57) zoom in 1 
+\i (00:50:57) setwindow pcb
+\i (00:50:57) zoom in 14677.3 8892.2
+\i (00:50:57) trapsize 49
+\i (00:50:57) zoom in 1 
+\i (00:50:57) setwindow pcb
+\i (00:50:57) zoom in 14660.6 8871.7
+\i (00:50:57) trapsize 24
+\i (00:51:00) define grid 
+\t (00:51:00) Spacing fields allow simple equations to aid calculations; prefix with =
+\i (00:51:03) setwindow form.grid
+\i (00:51:03) FORM grid non_etch non_etch_x_grids 5 
+\i (00:51:05) FORM grid non_etch non_etch_y_grids 5 
+\i (00:51:05) FORM grid done  
+\i (00:51:05) setwindow pcb
+\i (00:51:05) zoom out 1 
+\i (00:51:05) setwindow pcb
+\i (00:51:05) zoom out 14619.6 8802.8
+\i (00:51:05) trapsize 49
+\i (00:51:06) zoom out 1 
+\i (00:51:06) setwindow pcb
+\i (00:51:06) zoom out 14651.8 8834.1
+\i (00:51:06) trapsize 98
+\i (00:51:06) zoom in 1 
+\i (00:51:06) setwindow pcb
+\i (00:51:06) zoom in 14673.3 8887.0
+\i (00:51:06) trapsize 49
+\i (00:51:14) pick grid 14647.0 8885.1
+\t (00:51:14) last pick:  14645.0 8885.0
+\i (00:51:14) placementedit 
+\i (00:51:14) zoom out 1 
+\i (00:51:14) setwindow pcb
+\i (00:51:14) zoom out 14736.9 8861.6
+\i (00:51:14) trapsize 98
+\i (00:51:15) zoom out 1 
+\i (00:51:15) setwindow pcb
+\i (00:51:15) zoom out 14883.5 8775.6
+\i (00:51:15) trapsize 195
+\i (00:51:15) zoom in 1 
+\i (00:51:15) setwindow pcb
+\i (00:51:15) zoom in 16115.0 8650.6
+\i (00:51:15) trapsize 98
+\i (00:51:16) zoom in 1 
+\i (00:51:16) setwindow pcb
+\i (00:51:16) zoom in 16130.7 8662.3
+\i (00:51:16) trapsize 49
+\i (00:51:16) zoom in 1 
+\i (00:51:16) setwindow pcb
+\i (00:51:16) zoom in 16169.7 8928.1
+\i (00:51:16) trapsize 24
+\i (00:51:17) pick grid 16164.4 8845.1
+\t (00:51:17) last pick:  16165.0 8845.0
+\i (00:51:17) move 
+\t (00:51:17) last pick:  16080.0 8600.0
+\t (00:51:17) Moving J2 / 2PIN HEADER_SMA_440W_200L_2PIN / SMA_440W_200L.
+\t (00:51:17) Pick new location for the element(s).
+\i (00:51:18) zoom out 1 
+\i (00:51:18) setwindow pcb
+\i (00:51:18) zoom out 16114.1 8660.4
+\i (00:51:18) trapsize 49
+\i (00:51:19) zoom out 1 
+\i (00:51:19) setwindow pcb
+\i (00:51:19) zoom out 16117.0 8628.1
+\i (00:51:19) trapsize 98
+\i (00:51:20) zoom in 1 
+\i (00:51:20) setwindow pcb
+\i (00:51:20) zoom in 16115.0 8587.1
+\i (00:51:20) trapsize 49
+\i (00:51:27) pick grid 16107.2 8593.9
+\t (00:51:27) last pick:  16105.0 8595.0
+\i (00:51:27) placementedit 
+\i (00:51:28) zoom out 1 
+\i (00:51:28) setwindow pcb
+\i (00:51:28) zoom out 16002.6 8668.2
+\i (00:51:28) trapsize 98
+\i (00:51:28) zoom out 1 
+\i (00:51:28) setwindow pcb
+\i (00:51:28) zoom out 16002.6 8668.2
+\i (00:51:28) trapsize 195
+\i (00:51:28) zoom out 1 
+\i (00:51:28) setwindow pcb
+\i (00:51:28) zoom out 15865.8 8476.6
+\i (00:51:28) trapsize 391
+\i (00:51:29) zoom in 1 
+\i (00:51:29) setwindow pcb
+\i (00:51:29) zoom in 15283.5 8226.5
+\i (00:51:29) trapsize 195
+\i (00:51:29) zoom in 1 
+\i (00:51:29) setwindow pcb
+\i (00:51:29) zoom in 15283.5 8226.5
+\i (00:51:29) trapsize 98
+\i (00:51:29) zoom in 1 
+\i (00:51:29) setwindow pcb
+\i (00:51:29) zoom in 15375.4 8228.5
+\i (00:51:29) trapsize 49
+\i (00:51:31) zoom out 1 
+\i (00:51:31) setwindow pcb
+\i (00:51:31) zoom out 15253.2 8523.7
+\i (00:51:31) trapsize 98
+\i (00:51:32) zoom in 1 
+\i (00:51:32) setwindow pcb
+\i (00:51:32) zoom in 15356.9 7980.2
+\i (00:51:32) trapsize 49
+\i (00:51:33) pick grid 15428.3 8173.8
+\t (00:51:33) last pick:  15430.0 8175.0
+\i (00:51:33) move 
+\t (00:51:33) last pick:  15220.0 8270.0
+\t (00:51:33) Moving J1 / 2PIN HEADER_SMA_440W_200L_2PIN / SMA_440W_200L.
+\t (00:51:33) Pick new location for the element(s).
+\i (00:51:36) pick grid 15219.1 8247.1
+\t (00:51:36) last pick:  15220.0 8245.0
+\i (00:51:36) placementedit 
+\i (00:51:37) zoom out 1 
+\i (00:51:37) setwindow pcb
+\i (00:51:37) zoom out 15245.5 8303.8
+\i (00:51:37) trapsize 98
+\i (00:51:40) zoom out 1 
+\i (00:51:40) setwindow pcb
+\i (00:51:40) zoom out 14997.3 8735.7
+\i (00:51:40) trapsize 195
+\i (00:51:40) zoom out 1 
+\i (00:51:40) setwindow pcb
+\i (00:51:40) zoom out 14997.4 8735.8
+\i (00:51:40) trapsize 391
+\i (00:51:41) zoom in 1 
+\i (00:51:41) setwindow pcb
+\i (00:51:41) zoom in 15369.5 9509.9
+\i (00:51:41) trapsize 195
+\i (00:51:41) zoom in 1 
+\i (00:51:41) setwindow pcb
+\i (00:51:41) zoom in 15404.7 8673.3
+\i (00:51:41) trapsize 98
+\i (00:51:42) zoom out 1 
+\i (00:51:42) setwindow pcb
+\i (00:51:42) zoom out 15406.6 8706.6
+\i (00:51:42) trapsize 195
+\i (00:51:42) zoom in 1 
+\i (00:51:42) setwindow pcb
+\i (00:51:42) zoom in 15414.5 9038.9
+\i (00:51:42) trapsize 98
+\i (00:51:43) save 
+\i (00:51:44) fillin yes 
+\i (00:51:45) placementedit 
+\i (00:52:23) etchedit 
+\i (00:52:28) setwindow form.find
+\i (00:52:28) FORM find all_off  
+\i (00:52:28) FORM find pins YES 
+\i (00:52:30) setwindow pcb
+\i (00:52:30) zoom in 1 
+\i (00:52:30) setwindow pcb
+\i (00:52:30) zoom in 14619.0 8655.8
+\i (00:52:30) trapsize 49
+\i (00:52:31) pick grid 14619.0 8655.8
+\t (00:52:31) last pick:  14620.0 8655.0
+\i (00:52:31) add connect 
+\w (00:52:31) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\t (00:52:31) Pick first element.
+\t (00:52:31) Target Symbol Pin is defined on TOP.
+\t (00:52:31) last pick:  14545.0 8665.0
+\i (00:52:32) mouse_pos 14749.0 8642.1
+\i (00:52:32) mouse_pos 14798.8 8641.1
+\i (00:52:34) setwindow form.mini
+\i (00:52:34) FORM mini acon_line_width 50 
+\i (00:52:35) setwindow pcb
+\i (00:52:35) mouse_pos 14740.2 8649.0
+\i (00:52:35) pick grid 14757.8 8652.9
+\t (00:52:35) last pick:  14760.0 8655.0
+\t (00:52:35) No DRC errors detected.
+\t (00:52:35) Pick first element.
+\i (00:52:35) etchedit 
+\i (00:52:36) pick grid 14850.6 8668.5
+\t (00:52:36) last pick:  14850.0 8670.0
+\i (00:52:36) add connect 
+\t (00:52:36) Pick first element.
+\t (00:52:36) Target Symbol Pin is defined on TOP.
+\t (00:52:36) last pick:  14850.0 8665.0
+\i (00:52:37) mouse_pos 15018.7 8670.5
+\i (00:52:37) pick grid 15039.2 8670.5
+\t (00:52:37) last pick:  15040.0 8670.0
+\t (00:52:37) No DRC errors detected.
+\t (00:52:37) Pick first element.
+\i (00:52:37) etchedit 
+\i (00:52:38) pick grid 14851.6 8795.5
+\t (00:52:38) last pick:  14850.0 8795.0
+\i (00:52:38) add connect 
+\t (00:52:38) Pick first element.
+\t (00:52:38) Target Symbol Pin is defined on TOP.
+\t (00:52:38) last pick:  14850.0 8801.0
+\i (00:52:38) mouse_pos 14849.6 8692.0
+\i (00:52:38) pick grid 14849.6 8687.1
+\t (00:52:38) last pick:  14850.0 8685.0
+\t (00:52:38) No DRC errors detected.
+\t (00:52:38) Pick first element.
+\i (00:52:38) etchedit 
+\i (00:52:39) pick grid 15180.0 8671.4
+\t (00:52:39) last pick:  15180.0 8670.0
+\i (00:52:39) add connect 
+\t (00:52:39) Pick first element.
+\t (00:52:39) Target Symbol Pin is defined from TOP to BOTTOM.
+\t (00:52:39) last pick:  15190.0 8665.0
+\i (00:52:39) mouse_pos 15185.8 8827.8
+\i (00:52:40) pick grid 15187.8 8842.5
+\t (00:52:40) last pick:  15190.0 8845.0
+\t (00:52:40) No DRC errors detected.
+\t (00:52:40) Pick first element.
+\i (00:52:40) etchedit 
+\i (00:52:40) pick grid 15187.8 8846.4
+\t (00:52:40) last pick:  15190.0 8845.0
+\i (00:52:40) add connect 
+\t (00:52:40) Pick first element.
+\t (00:52:40) Target Symbol Pin is defined on TOP.
+\t (00:52:40) last pick:  15190.0 8855.0
+\i (00:52:41) mouse_pos 15334.4 8857.1
+\i (00:52:42) pick grid 15343.2 8857.1
+\t (00:52:42) last pick:  15345.0 8855.0
+\t (00:52:42) No DRC errors detected.
+\t (00:52:42) Pick first element.
+\i (00:52:42) etchedit 
+\i (00:52:44) pick grid 15448.7 8820.0
+\t (00:52:44) last pick:  15450.0 8820.0
+\i (00:52:44) add connect 
+\t (00:52:44) Pick first element.
+\t (00:52:44) Target Symbol Pin is defined on TOP.
+\t (00:52:44) last pick:  15440.0 8816.0
+\i (00:52:44) mouse_pos 15431.1 8626.5
+\i (00:52:45) pick grid 15433.1 8616.7
+\t (00:52:45) last pick:  15435.0 8615.0
+\t (00:52:45) No DRC errors detected.
+\t (00:52:45) Pick first element.
+\i (00:52:45) etchedit 
+\i (00:52:46) pick grid 15290.4 8421.2
+\t (00:52:46) last pick:  15290.0 8420.0
+\i (00:52:46) add connect 
+\t (00:52:46) Pick first element.
+\t (00:52:46) Target Symbol Pin is defined from TOP to BOTTOM.
+\t (00:52:46) last pick:  15280.0 8425.0
+\i (00:52:46) mouse_pos 15415.5 8418.3
+\i (00:52:46) pick grid 15438.0 8419.3
+\t (00:52:46) last pick:  15440.0 8420.0
+\t (00:52:46) No DRC errors detected.
+\t (00:52:46) Pick first element.
+\i (00:52:46) etchedit 
+\i (00:52:46) zoom out 1 
+\i (00:52:46) setwindow pcb
+\i (00:52:46) zoom out 15440.9 8421.2
+\i (00:52:46) trapsize 98
+\i (00:52:47) zoom out 1 
+\i (00:52:47) setwindow pcb
+\i (00:52:47) zoom out 15441.0 8421.3
+\i (00:52:47) trapsize 195
+\i (00:52:47) zoom in 1 
+\i (00:52:47) setwindow pcb
+\i (00:52:47) zoom in 15413.6 8175.0
+\i (00:52:47) trapsize 98
+\i (00:52:47) zoom in 1 
+\i (00:52:47) setwindow pcb
+\i (00:52:47) zoom in 15413.6 8175.0
+\i (00:52:47) trapsize 49
+\i (00:52:50) pick grid 15430.2 8180.9
+\t (00:52:50) last pick:  15430.0 8180.0
+\i (00:52:50) add connect 
+\t (00:52:50) Pick first element.
+\t (00:52:50) Target Symbol Pin is defined from TOP to BOTTOM.
+\t (00:52:50) last pick:  15440.0 8145.0
+\i (00:52:51) mouse_pos 15440.0 8398.9
+\i (00:52:51) mouse_pos 15440.0 8402.8
+\i (00:52:51) pick grid 15440.0 8413.5
+\t (00:52:51) last pick:  15440.0 8415.0
+\t (00:52:51) No DRC errors detected.
+\t (00:52:51) Pick first element.
+\i (00:52:51) etchedit 
+\i (00:52:51) zoom out 1 
+\i (00:52:51) setwindow pcb
+\i (00:52:51) zoom out 15413.6 8401.8
+\i (00:52:51) trapsize 98
+\i (00:52:51) zoom out 1 
+\i (00:52:51) setwindow pcb
+\i (00:52:51) zoom out 15401.9 8382.3
+\i (00:52:51) trapsize 195
+\i (00:52:52) zoom in 1 
+\i (00:52:52) setwindow pcb
+\i (00:52:52) zoom in 15714.6 8820.1
+\i (00:52:52) trapsize 98
+\i (00:52:52) zoom in 1 
+\i (00:52:52) setwindow pcb
+\i (00:52:52) zoom in 15714.7 8820.1
+\i (00:52:52) trapsize 49
+\i (00:52:53) pick grid 15634.6 8816.2
+\t (00:52:53) last pick:  15635.0 8815.0
+\i (00:52:53) add connect 
+\t (00:52:53) Pick first element.
+\t (00:52:53) Target Symbol Pin is defined on TOP.
+\t (00:52:53) last pick:  15625.0 8815.0
+\i (00:52:54) mouse_pos 15467.4 8817.2
+\i (00:52:54) mouse_pos 15455.7 8819.1
+\i (00:52:54) pick grid 15446.9 8819.1
+\t (00:52:54) last pick:  15445.0 8820.0
+\t (00:52:54) No DRC errors detected.
+\t (00:52:54) Pick first element.
+\i (00:52:54) etchedit 
+\i (00:52:55) pick grid 15775.3 8809.3
+\t (00:52:55) last pick:  15775.0 8810.0
+\i (00:52:55) add connect 
+\t (00:52:55) Pick first element.
+\t (00:52:55) Target Symbol Pin is defined on TOP.
+\t (00:52:55) last pick:  15770.0 8815.0
+\i (00:52:56) mouse_pos 15769.4 8932.5
+\i (00:52:56) pick grid 15769.4 8932.5
+\t (00:52:56) last pick:  15770.0 8935.0
+\t (00:52:56) No DRC errors detected.
+\t (00:52:56) Pick first element.
+\i (00:52:56) etchedit 
+\i (00:52:57) pick grid 15870.1 8816.2
+\t (00:52:57) last pick:  15870.0 8815.0
+\i (00:52:57) add connect 
+\t (00:52:57) Pick first element.
+\t (00:52:57) Target Symbol Pin is defined on TOP.
+\t (00:52:57) last pick:  15890.0 8815.0
+\i (00:52:57) mouse_pos 15796.8 8815.2
+\i (00:52:57) mouse_pos 15790.9 8814.2
+\i (00:52:57) pick grid 15777.2 8812.3
+\t (00:52:57) last pick:  15775.0 8810.0
+\t (00:52:57) No DRC errors detected.
+\t (00:52:57) Pick first element.
+\i (00:52:58) etchedit 
+\i (00:52:58) zoom out 1 
+\i (00:52:58) setwindow pcb
+\i (00:52:58) zoom out 15774.3 8812.3
+\i (00:52:58) trapsize 98
+\i (00:52:58) zoom in 1 
+\i (00:52:58) setwindow pcb
+\i (00:52:58) zoom in 16022.7 8784.9
+\i (00:52:58) trapsize 49
+\i (00:52:59) pick grid 16118.4 8819.1
+\t (00:52:59) last pick:  16120.0 8820.0
+\i (00:52:59) add connect 
+\t (00:52:59) Pick first element.
+\t (00:52:59) Target Symbol Pin is defined on TOP.
+\t (00:52:59) last pick:  16205.0 8815.0
+\i (00:53:00) mouse_pos 16002.1 8817.1
+\i (00:53:00) pick grid 15992.3 8817.1
+\t (00:53:00) last pick:  15990.0 8815.0
+\t (00:53:00) No DRC errors detected.
+\t (00:53:00) Pick first element.
+\i (00:53:00) etchedit 
+\i (00:53:00) zoom out 1 
+\i (00:53:00) setwindow pcb
+\i (00:53:00) zoom out 16006.0 8781.0
+\i (00:53:00) trapsize 98
+\i (00:53:01) zoom out 1 
+\i (00:53:01) setwindow pcb
+\i (00:53:01) zoom out 16006.1 8779.0
+\i (00:53:01) trapsize 195
+\i (00:53:01) zoom in 1 
+\i (00:53:01) setwindow pcb
+\i (00:53:01) zoom in 15931.9 8454.6
+\i (00:53:01) trapsize 98
+\i (00:53:02) zoom out 1 
+\i (00:53:02) setwindow pcb
+\i (00:53:02) zoom out 14978.0 8452.6
+\i (00:53:02) trapsize 195
+\i (00:53:03) zoom in 1 
+\i (00:53:03) setwindow pcb
+\i (00:53:03) zoom in 15908.4 8597.3
+\i (00:53:03) trapsize 98
+\i (00:53:04) save 
+\i (00:53:06) fillin yes 
+\i (00:53:06) etchedit 
+\i (00:53:06) zoom in 1 
+\i (00:53:06) setwindow pcb
+\i (00:53:06) zoom in 15587.8 8519.2
+\i (00:53:06) trapsize 49
+\i (00:53:07) zoom out 1 
+\i (00:53:07) setwindow pcb
+\i (00:53:07) zoom out 15537.0 8519.2
+\i (00:53:07) trapsize 98
+\i (00:53:39) shape add rect 
+\i (00:53:41) setwindow form.mini
+\i (00:53:41) FORM mini dyns_netname_list  
+\i (00:53:43) fillin "Gnd"
+\t (00:53:43) Assigning selected shape to net: GND
+\i (00:53:44) FORM mini dyns_grid None 
+\i (00:53:49) setwindow pcb
+\i (00:53:49) pick 14426.8 9152.5
+\t (00:53:49) last pick:  14426.8 9152.5
+\i (00:53:59) pick 16326.8 8024.6
+\t (00:53:59) last pick:  16326.8 8024.6
+\i (00:54:00) prepopup 16448.0 8179.0
+\i (00:54:01) done 
+\i (00:54:01) etchedit 
+\i (00:54:02) save 
+\i (00:54:03) fillin yes 
+\i (00:54:03) etchedit 
+\i (00:54:12) status 
+\i (00:54:12) etchedit 
+\i (00:54:16) setwindow form.status
+\i (00:54:16) FORM status done  
+\i (00:55:07) setwindow pcb
+\i (00:55:07) artwork 
+\i (00:55:09) setwindow form.film_control
+\i (00:55:09) FORM film_control general_parameters  
+\i (00:55:12) FORM film_control film_control  
+\i (00:55:15) FORM film_control filmtree 'MULTISEL YES' BOTTOM 
+\i (00:55:18) FORM film_control filmtree 'MULTISEL YES' MECH 
+\i (00:55:18) FORM film_control filmtree  MECH 
+\i (00:55:19) FORM film_control filmtree 'MULTISEL YES' TOP 
+\i (00:55:19) FORM film_control filmtree  TOP 
+\i (00:55:20) FORM film_control create  
+\t (00:55:20) Checking db records
+\t (00:55:20)     checking for orphans...
+\t (00:55:20)     Checked 100 percent
+\t (00:55:20) Done dbdoctor.
+\t (00:55:20) Starting Create artwork films...
+\t (00:55:21) Plot generated.
+\i (00:55:22) FORM film_control ok  
+\i (00:55:22) setwindow pcb
+\i (00:55:22) etchedit 
+\i (00:55:40) ncdrill param 
+\i (00:55:40) etchedit 
+\i (00:55:44) setwindow form.nc_parameters
+\i (00:55:44) FORM nc_parameters done  
+\i (00:55:48) setwindow pcb
+\i (00:55:48) ncdrill param 
+\i (00:55:48) etchedit 
+\i (00:55:55) setwindow form.nc_parameters
+\i (00:55:55) FORM nc_parameters done  
+\i (00:55:57) setwindow pcb
+\i (00:55:57) nctape_full 
+\i (00:56:04) setwindow form.nc_drill
+\i (00:56:04) FORM nc_drill execute  
+\t (00:56:04) Starting Generating NC Drill...
+\i (00:56:07) FORM nc_drill close  
+\i (00:56:07) setwindow pcb
+\i (00:56:07) etchedit 
+\i (00:56:17) exit 
+\e (00:56:17) Do you want to save the changes you made to C:/Users/teaves/Desktop/LNA/LNA/pcb/LNAv2.brd?
+\i (00:56:19) fillin yes 
+   (00:56:19) Loading signal.cxt 
+\t (00:56:19)     Journal end - Sun May 20 20:05:25 2018

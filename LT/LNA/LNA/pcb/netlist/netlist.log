@@ -1,0 +1,15 @@
+{ Using PSTWRITER 17.2.0 d001May-20-2018 at 19:55:17 }
+
+#1 WARNING(ORCAP-36006): Part Name "2PIN HEADER_SMA_440W_200L_2PIN HEADER" is renamed to "2PIN HEADER_SMA_440W_200L_2PIN".
+#2 WARNING(ORCAP-36006): Part Name "7M3_TRIMMER_7M3_INDUCTOR_TRIM_7M3" is renamed to "7M3_TRIMMER_7M3_INDUCTOR_TRIM_7".
+#3 WARNING(ORCAP-36006): Part Name "JFET N DSG_3_SMSOT23DSG_MMFB5486" is renamed to "JFET N DSG_3_SMSOT23DSG_MMFB548".
+INFO(ORCAP-36080): Scanning netlist files ...
+
+Loading... C:\Users\teaves\Desktop\LNA\LNA\pcb\netlist/pstchip.dat
+
+Loading... C:\Users\teaves\Desktop\LNA\LNA\pcb\netlist/pstchip.dat
+
+Loading... C:\Users\teaves\Desktop\LNA\LNA\pcb\netlist/pstxprt.dat
+
+Loading... C:\Users\teaves\Desktop\LNA\LNA\pcb\netlist/pstxnet.dat
+packaging the design view...

@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : 7M3_Inductor_Trim.dra                         )
+(    Software Version : 17.2S022                                      )
+(    Date/Time        : Sun May 20 19:41:48 2018                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = C:/Users/teaves/Desktop/LNA/Lib/symbols
+    Name      = 7m3_inductor_trim.psm
+    User      = teaves
+    Machine   = BE308PC01
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

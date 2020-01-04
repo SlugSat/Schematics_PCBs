@@ -1,0 +1,140 @@
+FILE_TYPE = EXPANDEDPARTLIST;
+{ Using PSTWRITER 17.2.0 d001May-20-2018 at 19:27:16 }
+DIRECTIVES
+ PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
+ ROOT_DRAWING='LNA V2';
+ POST_TIME='Mar 20 2017 11:21:40';
+ SOURCE_TOOL='CAPTURE_WRITER';
+END_DIRECTIVES;
+
+PART_NAME
+ C1 'C_SMC0805_1N':;
+
+SECTION_NUMBER 1
+ '@LNA V2.SCHEMATIC1(SCH_1):INS346@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@\lna v2\.schematic1(sch_1):ins346@analog.\c.normal\(chips)',
+ P_PATH='@\lna v2\.schematic1(sch_1):page2_ins346@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C2 'C_SMC_TRIM_1N':;
+
+SECTION_NUMBER 1
+ '@LNA V2.SCHEMATIC1(SCH_1):INS161@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@\lna v2\.schematic1(sch_1):ins161@analog.\c.normal\(chips)',
+ P_PATH='@\lna v2\.schematic1(sch_1):page2_ins161@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C3 'C_SMC0805_1N':;
+
+SECTION_NUMBER 1
+ '@LNA V2.SCHEMATIC1(SCH_1):INS758@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@\lna v2\.schematic1(sch_1):ins758@analog.\c.normal\(chips)',
+ P_PATH='@\lna v2\.schematic1(sch_1):page2_ins758@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C4 'C_SMC0805_1N':;
+
+SECTION_NUMBER 1
+ '@LNA V2.SCHEMATIC1(SCH_1):INS726@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@\lna v2\.schematic1(sch_1):ins726@analog.\c.normal\(chips)',
+ P_PATH='@\lna v2\.schematic1(sch_1):page2_ins726@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C5 'C_SMC_TRIM_1N':;
+
+SECTION_NUMBER 1
+ '@LNA V2.SCHEMATIC1(SCH_1):INS210@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@\lna v2\.schematic1(sch_1):ins210@analog.\c.normal\(chips)',
+ P_PATH='@\lna v2\.schematic1(sch_1):page2_ins210@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C6 'C_SMC0805_1N':;
+
+SECTION_NUMBER 1
+ '@LNA V2.SCHEMATIC1(SCH_1):INS742@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@\lna v2\.schematic1(sch_1):ins742@analog.\c.normal\(chips)',
+ P_PATH='@\lna v2\.schematic1(sch_1):page2_ins742@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C7 'C_SMC0805_1N':;
+
+SECTION_NUMBER 1
+ '@LNA V2.SCHEMATIC1(SCH_1):INS710@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@\lna v2\.schematic1(sch_1):ins710@analog.\c.normal\(chips)',
+ P_PATH='@\lna v2\.schematic1(sch_1):page2_ins710@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J1 '2PIN HEADER_SMA_440W_200L_2PIN':;
+
+SECTION_NUMBER 1
+ '@LNA V2.SCHEMATIC1(SCH_1):INS312@EE174REFLIB.2PIN HEADER.NORMAL(CHIPS)':
+ C_PATH='@\lna v2\.schematic1(sch_1):ins312@ee174reflib.\2pin header.normal\(chips)',
+ P_PATH='@\lna v2\.schematic1(sch_1):page2_ins312@ee174reflib.\2pin header.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J2 '2PIN HEADER_SMA_440W_200L_2PIN':;
+
+SECTION_NUMBER 1
+ '@LNA V2.SCHEMATIC1(SCH_1):INS300@EE174REFLIB.2PIN HEADER.NORMAL(CHIPS)':
+ C_PATH='@\lna v2\.schematic1(sch_1):ins300@ee174reflib.\2pin header.normal\(chips)',
+ P_PATH='@\lna v2\.schematic1(sch_1):page2_ins300@ee174reflib.\2pin header.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J3 '2PIN HEADER_SMA_440W_200L_2PIN':;
+
+SECTION_NUMBER 1
+ '@LNA V2.SCHEMATIC1(SCH_1):INS288@EE174REFLIB.2PIN HEADER.NORMAL(CHIPS)':
+ C_PATH='@\lna v2\.schematic1(sch_1):ins288@ee174reflib.\2pin header.normal\(chips)',
+ P_PATH='@\lna v2\.schematic1(sch_1):page2_ins288@ee174reflib.\2pin header.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ L1 '7M3_TRIMMER_7M3_INDUCTOR_TRIM_7':;
+
+SECTION_NUMBER 1
+ '@LNA V2.SCHEMATIC1(SCH_1):INS1210@LIBRARY1.7M3_TRIMMER.NORMAL(CHIPS)':
+ C_PATH='@\lna v2\.schematic1(sch_1):ins1210@library1.\7m3_trimmer.normal\(chips)',
+ P_PATH='@\lna v2\.schematic1(sch_1):page2_ins1210@library1.\7m3_trimmer.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ L2 '7M3_TRIMMER_7M3_INDUCTOR_TRIM_7':;
+
+SECTION_NUMBER 1
+ '@LNA V2.SCHEMATIC1(SCH_1):INS1236@LIBRARY1.7M3_TRIMMER.NORMAL(CHIPS)':
+ C_PATH='@\lna v2\.schematic1(sch_1):ins1236@library1.\7m3_trimmer.normal\(chips)',
+ P_PATH='@\lna v2\.schematic1(sch_1):page2_ins1236@library1.\7m3_trimmer.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ Q1 'JFET N DSG_1_SMSOT23DSG_MMFB548':;
+
+SECTION_NUMBER 1
+ '@LNA V2.SCHEMATIC1(SCH_1):INS60@LNA V2.JFET N DSG_1.NORMAL(CHIPS)':
+ C_PATH='@\lna v2\.schematic1(sch_1):ins60@\lna v2\.\jfet n dsg_1.normal\(chips)',
+ P_PATH='@\lna v2\.schematic1(sch_1):page2_ins60@\lna v2\.\jfet n dsg_1.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+END.

@@ -1,0 +1,183 @@
+(ExpressProject "Mixer Template"
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File "..\lib\library1.olb"
+        (Type "Schematic Library"))
+      (File ".\ee174reflib.olb"
+        (Type "Schematic Library")))
+    (NoModify)
+    (File ".\mixer template.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (ANNOTATE_Scope "0")
+    (ANNOTATE_Mode "1")
+    (ANNOTATE_Action "1")
+    (Annotate_Page_Order "0")
+    (ANNOTATE_Reset_References_to_1 "FALSE")
+    (ANNOTATE_No_Page_Number_Change "FALSE")
+    (ANNOTATE_Property_Combine "{Value}{Source Package}{POWER_GROUP}")
+    (ANNOTATE_IncludeNonPrimitive "FALSE")
+    (ANNOTATE_PreserveDesignator "FALSE")
+    (ANNOTATE_PreserveUserEdits "FALSE")
+    (ANNOTATE_Refdes_Control_Required "FALSE")
+    (Update_Instace_for_External_Design "FALSE")
+    (Annotate_type "Default")
+    (width_pages "100")
+    (width_start "80")
+    (width_End "80")
+    (DRC_Scope "0")
+    (DRC_Action "0")
+    (DRC_Create_Warnings "FALSE")
+    (DRC_View_Output "FALSE")
+    (DRC_Preserved_Waived "FALSE")
+    (DRC_Run_Electrical_Rules "TRUE")
+    (DRC_Run_Physical_Rules "TRUE")
+    (DRC_Report_File
+       "C:\USERS\TEAVES\DESKTOP\MIXER\MIXER TEMPLATE\MIXER TEMPLATE.DRC")
+    (DRC_Check_Ports "TRUE")
+    (DRC_Check_Off-Page_Connectors "TRUE")
+    (DRC_Report_Ports_and_Off-page_Connectors "FALSE")
+    (DRC_SDT_Compatibility "FALSE")
+    (DRC_Report_Off-grid_Objects "FALSE")
+    (DRC_Check_Unconnected_Nets "TRUE")
+    (DRC_Check_for_Misleading_TAP "FALSE")
+    (DRC_Report_Netnames "FALSE")
+    (DRC_Check_Single_Node_Nets "TRUE")
+    (DRC_Run_Electrical_Custom_DRC "FALSE")
+    (DRC_Check_No_Driving_Source "TRUE")
+    (DRC_Check_Duplicate_NetNames "TRUE")
+    (DRC_Check_Floating_Pins "TRUE")
+    (DRC_Check_Physical_Power_Pins_Visibility "TRUE")
+    (DRC_Check_PCB_Footprint_Property "FALSE")
+    (DRC_Check_Normal_Convert_View_Sync "FALSE")
+    (DRC_Check_Incorrect_PinGroup_Assignment "FALSE")
+    (DRC_Check_High_Speed_Props_Syntax "FALSE")
+    (DRC_Check_Missing_Pin_Numbers "FALSE")
+    (DRC_Check_Device_With_No_Pins "FALSE")
+    (DRC_Check_Power_Ground_Short "TRUE")
+    (DRC_Identical_References "FALSE")
+    (DRC_Type_Mismatch "FALSE")
+    (DRC_Visible_Power_pins "FALSE")
+    (DRC_Report_Unused_Part_Packages "FALSE")
+    (DRC_Check_Name_Prop_For_HierBlocks "FALSE")
+    (DRC_Run_Physical_Custom_DRC "FALSE")
+    (Netlist_TAB "0")
+    ("Create Allegro Netlist" "TRUE")
+    ("Allegro Netlist Directory"
+       "C:\Users\teaves\Desktop\Mixer\Mixer Template\pcb\netlist")
+    ("View Allegro Netlist Files" "TRUE")
+    ("Allegro Netlist Create DCF File" "FALSE")
+    ("Update Allegro Board" "FALSE")
+    ("Allegro Netlist Output Board File" "allegro\MIXER TEMPLATE.brd")
+    ("Allegro Netlist Remove Etch" "FALSE")
+    ("Allegro Netlist Place Changed Component" "ALWAYS_REPLACE")
+    ("Allegro Netlist Open Board in Allegro" "ALLEGRO")
+    ("Allegro Setup Backup Versions" "3")
+    ("Allegro Setup Ignore Constraints" "FALSE")
+    ("Allegro Setup Part Type Length" "31")
+    ("Allegro Netlist Combine Property String" "PCB Footprint")
+    ("Allegro Netlist Ignore Fixed Property" "FALSE")
+    ("Allegro Netlist User Defined Property" "FALSE"))
+  (Folder "Outputs"
+    (File ".\mixer template.drc"
+      (Type "Report"))
+    (File ".\pcb\netlist\pstxnet.dat"
+      (Type "Report")
+      (DisplayName "pstxnet.dat"))
+    (File ".\pcb\netlist\pstxprt.dat"
+      (Type "Report")
+      (DisplayName "pstxprt.dat"))
+    (File ".\pcb\netlist\pstchip.dat"
+      (Type "Report")
+      (DisplayName "pstchip.dat")))
+  (Folder "Referenced Projects")
+  (PartMRUSelector
+    (SA602
+      (FullPartName "SA602.Normal")
+      (LibraryName "C:\USERS\TEAVES\DESKTOP\MIXER\LIB\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    ("2Pin Header"
+      (FullPartName "2Pin Header.Normal")
+      (LibraryName
+         "C:\USERS\TEAVES\DESKTOP\MIXER\MIXER TEMPLATE\EE174REFLIB.OLB")
+      (DeviceIndex "0"))
+    (GND
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    ("C NP"
+      (FullPartName "C NP.Normal")
+      (LibraryName
+         "C:\USERS\TEAVES\DESKTOP\MIXER\MIXER TEMPLATE\EE174REFLIB.OLB")
+      (DeviceIndex "0"))
+    (INDUCTOR
+      (FullPartName "INDUCTOR.Normal")
+      (LibraryName "C:\USERS\TEAVES\DESKTOP\MIXER\LIB\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (EE174TitleBlock
+      (LibraryName
+         "C:\USERS\TEAVES\DESKTOP\MIXER\MIXER TEMPLATE\EE174REFLIB.OLB")
+      (DeviceIndex "0")))
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" ".\mixer template.dsn")
+      (Path "Design Resources" ".\mixer template.dsn" "SCHEMATIC1")
+      (Path "Design Resources" ".\mixer template.dsn" "Design Cache")
+      (Path "Design Resources" "Library")
+      (Path "Design Resources" "Library" "..\lib\library1.olb")
+      (Path "Design Resources" "Library" ".\ee174reflib.olb")
+      (Path "Outputs")
+      (Select "Design Resources" ".\mixer template.dsn" "SCHEMATIC1"
+         "2 Mixer Template"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 0 200 0 464"))
+      (Tab 0))
+    (Doc
+      (Type "TextFile")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 208 1844 208 667"))
+      (Path
+         "C:\Users\teaves\Desktop\Mixer\Mixer Template\pcb\netlist\pstchip.dat")
+      (Scroll "0"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 48 1687 35 538")
+        (Scroll "0 210")
+        (Zoom "147")
+        (Occurrence "/"))
+      (Path "C:\USERS\TEAVES\DESKTOP\MIXER\MIXER TEMPLATE\MIXER TEMPLATE.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "1 Revisions"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -31 78 1717 78 581")
+        (Scroll "33 277")
+        (Zoom "136")
+        (Occurrence "/"))
+      (Path "C:\USERS\TEAVES\DESKTOP\MIXER\MIXER TEMPLATE\MIXER TEMPLATE.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "2 Mixer Template"))
+    (Doc
+      (Type "TextFile")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 182 1818 182 641"))
+      (Path
+         "C:\Users\teaves\Desktop\Mixer\Mixer Template\pcb\netlist\pstxnet.dat")
+      (Scroll "0"))
+    (Doc
+      (Type "TextFile")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 156 1792 156 615"))
+      (Path
+         "C:\Users\teaves\Desktop\Mixer\Mixer Template\pcb\netlist\pstxprt.dat")
+      (Scroll "0")))
+  (MPSSessionName "teaves")
+  (ISPCBBASICLICENSE "false"))

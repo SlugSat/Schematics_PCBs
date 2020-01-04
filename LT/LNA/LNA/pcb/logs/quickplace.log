@@ -1,0 +1,32 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    QUICKPLACE LOG                                                   )
+(                                                                     )
+(    Drawing          : LNAv2.brd                                     )
+(    Software Version : 17.2S022                                      )
+(    Date/Time        : Sun May 20 19:44:13 2018                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+State: Placing on layer TOP
+
+         Placed symbol:  L2 / 7M3_TRIMMER_7M3_INDUCTOR_TRIM_7 / 7M3_INDUCTOR_TRIM at (14087.5 9291.5)
+         Placed symbol:  L1 / 7M3_TRIMMER_7M3_INDUCTOR_TRIM_7 / 7M3_INDUCTOR_TRIM at (14455.5 9291.5)
+         Placed symbol:  Q1 / JFET N DSG_3_SMSOT23DSG_MMFB548 / SMSOT23DSG at (14837.5 9055.5)
+         Placed symbol:  C4 / C_SMC0805_1N / SMC0805 at (14918.5 9061.0)
+         Placed symbol:  C6 / C_SMC0805_1N / SMC0805 at (15092.5 9061.0)
+         Placed symbol:  C7 / C_SMC0805_1N / SMC0805 at (15266.5 9061.0)
+         Placed symbol:  C3 / C_SMC0805_1N / SMC0805 at (15440.5 9061.0)
+         Placed symbol:  C5 / C_SMC_TRIM_1N / SMC_TRIM at (15639.5 9187.0)
+         Placed symbol:  J1 / 2PIN HEADER_SMA_440W_200L_2PIN / SMA_440W_200L at (15727.5 9230.5)
+         Placed symbol:  J2 / 2PIN HEADER_SMA_440W_200L_2PIN / SMA_440W_200L at (16203.5 9230.5)
+         Placed symbol:  J3 / 2PIN HEADER_SMA_440W_200L_2PIN / SMA_440W_200L at (13529.5 8994.5)
+         Placed symbol:  C1 / C_SMC0805_1N / SMC0805 at (16702.5 9061.0)
+         Placed symbol:  C2 / C_SMC_TRIM_1N / SMC_TRIM at (16901.5 9187.0)
+
+
+Placed 13 of 13 applicable (13 total) symbols.
+
+-----------------------------------------------------------------------
+

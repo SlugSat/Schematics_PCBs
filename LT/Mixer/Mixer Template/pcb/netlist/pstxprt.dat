@@ -1,0 +1,370 @@
+FILE_TYPE = EXPANDEDPARTLIST;
+{ Using PSTWRITER 17.2.0 d001Apr-08-2018 at 18:03:50 }
+DIRECTIVES
+ PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
+ ROOT_DRAWING='MIXER TEMPLATE';
+ POST_TIME='Mar 20 2017 11:21:40';
+ SOURCE_TOOL='CAPTURE_WRITER';
+END_DIRECTIVES;
+
+PART_NAME
+ C1 'C NP_SMC0805_C NP':;
+
+SECTION_NUMBER 1
+ '@MIXER TEMPLATE.SCHEMATIC1(SCH_1):INS378@EE174REFLIB.C NP.NORMAL(CHIPS)':
+ C_PATH='@\mixer template\.schematic1(sch_1):ins378@ee174reflib.\c np.normal\(chips)',
+ P_PATH='@\mixer template\.schematic1(sch_1):page2_ins378@ee174reflib.\c np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C10 'C NP_SMC0805_C NP':;
+
+SECTION_NUMBER 1
+ '@MIXER TEMPLATE.SCHEMATIC1(SCH_1):INS298@EE174REFLIB.C NP.NORMAL(CHIPS)':
+ C_PATH='@\mixer template\.schematic1(sch_1):ins298@ee174reflib.\c np.normal\(chips)',
+ P_PATH='@\mixer template\.schematic1(sch_1):page2_ins298@ee174reflib.\c np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C11 'C NP_SMC0805_C NP':;
+
+SECTION_NUMBER 1
+ '@MIXER TEMPLATE.SCHEMATIC1(SCH_1):INS282@EE174REFLIB.C NP.NORMAL(CHIPS)':
+ C_PATH='@\mixer template\.schematic1(sch_1):ins282@ee174reflib.\c np.normal\(chips)',
+ P_PATH='@\mixer template\.schematic1(sch_1):page2_ins282@ee174reflib.\c np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C12 'C NP_SMC0805_C NP':;
+
+SECTION_NUMBER 1
+ '@MIXER TEMPLATE.SCHEMATIC1(SCH_1):INS346@EE174REFLIB.C NP.NORMAL(CHIPS)':
+ C_PATH='@\mixer template\.schematic1(sch_1):ins346@ee174reflib.\c np.normal\(chips)',
+ P_PATH='@\mixer template\.schematic1(sch_1):page2_ins346@ee174reflib.\c np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C13 'C NP_SMC0805_C NP':;
+
+SECTION_NUMBER 1
+ '@MIXER TEMPLATE.SCHEMATIC1(SCH_1):INS1301@EE174REFLIB.C NP.NORMAL(CHIPS)':
+ C_PATH='@\mixer template\.schematic1(sch_1):ins1301@ee174reflib.\c np.normal\(chips)',
+ P_PATH='@\mixer template\.schematic1(sch_1):page2_ins1301@ee174reflib.\c np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C14 'C NP_SMC0805_C NP':;
+
+SECTION_NUMBER 1
+ '@MIXER TEMPLATE.SCHEMATIC1(SCH_1):INS927@EE174REFLIB.C NP.NORMAL(CHIPS)':
+ C_PATH='@\mixer template\.schematic1(sch_1):ins927@ee174reflib.\c np.normal\(chips)',
+ P_PATH='@\mixer template\.schematic1(sch_1):page2_ins927@ee174reflib.\c np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C15 'C NP_SMC0805_C NP':;
+
+SECTION_NUMBER 1
+ '@MIXER TEMPLATE.SCHEMATIC1(SCH_1):INS943@EE174REFLIB.C NP.NORMAL(CHIPS)':
+ C_PATH='@\mixer template\.schematic1(sch_1):ins943@ee174reflib.\c np.normal\(chips)',
+ P_PATH='@\mixer template\.schematic1(sch_1):page2_ins943@ee174reflib.\c np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C16 'C NP_SMC0805_C NP':;
+
+SECTION_NUMBER 1
+ '@MIXER TEMPLATE.SCHEMATIC1(SCH_1):INS330@EE174REFLIB.C NP.NORMAL(CHIPS)':
+ C_PATH='@\mixer template\.schematic1(sch_1):ins330@ee174reflib.\c np.normal\(chips)',
+ P_PATH='@\mixer template\.schematic1(sch_1):page2_ins330@ee174reflib.\c np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C17 'C NP_SMC0805_C NP':;
+
+SECTION_NUMBER 1
+ '@MIXER TEMPLATE.SCHEMATIC1(SCH_1):INS314@EE174REFLIB.C NP.NORMAL(CHIPS)':
+ C_PATH='@\mixer template\.schematic1(sch_1):ins314@ee174reflib.\c np.normal\(chips)',
+ P_PATH='@\mixer template\.schematic1(sch_1):page2_ins314@ee174reflib.\c np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C18 'C NP_SMC0805_C NP':;
+
+SECTION_NUMBER 1
+ '@MIXER TEMPLATE.SCHEMATIC1(SCH_1):INS1132@EE174REFLIB.C NP.NORMAL(CHIPS)':
+ C_PATH='@\mixer template\.schematic1(sch_1):ins1132@ee174reflib.\c np.normal\(chips)',
+ P_PATH='@\mixer template\.schematic1(sch_1):page2_ins1132@ee174reflib.\c np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C19 'C NP_SMC0805_C NP':;
+
+SECTION_NUMBER 1
+ '@MIXER TEMPLATE.SCHEMATIC1(SCH_1):INS1148@EE174REFLIB.C NP.NORMAL(CHIPS)':
+ C_PATH='@\mixer template\.schematic1(sch_1):ins1148@ee174reflib.\c np.normal\(chips)',
+ P_PATH='@\mixer template\.schematic1(sch_1):page2_ins1148@ee174reflib.\c np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C2 'C NP_SMC0805_C NP':;
+
+SECTION_NUMBER 1
+ '@MIXER TEMPLATE.SCHEMATIC1(SCH_1):INS574@EE174REFLIB.C NP.NORMAL(CHIPS)':
+ C_PATH='@\mixer template\.schematic1(sch_1):ins574@ee174reflib.\c np.normal\(chips)',
+ P_PATH='@\mixer template\.schematic1(sch_1):page2_ins574@ee174reflib.\c np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C3 'C NP_SMC0805_C NP':;
+
+SECTION_NUMBER 1
+ '@MIXER TEMPLATE.SCHEMATIC1(SCH_1):INS266@EE174REFLIB.C NP.NORMAL(CHIPS)':
+ C_PATH='@\mixer template\.schematic1(sch_1):ins266@ee174reflib.\c np.normal\(chips)',
+ P_PATH='@\mixer template\.schematic1(sch_1):page2_ins266@ee174reflib.\c np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C4 'C NP_SMC0805_C NP':;
+
+SECTION_NUMBER 1
+ '@MIXER TEMPLATE.SCHEMATIC1(SCH_1):INS362@EE174REFLIB.C NP.NORMAL(CHIPS)':
+ C_PATH='@\mixer template\.schematic1(sch_1):ins362@ee174reflib.\c np.normal\(chips)',
+ P_PATH='@\mixer template\.schematic1(sch_1):page2_ins362@ee174reflib.\c np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C5 'C NP_SMC0805_C NP':;
+
+SECTION_NUMBER 1
+ '@MIXER TEMPLATE.SCHEMATIC1(SCH_1):INS1509@EE174REFLIB.C NP.NORMAL(CHIPS)':
+ C_PATH='@\mixer template\.schematic1(sch_1):ins1509@ee174reflib.\c np.normal\(chips)',
+ P_PATH='@\mixer template\.schematic1(sch_1):page2_ins1509@ee174reflib.\c np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C6 'C NP_SMC0805_C NP':;
+
+SECTION_NUMBER 1
+ '@MIXER TEMPLATE.SCHEMATIC1(SCH_1):INS634@EE174REFLIB.C NP.NORMAL(CHIPS)':
+ C_PATH='@\mixer template\.schematic1(sch_1):ins634@ee174reflib.\c np.normal\(chips)',
+ P_PATH='@\mixer template\.schematic1(sch_1):page2_ins634@ee174reflib.\c np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C7 'C NP_SMC0805_C NP':;
+
+SECTION_NUMBER 1
+ '@MIXER TEMPLATE.SCHEMATIC1(SCH_1):INS618@EE174REFLIB.C NP.NORMAL(CHIPS)':
+ C_PATH='@\mixer template\.schematic1(sch_1):ins618@ee174reflib.\c np.normal\(chips)',
+ P_PATH='@\mixer template\.schematic1(sch_1):page2_ins618@ee174reflib.\c np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C8 'C NP_SMC0805_C NP':;
+
+SECTION_NUMBER 1
+ '@MIXER TEMPLATE.SCHEMATIC1(SCH_1):INS1525@EE174REFLIB.C NP.NORMAL(CHIPS)':
+ C_PATH='@\mixer template\.schematic1(sch_1):ins1525@ee174reflib.\c np.normal\(chips)',
+ P_PATH='@\mixer template\.schematic1(sch_1):page2_ins1525@ee174reflib.\c np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C9 'C NP_SMC0805_C NP':;
+
+SECTION_NUMBER 1
+ '@MIXER TEMPLATE.SCHEMATIC1(SCH_1):INS1541@EE174REFLIB.C NP.NORMAL(CHIPS)':
+ C_PATH='@\mixer template\.schematic1(sch_1):ins1541@ee174reflib.\c np.normal\(chips)',
+ P_PATH='@\mixer template\.schematic1(sch_1):page2_ins1541@ee174reflib.\c np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J1 '2PIN HEADER_SMA_440W_200L_2PIN':;
+
+SECTION_NUMBER 1
+ '@MIXER TEMPLATE.SCHEMATIC1(SCH_1):INS2153@EE174REFLIB.2PIN HEADER.NORMAL(CHIPS)':
+ C_PATH='@\mixer template\.schematic1(sch_1):ins2153@ee174reflib.\2pin header.normal\(chips)',
+ P_PATH='@\mixer template\.schematic1(sch_1):page2_ins2153@ee174reflib.\2pin header.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J2 '2PIN HEADER_SMA_440W_200L_2PIN':;
+
+SECTION_NUMBER 1
+ '@MIXER TEMPLATE.SCHEMATIC1(SCH_1):INS1927@EE174REFLIB.2PIN HEADER.NORMAL(CHIPS)':
+ C_PATH='@\mixer template\.schematic1(sch_1):ins1927@ee174reflib.\2pin header.normal\(chips)',
+ P_PATH='@\mixer template\.schematic1(sch_1):page2_ins1927@ee174reflib.\2pin header.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J3 '2PIN HEADER_SMA_440W_200L_2PIN':;
+
+SECTION_NUMBER 1
+ '@MIXER TEMPLATE.SCHEMATIC1(SCH_1):INS1951@EE174REFLIB.2PIN HEADER.NORMAL(CHIPS)':
+ C_PATH='@\mixer template\.schematic1(sch_1):ins1951@ee174reflib.\2pin header.normal\(chips)',
+ P_PATH='@\mixer template\.schematic1(sch_1):page2_ins1951@ee174reflib.\2pin header.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J4 '2PIN HEADER_SMA_440W_200L_2PIN':;
+
+SECTION_NUMBER 1
+ '@MIXER TEMPLATE.SCHEMATIC1(SCH_1):INS1939@EE174REFLIB.2PIN HEADER.NORMAL(CHIPS)':
+ C_PATH='@\mixer template\.schematic1(sch_1):ins1939@ee174reflib.\2pin header.normal\(chips)',
+ P_PATH='@\mixer template\.schematic1(sch_1):page2_ins1939@ee174reflib.\2pin header.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ L1 'INDUCTOR_SML0805_INDUCTOR':;
+
+SECTION_NUMBER 1
+ '@MIXER TEMPLATE.SCHEMATIC1(SCH_1):INS1476@LIBRARY1.INDUCTOR.NORMAL(CHIPS)':
+ C_PATH='@\mixer template\.schematic1(sch_1):ins1476@library1.\inductor.normal\(chips)',
+ P_PATH='@\mixer template\.schematic1(sch_1):page2_ins1476@library1.\inductor.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ L10 'INDUCTOR_SML0805_INDUCTOR':;
+
+SECTION_NUMBER 1
+ '@MIXER TEMPLATE.SCHEMATIC1(SCH_1):INS884@LIBRARY1.INDUCTOR.NORMAL(CHIPS)':
+ C_PATH='@\mixer template\.schematic1(sch_1):ins884@library1.\inductor.normal\(chips)',
+ P_PATH='@\mixer template\.schematic1(sch_1):page2_ins884@library1.\inductor.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ L11 'INDUCTOR_SML0805_INDUCTOR':;
+
+SECTION_NUMBER 1
+ '@MIXER TEMPLATE.SCHEMATIC1(SCH_1):INS844@LIBRARY1.INDUCTOR.NORMAL(CHIPS)':
+ C_PATH='@\mixer template\.schematic1(sch_1):ins844@library1.\inductor.normal\(chips)',
+ P_PATH='@\mixer template\.schematic1(sch_1):page2_ins844@library1.\inductor.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ L12 'INDUCTOR_SML0805_INDUCTOR':;
+
+SECTION_NUMBER 1
+ '@MIXER TEMPLATE.SCHEMATIC1(SCH_1):INS900@LIBRARY1.INDUCTOR.NORMAL(CHIPS)':
+ C_PATH='@\mixer template\.schematic1(sch_1):ins900@library1.\inductor.normal\(chips)',
+ P_PATH='@\mixer template\.schematic1(sch_1):page2_ins900@library1.\inductor.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ L2 'INDUCTOR_SML0805_INDUCTOR':;
+
+SECTION_NUMBER 1
+ '@MIXER TEMPLATE.SCHEMATIC1(SCH_1):INS1460@LIBRARY1.INDUCTOR.NORMAL(CHIPS)':
+ C_PATH='@\mixer template\.schematic1(sch_1):ins1460@library1.\inductor.normal\(chips)',
+ P_PATH='@\mixer template\.schematic1(sch_1):page2_ins1460@library1.\inductor.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ L3 'INDUCTOR_SML0805_INDUCTOR':;
+
+SECTION_NUMBER 1
+ '@MIXER TEMPLATE.SCHEMATIC1(SCH_1):INS549@LIBRARY1.INDUCTOR.NORMAL(CHIPS)':
+ C_PATH='@\mixer template\.schematic1(sch_1):ins549@library1.\inductor.normal\(chips)',
+ P_PATH='@\mixer template\.schematic1(sch_1):page2_ins549@library1.\inductor.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ L4 'INDUCTOR_SML0805_INDUCTOR':;
+
+SECTION_NUMBER 1
+ '@MIXER TEMPLATE.SCHEMATIC1(SCH_1):INS533@LIBRARY1.INDUCTOR.NORMAL(CHIPS)':
+ C_PATH='@\mixer template\.schematic1(sch_1):ins533@library1.\inductor.normal\(chips)',
+ P_PATH='@\mixer template\.schematic1(sch_1):page2_ins533@library1.\inductor.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ L5 'INDUCTOR_SML0805_INDUCTOR':;
+
+SECTION_NUMBER 1
+ '@MIXER TEMPLATE.SCHEMATIC1(SCH_1):INS1364@LIBRARY1.INDUCTOR.NORMAL(CHIPS)':
+ C_PATH='@\mixer template\.schematic1(sch_1):ins1364@library1.\inductor.normal\(chips)',
+ P_PATH='@\mixer template\.schematic1(sch_1):page2_ins1364@library1.\inductor.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ L6 'INDUCTOR_SML0805_INDUCTOR':;
+
+SECTION_NUMBER 1
+ '@MIXER TEMPLATE.SCHEMATIC1(SCH_1):INS1380@LIBRARY1.INDUCTOR.NORMAL(CHIPS)':
+ C_PATH='@\mixer template\.schematic1(sch_1):ins1380@library1.\inductor.normal\(chips)',
+ P_PATH='@\mixer template\.schematic1(sch_1):page2_ins1380@library1.\inductor.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ L7 'INDUCTOR_SML0805_INDUCTOR':;
+
+SECTION_NUMBER 1
+ '@MIXER TEMPLATE.SCHEMATIC1(SCH_1):INS430@LIBRARY1.INDUCTOR.NORMAL(CHIPS)':
+ C_PATH='@\mixer template\.schematic1(sch_1):ins430@library1.\inductor.normal\(chips)',
+ P_PATH='@\mixer template\.schematic1(sch_1):page2_ins430@library1.\inductor.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ L8 'INDUCTOR_SML0805_INDUCTOR':;
+
+SECTION_NUMBER 1
+ '@MIXER TEMPLATE.SCHEMATIC1(SCH_1):INS482@LIBRARY1.INDUCTOR.NORMAL(CHIPS)':
+ C_PATH='@\mixer template\.schematic1(sch_1):ins482@library1.\inductor.normal\(chips)',
+ P_PATH='@\mixer template\.schematic1(sch_1):page2_ins482@library1.\inductor.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ L9 'INDUCTOR_SML0805_INDUCTOR':;
+
+SECTION_NUMBER 1
+ '@MIXER TEMPLATE.SCHEMATIC1(SCH_1):INS446@LIBRARY1.INDUCTOR.NORMAL(CHIPS)':
+ C_PATH='@\mixer template\.schematic1(sch_1):ins446@library1.\inductor.normal\(chips)',
+ P_PATH='@\mixer template\.schematic1(sch_1):page2_ins446@library1.\inductor.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U1 'SA602_SO8_SA602':;
+
+SECTION_NUMBER 1
+ '@MIXER TEMPLATE.SCHEMATIC1(SCH_1):INS3576@LIBRARY1.SA602.NORMAL(CHIPS)':
+ C_PATH='@\mixer template\.schematic1(sch_1):ins3576@library1.\sa602.normal\(chips)',
+ P_PATH='@\mixer template\.schematic1(sch_1):page2_ins3576@library1.\sa602.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+END.

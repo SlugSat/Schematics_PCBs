@@ -1,0 +1,18 @@
+\t (00:00:08) allegro 17.2 S022 Windows SPB 64-bit Edition
+\t (00:00:08)     Journal start - Sun May 20 19:41:14 2018
+\t (00:00:08)         Host=BE308PC01 User=teaves Pid=4008 CPUs=4
+\t (00:00:08) CmdLine= c:\cadence\spb_17.2\tools\bin\allegro.exe C:\Users\teaves\Desktop\LNA\Lib\symbols\SMC_Trim.dra
+\t (00:00:08) 
+   (00:00:08) Loading axlcore.cxt 
+\t (00:00:08) Opening existing design...
+\d (00:00:08) Design opened: C:/Users/teaves/Desktop/LNA/Lib/symbols/SMC_Trim.dra
+\i (00:00:08) trapsize 17
+\i (00:00:08) trapsize 18
+\i (00:00:08) trapsize 18
+\i (00:00:08) etchedit 
+\i (00:00:11) save_as 
+\i (00:00:13) fillin "SMC_Trim.dra"
+\t (00:00:14) Symbol 'smc_trim.psm' created.
+\i (00:00:14) etchedit 
+\i (00:00:15) exit 
+\t (00:00:15)     Journal end - Sun May 20 19:41:22 2018

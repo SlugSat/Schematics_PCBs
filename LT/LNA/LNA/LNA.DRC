@@ -1,0 +1,29 @@
+Date and Time : 04/09/18 16:49:34
+
+--------------------------------------------------
+Checking Schematic: SCHEMATIC1
+--------------------------------------------------
+Checking Electrical Rules 
+
+Checking For Single Node Nets
+
+Checking For Unconnected Bus Nets
+
+Checking Off-Page Connections
+
+Checking Pin to Port Connections
+
+Checking Physical Rules 
+
+
+--------------------------------------------------
+Checking Schematic: SCHEMATIC1
+--------------------------------------------------
+
+--------------------------------------------------
+Checking Entire Design: LNA 
+--------------------------------------------------
+
+Checking Power Pin Visibility  
+
+INFO(ORCAP-2212): Check Power Ground Mismatch

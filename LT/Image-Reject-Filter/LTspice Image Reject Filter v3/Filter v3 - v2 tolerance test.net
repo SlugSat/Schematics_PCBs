@@ -1,0 +1,12 @@
+* C:\Users\sacmitch\Desktop\Image Reject Filter v3\Filter v3 - v2 tolerance test.asc
+C1 N001 N003 28.35p
+L1 N003 0 535.5n
+L2 N004 0 535.5n
+C2 N002 N004 28.35p
+C3 N002 N001 189p
+L3 N001 N002 78.75n
+V1 N001 0 AC 1 0
+R1 N002 0 50
+.ac lin 200 20Meg 60Meg
+.backanno
+.end
