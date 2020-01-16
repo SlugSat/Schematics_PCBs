@@ -1,0 +1,8 @@
+(module CAP_Trimmer_TZB4Z (layer F.Cu) (tedit 5E1FCFD2)
+  (fp_text reference REF** (at 0.254 -3.85572) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value CAP_Trimmer_TZB4Z (at 0.30734 -5.23748) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+)
