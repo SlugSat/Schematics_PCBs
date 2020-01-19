@@ -1,0 +1,193 @@
+EESchema Schematic File Version 4
+LIBS:Untitled-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L pspice:INDUCTOR L1
+U 1 1 5E14FFB1
+P 4100 4550
+F 0 "L1" H 4100 4765 50  0000 C CNN
+F 1 "INDUCTOR" H 4100 4674 50  0000 C CNN
+F 2 "Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4100 4550 50  0001 C CNN
+F 3 "~" H 4100 4550 50  0001 C CNN
+	1    4100 4550
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C1
+U 1 1 5E150013
+P 3700 4450
+F 0 "C1" H 3815 4496 50  0000 L CNN
+F 1 "C" H 3815 4405 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3738 4300 50  0001 C CNN
+F 3 "~" H 3700 4450 50  0001 C CNN
+	1    3700 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:INDUCTOR L2
+U 1 1 5E150064
+P 5200 4300
+F 0 "L2" H 5200 4515 50  0000 C CNN
+F 1 "INDUCTOR" H 5200 4424 50  0000 C CNN
+F 2 "Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5200 4300 50  0001 C CNN
+F 3 "~" H 5200 4300 50  0001 C CNN
+	1    5200 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4100 4300 3700 4300
+Wire Wire Line
+	3700 4800 4100 4800
+Wire Wire Line
+	3700 4600 3700 4800
+$Comp
+L Device:C C2
+U 1 1 5E150376
+P 4500 4300
+F 0 "C2" V 4248 4300 50  0000 C CNN
+F 1 "C" V 4339 4300 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4538 4150 50  0001 C CNN
+F 3 "~" H 4500 4300 50  0001 C CNN
+	1    4500 4300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4350 4300 4100 4300
+Connection ~ 4100 4300
+Wire Wire Line
+	4650 4300 4950 4300
+$Comp
+L pspice:INDUCTOR L3
+U 1 1 5E150472
+P 6000 4550
+F 0 "L3" H 6000 4765 50  0000 C CNN
+F 1 "INDUCTOR" H 6000 4674 50  0000 C CNN
+F 2 "Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6000 4550 50  0001 C CNN
+F 3 "~" H 6000 4550 50  0001 C CNN
+	1    6000 4550
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C3
+U 1 1 5E150479
+P 5600 4450
+F 0 "C3" H 5715 4496 50  0000 L CNN
+F 1 "C" H 5715 4405 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5638 4300 50  0001 C CNN
+F 3 "~" H 5600 4450 50  0001 C CNN
+	1    5600 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6000 4300 5600 4300
+Wire Wire Line
+	5600 4800 6000 4800
+Wire Wire Line
+	5600 4600 5600 4800
+Wire Wire Line
+	6250 4300 6000 4300
+Connection ~ 6000 4300
+Wire Wire Line
+	5450 4300 5600 4300
+Connection ~ 5600 4300
+$Comp
+L pspice:INDUCTOR L4
+U 1 1 5E150550
+P 7100 4300
+F 0 "L4" H 7100 4515 50  0000 C CNN
+F 1 "INDUCTOR" H 7100 4424 50  0000 C CNN
+F 2 "Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7100 4300 50  0001 C CNN
+F 3 "~" H 7100 4300 50  0001 C CNN
+	1    7100 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C4
+U 1 1 5E150557
+P 6400 4300
+F 0 "C4" V 6148 4300 50  0000 C CNN
+F 1 "C" V 6239 4300 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6438 4150 50  0001 C CNN
+F 3 "~" H 6400 4300 50  0001 C CNN
+	1    6400 4300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6550 4300 6850 4300
+Connection ~ 4100 4800
+Connection ~ 5600 4800
+$Comp
+L Connector:Conn_Coaxial J1
+U 1 1 5E150695
+P 3500 4300
+F 0 "J1" V 3737 4230 50  0000 C CNN
+F 1 "Conn_Coaxial" V 3646 4230 50  0000 C CNN
+F 2 "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount" H 3500 4300 50  0001 C CNN
+F 3 " ~" H 3500 4300 50  0001 C CNN
+	1    3500 4300
+	-1   0    0    -1  
+$EndComp
+Connection ~ 3700 4300
+$Comp
+L Connector:Conn_Coaxial J2
+U 1 1 5E150C14
+P 7550 4300
+F 0 "J2" V 7787 4230 50  0000 C CNN
+F 1 "Conn_Coaxial" V 7696 4230 50  0000 C CNN
+F 2 "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount" H 7550 4300 50  0001 C CNN
+F 3 " ~" H 7550 4300 50  0001 C CNN
+	1    7550 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 5E150E32
+P 4950 4800
+F 0 "#PWR0101" H 4950 4550 50  0001 C CNN
+F 1 "GND" H 4955 4627 50  0000 C CNN
+F 2 "" H 4950 4800 50  0001 C CNN
+F 3 "" H 4950 4800 50  0001 C CNN
+	1    4950 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 5E150E9E
+P 3500 4500
+F 0 "#PWR0102" H 3500 4250 50  0001 C CNN
+F 1 "GND" H 3505 4327 50  0000 C CNN
+F 2 "" H 3500 4500 50  0001 C CNN
+F 3 "" H 3500 4500 50  0001 C CNN
+	1    3500 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4100 4800 4950 4800
+$Comp
+L power:GND #PWR0103
+U 1 1 5E151185
+P 7550 4500
+F 0 "#PWR0103" H 7550 4250 50  0001 C CNN
+F 1 "GND" H 7555 4327 50  0000 C CNN
+F 2 "" H 7550 4500 50  0001 C CNN
+F 3 "" H 7550 4500 50  0001 C CNN
+	1    7550 4500
+	1    0    0    -1  
+$EndComp
+Connection ~ 4950 4800
+Wire Wire Line
+	4950 4800 5600 4800
+$EndSCHEMATC
