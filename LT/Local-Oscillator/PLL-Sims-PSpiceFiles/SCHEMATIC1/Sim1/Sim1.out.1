@@ -1,0 +1,51 @@
+
+**** 01/18/20 15:48:10 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-Sim1"  [ C:\Users\lfbarrag\Documents\SlugSat\GitHub\Schematics_PCBs\LT\Local-Oscillator\PLL-Sims-PSpiceFiles
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "Sim1.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\lfbarrag\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "nomd.lib" 
+
+*Analysis directives: 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source PLL-SIMS
+J_J1         N00693 N00245 N00989 JbreakN 
+J_J2         N00693 N00447 N00352 JbreakN 
+C_C1         N00352 N00309 Cbreak 10p 
+R_R1         0 N00989 Rbreak 3.3k
+L_L1         N00447 0 Lbreak 1.8uH 
+R_R2         0 N00245 Rbreak 100k
+R_R3         N00245 N00309 Rbreak 0
+----------------------------------$
+ERROR(ORPSIM-16144): Value may not be 0
+R_R4         0 N00352 Rbreak 3.3k
+C_C2         N00352 N00447 Cbreak 120p 
+C_C3         0 N00352 Cbreak 560p 
+V_V1         N00693 0 8Vdc
+C_C4         N00989 N01055 Cbreak 100n 
+R_R5         0 N01055 Rbreak 50
+
+**** RESUMING Sim1.cir ****
+.END
+
