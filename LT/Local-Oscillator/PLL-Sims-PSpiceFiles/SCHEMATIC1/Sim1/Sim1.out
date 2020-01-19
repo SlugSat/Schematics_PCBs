@@ -1,7 +1,7 @@
 
-**** 01/18/20 21:21:43 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+**** 01/19/20 13:20:04 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
- ** Profile: "SCHEMATIC1-Sim1"  [ C:\Users\lfbarrag\Documents\SlugSat\GitHub\Schematics_PCBs\LT\Local-Oscillator\PLL-Sims-PSpiceFiles
+ ** Profile: "SCHEMATIC1-Sim1"  [ c:\users\lfbarrag\documents\slugsat\github\schematics_pcbs\lt\local-oscillator\pll-sims-pspicefiles
 
 
  ****     CIRCUIT DESCRIPTION
@@ -32,24 +32,26 @@
 **** INCLUDING SCHEMATIC1.net ****
 * source PLL-SIMS
 C_C1         N00352 N00245 Cbreak 10p 
-R_R1         0 N00989 Rbreak 100k
+R_R1         0 N01469 Rbreak 250k
 L_L1         N00447 0 Lbreak 680nH 
 R_R2         0 N00245 Rbreak 140000
 R_R4         0 N00352 Rbreak 1k
 C_C2         N00352 N00447 Cbreak 47p 
 C_C3         0 N00352 Cbreak 100p 
-V_V1         N00693 0 8Vdc
-R_R5         0 N00989 Rbreak 50
-J_J3         N00693 N00245 N00989 J2N5486 
-J_J4         N00693 N00447 N00352 J2N5486 
-R_R8         N00245 N00693 Rbreak 100k
+V_V1         N00695 0 8Vdc
+R_R5         0 N03275 Rbreak 50
+J_J3         N01489 N00245 N01469 J2N5486 
+J_J4         N00695 N00447 N00352 J2N5486 
+R_R7         N00245 N00695 Rbreak 100k
+R_R8         N01489 N00695 Rbreak 100k
+C_C4         N01469 N03275 Cbreak 100n 
 
 **** RESUMING Sim1.cir ****
 .END
 
-**** 01/18/20 21:21:43 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+**** 01/19/20 13:20:04 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
- ** Profile: "SCHEMATIC1-Sim1"  [ C:\Users\lfbarrag\Documents\SlugSat\GitHub\Schematics_PCBs\LT\Local-Oscillator\PLL-Sims-PSpiceFiles
+ ** Profile: "SCHEMATIC1-Sim1"  [ c:\users\lfbarrag\documents\slugsat\github\schematics_pcbs\lt\local-oscillator\pll-sims-pspicefiles
 
 
  ****     Junction FET MODEL PARAMETERS
@@ -79,9 +81,9 @@ R_R8         N00245 N00693 Rbreak 100k
           KF    5.497000E-18 
 
 
-**** 01/18/20 21:21:43 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+**** 01/19/20 13:20:04 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
- ** Profile: "SCHEMATIC1-Sim1"  [ C:\Users\lfbarrag\Documents\SlugSat\GitHub\Schematics_PCBs\LT\Local-Oscillator\PLL-Sims-PSpiceFiles
+ ** Profile: "SCHEMATIC1-Sim1"  [ c:\users\lfbarrag\documents\slugsat\github\schematics_pcbs\lt\local-oscillator\pll-sims-pspicefiles
 
 
  ****     Resistor MODEL PARAMETERS
@@ -96,9 +98,9 @@ R_R8         N00245 N00693 Rbreak 100k
            R    1            
 
 
-**** 01/18/20 21:21:43 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+**** 01/19/20 13:20:04 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
- ** Profile: "SCHEMATIC1-Sim1"  [ C:\Users\lfbarrag\Documents\SlugSat\GitHub\Schematics_PCBs\LT\Local-Oscillator\PLL-Sims-PSpiceFiles
+ ** Profile: "SCHEMATIC1-Sim1"  [ c:\users\lfbarrag\documents\slugsat\github\schematics_pcbs\lt\local-oscillator\pll-sims-pspicefiles
 
 
  ****     Capacitor MODEL PARAMETERS
@@ -113,9 +115,9 @@ R_R8         N00245 N00693 Rbreak 100k
            C    1            
 
 
-**** 01/18/20 21:21:43 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+**** 01/19/20 13:20:04 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
- ** Profile: "SCHEMATIC1-Sim1"  [ C:\Users\lfbarrag\Documents\SlugSat\GitHub\Schematics_PCBs\LT\Local-Oscillator\PLL-Sims-PSpiceFiles
+ ** Profile: "SCHEMATIC1-Sim1"  [ c:\users\lfbarrag\documents\slugsat\github\schematics_pcbs\lt\local-oscillator\pll-sims-pspicefiles
 
 
  ****     Inductor MODEL PARAMETERS
@@ -133,9 +135,9 @@ R_R8         N00245 N00693 Rbreak 100k
 
           JOB CONCLUDED
 
-**** 01/18/20 21:21:43 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+**** 01/19/20 13:20:04 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
- ** Profile: "SCHEMATIC1-Sim1"  [ C:\Users\lfbarrag\Documents\SlugSat\GitHub\Schematics_PCBs\LT\Local-Oscillator\PLL-Sims-PSpiceFiles
+ ** Profile: "SCHEMATIC1-Sim1"  [ c:\users\lfbarrag\documents\slugsat\github\schematics_pcbs\lt\local-oscillator\pll-sims-pspicefiles
 
 
  ****     JOB STATISTICS SUMMARY
@@ -145,5 +147,5 @@ R_R8         N00245 N00693 Rbreak 100k
 
 
 
-  Total job time (using Solver 1)   =        6.67
+  Total job time (using Solver 1)   =        7.16
 

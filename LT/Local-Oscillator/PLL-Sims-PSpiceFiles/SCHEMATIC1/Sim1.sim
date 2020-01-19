@@ -3,7 +3,7 @@
 @Settings: 0 1
 @General:
 ProfileName= "Sim1" 
-ProfileFile= "Sim1.sim" 
+ProfileFile= "sim1.sim" 
 Connectivity= "SCHEMATIC1.net" 
 NetlistFile= "Sim1.cir" 
 DataFile= "Sim1.dat" 
@@ -130,7 +130,7 @@ SaveFile 0 ""
 @End Analysis
 @Analysis: 17 0
 +0 "-1" 
-+1 "" 
++1 "-1" 
 +2 "-1" 
 +3 "-1" 
 +4 "1" 

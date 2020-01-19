@@ -1,7 +1,7 @@
 
-**** 01/18/20 14:10:50 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+**** 01/19/20 13:25:35 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
- ** Profile: "SCHEMATIC1-sim1"  [ C:\Users\lfbarrag\Documents\SlugSat\GitHub\Schematics_PCBs\LT\29.4MHz Low-Pass Filter\29MHz-LPF-PSp
+ ** Profile: "SCHEMATIC1-sim1"  [ c:\users\lfbarrag\documents\slugsat\github\schematics_pcbs\lt\29.4mhz low-pass filter\29mhz-lpf-psp
 
 
  ****     CIRCUIT DESCRIPTION
@@ -22,7 +22,7 @@
 .lib "nomd.lib" 
 
 *Analysis directives: 
-.AC DEC 100000 25E6 65E6
+.AC DEC 10000 15E6 80E6
 .OPTIONS ADVCONV
 .PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
 .INC "..\SCHEMATIC1.net" 
@@ -41,9 +41,9 @@ L_L2         N00119 N004751 Lbreak 10uH
 **** RESUMING sim1.cir ****
 .END
 
-**** 01/18/20 14:10:50 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+**** 01/19/20 13:25:35 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
- ** Profile: "SCHEMATIC1-sim1"  [ C:\Users\lfbarrag\Documents\SlugSat\GitHub\Schematics_PCBs\LT\29.4MHz Low-Pass Filter\29MHz-LPF-PSp
+ ** Profile: "SCHEMATIC1-sim1"  [ c:\users\lfbarrag\documents\slugsat\github\schematics_pcbs\lt\29.4mhz low-pass filter\29mhz-lpf-psp
 
 
  ****     Capacitor MODEL PARAMETERS
@@ -58,9 +58,9 @@ L_L2         N00119 N004751 Lbreak 10uH
            C    1            
 
 
-**** 01/18/20 14:10:50 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+**** 01/19/20 13:25:35 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
- ** Profile: "SCHEMATIC1-sim1"  [ C:\Users\lfbarrag\Documents\SlugSat\GitHub\Schematics_PCBs\LT\29.4MHz Low-Pass Filter\29MHz-LPF-PSp
+ ** Profile: "SCHEMATIC1-sim1"  [ c:\users\lfbarrag\documents\slugsat\github\schematics_pcbs\lt\29.4mhz low-pass filter\29mhz-lpf-psp
 
 
  ****     Inductor MODEL PARAMETERS
@@ -75,9 +75,9 @@ L_L2         N00119 N004751 Lbreak 10uH
            L    1            
 
 
-**** 01/18/20 14:10:50 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+**** 01/19/20 13:25:35 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
- ** Profile: "SCHEMATIC1-sim1"  [ C:\Users\lfbarrag\Documents\SlugSat\GitHub\Schematics_PCBs\LT\29.4MHz Low-Pass Filter\29MHz-LPF-PSp
+ ** Profile: "SCHEMATIC1-sim1"  [ c:\users\lfbarrag\documents\slugsat\github\schematics_pcbs\lt\29.4mhz low-pass filter\29mhz-lpf-psp
 
 
  ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
@@ -106,9 +106,9 @@ L_L2         N00119 N004751 Lbreak 10uH
 
           JOB CONCLUDED
 
-**** 01/18/20 14:10:50 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+**** 01/19/20 13:25:35 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
- ** Profile: "SCHEMATIC1-sim1"  [ C:\Users\lfbarrag\Documents\SlugSat\GitHub\Schematics_PCBs\LT\29.4MHz Low-Pass Filter\29MHz-LPF-PSp
+ ** Profile: "SCHEMATIC1-sim1"  [ c:\users\lfbarrag\documents\slugsat\github\schematics_pcbs\lt\29.4mhz low-pass filter\29mhz-lpf-psp
 
 
  ****     JOB STATISTICS SUMMARY
@@ -118,5 +118,5 @@ L_L2         N00119 N004751 Lbreak 10uH
 
 
 
-  Total job time (using Solver 1)   =         .20
+  Total job time (using Solver 1)   =         .06
 

@@ -1,4 +1,4 @@
-** Profile: "SCHEMATIC1-sim1"  [ C:\Users\lfbarrag\Documents\SlugSat\GitHub\Schematics_PCBs\LT\29.4MHz Low-Pass Filter\29MHz-LPF-PSpiceFiles\SCHEMATIC1\sim1.sim ] 
+** Profile: "SCHEMATIC1-sim1"  [ c:\users\lfbarrag\documents\slugsat\github\schematics_pcbs\lt\29.4mhz low-pass filter\29mhz-lpf-pspicefiles\schematic1\sim1.sim ] 
 
 ** Creating circuit file "sim1.cir" 
 ** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
@@ -10,7 +10,7 @@
 .lib "nomd.lib" 
 
 *Analysis directives: 
-.AC DEC 100000 25E6 65E6
+.AC DEC 10000 15E6 80E6
 .OPTIONS ADVCONV
 .PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
 .INC "..\SCHEMATIC1.net" 

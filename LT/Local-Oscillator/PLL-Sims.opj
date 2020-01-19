@@ -83,10 +83,17 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 2 3 -1 -1 -8 -31 52 1688 52 511")
-        (Scroll "91 293")
+        (Scroll "-61 313")
         (Zoom "174")
         (Occurrence "/"))
       (Path
          "C:\USERS\LFBARRAG\DOCUMENTS\SLUGSAT\GITHUB\SCHEMATICS_PCBS\LT\LOCAL-OSCILLATOR\PLL-SIMS.DSN")
       (Schematic "SCHEMATIC1")
-      (Page "PAGE1"))))
+      (Page "PAGE1"))
+    (Doc
+      (Type "TextFile")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 0 1632 0 455"))
+      (Path
+         "C:\Users\lfbarrag\Documents\SlugSat\GitHub\Schematics_PCBs\LT\Local-Oscillator\PLL-Sims-PSpiceFiles\SCHEMATIC1\SCHEMATIC1.net")
+      (Scroll "0"))))
