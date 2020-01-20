@@ -1,60 +1,123 @@
-\t (00:02:41) allegro 17.2 P028 Windows SPB 64-bit Edition
-\t (00:02:41)     Journal start - Sat Jan 18 16:25:51 2020
-\t (00:02:41)         Host=BE308PC05 User=lfbarrag Pid=10604 CPUs=4
-\t (00:02:41) CmdLine= C:\Cadence\SPB_17.2\tools\bin\allegro.exe
-\t (00:02:41) 
-\d (00:02:41) Design opened: C:/Users/lfbarrag/Documents/SlugSat/GitHub/Schematics_PCBs/LT/Mixer/Mixer Template/pcb/Mixer Template.brd
-\i (00:02:41) generaledit 
-\i (00:02:42) zoom in 1 
-\i (00:02:42) setwindow pcb
-\i (00:02:42) zoom in 12104.7 8025.6
-\i (00:02:42) trapsize 141
-\i (00:02:43) zoom in 1 
-\i (00:02:43) setwindow pcb
-\i (00:02:43) zoom in 12104.7 8025.7
-\i (00:02:43) trapsize 70
-\i (00:02:43) zoom out 1 
-\i (00:02:43) setwindow pcb
-\i (00:02:43) zoom out 12104.7 8025.7
-\i (00:02:43) trapsize 141
-\i (00:02:43) zoom out 1 
-\i (00:02:43) setwindow pcb
-\i (00:02:43) zoom out 12104.7 8025.8
-\i (00:02:43) trapsize 282
-\i (00:02:44) zoom in 1 
-\i (00:02:44) setwindow pcb
-\i (00:02:44) zoom in 12763.5 8093.3
-\i (00:02:44) trapsize 141
-\i (00:02:44) zoom out 1 
-\i (00:02:44) setwindow pcb
-\i (00:02:44) zoom out 12757.9 8093.3
-\i (00:02:44) trapsize 282
-\i (00:03:15) plot 
-\i (00:04:15) plot 
-\i (00:04:39) plot setup 
-\i (00:04:40) setwindow form.fpfileplotsetup
-\i (00:04:40) FORM fpfileplotsetup windows  
-\i (00:04:41) FORM fpfileplotsetup cancel  
-\i (00:04:41) setwindow pcb
-\i (00:04:41) generaledit 
-\i (00:04:47) zoom in 1 
-\i (00:04:47) setwindow pcb
-\i (00:04:47) zoom in 12521.3 7609.1
-\i (00:04:47) trapsize 141
-\i (00:04:47) zoom out 1 
-\i (00:04:47) setwindow pcb
-\i (00:04:47) zoom out 12462.2 7592.2
-\i (00:04:47) trapsize 282
-\i (00:04:49) zoom in 1 
-\i (00:04:49) setwindow pcb
-\i (00:04:49) zoom in 13346.2 7952.6
-\i (00:04:49) trapsize 141
-\i (00:04:49) zoom out 1 
-\i (00:04:49) setwindow pcb
-\i (00:04:49) zoom out 13346.2 7952.6
-\i (00:04:49) trapsize 282
-\i (00:05:25) trapsize 530
-\i (00:06:06) trapsize 282
-\i (00:06:18) plot 
-\i (00:51:35) exit 
-\t (00:51:35)     Journal end - Sat Jan 18 17:14:44 2020
+\t (00:00:06) allegro 17.2 P028 Windows SPB 64-bit Edition
+\t (00:00:06)     Journal start - Sun Jan 19 16:32:16 2020
+\t (00:00:06)         Host=BE308PC05 User=lfbarrag Pid=4620 CPUs=4
+\t (00:00:06) CmdLine= C:\Cadence\SPB_17.2\tools\bin\allegro.exe
+\t (00:00:06) 
+   (00:00:07) Loading axlcore.cxt 
+\t (00:00:08) Opening existing design...
+\d (00:00:08) Design opened: C:/Users/lfbarrag/Documents/SlugSat/GitHub/Schematics_PCBs/LT/Mixer/Mixer Template/pcb/Mixer Template.brd
+\i (00:00:09) trapsize 275
+\i (00:00:09) trapsize 282
+\i (00:00:09) trapsize 282
+\i (00:00:09) generaledit 
+\i (00:00:10) zoom in 1 
+\i (00:00:10) setwindow pcb
+\i (00:00:10) zoom in 11992.1 8042.5
+\i (00:00:10) trapsize 141
+\i (00:00:10) zoom out 1 
+\i (00:00:10) setwindow pcb
+\i (00:00:10) zoom out 12000.5 8039.7
+\i (00:00:10) trapsize 282
+\i (00:00:11) zoom in 1 
+\i (00:00:11) setwindow pcb
+\i (00:00:11) zoom in 12721.3 8343.7
+\i (00:00:11) trapsize 141
+\i (00:00:11) zoom out 1 
+\i (00:00:11) setwindow pcb
+\i (00:00:11) zoom out 12732.6 8366.2
+\i (00:00:11) trapsize 282
+\i (00:00:12) zoom out 1 
+\i (00:00:12) setwindow pcb
+\i (00:00:12) zoom out 12777.6 8484.5
+\i (00:00:12) trapsize 563
+\i (00:00:14) open 
+\i (00:00:45) fillin "menu_cancel"
+\i (00:00:45) generaledit 
+\i (00:00:46) zoom in 1 
+\i (00:00:46) setwindow pcb
+\i (00:00:46) zoom in 12196.2 8158.0
+\i (00:00:46) trapsize 282
+\i (00:00:46) zoom in 1 
+\i (00:00:46) setwindow pcb
+\i (00:00:46) zoom in 12196.2 8152.4
+\i (00:00:46) trapsize 141
+\i (00:00:47) zoom out 1 
+\i (00:00:47) setwindow pcb
+\i (00:00:47) zoom out 12176.5 8062.3
+\i (00:00:47) trapsize 282
+\i (04:48:10) zoom in 1 
+\i (04:48:10) setwindow pcb
+\i (04:48:10) zoom in 11585.4 7600.6
+\i (04:48:10) trapsize 141
+\i (04:48:10) zoom out 1 
+\i (04:48:10) setwindow pcb
+\i (04:48:10) zoom out 11585.4 7600.6
+\i (04:48:10) trapsize 282
+\i (04:48:12) zoom out 1 
+\i (04:48:12) setwindow pcb
+\i (04:48:12) zoom out 11557.3 7291.0
+\i (04:48:12) trapsize 563
+\i (04:48:13) zoom in 1 
+\i (04:48:13) setwindow pcb
+\i (04:48:13) zoom in 11805.1 7854.1
+\i (04:48:13) trapsize 282
+\i (04:48:13) zoom in 1 
+\i (04:48:13) setwindow pcb
+\i (04:48:13) zoom in 11664.3 7831.6
+\i (04:48:13) trapsize 141
+\i (04:48:13) zoom in 1 
+\i (04:48:13) setwindow pcb
+\i (04:48:13) zoom in 11664.3 7831.6
+\i (04:48:13) trapsize 70
+\i (04:48:14) zoom out 1 
+\i (04:48:14) setwindow pcb
+\i (04:48:14) zoom out 11520.7 7537.4
+\i (04:48:14) trapsize 141
+\i (04:48:14) zoom in 1 
+\i (04:48:14) setwindow pcb
+\i (04:48:14) zoom in 11520.7 7537.4
+\i (04:48:14) trapsize 70
+\i (04:48:15) zoom out 1 
+\i (04:48:15) setwindow pcb
+\i (04:48:15) zoom out 11522.1 7475.5
+\i (04:48:15) trapsize 141
+\i (04:48:16) zoom out 1 
+\i (04:48:16) setwindow pcb
+\i (04:48:16) zoom out 11370.1 8373.5
+\i (04:48:16) trapsize 282
+\i (04:48:16) zoom out 1 
+\i (04:48:16) setwindow pcb
+\i (04:48:16) zoom out 11370.1 8373.6
+\i (04:48:16) trapsize 563
+\i (04:48:17) zoom in 1 
+\i (04:48:17) setwindow pcb
+\i (04:48:17) zoom in 11381.5 7450.1
+\i (04:48:17) trapsize 282
+\i (04:48:17) zoom in 1 
+\i (04:48:17) setwindow pcb
+\i (04:48:17) zoom in 11612.3 7607.8
+\i (04:48:17) trapsize 141
+\i (04:48:17) zoom in 1 
+\i (04:48:17) setwindow pcb
+\i (04:48:17) zoom in 11612.4 7607.8
+\i (04:48:17) trapsize 70
+\i (04:48:18) zoom in 1 
+\i (04:48:18) setwindow pcb
+\i (04:48:18) zoom in 11564.6 7547.3
+\i (04:48:18) trapsize 35
+\i (04:48:18) zoom out 1 
+\i (04:48:18) setwindow pcb
+\i (04:48:18) zoom out 11518.2 7536.7
+\i (04:48:18) trapsize 70
+\i (04:48:23) pick grid 11874.3 7638.1
+\t (04:48:23) last pick:  11875.0 7640.0
+\i (04:48:29) pick grid 11591.4 7640.9
+\t (04:48:29) last pick:  11590.0 7640.0
+\i (04:48:29) pick grid 11646.3 7640.9
+\t (04:48:29) last pick:  11645.0 7640.0
+\i (04:48:30) pick grid 11849.0 7640.9
+\t (04:48:30) last pick:  11850.0 7640.0
+\i (04:48:32) pick grid 11847.6 7548.0
+\t (04:48:32) last pick:  11850.0 7550.0
+\i (04:49:23) exit 
+\t (04:49:24)     Journal end - Sun Jan 19 21:21:33 2020
