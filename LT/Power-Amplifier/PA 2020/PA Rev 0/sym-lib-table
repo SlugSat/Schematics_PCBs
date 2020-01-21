@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "Power Amplifier")(type Legacy)(uri "${KIPRJMOD}/Power Amplifier.lib")(options "")(descr ""))
+)
