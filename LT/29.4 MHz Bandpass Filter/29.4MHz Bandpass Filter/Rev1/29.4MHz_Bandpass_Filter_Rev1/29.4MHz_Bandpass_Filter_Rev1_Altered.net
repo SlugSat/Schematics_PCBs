@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source "/Users/connerhannon/Documents/GitHub/Senior Design/Schematics_PCBs/LT/29.4 MHz Bandpass Filter/29.4MHz Bandpass Filter/Rev1/29.4MHz_Bandpass_Filter_Rev1/29.4MHz_Bandpass_Filter_Rev1.sch")
-    (date "Monday, January 20, 2020 at 12:51:44 PM")
+    (date "Sunday, January 19, 2020 at 06:09:33 PM")
     (tool "Eeschema (6.0.0-rc1-dev-305-gf0b8b21)")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -52,7 +52,7 @@
       (tstamp 5E20EBD9))
     (comp (ref C3)
       (value C_Variable)
-      (footprint Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder)
+      (footprint "Connector_PinHeader_2.54mm:Variable Capacitor")
       (datasheet ~)
       (libsource (lib Device) (part C_Variable) (description "Variable capacitor"))
       (sheetpath (names /) (tstamps /))

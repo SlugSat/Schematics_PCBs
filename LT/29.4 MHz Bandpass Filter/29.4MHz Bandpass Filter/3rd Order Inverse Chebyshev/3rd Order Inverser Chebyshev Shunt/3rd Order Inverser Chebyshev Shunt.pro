@@ -1,4 +1,4 @@
-update=Monday, January 20, 2020 at 12:52:14 PM
+update=Tuesday, January 21, 2020 at 02:36:25 PM
 version=1
 last_client=kicad
 [general]
@@ -15,7 +15,7 @@ LibDir=
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=29.4MHz_Bandpass_Filter_Rev1.net
+LastNetListRead=3rd Order Inverser Chebyshev Shunt.net
 CopperLayerCount=2
 BoardThickness=1.6
 AllowMicroVias=0

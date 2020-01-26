@@ -1,4 +1,4 @@
-update=Monday, January 20, 2020 at 12:52:14 PM
+update=Sunday, January 19, 2020 at 05:43:08 PM
 version=1
 last_client=kicad
 [general]
@@ -15,7 +15,7 @@ LibDir=
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=29.4MHz_Bandpass_Filter_Rev1.net
+LastNetListRead=29.4MHz_Bandpass_FIlter_Rev2.net
 CopperLayerCount=2
 BoardThickness=1.6
 AllowMicroVias=0
