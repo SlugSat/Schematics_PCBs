@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name XFormers)(type KiCad)(uri ${KIPRJMOD}/XFormers.pretty)(options "")(descr ""))
+)
