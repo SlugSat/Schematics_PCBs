@@ -132,43 +132,16 @@
         (Placement "44 0 1 -1 -1 -8 -31 0 200 0 429"))
       (Tab 0))
     (Doc
-      (Type "TextFile")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 156 1501 156 659"))
-      (Path "C:\Users\teaves\Desktop\LNA\LNA\pcb\netlist\pstchip.dat")
-      (Scroll "0"))
-    (Doc
-      (Type "TextFile")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 104 1449 104 607"))
-      (Path "C:\Users\teaves\Desktop\LNA\LNA\pcb\netlist\pstxprt.dat")
-      (Scroll "0"))
-    (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 52 1691 52 520")
-        (Scroll "-108 0")
-        (Zoom "100")
-        (Occurrence "/"))
-      (Path "C:\USERS\TEAVES\DESKTOP\LNA\LNA\LNA V2.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "1 Revisions"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 2 3 -1 -1 -8 -31 78 1717 78 546")
-        (Scroll "144 262")
+        (Placement "44 2 3 -1 -1 -8 -31 156 1792 156 615")
+        (Scroll "22 308")
         (Zoom "200")
         (Occurrence "/"))
-      (Path "C:\USERS\TEAVES\DESKTOP\LNA\LNA\LNA V2.DSN")
+      (Path
+         "C:\USERS\LFBARRAG\DOCUMENTS\SLUGSAT\GITHUB\SCHEMATICS_PCBS\LT\LNA\LNA\LNA V2.DSN")
       (Schematic "SCHEMATIC1")
-      (Page "2 LNA"))
-    (Doc
-      (Type "TextFile")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 130 1475 130 633"))
-      (Path "C:\Users\teaves\Desktop\LNA\LNA\pcb\netlist\pstxnet.dat")
-      (Scroll "0")))
-  (MPSSessionName "teaves")
+      (Page "2 LNA")))
+  (MPSSessionName "lfbarrag")
   (LastUsedLibraryBrowseDirectory "C:\Users\teaves\Desktop\Elliptic Trap\Lib")
   (ISPCBBASICLICENSE "false"))

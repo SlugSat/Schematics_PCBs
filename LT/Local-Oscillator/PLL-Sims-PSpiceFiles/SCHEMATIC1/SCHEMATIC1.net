@@ -1,15 +1,14 @@
 * source PLL-SIMS
-C_C1         N00352 N00245 Cbreak 10p 
-R_R1         0 N01469 Rbreak 250k
+C_C1         N00352 N03763 Cbreak 10p 
+R_R1         0 N01469 Rbreak 1k
 L_L1         N00447 0 Lbreak 680nH 
-R_R2         0 N00245 Rbreak 140000
+R_R2         0 N00245 Rbreak 100k
 R_R4         0 N00352 Rbreak 1k
 C_C2         N00352 N00447 Cbreak 47p 
 C_C3         0 N00352 Cbreak 100p 
 V_V1         N00695 0 8Vdc
-R_R5         0 N03275 Rbreak 50
-J_J3         N01489 N00245 N01469 J2N5486 
+R_R5         0 N03860 Rbreak 50
+J_J3         N00695 N00245 N01469 J2N5486 
 J_J4         N00695 N00447 N00352 J2N5486 
-R_R7         N00245 N00695 Rbreak 100k
-R_R8         N01489 N00695 Rbreak 100k
-C_C4         N01469 N03275 Cbreak 100n 
+R_R6         N00245 N03763 Rbreak 1
+C_C4         N01469 N03860 Cbreak 100n 

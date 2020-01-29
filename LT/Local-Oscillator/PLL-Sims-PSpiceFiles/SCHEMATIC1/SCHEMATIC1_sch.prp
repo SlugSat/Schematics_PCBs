@@ -177,7 +177,7 @@
             ("level"	"0")
             ("model_params"
                 ("VALUE"
-                    ("value"	"250k")
+                    ("value"	"1k")
                     ("pspice_param"	"VALUE")
                 )
                 ("BiasValue Power"
@@ -211,7 +211,7 @@
             ("level"	"0")
             ("model_params"
                 ("VALUE"
-                    ("value"	"140000")
+                    ("value"	"100k")
                     ("pspice_param"	"VALUE")
                 )
                 ("BiasValue Power"
@@ -325,29 +325,14 @@
                 )
             )
         )
-        ("R7"
+        ("R6"
             ("device_name"	"Rbreak")
-            ("pspice_path"	"R_R7")
+            ("pspice_path"	"R_R6")
             ("level"	"0")
             ("model_params"
                 ("VALUE"
-                    ("value"	"100k")
+                    ("value"	"1")
                     ("pspice_param"	"VALUE")
-                )
-            )
-        )
-        ("R8"
-            ("device_name"	"Rbreak")
-            ("pspice_path"	"R_R8")
-            ("level"	"0")
-            ("model_params"
-                ("VALUE"
-                    ("value"	"100k")
-                    ("pspice_param"	"VALUE")
-                )
-                ("BiasValue Power"
-                    ("value"	"111.1uW")
-                    ("pspice_param"	"BiasValue Power")
                 )
             )
         )

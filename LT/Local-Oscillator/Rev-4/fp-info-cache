@@ -1,4 +1,4 @@
-16941054928106921
+16944214258549587
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -51379,6 +51379,20 @@ CAP_Trimmer_TZB4Z
 0
 2
 2
+LT
+CAP_trimmer_SGC3
+
+
+0
+2
+2
+LT
+IND_trimmer_7M3
+
+
+0
+7
+6
 LT
 LMX231X
 
