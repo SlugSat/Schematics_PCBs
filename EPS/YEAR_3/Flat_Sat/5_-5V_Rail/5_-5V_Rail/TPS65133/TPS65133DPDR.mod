@@ -1,0 +1,137 @@
+PCBNEW-LibModule-V1  
+# encoding utf-8
+Units mm
+$INDEX
+SON40P300X300X80-13N
+$EndINDEX
+$MODULE SON40P300X300X80-13N
+Po 0 0 0 15 00000000 00000000 ~~
+Li SON40P300X300X80-13N
+Cd 
+Sc 00000000
+At SMD
+Op 0 0 0
+.SolderMask 0
+.SolderPaste 0
+T0 -0.595972 -2.1403 0.512291 0.512291 0 0.05 N V 21 "SON40P300X300X80-13N"
+T1 -0.259897 2.13154 0.51201 0.51201 0 0.05 N V 21 "VAL**"
+DC -2.11 -1.129 -2.01 -1.129 0.2 21
+DS -1.55 -1.55 1.55 -1.55 0.127 27
+DS -1.55 1.55 1.55 1.55 0.127 27
+DS -1.55 -1.55 1.55 -1.55 0.127 21
+DS -1.55 1.55 1.55 1.55 0.127 21
+DS -1.55 -1.55 -1.55 1.55 0.127 27
+DS 1.55 -1.55 1.55 1.55 0.127 27
+DS -2.12 -1.8 2.12 -1.8 0.05 26
+DS -2.12 1.8 2.12 1.8 0.05 26
+DS -2.12 -1.8 -2.12 1.8 0.05 26
+DS 2.12 -1.8 2.12 1.8 0.05 26
+DP 0 0 0 0 4 0 19
+Dl -0.383265 -0.6387
+Dl 0.3826 -0.6387
+Dl 0.3826 0.639811
+Dl -0.383265 0.639811
+$PAD
+Sh "1" R 0.86 0.22 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po -1.435 -1.125
+$EndPAD
+$PAD
+Sh "2" R 0.86 0.22 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po -1.435 -0.675
+$EndPAD
+$PAD
+Sh "3" R 0.86 0.22 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po -1.435 -0.225
+$EndPAD
+$PAD
+Sh "4" R 0.86 0.22 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po -1.435 0.225
+$EndPAD
+$PAD
+Sh "5" R 0.86 0.22 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po -1.435 0.675
+$EndPAD
+$PAD
+Sh "6" R 0.86 0.22 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po -1.435 1.125
+$EndPAD
+$PAD
+Sh "7" R 0.86 0.22 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po 1.435 1.125
+$EndPAD
+$PAD
+Sh "8" R 0.86 0.22 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po 1.435 0.675
+$EndPAD
+$PAD
+Sh "9" R 0.86 0.22 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po 1.435 0.225
+$EndPAD
+$PAD
+Sh "10" R 0.86 0.22 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po 1.435 -0.225
+$EndPAD
+$PAD
+Sh "11" R 0.86 0.22 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po 1.435 -0.675
+$EndPAD
+$PAD
+Sh "12" R 0.86 0.22 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po 1.435 -1.125
+$EndPAD
+$PAD
+Sh "13" R 1.21 2.02 0 0 0
+At SMD N 00888000
+.SolderMask 0
+Ne 0 ""
+Po 0 0
+$EndPAD
+$EndMODULE SON40P300X300X80-13N

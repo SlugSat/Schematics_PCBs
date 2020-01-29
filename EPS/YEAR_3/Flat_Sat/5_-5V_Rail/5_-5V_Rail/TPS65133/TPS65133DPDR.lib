@@ -1,0 +1,39 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# TPS65133DPDR
+#
+DEF TPS65133DPDR U 0 40 Y Y 1 L N
+F0 "U" -401 640 50 H V L BNN
+F1 "TPS65133DPDR" -411 -719 50 H V L BNN
+F2 "SON40P300X300X80-13N" 0 0 50 H I L BNN
+F3 "Texas Instruments" 0 0 50 H I L BNN
+F4 "Split-Rail Converter, ?5V, 250mA Dual Output Power Supply 12-WSON -40 to 85" 0 0 50 H I L BNN
+F5 "WSON-12 Texas Instruments" 0 0 50 H I L BNN
+F6 "None" 0 0 50 H I L BNN
+F7 "TPS65133DPDR" 0 0 50 H I L BNN
+F8 "Unavailable" 0 0 50 H I L BNN
+DRAW
+P 2 0 0 16 -400 600 400 600 N
+P 2 0 0 16 400 600 400 -600 N
+P 2 0 0 16 400 -600 -400 -600 N
+P 2 0 0 16 -400 -600 -400 600 N
+X AVIN 11 600 500 200 L 40 40 0 0 W 
+X EN 7 -600 200 200 R 40 40 0 0 I 
+X PVIN 12 600 400 200 L 40 40 0 0 W 
+X SWN 10 -600 -100 200 R 40 40 0 0 P 
+X SWP 1 -600 0 200 R 40 40 0 0 P 
+X AGND 5 600 -300 200 L 40 40 0 0 W 
+X EP 13 600 -200 200 L 40 40 0 0 W 
+X GND 4 600 -500 200 L 40 40 0 0 W 
+X GND 6 600 -500 200 L 40 40 0 0 W 
+X GND 8 600 -500 200 L 40 40 0 0 W 
+X PGND 2 600 -400 200 L 40 40 0 0 W 
+X VNEG 9 600 100 200 L 40 40 0 0 O 
+X VPOS 3 600 0 200 L 40 40 0 0 O 
+ENDDRAW
+ENDDEF
+#
+# End Library
