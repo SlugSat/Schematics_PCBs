@@ -1,0 +1,33 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# SRP6540-100M
+#
+DEF SRP6540-100M L 0 40 Y N 1 L N
+F0 "L" -200 150 50 H V L BNN
+F1 "SRP6540-100M" -188 -152 50 H V L BNN
+F2 "IND_SRP6540-100M" 0 0 50 H I L BNN
+F3 "SRP6540-100M" 0 0 50 H I L BNN
+F4 "Inductor Power Shielded/Molded Wirewound 10uH 20% 100KHz Powdered Iron 4A 78.5mOhm DCR T/R" 0 0 50 H I L BNN
+F5 "Unavailable" 0 0 50 H I L BNN
+F6 "None" 0 0 50 H I L BNN
+F7 "Bourns" 0 0 50 H I L BNN
+F8 "Nonstandard Bourns" 0 0 50 H I L BNN
+DRAW
+P 2 0 0 6 170 60 -170 60 N
+P 2 0 0 6 170 80 -170 80 N
+A -120 0 30 0 1799 0 0 6 N -90 0 -150 0
+A -60 0 30 0 1799 0 0 6 N -30 0 -90 0
+A 0 0 30 0 1799 0 0 6 N 30 0 -30 0
+A 60 0 30 0 1799 0 0 6 N 90 0 30 0
+A 120 0 30 0 1799 0 0 6 N 150 0 90 0
+P 2 0 0 6 -150 0 -200 0 N
+P 2 0 0 6 150 0 200 0 N
+X 1 1 -300 0 100 R 40 40 0 0 P 
+X 2 2 300 0 100 L 40 40 0 0 P 
+ENDDRAW
+ENDDEF
+#
+# End Library

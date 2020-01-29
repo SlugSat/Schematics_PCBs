@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name 32V-Rail-rescue)(type Legacy)(uri "${KIPRJMOD}/32V Rail-rescue.lib")(options "")(descr ""))
+  (lib (name Custom)(type Legacy)(uri "C:/Users/awslagle/Desktop/Power Rails/15V_32V_Rail/Custom.lib")(options "")(descr ""))
+)
