@@ -1,0 +1,355 @@
+("FILE_TYPE"	"PMAP File"
+    ("devices"
+        ("Cbreak")
+        ("Rbreak")
+        ("Lbreak")
+        ("VDC")
+        ("J2N5486"
+            ("info"
+                ("spice_dsg"	"X")
+            )
+            ("model_params"
+                ("level_0"
+                    ("VTO"
+                        ("value"	"2")
+                    )
+                    ("BETA"
+                        ("value"	"1.5m")
+                    )
+                    ("LAMBDA"
+                        ("value"	"0")
+                    )
+                    ("RD"
+                        ("value"	"1E-3")
+                    )
+                    ("RS"
+                        ("value"	"1E-3")
+                    )
+                    ("CGD"
+                        ("value"	"0")
+                    )
+                    ("CGS"
+                        ("value"	"0")
+                    )
+                    ("PB"
+                        ("value"	"1")
+                    )
+                    ("IS"
+                        ("value"	"10f")
+                    )
+                    ("KF"
+                        ("value"	"0")
+                    )
+                    ("AF"
+                        ("value"	"1")
+                    )
+                    ("FC"
+                        ("value"	"0.5")
+                    )
+                    ("MODE"
+                        ("value"	"1")
+                    )
+                )
+            )
+            ("smoke"
+                ("max_ops_desc"
+                    ("IG"
+                        ("description"	"Max Gate Current")
+                        ("unit"	"A")
+                    )
+                    ("ID"
+                        ("description"	"Max drain current")
+                        ("unit"	"A")
+                    )
+                    ("VDG"
+                        ("description"	"Max D-G voltage")
+                        ("unit"	"V")
+                    )
+                    ("VDS"
+                        ("description"	"Max D-S voltage")
+                        ("unit"	"V")
+                    )
+                    ("VGS"
+                        ("description"	"Max G-S voltage")
+                        ("unit"	"V")
+                    )
+                    ("PDM"
+                        ("description"	"Max pwr dissipation")
+                        ("unit"	"W")
+                    )
+                    ("TJ"
+                        ("description"	"Max junction temp")
+                        ("unit"	"C")
+                    )
+                    ("RJC"
+                        ("description"	"J-C thermal resist")
+                        ("unit"	"C/W")
+                    )
+                    ("RCA"
+                        ("description"	"C-A thermal resist")
+                        ("unit"	"C/W")
+                    )
+                )
+                ("pre_smoke"
+                    ("TERM_ID"	"-1")
+                    ("TERM_IG"	"-2")
+                    ("NODE_VD"	"D")
+                    ("NODE_VG"	"G")
+                    ("NODE_VS"	"S")
+                    ("DERATE_TYPE"	"N-CHANNEL")
+                )
+                ("max_ops"
+                    ("RCA"	"RCA")
+                    ("RJC"	"RJC")
+                )
+                ("smoke_tests"
+                    ("ID"
+                        ("test"	"current_test")
+                        ("term"	"TERM_ID")
+                    )
+                    ("IG"
+                        ("test"	"current_test")
+                        ("term"	"TERM_IG")
+                    )
+                    ("PDM"
+                        ("test"	"power_test")
+                    )
+                    ("TJ"
+                        ("test"	"temp_null_test")
+                    )
+                    ("VDG"
+                        ("test"	"voltage_test")
+                        ("nodes"
+                            ("NODE_VD")
+                            ("NODE_VG")
+                        )
+                    )
+                    ("VDS"
+                        ("test"	"voltage_test")
+                        ("nodes"
+                            ("NODE_VD")
+                            ("NODE_VS")
+                        )
+                    )
+                    ("VGS"
+                        ("test"	"voltage_test")
+                        ("nodes"
+                            ("NODE_VG")
+                            ("NODE_VS")
+                        )
+                    )
+                )
+                ("device_max_ops"
+                    ("ID"	"20m")
+                    ("IG"	"1n")
+                    ("VGS"	"25")
+                )
+                ("device_pre_smoke"
+                    ("TERM_ID"	"D")
+                    ("TERM_IG"	"G")
+                    ("NODE_VD"	"D")
+                    ("NODE_VG"	"G")
+                    ("NODE_VS"	"S")
+                    ("DERATE_TYPE"	"N-CHANNEL")
+                )
+            )
+        )
+    )
+    ("instances"
+        ("C1"
+            ("device_name"	"Cbreak")
+            ("pspice_path"	"C_C1")
+            ("level"	"0")
+            ("model_params"
+                ("VALUE"
+                    ("value"	"10p")
+                    ("pspice_param"	"VALUE")
+                )
+                ("IC"
+                    ("value"	"")
+                    ("pspice_param"	"IC")
+                )
+            )
+        )
+        ("R1"
+            ("device_name"	"Rbreak")
+            ("pspice_path"	"R_R1")
+            ("level"	"0")
+            ("model_params"
+                ("VALUE"
+                    ("value"	"1k")
+                    ("pspice_param"	"VALUE")
+                )
+                ("BiasValue Power"
+                    ("value"	"253.6uW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("L1"
+            ("device_name"	"Lbreak")
+            ("pspice_path"	"L_L1")
+            ("level"	"0")
+            ("model_params"
+                ("VALUE"
+                    ("value"	"680nH")
+                    ("pspice_param"	"VALUE")
+                )
+                ("BiasValue Power"
+                    ("value"	"0W")
+                    ("pspice_param"	"BiasValue Power")
+                )
+                ("IC"
+                    ("value"	"")
+                    ("pspice_param"	"IC")
+                )
+            )
+        )
+        ("R2"
+            ("device_name"	"Rbreak")
+            ("pspice_path"	"R_R2")
+            ("level"	"0")
+            ("model_params"
+                ("VALUE"
+                    ("value"	"100k")
+                    ("pspice_param"	"VALUE")
+                )
+                ("BiasValue Power"
+                    ("value"	"155.6uW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("R4"
+            ("device_name"	"Rbreak")
+            ("pspice_path"	"R_R4")
+            ("level"	"0")
+            ("model_params"
+                ("VALUE"
+                    ("value"	"1k")
+                    ("pspice_param"	"VALUE")
+                )
+                ("BiasValue Power"
+                    ("value"	"56.22uW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("C2"
+            ("device_name"	"Cbreak")
+            ("pspice_path"	"C_C2")
+            ("level"	"0")
+            ("model_params"
+                ("VALUE"
+                    ("value"	"47p")
+                    ("pspice_param"	"VALUE")
+                )
+                ("IC"
+                    ("value"	"")
+                    ("pspice_param"	"IC")
+                )
+            )
+        )
+        ("C3"
+            ("device_name"	"Cbreak")
+            ("pspice_path"	"C_C3")
+            ("level"	"0")
+            ("model_params"
+                ("VALUE"
+                    ("value"	"100p")
+                    ("pspice_param"	"VALUE")
+                )
+                ("IC"
+                    ("value"	"")
+                    ("pspice_param"	"IC")
+                )
+            )
+        )
+        ("V1"
+            ("device_name"	"VDC")
+            ("pspice_path"	"V_V1")
+            ("level"	"0")
+            ("model_params"
+                ("DC"
+                    ("value"	"8Vdc")
+                    ("pspice_param"	"DC")
+                )
+                ("BiasValue Power"
+                    ("value"	"-641.4uW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("R5"
+            ("device_name"	"Rbreak")
+            ("pspice_path"	"R_R5")
+            ("level"	"0")
+            ("model_params"
+                ("VALUE"
+                    ("value"	"50")
+                    ("pspice_param"	"VALUE")
+                )
+                ("BiasValue Power"
+                    ("value"	"0W")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("J3"
+            ("device_name"	"J2N5486")
+            ("pspice_path"	"J_J3")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"1.200uW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+                ("AREA"
+                    ("value"	"")
+                    ("pspice_param"	"AREA")
+                )
+            )
+        )
+        ("J4"
+            ("device_name"	"J2N5486")
+            ("pspice_path"	"J_J4")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"63.75uW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+                ("AREA"
+                    ("value"	"")
+                    ("pspice_param"	"AREA")
+                )
+            )
+        )
+        ("R6"
+            ("device_name"	"Rbreak")
+            ("pspice_path"	"R_R6")
+            ("level"	"0")
+            ("model_params"
+                ("VALUE"
+                    ("value"	"1")
+                    ("pspice_param"	"VALUE")
+                )
+            )
+        )
+        ("C4"
+            ("device_name"	"Cbreak")
+            ("pspice_path"	"C_C4")
+            ("level"	"0")
+            ("model_params"
+                ("VALUE"
+                    ("value"	"100n")
+                    ("pspice_param"	"VALUE")
+                )
+                ("IC"
+                    ("value"	"")
+                    ("pspice_param"	"IC")
+                )
+            )
+        )
+    )
+)

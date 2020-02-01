@@ -1,0 +1,7 @@
+* source 29MHZ-LPF
+V_V1         N00123 0 DC 0Vdc AC 1Vac 
+C_C1         0 N00123 Cbreak 1n 
+C_C2         0 N00119 Cbreak 1n 
+C_C3         0 N004751 Cbreak 1n 
+L_L1         N00123 N00119 Lbreak 10uH 
+L_L2         N00119 N004751 Lbreak 10uH 

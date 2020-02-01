@@ -1,0 +1,452 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:L L4
+U 1 1 5E278CB1
+P 4300 2150
+F 0 "L4" V 4490 2150 50  0000 C CNN
+F 1 "24n" V 4399 2150 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4300 2150 50  0001 C CNN
+F 3 "~" H 4300 2150 50  0001 C CNN
+	1    4300 2150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C C4
+U 1 1 5E2791E3
+P 4300 2850
+F 0 "C4" V 4552 2850 50  0000 C CNN
+F 1 "1.2n" V 4461 2850 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4338 2700 50  0001 C CNN
+F 3 "~" H 4300 2850 50  0001 C CNN
+	1    4300 2850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J1
+U 1 1 5E2799A4
+P 2450 2850
+F 0 "J1" H 2378 3088 50  0000 C CNN
+F 1 "Conn_Coaxial" H 2378 2997 50  0000 C CNN
+F 2 "Connector_Coaxial:SMA_Molex_73251-1153_EdgeMount_Horizontal" H 2450 2850 50  0001 C CNN
+F 3 " ~" H 2450 2850 50  0001 C CNN
+	1    2450 2850
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:C C1
+U 1 1 5E279F06
+P 3300 3000
+F 0 "C1" H 3415 3046 50  0000 L CNN
+F 1 "8.2p" H 3415 2955 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3338 2850 50  0001 C CNN
+F 3 "~" H 3300 3000 50  0001 C CNN
+	1    3300 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:L L1
+U 1 1 5E27A452
+P 3300 3300
+F 0 "L1" H 3352 3346 50  0000 L CNN
+F 1 "3.6u" H 3352 3255 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3300 3300 50  0001 C CNN
+F 3 "~" H 3300 3300 50  0001 C CNN
+	1    3300 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:L L8
+U 1 1 5E27CF13
+P 5750 2150
+F 0 "L8" V 5940 2150 50  0000 C CNN
+F 1 "24n" V 5849 2150 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5750 2150 50  0001 C CNN
+F 3 "~" H 5750 2150 50  0001 C CNN
+	1    5750 2150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C C8
+U 1 1 5E27CF1D
+P 5750 2850
+F 0 "C8" V 6002 2850 50  0000 C CNN
+F 1 "1.2n" V 5911 2850 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5788 2700 50  0001 C CNN
+F 3 "~" H 5750 2850 50  0001 C CNN
+	1    5750 2850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C C5
+U 1 1 5E27CF27
+P 4950 3000
+F 0 "C5" H 5065 3046 50  0000 L CNN
+F 1 "15p" H 5065 2955 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4988 2850 50  0001 C CNN
+F 3 "~" H 4950 3000 50  0001 C CNN
+	1    4950 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:L L5
+U 1 1 5E27CF31
+P 4950 3300
+F 0 "L5" H 5003 3346 50  0000 L CNN
+F 1 "2u" H 5003 3255 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4950 3300 50  0001 C CNN
+F 3 "~" H 4950 3300 50  0001 C CNN
+	1    4950 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C9
+U 1 1 5E27F30F
+P 6400 3000
+F 0 "C9" H 6515 3046 50  0000 L CNN
+F 1 "8.2p" H 6515 2955 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6438 2850 50  0001 C CNN
+F 3 "~" H 6400 3000 50  0001 C CNN
+	1    6400 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:L L9
+U 1 1 5E27F315
+P 6400 3300
+F 0 "L9" H 6452 3346 50  0000 L CNN
+F 1 "3.6u" H 6452 3255 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6400 3300 50  0001 C CNN
+F 3 "~" H 6400 3300 50  0001 C CNN
+	1    6400 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Variable C2
+U 1 1 5E28042A
+P 3750 3000
+F 0 "C2" H 3865 3046 50  0000 L CNN
+F 1 "C_Variable" H 3865 2955 50  0000 L CNN
+F 2 "LT:CAP_trimmer_SGC3" H 3750 3000 50  0001 C CNN
+F 3 "~" H 3750 3000 50  0001 C CNN
+	1    3750 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Variable C6
+U 1 1 5E280F31
+P 5350 3000
+F 0 "C6" H 5465 3046 50  0000 L CNN
+F 1 "C_Variable" H 5465 2955 50  0000 L CNN
+F 2 "LT:CAP_trimmer_SGC3" H 5350 3000 50  0001 C CNN
+F 3 "~" H 5350 3000 50  0001 C CNN
+	1    5350 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Variable C10
+U 1 1 5E2813A2
+P 6850 3000
+F 0 "C10" H 6965 3046 50  0000 L CNN
+F 1 "C_Variable" H 6965 2955 50  0000 L CNN
+F 2 "LT:CAP_trimmer_SGC3" H 6850 3000 50  0001 C CNN
+F 3 "~" H 6850 3000 50  0001 C CNN
+	1    6850 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Variable C3
+U 1 1 5E28180E
+P 4300 2450
+F 0 "C3" V 4048 2450 50  0000 C CNN
+F 1 "C_Variable" V 4139 2450 50  0000 C CNN
+F 2 "LT:CAP_trimmer_SGC3" H 4300 2450 50  0001 C CNN
+F 3 "~" H 4300 2450 50  0001 C CNN
+	1    4300 2450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Variable C7
+U 1 1 5E28213B
+P 5750 2450
+F 0 "C7" V 5498 2450 50  0000 C CNN
+F 1 "C_Variable" V 5589 2450 50  0000 C CNN
+F 2 "LT:CAP_trimmer_SGC3" H 5750 2450 50  0001 C CNN
+F 3 "~" H 5750 2450 50  0001 C CNN
+	1    5750 2450
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J2
+U 1 1 5E287682
+P 7550 2850
+F 0 "J2" H 7650 2825 50  0000 L CNN
+F 1 "Conn_Coaxial" H 7650 2734 50  0000 L CNN
+F 2 "Connector_Coaxial:SMA_Molex_73251-1153_EdgeMount_Horizontal" H 7550 2850 50  0001 C CNN
+F 3 " ~" H 7550 2850 50  0001 C CNN
+	1    7550 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2650 2850 3300 2850
+Connection ~ 3300 2850
+Wire Wire Line
+	3300 2850 3750 2850
+Connection ~ 3750 2850
+Wire Wire Line
+	3750 2850 4150 2850
+Wire Wire Line
+	4450 2850 4950 2850
+Connection ~ 4950 2850
+Wire Wire Line
+	4950 2850 5350 2850
+Connection ~ 5350 2850
+Wire Wire Line
+	5350 2850 5600 2850
+Wire Wire Line
+	5900 2850 6400 2850
+Connection ~ 6400 2850
+Wire Wire Line
+	6400 2850 6850 2850
+Connection ~ 6850 2850
+Wire Wire Line
+	6850 2850 7350 2850
+Wire Wire Line
+	4150 1700 4150 2150
+Connection ~ 4150 2850
+Connection ~ 4150 2150
+Wire Wire Line
+	4150 2150 4150 2450
+Wire Wire Line
+	4450 1700 4450 2150
+Connection ~ 4450 2850
+Connection ~ 4450 2150
+Wire Wire Line
+	4450 2150 4450 2450
+Connection ~ 5600 2850
+Connection ~ 5900 2850
+$Comp
+L power:GND #PWR01
+U 1 1 5E28A5E9
+P 2450 3050
+F 0 "#PWR01" H 2450 2800 50  0001 C CNN
+F 1 "GND" H 2455 2877 50  0000 C CNN
+F 2 "" H 2450 3050 50  0001 C CNN
+F 3 "" H 2450 3050 50  0001 C CNN
+	1    2450 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR02
+U 1 1 5E28AB99
+P 3300 3450
+F 0 "#PWR02" H 3300 3200 50  0001 C CNN
+F 1 "GND" H 3305 3277 50  0000 C CNN
+F 2 "" H 3300 3450 50  0001 C CNN
+F 3 "" H 3300 3450 50  0001 C CNN
+	1    3300 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR03
+U 1 1 5E28B5AD
+P 3750 3800
+F 0 "#PWR03" H 3750 3550 50  0001 C CNN
+F 1 "GND" H 3755 3627 50  0000 C CNN
+F 2 "" H 3750 3800 50  0001 C CNN
+F 3 "" H 3750 3800 50  0001 C CNN
+	1    3750 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR04
+U 1 1 5E28B96A
+P 4950 3450
+F 0 "#PWR04" H 4950 3200 50  0001 C CNN
+F 1 "GND" H 4955 3277 50  0000 C CNN
+F 2 "" H 4950 3450 50  0001 C CNN
+F 3 "" H 4950 3450 50  0001 C CNN
+	1    4950 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR05
+U 1 1 5E28BC62
+P 5350 3750
+F 0 "#PWR05" H 5350 3500 50  0001 C CNN
+F 1 "GND" H 5355 3577 50  0000 C CNN
+F 2 "" H 5350 3750 50  0001 C CNN
+F 3 "" H 5350 3750 50  0001 C CNN
+	1    5350 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR06
+U 1 1 5E28BEA5
+P 6400 3450
+F 0 "#PWR06" H 6400 3200 50  0001 C CNN
+F 1 "GND" H 6405 3277 50  0000 C CNN
+F 2 "" H 6400 3450 50  0001 C CNN
+F 3 "" H 6400 3450 50  0001 C CNN
+	1    6400 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR07
+U 1 1 5E28C1FF
+P 6850 3750
+F 0 "#PWR07" H 6850 3500 50  0001 C CNN
+F 1 "GND" H 6855 3577 50  0000 C CNN
+F 2 "" H 6850 3750 50  0001 C CNN
+F 3 "" H 6850 3750 50  0001 C CNN
+	1    6850 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR08
+U 1 1 5E28C4E9
+P 7550 3050
+F 0 "#PWR08" H 7550 2800 50  0001 C CNN
+F 1 "GND" H 7555 2877 50  0000 C CNN
+F 2 "" H 7550 3050 50  0001 C CNN
+F 3 "" H 7550 3050 50  0001 C CNN
+	1    7550 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3750 3150 3300 3150
+Connection ~ 3300 3150
+Wire Wire Line
+	4950 3150 5350 3150
+Connection ~ 4950 3150
+Wire Wire Line
+	6400 3150 6850 3150
+Connection ~ 6400 3150
+$Comp
+L LT-Schematics:LM3-IND U2
+U 1 1 5E292873
+P 4300 1500
+F 0 "U2" H 4300 1185 50  0000 C CNN
+F 1 "LM3-IND" H 4300 1276 50  0000 C CNN
+F 2 "LT:IND_trimmer_7M3" H 4300 1250 50  0001 C CNN
+F 3 "" H 4300 1250 50  0001 C CNN
+	1    4300 1500
+	1    0    0    1   
+$EndComp
+Connection ~ 4450 2450
+Connection ~ 4150 2450
+Wire Wire Line
+	4450 2450 4450 2850
+Wire Wire Line
+	4150 2450 4150 2850
+Wire Wire Line
+	4000 1600 4000 1700
+Wire Wire Line
+	4000 1700 4150 1700
+Wire Wire Line
+	4600 1600 4600 1700
+Wire Wire Line
+	4600 1700 4450 1700
+NoConn ~ 4000 1400
+NoConn ~ 4000 1500
+NoConn ~ 4600 1400
+NoConn ~ 4600 1500
+Connection ~ 5900 2450
+Wire Wire Line
+	5900 2450 5900 2850
+Connection ~ 5600 2450
+Wire Wire Line
+	5600 2450 5600 2850
+Wire Wire Line
+	5600 1700 5600 2150
+Wire Wire Line
+	5900 1700 5900 2150
+Connection ~ 5600 2150
+Wire Wire Line
+	5600 2150 5600 2450
+Connection ~ 5900 2150
+Wire Wire Line
+	5900 2150 5900 2450
+$Comp
+L LT-Schematics:LM3-IND U4
+U 1 1 5E29889D
+P 5750 1450
+F 0 "U4" H 5750 1135 50  0000 C CNN
+F 1 "LM3-IND" H 5750 1226 50  0000 C CNN
+F 2 "LT:IND_trimmer_7M3" H 5750 1200 50  0001 C CNN
+F 3 "" H 5750 1200 50  0001 C CNN
+	1    5750 1450
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	5450 1550 5450 1700
+Wire Wire Line
+	5450 1700 5600 1700
+Wire Wire Line
+	6050 1550 6050 1700
+Wire Wire Line
+	6050 1700 5900 1700
+$Comp
+L LT-Schematics:LM3-IND U1
+U 1 1 5E299DEA
+P 3850 3500
+F 0 "U1" V 3804 3322 50  0000 R CNN
+F 1 "LM3-IND" V 3895 3322 50  0000 R CNN
+F 2 "LT:IND_trimmer_7M3" H 3850 3250 50  0001 C CNN
+F 3 "" H 3850 3250 50  0001 C CNN
+	1    3850 3500
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	3750 3150 3750 3200
+Connection ~ 3750 3150
+$Comp
+L LT-Schematics:LM3-IND U3
+U 1 1 5E29C060
+P 5450 3450
+F 0 "U3" V 5404 3272 50  0000 R CNN
+F 1 "LM3-IND" V 5495 3272 50  0000 R CNN
+F 2 "LT:IND_trimmer_7M3" H 5450 3200 50  0001 C CNN
+F 3 "" H 5450 3200 50  0001 C CNN
+	1    5450 3450
+	0    -1   1    0   
+$EndComp
+Connection ~ 5350 3150
+$Comp
+L LT-Schematics:LM3-IND U5
+U 1 1 5E29C8CD
+P 6950 3450
+F 0 "U5" V 6904 3272 50  0000 R CNN
+F 1 "LM3-IND" V 6995 3272 50  0000 R CNN
+F 2 "LT:IND_trimmer_7M3" H 6950 3200 50  0001 C CNN
+F 3 "" H 6950 3200 50  0001 C CNN
+	1    6950 3450
+	0    -1   1    0   
+$EndComp
+Connection ~ 6850 3150
+NoConn ~ 3850 3800
+NoConn ~ 3950 3800
+NoConn ~ 3850 3200
+NoConn ~ 3950 3200
+NoConn ~ 5450 3750
+NoConn ~ 5550 3750
+NoConn ~ 5550 3150
+NoConn ~ 5450 3150
+NoConn ~ 6950 3150
+NoConn ~ 7050 3150
+NoConn ~ 6950 3750
+NoConn ~ 7050 3750
+$EndSCHEMATC

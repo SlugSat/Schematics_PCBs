@@ -1,0 +1,150 @@
+
+**** 01/24/20 16:53:26 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-Sim1"  [ C:\Users\lfbarrag\Documents\SlugSat\GitHub\Schematics_PCBs\LT\Local-Oscillator\pll-sims-pspicefiles
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "Sim1.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\lfbarrag\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "nomd.lib" 
+
+*Analysis directives: 
+.TRAN  0 1050us 1000us 1ns SKIPBP 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source PLL-SIMS
+C_C1         N00352 N03763 Cbreak 10p 
+R_R1         0 N01469 Rbreak 1k
+L_L1         N00447 0 Lbreak 680nH 
+R_R2         0 N00245 Rbreak 100k
+R_R4         0 N00352 Rbreak 1k
+C_C2         N00352 N00447 Cbreak 47p 
+C_C3         0 N00352 Cbreak 100p 
+V_V1         N00695 0 8Vdc
+R_R5         0 N03860 Rbreak 50
+J_J3         N00695 N00245 N01469 J2N5486 
+J_J4         N00695 N00447 N00352 J2N5486 
+R_R6         N00245 N03763 Rbreak 1
+C_C4         N01469 N03860 Cbreak 100n 
+
+**** RESUMING Sim1.cir ****
+.END
+
+**** 01/24/20 16:53:26 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-Sim1"  [ C:\Users\lfbarrag\Documents\SlugSat\GitHub\Schematics_PCBs\LT\Local-Oscillator\pll-sims-pspicefiles
+
+
+ ****     Junction FET MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               J2N5486         
+               NJF             
+         VTO   -3.889        
+        BETA  736.900000E-06 
+      LAMBDA    9.500000E-03 
+          IS   33.570000E-15 
+         ISR  322.400000E-15 
+       ALPHA  311.700000E-06 
+          VK  243.6          
+          RD    1            
+          RS    1            
+         CGD    1.600000E-12 
+         CGS    2.414000E-12 
+           M     .3622       
+       VTOTC   -2.500000E-03 
+     BETATCE    -.5          
+          KF    5.497000E-18 
+
+
+**** 01/24/20 16:53:26 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-Sim1"  [ C:\Users\lfbarrag\Documents\SlugSat\GitHub\Schematics_PCBs\LT\Local-Oscillator\pll-sims-pspicefiles
+
+
+ ****     Resistor MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               Rbreak          
+           R    1            
+
+
+**** 01/24/20 16:53:26 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-Sim1"  [ C:\Users\lfbarrag\Documents\SlugSat\GitHub\Schematics_PCBs\LT\Local-Oscillator\pll-sims-pspicefiles
+
+
+ ****     Capacitor MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               Cbreak          
+           C    1            
+
+
+**** 01/24/20 16:53:26 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-Sim1"  [ C:\Users\lfbarrag\Documents\SlugSat\GitHub\Schematics_PCBs\LT\Local-Oscillator\pll-sims-pspicefiles
+
+
+ ****     Inductor MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               Lbreak          
+           L    1            
+
+
+
+          JOB CONCLUDED
+
+**** 01/24/20 16:53:26 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-Sim1"  [ C:\Users\lfbarrag\Documents\SlugSat\GitHub\Schematics_PCBs\LT\Local-Oscillator\pll-sims-pspicefiles
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =        7.19
+

@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name Distribution_board-rescue)(type Legacy)(uri ${KIPRJMOD}/Distribution_board-rescue.lib)(options "")(descr ""))
+  (lib (name Power_Switch)(type Legacy)(uri "${KIPRJMOD}/Power Switch.lib")(options "")(descr ""))
+  (lib (name "Power Switch")(type Legacy)(uri "C:/Users/awslagle/Desktop/Distribution_board/Power Switch.lib")(options "")(descr ""))
+)

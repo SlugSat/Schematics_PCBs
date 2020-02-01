@@ -1,0 +1,51 @@
+
+**** 01/18/20 13:36:52 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-sim1"  [ C:\Users\lfbarrag\Documents\SlugSat\GitHub\Schematics_PCBs\LT\29.4MHz Low-Pass Filter\29MHz-LPF-PSp
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "sim1.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\lfbarrag\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "nomd.lib" 
+
+*Analysis directives: 
+.AC DEC 75000 25E6 100E6
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source 29MHZ-LPF
+C_C1         GND N00123  180p  TC=0,0 
+C_C2         GND N00119  270p  TC=0,0 
+C_C3         GND N000681  180pF  TC=0,0 
+L_L1         N00123 N00119  330nH  
+L_L2         N00119 N000681  330nH  
+V_V1         N00123 GND DC 0Vdc AC 1Vac 
+
+**** RESUMING sim1.cir ****
+.END
+
+ERROR(ORPSIM-15142): Node GND is floating
+
+ERROR(ORPSIM-15142): Node N00123 is floating
+
+ERROR(ORPSIM-15142): Node N00119 is floating
+
+ERROR(ORPSIM-15142): Node N000681 is floating
+
