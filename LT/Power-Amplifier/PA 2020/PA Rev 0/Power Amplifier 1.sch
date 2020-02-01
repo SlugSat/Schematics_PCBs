@@ -41,7 +41,7 @@ U 1 1 5E1FDD36
 P 800 1900
 F 0 "J1" H 908 2081 50  0000 C CNN
 F 1 "Signal In" H 908 1990 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 800 1900 50  0001 C CNN
+F 2 "Connector_Coaxial:SMA_Molex_73251-1153_EdgeMount_Horizontal" H 800 1900 50  0001 C CNN
 F 3 "~" H 800 1900 50  0001 C CNN
 	1    800  1900
 	1    0    0    -1  
