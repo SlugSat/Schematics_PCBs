@@ -1,4 +1,4 @@
-(module STD_PCB_B1_v1.1 (layer F.Cu) (tedit 5E39F3F6)
+(module STD_PCB_B1_v1.1 (layer F.Cu) (tedit 5E39F6D2)
   (fp_text reference REF** (at -2.36 3.15) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -175,8 +175,8 @@
   (pad "" np_thru_hole circle (at 5.08 -90.81) (size 6.35 6.35) (drill 3.18) (layers *.Cu *.Mask))
   (pad "" np_thru_hole circle (at 82.55 -90.81) (size 6.35 6.35) (drill 3.18) (layers *.Cu *.Mask))
   (pad "" np_thru_hole circle (at 85.09 -5.08) (size 6.35 6.35) (drill 3.18) (layers *.Cu *.Mask))
-  (model "C:/Users/Jonathan Adams/Desktop/Library Loader/SamacSys_Parts.3dshapes/PTHF-130-02-G-Q-368.stp"
-    (offset (xyz 71.8 83.09999999999999 0))
+  (model C:/Users/joaladam/Documents/SlugSat/GitHub/Schematics_PCBs/Chassis/PCB_Standards/Mechanical/PTHF-130-02-G-Q-368.stp
+    (offset (xyz 74.09999999999999 83.09999999999999 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )

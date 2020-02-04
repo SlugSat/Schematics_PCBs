@@ -1,4 +1,4 @@
-(module STD_PCB_A1_v1.1 (layer F.Cu) (tedit 5E39F296)
+(module STD_PCB_A1_v1.1 (layer F.Cu) (tedit 5E39F6A2)
   (fp_text reference REF** (at -2.36 3.15) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -172,8 +172,8 @@
   (pad 12 thru_hole circle (at 52.085 -89.12 90) (size 1.5 1.5) (drill 1) (layers *.Cu *.Mask F.SilkS))
   (pad 22 thru_hole circle (at 32.085 -89.12 90) (size 1.5 1.5) (drill 1) (layers *.Cu *.Mask F.SilkS))
   (pad 35 thru_hole circle (at 66.085 -87.12 90) (size 1.5 1.5) (drill 1) (layers *.Cu *.Mask F.SilkS))
-  (model "C:/Users/joaladam/Desktop/Standard Template/SS.pretty/PTHF-130-02-G-Q-368.stp"
-    (offset (xyz 71.8 83.09999999999999 0))
+  (model C:/Users/joaladam/Documents/SlugSat/GitHub/Schematics_PCBs/Chassis/PCB_Standards/Mechanical/PTHF-130-02-G-Q-368.stp
+    (offset (xyz 74.09999999999999 83.09999999999999 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
