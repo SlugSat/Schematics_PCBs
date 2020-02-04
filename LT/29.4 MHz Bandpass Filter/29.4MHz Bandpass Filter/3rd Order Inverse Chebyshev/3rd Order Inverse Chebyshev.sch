@@ -151,7 +151,7 @@ L Device:L L4
 U 1 1 5E276F67
 P 5450 1050
 F 0 "L4" V 5640 1050 50  0000 C CNN
-F 1 "1.6uH" V 5549 1050 50  0000 C CNN
+F 1 "1.5uH" V 5549 1050 50  0000 C CNN
 F 2 "Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5450 1050 50  0001 C CNN
 F 3 "~" H 5450 1050 50  0001 C CNN
 	1    5450 1050
@@ -233,9 +233,6 @@ Connection ~ 4700 1600
 Wire Wire Line
 	4700 1600 4700 1350
 Wire Wire Line
-	5000 1050 5000 1350
-Connection ~ 5000 1350
-Wire Wire Line
 	5000 1350 5000 1600
 Connection ~ 5000 1600
 Wire Wire Line
@@ -248,9 +245,6 @@ Wire Wire Line
 Connection ~ 5300 1600
 Wire Wire Line
 	5300 1600 5300 1850
-Wire Wire Line
-	5600 1050 5600 1350
-Connection ~ 5600 1350
 Wire Wire Line
 	5600 1350 5600 1600
 Connection ~ 5600 1600
@@ -380,4 +374,28 @@ Wire Wire Line
 Wire Wire Line
 	2550 1850 3150 1850
 Connection ~ 3150 1850
+$Comp
+L Device:L L9
+U 1 1 5E3795A2
+P 5000 1200
+F 0 "L9" H 5053 1246 50  0000 L CNN
+F 1 "6.8nH" H 5053 1155 50  0000 L CNN
+F 2 "Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5000 1200 50  0001 C CNN
+F 3 "~" H 5000 1200 50  0001 C CNN
+	1    5000 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:L L10
+U 1 1 5E379632
+P 5600 1200
+F 0 "L10" H 5653 1246 50  0000 L CNN
+F 1 "75nH" H 5653 1155 50  0000 L CNN
+F 2 "Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5600 1200 50  0001 C CNN
+F 3 "~" H 5600 1200 50  0001 C CNN
+	1    5600 1200
+	1    0    0    -1  
+$EndComp
+Connection ~ 5000 1350
+Connection ~ 5600 1350
 $EndSCHEMATC
