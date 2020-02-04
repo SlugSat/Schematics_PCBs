@@ -1,5 +1,11 @@
 import math
 
+###################################Parameters to change############################################
+
+vOutMax=3.9	#Resistors are designed for this voltage output
+THRESHOLD=20	#The max difference between the ideal resistor value and physical resistor value
+
+###################################################################################################
 multiplier=0
 i=0
 j=0
@@ -29,8 +35,6 @@ resistorListlength=len(resistorList)-1
 max=resistorListlength
 min=0
 i=0
-THRESHOLD=20
-vOutMax=3.9
 percentageDiff=0
 while i<fileLength:
     R1=((vOutMax/1.25)-1)*resistorList[i]
