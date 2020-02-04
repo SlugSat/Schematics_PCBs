@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name Current)(type Legacy)(uri "C:/Users/Omicron/Desktop/1_8V Power Switch/Current.lib")(options "")(descr ""))
+  (lib (name 1_8V-Power-Switch-rescue)(type Legacy)(uri "${KIPRJMOD}/1_8V Power Switch-rescue.lib")(options "")(descr ""))
+)

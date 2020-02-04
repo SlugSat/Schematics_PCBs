@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name EPS_2020_Library)(type Legacy)(uri ${KIPRJMOD}/EPS_2020_Library.lib)(options "")(descr ""))
+)
