@@ -88,7 +88,7 @@ U 1 1 5E3EA65E
 P 1550 1450
 F 0 "J1" H 1656 1628 50  0000 C CNN
 F 1 "Input" H 1656 1537 50  0000 C CNN
-F 2 "Connector_Coaxial:SMA_Molex_73251-1153_EdgeMount_Horizontal" H 1550 1450 50  0001 C CNN
+F 2 "PA:SMA_Molex_73251-1153_EdgeMount_Horizontal" H 1550 1450 50  0001 C CNN
 F 3 "" H 1550 1450 50  0001 C CNN
 	1    1550 1450
 	1    0    0    -1  
@@ -99,7 +99,7 @@ U 1 1 5E3EA692
 P 5650 1450
 F 0 "J2" H 5622 1423 50  0000 R CNN
 F 1 "Output" H 5622 1332 50  0000 R CNN
-F 2 "Connector_Coaxial:SMA_Molex_73251-1153_EdgeMount_Horizontal" H 5650 1450 50  0001 C CNN
+F 2 "PA:SMA_Molex_73251-1153_EdgeMount_Horizontal" H 5650 1450 50  0001 C CNN
 F 3 "" H 5650 1450 50  0001 C CNN
 	1    5650 1450
 	-1   0    0    -1  
