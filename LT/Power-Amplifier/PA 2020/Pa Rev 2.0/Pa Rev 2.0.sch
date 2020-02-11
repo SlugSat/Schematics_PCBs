@@ -1,0 +1,358 @@
+EESchema Schematic File Version 4
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Notes 7100 6950 0    197  ~ 0
+Power Amplifier
+Text Notes 10550 7650 0    59   ~ 0
+2.0\n
+$Comp
+L Daisy~Chain-cache:Connector_Conn_01x02_Male J0
+U 1 1 5E3E9B29
+P 1100 850
+F 0 "J0" H 1206 1028 50  0000 C CNN
+F 1 "Power" H 1206 937 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 1100 850 50  0001 C CNN
+F 3 "" H 1100 850 50  0001 C CNN
+	1    1100 850 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_NPN_BEC Q1
+U 1 1 5E3E9CB2
+P 3500 1250
+F 0 "Q1" H 3450 1500 50  0000 L CNN
+F 1 "MMBT3904" H 3600 1500 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 3700 1350 50  0001 C CNN
+F 3 "~" H 3500 1250 50  0001 C CNN
+	1    3500 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_PNP_BEC Q2
+U 1 1 5E3E9D83
+P 3500 2050
+F 0 "Q2" H 3450 2300 50  0000 L CNN
+F 1 "MMBT3906" H 3600 2300 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 3700 2150 50  0001 C CNN
+F 3 "~" H 3500 2050 50  0001 C CNN
+	1    3500 2050
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	2800 1850 2800 2050
+Wire Wire Line
+	2800 1450 2800 1250
+Wire Wire Line
+	2800 1650 3050 1650
+$Comp
+L Device:R R2
+U 1 1 5E3EA2C9
+P 3050 1800
+F 0 "R2" H 3120 1846 50  0000 L CNN
+F 1 "3.3k Ohms" H 3120 1755 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2980 1800 50  0001 C CNN
+F 3 "~" H 3050 1800 50  0001 C CNN
+	1    3050 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 5E3EA33F
+P 3050 1950
+F 0 "#PWR0101" H 3050 1700 50  0001 C CNN
+F 1 "GND" H 3055 1777 50  0000 C CNN
+F 2 "" H 3050 1950 50  0001 C CNN
+F 3 "" H 3050 1950 50  0001 C CNN
+	1    3050 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4400 1050 4400 1450
+Wire Wire Line
+	4400 1850 4400 2250
+$Comp
+L Daisy~Chain-cache:Connector_Conn_01x02_Male J1
+U 1 1 5E3EA65E
+P 1550 1450
+F 0 "J1" H 1656 1628 50  0000 C CNN
+F 1 "Input" H 1656 1537 50  0000 C CNN
+F 2 "PA:SMA_Molex_73251-1153_EdgeMount_Horizontal" H 1550 1450 50  0001 C CNN
+F 3 "" H 1550 1450 50  0001 C CNN
+	1    1550 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Daisy~Chain-cache:Connector_Conn_01x02_Male J2
+U 1 1 5E3EA692
+P 5650 1450
+F 0 "J2" H 5622 1423 50  0000 R CNN
+F 1 "Output" H 5622 1332 50  0000 R CNN
+F 2 "PA:SMA_Molex_73251-1153_EdgeMount_Horizontal" H 5650 1450 50  0001 C CNN
+F 3 "" H 5650 1450 50  0001 C CNN
+	1    5650 1450
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 5E3EA788
+P 1750 1550
+F 0 "#PWR0102" H 1750 1300 50  0001 C CNN
+F 1 "GND" H 1755 1377 50  0000 C CNN
+F 2 "" H 1750 1550 50  0001 C CNN
+F 3 "" H 1750 1550 50  0001 C CNN
+	1    1750 1550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1750 1450 2000 1450
+Wire Wire Line
+	5450 1450 5200 1450
+$Comp
+L power:GND #PWR0103
+U 1 1 5E3EAAD4
+P 5200 1850
+F 0 "#PWR0103" H 5200 1600 50  0001 C CNN
+F 1 "GND" H 5205 1677 50  0000 C CNN
+F 2 "" H 5200 1850 50  0001 C CNN
+F 3 "" H 5200 1850 50  0001 C CNN
+	1    5200 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0104
+U 1 1 5E3EAAEF
+P 2000 1850
+F 0 "#PWR0104" H 2000 1600 50  0001 C CNN
+F 1 "GND" H 2005 1677 50  0000 C CNN
+F 2 "" H 2000 1850 50  0001 C CNN
+F 3 "" H 2000 1850 50  0001 C CNN
+	1    2000 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 5E3EABA7
+P 3050 1500
+F 0 "R1" H 3120 1546 50  0000 L CNN
+F 1 "4.7k Ohms" H 3120 1455 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2980 1500 50  0001 C CNN
+F 3 "~" H 3050 1500 50  0001 C CNN
+	1    3050 1500
+	1    0    0    -1  
+$EndComp
+Connection ~ 3050 1650
+Wire Wire Line
+	2800 1250 3300 1250
+Wire Wire Line
+	2800 2050 3300 2050
+Wire Wire Line
+	3050 850  3050 1350
+$Comp
+L power:GND #PWR0105
+U 1 1 5E3EB4C1
+P 3850 1950
+F 0 "#PWR0105" H 3850 1700 50  0001 C CNN
+F 1 "GND" H 3855 1777 50  0000 C CNN
+F 2 "" H 3850 1950 50  0001 C CNN
+F 3 "" H 3850 1950 50  0001 C CNN
+	1    3850 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3600 2250 4400 2250
+Wire Wire Line
+	3600 1050 4400 1050
+Wire Wire Line
+	4250 850  4250 1650
+Wire Wire Line
+	4250 1650 4400 1650
+$Comp
+L Daisy~Chain-cache:Device_C C1
+U 1 1 5E3EBF51
+P 2100 1000
+F 0 "C1" H 2215 1046 50  0000 L CNN
+F 1 "100 nF" H 2215 955 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2138 850 50  0001 C CNN
+F 3 "" H 2100 1000 50  0001 C CNN
+	1    2100 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Daisy~Chain-cache:Device_C C2
+U 1 1 5E3EBFD1
+P 4800 1000
+F 0 "C2" H 4915 1046 50  0000 L CNN
+F 1 "100 nF" H 4915 955 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4838 850 50  0001 C CNN
+F 3 "" H 4800 1000 50  0001 C CNN
+	1    4800 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Regulator_Linear:LM7808_TO220 U0
+U 1 1 5E3EC0E3
+P 2650 850
+F 0 "U0" H 2650 1092 50  0000 C CNN
+F 1 "LM7808_TO220" H 2650 1001 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 2650 1075 50  0001 C CIN
+F 3 "http://www.fairchildsemi.com/ds/LM/LM7805.pdf" H 2650 800 50  0001 C CNN
+	1    2650 850 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3600 1450 3600 1650
+$Comp
+L Device:R R0
+U 1 1 5E3EC461
+P 3850 1800
+F 0 "R0" H 3920 1846 50  0000 L CNN
+F 1 "47 Ohms" H 3920 1755 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3780 1800 50  0001 C CNN
+F 3 "~" H 3850 1800 50  0001 C CNN
+	1    3850 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3600 1650 3850 1650
+Connection ~ 3600 1650
+Wire Wire Line
+	3600 1650 3600 1850
+$Comp
+L 0_PA_Rev2:RF_Xformer T1
+U 1 1 5E3F025E
+P 2400 1650
+F 0 "T1" H 2400 1900 50  0000 C CNN
+F 1 "RF_Xformer" H 2400 1400 50  0000 C CNN
+F 2 "Transformer_SMD:Transformer_MACOM_SM-22" H 2400 1650 50  0001 C CNN
+F 3 "~" H 2400 1650 50  0001 C CNN
+	1    2400 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L 0_PA_Rev2:RF_Xformer T2
+U 1 1 5E3F02CC
+P 4800 1650
+F 0 "T2" H 4800 1900 50  0000 C CNN
+F 1 "RF_Xformer" H 4800 1400 50  0000 C CNN
+F 2 "Transformer_SMD:Transformer_MACOM_SM-22" H 4800 1650 50  0001 C CNN
+F 3 "~" H 4800 1650 50  0001 C CNN
+	1    4800 1650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0106
+U 1 1 5E3F043F
+P 2650 1150
+F 0 "#PWR0106" H 2650 900 50  0001 C CNN
+F 1 "GND" H 2655 977 50  0000 C CNN
+F 2 "" H 2650 1150 50  0001 C CNN
+F 3 "" H 2650 1150 50  0001 C CNN
+	1    2650 1150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2950 850  3050 850 
+Wire Wire Line
+	3050 850  4250 850 
+Connection ~ 3050 850 
+$Comp
+L pspice:DIODE D0
+U 1 1 5E3F08E6
+P 1650 850
+F 0 "D0" H 1650 1115 50  0000 C CNN
+F 1 "1N4001" H 1650 1024 50  0000 C CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P12.70mm_Horizontal" H 1650 850 50  0001 C CNN
+F 3 "~" H 1650 850 50  0001 C CNN
+	1    1650 850 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2350 850  2100 850 
+Connection ~ 2100 850 
+Wire Wire Line
+	2100 850  1850 850 
+$Comp
+L power:GND #PWR0107
+U 1 1 5E3F0C6C
+P 2100 1150
+F 0 "#PWR0107" H 2100 900 50  0001 C CNN
+F 1 "GND" H 2105 977 50  0000 C CNN
+F 2 "" H 2100 1150 50  0001 C CNN
+F 3 "" H 2100 1150 50  0001 C CNN
+	1    2100 1150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4800 850  4250 850 
+Connection ~ 4250 850 
+$Comp
+L power:GND #PWR0108
+U 1 1 5E3F10AF
+P 4800 1150
+F 0 "#PWR0108" H 4800 900 50  0001 C CNN
+F 1 "GND" H 4805 977 50  0000 C CNN
+F 2 "" H 4800 1150 50  0001 C CNN
+F 3 "" H 4800 1150 50  0001 C CNN
+	1    4800 1150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1450 850  1300 850 
+$Comp
+L Daisy~Chain-cache:Device_C C3
+U 1 1 5E3F15C2
+P 3850 1500
+F 0 "C3" H 3735 1454 50  0000 R CNN
+F 1 "100 nF" H 3735 1545 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3888 1350 50  0001 C CNN
+F 3 "" H 3850 1500 50  0001 C CNN
+	1    3850 1500
+	-1   0    0    1   
+$EndComp
+Connection ~ 3850 1650
+$Comp
+L power:GND #PWR0109
+U 1 1 5E3F1640
+P 3850 1350
+F 0 "#PWR0109" H 3850 1100 50  0001 C CNN
+F 1 "GND" H 3855 1177 50  0000 C CNN
+F 2 "" H 3850 1350 50  0001 C CNN
+F 3 "" H 3850 1350 50  0001 C CNN
+	1    3850 1350
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0110
+U 1 1 5E3F17C6
+P 1300 950
+F 0 "#PWR0110" H 1300 700 50  0001 C CNN
+F 1 "GND" H 1305 777 50  0000 C CNN
+F 2 "" H 1300 950 50  0001 C CNN
+F 3 "" H 1300 950 50  0001 C CNN
+	1    1300 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0111
+U 1 1 5E3F17EF
+P 5450 1550
+F 0 "#PWR0111" H 5450 1300 50  0001 C CNN
+F 1 "GND" H 5455 1377 50  0000 C CNN
+F 2 "" H 5450 1550 50  0001 C CNN
+F 3 "" H 5450 1550 50  0001 C CNN
+	1    5450 1550
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
