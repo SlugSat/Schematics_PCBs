@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:3.3V_1.8V Rails-cache
-EELAYER 30 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L 3.3V_1.8V-Rails-rescue:LM2852-Custom-3.3V_1.8V-Rails-rescue U1
+L 3.3V_1.8V-Rails-rescue:LM2852-Custom U1
 U 1 1 5CBC655C
 P 3900 2300
 F 0 "U1" H 3900 2725 50  0000 C CNN
@@ -381,7 +381,7 @@ F 3 "~" H 5550 2350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 3.3V_1.8V-Rails-rescue:INA226-Analog_ADC U2
+L Analog_ADC:INA226 U2
 U 1 1 5CBC663F
 P 6050 2200
 F 0 "U2" H 6050 2250 50  0000 C CNN
