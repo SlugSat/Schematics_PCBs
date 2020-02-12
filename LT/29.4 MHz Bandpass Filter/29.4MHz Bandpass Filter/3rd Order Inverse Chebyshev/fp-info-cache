@@ -1,4 +1,4 @@
--9208275736098020804
+-9208266252909311532
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (http://www.bulgin.com/media/bulgin/data/Battery_holders.pdf)
@@ -43203,6 +43203,13 @@ Filter 5
 0
 5
 5
+footprints
+SA602AD&slash_01
+
+
+0
+8
+8
 Fuse
 Fuseholder_Blade_ATO_Littelfuse_Pudenz_2_Pin
 Fuseholder ATO Blade littelfuse Pudenz 2 Pin
@@ -47970,6 +47977,41 @@ Yellow 5381 Series LED
 0
 2
 2
+LT
+CAP_trimmer_SGC3
+
+
+0
+2
+2
+LT
+CAP_Trimmer_TZB4Z
+
+
+0
+2
+2
+LT
+IND_trimmer_7M3
+
+
+0
+7
+6
+LT
+LMX231X
+
+
+0
+20
+20
+LT
+Testing_Footprint
+
+
+0
+8
+8
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
