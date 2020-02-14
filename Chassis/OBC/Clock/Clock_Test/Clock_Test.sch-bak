@@ -93,12 +93,12 @@ $EndComp
 $Comp
 L Connector:Conn_Coaxial J2
 U 1 1 5E46191B
-P 3100 1400
-F 0 "J2" H 3200 1375 50  0000 L CNN
-F 1 "Conn_Coaxial" H 3200 1284 50  0000 L CNN
-F 2 "Connector_Coaxial:SMA_Molex_73251-1153_EdgeMount_Horizontal" H 3100 1400 50  0001 C CNN
-F 3 " ~" H 3100 1400 50  0001 C CNN
-	1    3100 1400
+P 2250 1150
+F 0 "J2" H 2350 1125 50  0000 L CNN
+F 1 "Conn_Coaxial" H 2350 1034 50  0000 L CNN
+F 2 "Connector_Coaxial:SMA_Molex_73251-1153_EdgeMount_Horizontal" H 2250 1150 50  0001 C CNN
+F 3 " ~" H 2250 1150 50  0001 C CNN
+	1    2250 1150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -110,12 +110,12 @@ Wire Wire Line
 $Comp
 L Connector:Conn_01x01_Male J1
 U 1 1 5E465990
-P 2400 800
-F 0 "J1" H 2400 750 50  0000 L CNN
-F 1 "Conn_01x01_Male" H 1950 850 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 2400 800 50  0001 C CNN
-F 3 "~" H 2400 800 50  0001 C CNN
-	1    2400 800 
+P 1850 950
+F 0 "J1" H 1850 900 50  0000 L CNN
+F 1 "Conn_01x01_Male" H 1400 1000 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 1850 950 50  0001 C CNN
+F 3 "~" H 1850 950 50  0001 C CNN
+	1    1850 950 
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
@@ -137,13 +137,13 @@ $EndComp
 $Comp
 L SS:50Oμs R2
 U 1 1 5E46112C
-P 1700 1050
-F 0 "R2" H 1850 1255 50  0000 C CNN
-F 1 "50Oμs" H 1850 1164 50  0000 C CNN
-F 2 "SS:50Oμs" V 1750 970 50  0001 C CNN
-F 3 "~" V 1750 970 50  0001 C CNN
-	1    1700 1050
-	1    0    0    -1  
+P 1950 1150
+F 0 "R2" H 2150 1250 50  0000 C CNN
+F 1 "50Oμs" H 1950 1250 50  0000 C CNN
+F 2 "SS:50Oμs" V 2000 1070 50  0001 C CNN
+F 3 "~" V 2000 1070 50  0001 C CNN
+	1    1950 1150
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	1200 1000 1200 1050
@@ -173,7 +173,7 @@ U 1 1 5E468239
 P 850 1900
 F 0 "#PWR?" H 850 1650 50  0001 C CNN
 F 1 "GND" H 855 1727 50  0000 C CNN
-F 2 "" H 850 1900 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x01_P2.54mm_Vertical" H 850 1900 50  0001 C CNN
 F 3 "" H 850 1900 50  0001 C CNN
 	1    850  1900
 	1    0    0    -1  
@@ -187,4 +187,30 @@ Wire Wire Line
 Connection ~ 850  1850
 Wire Wire Line
 	850  1850 850  1900
+Wire Wire Line
+	1650 950  1600 950 
+Wire Wire Line
+	1600 950  1600 1050
+Wire Wire Line
+	1600 1050 1200 1050
+Wire Wire Line
+	1650 1150 1600 1150
+Wire Wire Line
+	1600 1150 1600 1050
+Connection ~ 1600 1050
+Wire Wire Line
+	1950 1150 2050 1150
+$Comp
+L power:GND #PWR?
+U 1 1 5E46C16F
+P 2250 1450
+F 0 "#PWR?" H 2250 1200 50  0001 C CNN
+F 1 "GND" H 2255 1277 50  0000 C CNN
+F 2 "" H 2250 1450 50  0001 C CNN
+F 3 "" H 2250 1450 50  0001 C CNN
+	1    2250 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2250 1350 2250 1450
 $EndSCHEMATC
