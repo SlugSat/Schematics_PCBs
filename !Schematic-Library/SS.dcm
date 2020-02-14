@@ -1,9 +1,13 @@
 EESchema-DOCLIB  Version 2.0
 #
 $CMP 50Oμs
-D Resistor symbol for simulation only
+D 50 Ohm microstrip
 K resistor simulation
 F ~
+$ENDCMP
+#
+$CMP Bus
+D SS SatBus
 $ENDCMP
 #
 #End Doc Library
