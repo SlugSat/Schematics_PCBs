@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 50Oμs
+D Resistor symbol for simulation only
+K resistor simulation
+F ~
+$ENDCMP
+#
+#End Doc Library
