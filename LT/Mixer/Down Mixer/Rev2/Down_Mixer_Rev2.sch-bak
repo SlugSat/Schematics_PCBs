@@ -73,7 +73,7 @@ U 1 1 5E44E17A
 P 2650 3750
 F 0 "J1" H 2578 3988 50  0000 C CNN
 F 1 "Conn_Coaxial" H 2578 3897 50  0000 C CNN
-F 2 "Connector_Coaxial:SMA_Molex_73251-1153_EdgeMount_Horizontal" H 2650 3750 50  0001 C CNN
+F 2 "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount" H 2650 3750 50  0001 C CNN
 F 3 " ~" H 2650 3750 50  0001 C CNN
 	1    2650 3750
 	-1   0    0    -1  
@@ -107,7 +107,7 @@ U 1 1 5E461885
 P 5300 2650
 F 0 "J2" H 5228 2888 50  0000 C CNN
 F 1 "Conn_Coaxial" H 5228 2797 50  0000 C CNN
-F 2 "Connector_Coaxial:SMA_Molex_73251-1153_EdgeMount_Horizontal" H 5300 2650 50  0001 C CNN
+F 2 "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount" H 5300 2650 50  0001 C CNN
 F 3 " ~" H 5300 2650 50  0001 C CNN
 	1    5300 2650
 	-1   0    0    -1  
@@ -318,7 +318,7 @@ U 1 1 5E451C52
 P 8200 3850
 F 0 "J3" H 8128 4088 50  0000 C CNN
 F 1 "Conn_Coaxial" H 8128 3997 50  0000 C CNN
-F 2 "Connector_Coaxial:SMA_Molex_73251-1153_EdgeMount_Horizontal" H 8200 3850 50  0001 C CNN
+F 2 "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount" H 8200 3850 50  0001 C CNN
 F 3 " ~" H 8200 3850 50  0001 C CNN
 	1    8200 3850
 	1    0    0    -1  
