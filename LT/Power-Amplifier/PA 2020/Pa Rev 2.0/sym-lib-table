@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name 0_PA_Rev2)(type Legacy)(uri "C:/Users/citru/Documents/SlugSat/GitHub/schematics_pcbs/LT/Power-Amplifier/PA 2020/Pa Rev 2.0/0_PA_Rev2.lib")(options "")(descr ""))
+  (lib (name Pa-Rev-2.0-rescue)(type Legacy)(uri "${KIPRJMOD}/Pa Rev 2.0-rescue.lib")(options "")(descr ""))
 )
