@@ -148,13 +148,13 @@ $EndComp
 $Comp
 L Connector:Conn_01x02_Male J0
 U 1 1 5E4AFB32
-P 1950 1700
-F 0 "J0" H 2056 1878 50  0000 C CNN
-F 1 "Power" H 2056 1787 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 1950 1700 50  0001 C CNN
-F 3 "~" H 1950 1700 50  0001 C CNN
-	1    1950 1700
-	1    0    0    -1  
+P 4350 1300
+F 0 "J0" H 4456 1478 50  0000 C CNN
+F 1 "Power" H 4456 1387 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 4350 1300 50  0001 C CNN
+F 3 "~" H 4350 1300 50  0001 C CNN
+	1    4350 1300
+	0    1    1    0   
 $EndComp
 $Comp
 L Connector:Conn_01x02_Male J2
@@ -254,12 +254,12 @@ Wire Wire Line
 $Comp
 L power:GND #PWR0104
 U 1 1 5E4B2448
-P 2150 1800
-F 0 "#PWR0104" H 2150 1550 50  0001 C CNN
-F 1 "GND" H 2155 1627 50  0000 C CNN
-F 2 "" H 2150 1800 50  0001 C CNN
-F 3 "" H 2150 1800 50  0001 C CNN
-	1    2150 1800
+P 4250 1500
+F 0 "#PWR0104" H 4250 1250 50  0001 C CNN
+F 1 "GND" H 4255 1327 50  0000 C CNN
+F 2 "" H 4250 1500 50  0001 C CNN
+F 3 "" H 4250 1500 50  0001 C CNN
+	1    4250 1500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -312,6 +312,5 @@ Wire Wire Line
 	4350 1700 4700 1700
 Connection ~ 4350 1700
 Wire Wire Line
-	2150 1700 2450 1700
-Connection ~ 2450 1700
+	4350 1500 4350 1700
 $EndSCHEMATC
