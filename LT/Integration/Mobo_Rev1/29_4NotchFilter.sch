@@ -1,0 +1,82 @@
+EESchema Schematic File Version 4
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 10
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:L L1
+U 1 1 5E4B34F3
+P 5450 1850
+F 0 "L1" H 5503 1896 50  0000 L CNN
+F 1 "L" H 5503 1805 50  0000 L CNN
+F 2 "Inductor_SMD:L_0805_2012Metric" H 5450 1850 50  0001 C CNN
+F 3 "~" H 5450 1850 50  0001 C CNN
+	1    5450 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:L L2
+U 1 1 5E4B3545
+P 5800 1850
+F 0 "L2" H 5853 1896 50  0000 L CNN
+F 1 "L" H 5853 1805 50  0000 L CNN
+F 2 "Inductor_SMD:L_0805_2012Metric" H 5800 1850 50  0001 C CNN
+F 3 "~" H 5800 1850 50  0001 C CNN
+	1    5800 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:L L3
+U 1 1 5E4B357D
+P 6150 1850
+F 0 "L3" H 6203 1896 50  0000 L CNN
+F 1 "L" H 6203 1805 50  0000 L CNN
+F 2 "Inductor_SMD:L_0805_2012Metric" H 6150 1850 50  0001 C CNN
+F 3 "~" H 6150 1850 50  0001 C CNN
+	1    6150 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C1
+U 1 1 5E4B35F1
+P 5450 2400
+F 0 "C1" H 5565 2446 50  0000 L CNN
+F 1 "C" H 5565 2355 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 5488 2250 50  0001 C CNN
+F 3 "~" H 5450 2400 50  0001 C CNN
+	1    5450 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C2
+U 1 1 5E4B3632
+P 5850 2350
+F 0 "C2" H 5965 2396 50  0000 L CNN
+F 1 "C" H 5965 2305 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 5888 2200 50  0001 C CNN
+F 3 "~" H 5850 2350 50  0001 C CNN
+	1    5850 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C3
+U 1 1 5E4B367A
+P 6200 2400
+F 0 "C3" H 6315 2446 50  0000 L CNN
+F 1 "C" H 6315 2355 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 6238 2250 50  0001 C CNN
+F 3 "~" H 6200 2400 50  0001 C CNN
+	1    6200 2400
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
