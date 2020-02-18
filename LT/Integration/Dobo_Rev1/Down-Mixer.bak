@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:Dobo_Rev1-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -147,7 +146,7 @@ F 3 "~" H 5300 5450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Dobo_Rev1-rescue:SA602-LT-Schematics-Down_Mixer_Rev2-rescue U5
+L Down_Mixer_Rev2-rescue:SA602-LT-Schematics U5
 U 1 1 5E447907
 P 4950 4400
 F 0 "U5" H 5250 4800 50  0000 C CNN

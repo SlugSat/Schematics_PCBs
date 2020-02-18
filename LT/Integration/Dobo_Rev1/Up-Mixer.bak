@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:Dobo_Rev1-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -171,7 +170,7 @@ F 3 "~" H 6300 4300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Dobo_Rev1-rescue:SA602-LT-Schematics-Down_Mixer_Rev2-rescue U?
+L Down_Mixer_Rev2-rescue:SA602-LT-Schematics U?
 U 1 1 5E4BB08C
 P 5950 3250
 AR Path="/5E4B1EA5/5E4BB08C" Ref="U?"  Part="1" 

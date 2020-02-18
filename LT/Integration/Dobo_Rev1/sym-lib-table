@@ -1,4 +1,5 @@
 (sym_lib_table
   (lib (name Complete-PLL-Board-Rev5-rescue)(type Legacy)(uri "C:/Users/lfbarrag/Documents/SlugSat/Schematics_PCBs/LT/Local-Oscillator/Rev-5/Complete PLL Board Rev5-rescue.lib")(options "")(descr ""))
   (lib (name Down_Mixer_Rev2-rescue)(type Legacy)(uri "C:/Users/lfbarrag/Documents/SlugSat/Schematics_PCBs/LT/Mixer/Down Mixer/Rev2/Down_Mixer_Rev2-rescue.lib")(options "")(descr ""))
+  (lib (name Dobo_Rev1-rescue)(type Legacy)(uri ${KIPRJMOD}/Dobo_Rev1-rescue.lib)(options "")(descr ""))
 )
