@@ -1841,6 +1841,11 @@
     (pad 4 thru_hole circle (at 2.25 2.25) (size 1.75 1.75) (drill 1) (layers *.Cu *.Mask))
     (pad 5 thru_hole circle (at -3.62 0) (size 2.25 2.25) (drill 1.5) (layers *.Cu *.Mask))
     (pad 5 thru_hole circle (at 3.62 0) (size 2.25 2.25) (drill 1.5) (layers *.Cu *.Mask))
+    (model ":SLUGSAT-3D:User Library-Coils_150_SL.stp"
+      (offset (xyz 3.5 -4 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module LT:IND_trimmer_7M3 (layer F.Cu) (tedit 5E27CE0E) (tstamp 5E4C696E)
@@ -1866,6 +1871,11 @@
     (pad 6 thru_hole circle (at -2.25 2.25) (size 1.75 1.75) (drill 1) (layers *.Cu *.Mask))
     (pad 2 thru_hole circle (at 0 -2.25) (size 1.75 1.75) (drill 1) (layers *.Cu *.Mask)
       (net 98 "Net-(L2-Pad2)"))
+    (model ":SLUGSAT-3D:User Library-Coils_150_SL.stp"
+      (offset (xyz 4 -4 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module Inductor_SMD:L_0805_2012Metric (layer F.Cu) (tedit 5B36C52B) (tstamp 5E4C697F)
@@ -1927,6 +1937,11 @@
     (pad 4 thru_hole circle (at 2.25 2.25) (size 1.75 1.75) (drill 1) (layers *.Cu *.Mask))
     (pad 5 thru_hole circle (at -3.62 0) (size 2.25 2.25) (drill 1.5) (layers *.Cu *.Mask))
     (pad 5 thru_hole circle (at 3.62 0) (size 2.25 2.25) (drill 1.5) (layers *.Cu *.Mask))
+    (model ":SLUGSAT-3D:User Library-Coils_150_SL.stp"
+      (offset (xyz 4 -4 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module LT:IND_trimmer_7M3 (layer F.Cu) (tedit 5E27CE0E) (tstamp 5E4C699F)
@@ -3605,12 +3620,7 @@
       (net 200 "Net-(T1-Pad2)"))
     (pad 1 smd rect (at -1.715 -1.27 90) (size 1.4 0.76) (layers F.Cu F.Paste F.Mask)
       (net 201 "Net-(T1-Pad1)"))
-    (model ${KISYS3DMOD}/Transformer_SMD.3dshapes/Transformer_MACOM_SM-22.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
-    (model "/Users/connerhannon/Documents/GitHub/Senior Design/Schematics_PCBs/!footprints/LT.pretty/Transformer.stp"
+    (model :SLUGSAT-3D:Transformer.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3659,7 +3669,7 @@
       (net 205 "Net-(T2-Pad4)"))
     (pad 5 smd rect (at 1.715 -1.27) (size 1.4 0.76) (layers F.Cu F.Paste F.Mask)
       (net 206 "Net-(T2-Pad5)"))
-    (model ${KISYS3DMOD}/Transformer_SMD.3dshapes/Transformer_MACOM_SM-22.wrl
+    (model :SLUGSAT-3D:Transformer.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3695,17 +3705,7 @@
       (net 3 "Net-(C2-Pad1)"))
     (pad 2 smd rect (at 1.95 0 90) (size 1.3 2) (layers F.Cu F.Paste F.Mask)
       (net 4 "Net-(C2-Pad2)"))
-    (model SGC3S300.stp
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
-    (model "/Users/connerhannon/Documents/GitHub/Senior Design/Schematics_PCBs/!footprints/LT.pretty/SGC3 Trimmer 3D Files/SGC3S300.stl"
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
-    (model "/Users/connerhannon/Documents/GitHub/Senior Design/Schematics_PCBs/!footprints/LT.pretty/SGC3 Trimmer 3D Files/SGC3S300.stp"
+    (model :SLUGSAT-3D:SGC3S300.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3741,12 +3741,7 @@
       (net 7 "Net-(C4-Pad1)"))
     (pad 2 smd rect (at 1.95 0 90) (size 1.3 2) (layers F.Cu F.Paste F.Mask)
       (net 8 "Net-(C4-Pad2)"))
-    (model SGC3S300.stp
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
-    (model "/Users/connerhannon/Documents/GitHub/Senior Design/Schematics_PCBs/!footprints/LT.pretty/SGC3 Trimmer 3D Files/SGC3S300.stp"
+    (model :SLUGSAT-3D:SGC3S300.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3782,12 +3777,7 @@
       (net 9 "Net-(C5-Pad2)"))
     (pad 1 smd rect (at -1.95 0 90) (size 1.3 2) (layers F.Cu F.Paste F.Mask)
       (net 10 "Net-(C5-Pad1)"))
-    (model SGC3S300.stp
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
-    (model "/Users/connerhannon/Documents/GitHub/Senior Design/Schematics_PCBs/!footprints/LT.pretty/SGC3 Trimmer 3D Files/SGC3S300.stp"
+    (model :SLUGSAT-3D:SGC3S300.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3869,12 +3859,7 @@
       (net 79 "Net-(C40-Pad1)"))
     (pad 2 smd rect (at 1.95 0 90) (size 1.3 2) (layers F.Cu F.Paste F.Mask)
       (net 80 "Net-(C40-Pad2)"))
-    (model SGC3S300.stp
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
-    (model "/Users/connerhannon/Documents/GitHub/Senior Design/Schematics_PCBs/!footprints/LT.pretty/SGC3 Trimmer 3D Files/SGC3S300.stp"
+    (model :SLUGSAT-3D:SGC3S300.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3882,7 +3867,7 @@
   )
 
   (module LT:CAP_trimmer_SGC3_Download (layer F.Cu) (tedit 5E4C6FB9) (tstamp 5E4C97EE)
-    (at 127.21 74.798001)
+    (at 126.619 71.755)
     (descr SGC3S300)
     (tags Capacitor)
     (path /5E4B2A78/5E4C4ECB)
@@ -3910,12 +3895,7 @@
       (net 81 "Net-(C41-Pad2)"))
     (pad 1 smd rect (at -1.95 0 90) (size 1.3 2) (layers F.Cu F.Paste F.Mask)
       (net 82 "Net-(C41-Pad1)"))
-    (model SGC3S300.stp
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
-    (model "/Users/connerhannon/Documents/GitHub/Senior Design/Schematics_PCBs/!footprints/LT.pretty/SGC3 Trimmer 3D Files/SGC3S300.stp"
+    (model :SLUGSAT-3D:SGC3S300.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3951,12 +3931,7 @@
       (net 83 "Net-(C42-Pad1)"))
     (pad 2 smd rect (at 1.95 0 90) (size 1.3 2) (layers F.Cu F.Paste F.Mask)
       (net 84 "Net-(C42-Pad2)"))
-    (model SGC3S300.stp
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
-    (model "/Users/connerhannon/Documents/GitHub/Senior Design/Schematics_PCBs/!footprints/LT.pretty/SGC3 Trimmer 3D Files/SGC3S300.stp"
+    (model :SLUGSAT-3D:SGC3S300.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3992,12 +3967,7 @@
       (net 85 "Net-(C43-Pad2)"))
     (pad 1 smd rect (at -1.95 0 90) (size 1.3 2) (layers F.Cu F.Paste F.Mask)
       (net 86 "Net-(C43-Pad1)"))
-    (model SGC3S300.stp
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
-    (model "/Users/connerhannon/Documents/GitHub/Senior Design/Schematics_PCBs/!footprints/LT.pretty/SGC3 Trimmer 3D Files/SGC3S300.stp"
+    (model :SLUGSAT-3D:SGC3S300.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4033,12 +4003,7 @@
       (net 87 "Net-(C44-Pad1)"))
     (pad 2 smd rect (at 1.95 0 90) (size 1.3 2) (layers F.Cu F.Paste F.Mask)
       (net 88 "Net-(C44-Pad2)"))
-    (model SGC3S300.stp
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
-    (model "/Users/connerhannon/Documents/GitHub/Senior Design/Schematics_PCBs/!footprints/LT.pretty/SGC3 Trimmer 3D Files/SGC3S300.stp"
+    (model :SLUGSAT-3D:SGC3S300.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4074,12 +4039,7 @@
       (net 89 "Net-(C45-Pad2)"))
     (pad 1 smd rect (at -1.95 0 90) (size 1.3 2) (layers F.Cu F.Paste F.Mask)
       (net 90 "Net-(C45-Pad1)"))
-    (model SGC3S300.stp
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
-    (model "/Users/connerhannon/Documents/GitHub/Senior Design/Schematics_PCBs/!footprints/LT.pretty/SGC3 Trimmer 3D Files/SGC3S300.stp"
+    (model :SLUGSAT-3D:SGC3S300.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4115,12 +4075,7 @@
       (net 91 "Net-(C46-Pad1)"))
     (pad 2 smd rect (at 1.95 0 90) (size 1.3 2) (layers F.Cu F.Paste F.Mask)
       (net 92 "Net-(C46-Pad2)"))
-    (model SGC3S300.stp
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
-    (model "/Users/connerhannon/Documents/GitHub/Senior Design/Schematics_PCBs/!footprints/LT.pretty/SGC3 Trimmer 3D Files/SGC3S300.stp"
+    (model :SLUGSAT-3D:SGC3S300.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4128,7 +4083,7 @@
   )
 
   (module LT:CAP_trimmer_SGC3_Download (layer F.Cu) (tedit 5E4C6FB9) (tstamp 5E4C984E)
-    (at 127.21 78.468001)
+    (at 137.414 67.564)
     (descr SGC3S300)
     (tags Capacitor)
     (path /5E4B2A78/5E4C511C)
@@ -4156,12 +4111,7 @@
       (net 93 "Net-(C47-Pad2)"))
     (pad 1 smd rect (at -1.95 0 90) (size 1.3 2) (layers F.Cu F.Paste F.Mask)
       (net 94 "Net-(C47-Pad1)"))
-    (model SGC3S300.stp
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
-    (model "/Users/connerhannon/Documents/GitHub/Senior Design/Schematics_PCBs/!footprints/LT.pretty/SGC3 Trimmer 3D Files/SGC3S300.stp"
+    (model :SLUGSAT-3D:SGC3S300.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
