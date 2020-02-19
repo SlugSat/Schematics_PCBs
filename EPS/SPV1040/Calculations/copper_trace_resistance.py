@@ -9,7 +9,7 @@ res=0
 temp=0
 while temp==0:
     try:
-        temp=int(input("Enter the temperature in Celsius: "))
+        temp=float(input("Enter the temperature in Celsius: "))
     except ValueError:
         print("Enter a Valid Number")
         temp=0
@@ -19,7 +19,7 @@ while temp==0:
         continue
 while res==0:
     try:
-        res=int(input("Enter the desired resistance in milliohms: "))
+        res=float(input("Enter the desired resistance in milliohms: "))
     except ValueError:
         print("Enter a Valid Number")
         res=0
@@ -30,7 +30,7 @@ while res==0:
 
 while length==0:
     try:
-        length=int(input("Enter the desired length in mm: "))
+        length=float(input("Enter the desired length in mm: "))
     except ValueError:
         print("Enter a Valid Number")
         length=0
