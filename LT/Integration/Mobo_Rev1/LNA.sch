@@ -1,5 +1,6 @@
 EESchema Schematic File Version 4
-EELAYER 30 0
+LIBS:Mobo_Rev1-cache
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -52,7 +53,7 @@ U 1 1 5E4B310E
 P 4100 1900
 F 0 "C2" H 4215 1946 50  0000 L CNN
 F 1 "SGCS" H 4215 1855 50  0000 L CNN
-F 2 "LT:CAP_trimmer_SGC3" H 4100 1900 50  0001 C CNN
+F 2 "LT:CAP_trimmer_SGC3_Download" H 4100 1900 50  0001 C CNN
 F 3 "~" H 4100 1900 50  0001 C CNN
 	1    4100 1900
 	1    0    0    -1  

@@ -1,5 +1,6 @@
 EESchema Schematic File Version 4
-EELAYER 30 0
+LIBS:Mobo_Rev1-cache
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -250,7 +251,7 @@ U 1 1 5E4C3E06
 P 5100 3150
 F 0 "U1" H 5441 3196 50  0000 L CNN
 F 1 "BAP64Q" H 5441 3105 50  0000 L CNN
-F 2 "" H 5100 3250 50  0001 C CNN
+F 2 "LT:BAP64Q" H 5100 3250 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lmv331.pdf" H 5100 3350 50  0001 C CNN
 	1    5100 3150
 	1    0    0    -1  
