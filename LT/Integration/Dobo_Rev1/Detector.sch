@@ -59,7 +59,7 @@ F 3 "~" H 3450 3700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R37
+L Dobo_Rev1-rescue:R-Device R37
 U 1 1 5E4CC3DF
 P 2350 4350
 F 0 "R37" H 2420 4396 50  0000 L CNN
