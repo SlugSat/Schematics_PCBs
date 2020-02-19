@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:Dobo_Rev1-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -178,17 +177,6 @@ F 2 "Capacitor_SMD:C_0805_2012Metric" H 3988 5200 50  0001 C CNN
 F 3 "~" H 3950 5350 50  0001 C CNN
 	1    3950 5350
 	-1   0    0    1   
-$EndComp
-$Comp
-L Regulator_Linear:L7808 U1
-U 1 1 5C7E2384
-P 3800 1550
-F 0 "U1" H 3800 1700 50  0000 C CNN
-F 1 "L7808" H 3800 1791 50  0000 C CNN
-F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 3825 1400 50  0001 L CIN
-F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf" H 3800 1500 50  0001 C CNN
-	1    3800 1550
-	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C20
@@ -374,7 +362,7 @@ U 1 1 5C882EC7
 P 7150 4150
 F 0 "Q2" H 7341 4196 50  0000 L CNN
 F 1 "Q_NJFET_DSG" H 7341 4105 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-251-3_Vertical" H 7350 4250 50  0001 C CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline_Wide" H 7350 4250 50  0001 C CNN
 F 3 "~" H 7150 4150 50  0001 C CNN
 	1    7150 4150
 	1    0    0    -1  
@@ -385,7 +373,7 @@ U 1 1 5C883145
 P 6850 3700
 F 0 "Q1" H 7041 3746 50  0000 L CNN
 F 1 "Q_NJFET_DSG" H 7041 3655 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-251-3_Vertical" H 7050 3800 50  0001 C CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline_Wide" H 7050 3800 50  0001 C CNN
 F 3 "~" H 6850 3700 50  0001 C CNN
 	1    6850 3700
 	1    0    0    -1  
