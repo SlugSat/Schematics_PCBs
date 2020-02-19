@@ -121,8 +121,8 @@
     (add_net "Net-(R7-Pad1)")
   )
 
-  (module SS:TSSOP-8_W4.4mm (layer F.Cu) (tedit 5D28AC77) (tstamp 5E59A2C1)
-    (at 51.581001 47.511001)
+  (module SS:TSSOP-8_W4.4mm (layer F.Cu) (tedit 5D28AC77) (tstamp 5E4CD1E0)
+    (at 76.962 57.912)
     (descr http://www.st.com/content/ccc/resource/technical/document/datasheet/0d/30/c2/1a/92/03/48/cb/CD00287506.pdf/files/CD00287506.pdf/jcr:content/translations/en.CD00287506.pdf)
     (path /5E32F24F)
     (attr smd)
@@ -455,7 +455,7 @@
   )
 
   (module SS:L_Bourns_6540 (layer F.Cu) (tedit 5E421CA6) (tstamp 5E72E21C)
-    (at 48.991001 42.426001)
+    (at 58.966 57.912)
     (path /5E32F415)
     (fp_text reference L1 (at 0 -6.35) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))

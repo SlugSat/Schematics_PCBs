@@ -52,3 +52,6 @@ while i<fileLength:
     i+=1
     min=0
     max=resistorListlength
+quit=0
+while quit != "q":
+    quit=input("Enter q to quit: ")
