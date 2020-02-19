@@ -1,9 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP BAP64Q,125
-D PIN Diodes QUAD 100V 0.52pF
-K
-F http://www.nxp.com/documents/data_sheet/BAP64Q.pdf
-$ENDCMP
-#
-#End Doc Library
