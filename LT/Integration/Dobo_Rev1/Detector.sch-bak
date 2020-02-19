@@ -1,5 +1,6 @@
 EESchema Schematic File Version 4
-EELAYER 30 0
+LIBS:Dobo_Rev1-cache
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -58,12 +59,12 @@ F 3 "~" H 3450 3700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R37
+L Dobo_Rev1-rescue:R-Device R37
 U 1 1 5E4CC3DF
 P 2350 4350
 F 0 "R37" H 2420 4396 50  0000 L CNN
 F 1 "R" H 2420 4305 50  0000 L CNN
-F 2 "" V 2280 4350 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 2280 4350 50  0001 C CNN
 F 3 "~" H 2350 4350 50  0001 C CNN
 	1    2350 4350
 	1    0    0    -1  
@@ -85,7 +86,7 @@ U 1 1 5E4CDB39
 P 5650 3350
 F 0 "J1" H 5730 3342 50  0000 L CNN
 F 1 "AD8361" H 5730 3251 50  0000 L CNN
-F 2 "" H 5650 3350 50  0001 C CNN
+F 2 "Package_SO:MSOP-8_3x3mm_P0.65mm" H 5650 3350 50  0001 C CNN
 F 3 "~" H 5650 3350 50  0001 C CNN
 	1    5650 3350
 	1    0    0    -1  
