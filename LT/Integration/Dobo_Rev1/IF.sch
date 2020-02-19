@@ -119,7 +119,7 @@ F 3 "~" H 6050 4750 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:R R27
+L Dobo_Rev1-rescue:R-Device R27
 U 1 1 5E4C0C18
 P 5100 3500
 F 0 "R27" H 5170 3546 50  0000 L CNN
@@ -130,7 +130,7 @@ F 3 "~" H 5100 3500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R28
+L Dobo_Rev1-rescue:R-Device R28
 U 1 1 5E4C135E
 P 5350 3500
 F 0 "R28" H 5420 3546 50  0000 L CNN

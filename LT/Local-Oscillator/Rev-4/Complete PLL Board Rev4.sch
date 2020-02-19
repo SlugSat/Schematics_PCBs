@@ -249,7 +249,7 @@ F 3 "~" H 2300 3250 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R R1
+L Complete-PLL-Board-Rev4-rescue:R-Device R1
 U 1 1 5C6B70C1
 P 2500 1400
 F 0 "R1" H 2570 1446 50  0000 L CNN
@@ -260,7 +260,7 @@ F 3 "~" H 2500 1400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R3
+L Complete-PLL-Board-Rev4-rescue:R-Device R3
 U 1 1 5C6B724B
 P 3500 1350
 F 0 "R3" H 3570 1396 50  0000 L CNN
@@ -271,7 +271,7 @@ F 3 "~" H 3500 1350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R4
+L Complete-PLL-Board-Rev4-rescue:R-Device R4
 U 1 1 5C6B7281
 P 4000 1350
 F 0 "R4" H 4070 1396 50  0000 L CNN
@@ -284,7 +284,7 @@ $EndComp
 Wire Wire Line
 	2450 3250 4150 3250
 $Comp
-L Device:R R2
+L Complete-PLL-Board-Rev4-rescue:R-Device R2
 U 1 1 5C6B86E4
 P 2800 2100
 F 0 "R2" H 2870 2146 50  0000 L CNN
@@ -719,7 +719,7 @@ F 3 "~" H 9100 4900 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R R9
+L Complete-PLL-Board-Rev4-rescue:R-Device R9
 U 1 1 5C802100
 P 8800 5200
 F 0 "R9" H 8850 5200 50  0000 L CNN
@@ -746,7 +746,7 @@ Connection ~ 8100 5050
 Wire Wire Line
 	8100 5050 8100 5150
 $Comp
-L Device:R R10
+L Complete-PLL-Board-Rev4-rescue:R-Device R10
 U 1 1 5C809914
 P 9600 5050
 F 0 "R10" H 9650 5000 50  0000 L CNN
@@ -768,7 +768,7 @@ F 3 "" H 9600 5200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R11
+L Complete-PLL-Board-Rev4-rescue:R-Device R11
 U 1 1 5C80AB36
 P 9950 5500
 F 0 "R11" H 10020 5546 50  0000 L CNN
@@ -1206,7 +1206,7 @@ Wire Wire Line
 	7200 1850 7550 1850
 Connection ~ 7200 1850
 $Comp
-L Device:R R6
+L Complete-PLL-Board-Rev4-rescue:R-Device R6
 U 1 1 5C863D30
 P 7700 1850
 F 0 "R6" V 7500 1850 50  0000 C CNN
@@ -1281,7 +1281,7 @@ Connection ~ 7800 3000
 Wire Wire Line
 	7800 3000 7900 3000
 $Comp
-L Device:R R5
+L Complete-PLL-Board-Rev4-rescue:R-Device R5
 U 1 1 5C8FC8A8
 P 7500 2850
 F 0 "R5" H 7400 2800 50  0000 C CNN
@@ -1378,7 +1378,7 @@ Wire Wire Line
 Wire Wire Line
 	8800 4750 8800 4900
 $Comp
-L Device:R R8
+L Complete-PLL-Board-Rev4-rescue:R-Device R8
 U 1 1 5CA66BF5
 P 9400 4900
 F 0 "R8" V 9500 4850 50  0000 L CNN
@@ -1408,7 +1408,7 @@ F 3 "~" H 7550 1000 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R R7
+L Complete-PLL-Board-Rev4-rescue:R-Device R7
 U 1 1 5CA7D1B6
 P 7550 1300
 F 0 "R7" H 7350 1250 50  0000 C CNN
@@ -1458,7 +1458,7 @@ F 3 "" H 7950 2150 50  0001 C CNN
 $EndComp
 Connection ~ 9950 4550
 $Comp
-L Device:R R12
+L Complete-PLL-Board-Rev4-rescue:R-Device R12
 U 1 1 5CB9DB4B
 P 6500 5100
 F 0 "R12" V 6700 5050 50  0000 L CNN
@@ -1471,7 +1471,7 @@ $EndComp
 Wire Wire Line
 	8800 4900 8950 4900
 $Comp
-L Device:R R13
+L Complete-PLL-Board-Rev4-rescue:R-Device R13
 U 1 1 5CBB0D39
 P 6150 4400
 F 0 "R13" V 6350 4350 50  0000 L CNN
@@ -1482,7 +1482,7 @@ F 3 "~" H 6150 4400 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R R14
+L Complete-PLL-Board-Rev4-rescue:R-Device R14
 U 1 1 5CBBAAF0
 P 6300 4400
 F 0 "R14" V 6500 4350 50  0000 L CNN

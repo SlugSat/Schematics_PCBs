@@ -26,7 +26,7 @@ F 3 "~" H 5350 3650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R29
+L Dobo_Rev1-rescue:R-Device R29
 U 1 1 5E4C4218
 P 3000 4800
 F 0 "R29" H 3070 4846 50  0000 L CNN
@@ -37,7 +37,7 @@ F 3 "~" H 3000 4800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R32
+L Dobo_Rev1-rescue:R-Device R32
 U 1 1 5E4C468A
 P 3250 4850
 F 0 "R32" H 3320 4896 50  0000 L CNN
@@ -48,7 +48,7 @@ F 3 "~" H 3250 4850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R35
+L Dobo_Rev1-rescue:R-Device R35
 U 1 1 5E4C47FE
 P 3400 4850
 F 0 "R35" H 3470 4896 50  0000 L CNN
@@ -59,7 +59,7 @@ F 3 "~" H 3400 4850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R30
+L Dobo_Rev1-rescue:R-Device R30
 U 1 1 5E4C48B5
 P 3000 5300
 F 0 "R30" H 3070 5346 50  0000 L CNN
@@ -70,7 +70,7 @@ F 3 "~" H 3000 5300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R33
+L Dobo_Rev1-rescue:R-Device R33
 U 1 1 5E4C4D48
 P 3300 5300
 F 0 "R33" H 3370 5346 50  0000 L CNN
@@ -81,7 +81,7 @@ F 3 "~" H 3300 5300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R36
+L Dobo_Rev1-rescue:R-Device R36
 U 1 1 5E4C4F15
 P 3500 5300
 F 0 "R36" H 3570 5346 50  0000 L CNN
@@ -191,7 +191,7 @@ F 3 "http://www.ti.com/lit/ds/symlink/lm321.pdf" H 4150 3850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R31
+L Dobo_Rev1-rescue:R-Device R31
 U 1 1 5E4CAC2A
 P 3000 5650
 F 0 "R31" H 3070 5696 50  0000 L CNN
@@ -202,7 +202,7 @@ F 3 "~" H 3000 5650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R34
+L Dobo_Rev1-rescue:R-Device R34
 U 1 1 5E4CAF93
 P 3300 5650
 F 0 "R34" H 3370 5696 50  0000 L CNN

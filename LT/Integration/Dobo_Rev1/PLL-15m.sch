@@ -59,7 +59,7 @@ F 3 "~" H 3650 5900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R13
+L Dobo_Rev1-rescue:R-Device R13
 U 1 1 5C6B70C1
 P 6950 2800
 F 0 "R13" H 7020 2846 50  0000 L CNN
@@ -70,7 +70,7 @@ F 3 "~" H 6950 2800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R4
+L Dobo_Rev1-rescue:R-Device R4
 U 1 1 5C6B724B
 P 6000 2650
 F 0 "R4" H 6070 2696 50  0000 L CNN
@@ -81,7 +81,7 @@ F 3 "~" H 6000 2650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R9
+L Dobo_Rev1-rescue:R-Device R9
 U 1 1 5C6B7281
 P 6500 2650
 F 0 "R9" H 6570 2696 50  0000 L CNN
@@ -92,7 +92,7 @@ F 3 "~" H 6500 2650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R1
+L Dobo_Rev1-rescue:R-Device R1
 U 1 1 5C6B86E4
 P 5750 1750
 F 0 "R1" H 5820 1796 50  0000 L CNN
@@ -268,7 +268,7 @@ F 3 "~" H 4400 4750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R2
+L Dobo_Rev1-rescue:R-Device R2
 U 1 1 5C802100
 P 5750 2250
 F 0 "R2" H 5820 2296 50  0000 L CNN
@@ -279,7 +279,7 @@ F 3 "~" H 5750 2250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R12
+L Dobo_Rev1-rescue:R-Device R12
 U 1 1 5C809914
 P 6800 2300
 F 0 "R12" H 6850 2250 50  0000 L CNN
@@ -290,7 +290,7 @@ F 3 "~" H 6800 2300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R5
+L Dobo_Rev1-rescue:R-Device R5
 U 1 1 5C80AB36
 P 6100 2200
 F 0 "R5" H 6170 2246 50  0000 L CNN
@@ -358,7 +358,7 @@ F 3 "~" H 4550 5300 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R R7
+L Dobo_Rev1-rescue:R-Device R7
 U 1 1 5C863D30
 P 6400 1700
 F 0 "R7" V 6600 1750 50  0000 C CNN
@@ -391,7 +391,7 @@ F 3 "~" H 6850 3700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R6
+L Dobo_Rev1-rescue:R-Device R6
 U 1 1 5C8FC8A8
 P 6150 1700
 F 0 "R6" H 6050 1650 50  0000 C CNN
@@ -435,7 +435,7 @@ F 3 "~" H 6050 5300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R8
+L Dobo_Rev1-rescue:R-Device R8
 U 1 1 5CA66BF5
 P 6450 2250
 F 0 "R8" V 6250 2300 50  0000 L CNN
@@ -457,7 +457,7 @@ F 3 "~" H 4300 5300 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R R10
+L Dobo_Rev1-rescue:R-Device R10
 U 1 1 5CA7D1B6
 P 6550 3000
 F 0 "R10" V 6750 3050 50  0000 C CNN
@@ -479,7 +479,7 @@ F 3 "~" H 3450 4350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R3
+L Dobo_Rev1-rescue:R-Device R3
 U 1 1 5CB9DB4B
 P 5750 2650
 F 0 "R3" V 5950 2600 50  0000 L CNN
@@ -545,7 +545,7 @@ F 3 "~" H 5150 5300 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R R11
+L Dobo_Rev1-rescue:R-Device R11
 U 1 1 5CF74DDD
 P 6700 1700
 F 0 "R11" V 6600 1950 50  0000 C CNN

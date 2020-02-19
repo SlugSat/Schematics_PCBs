@@ -1,4 +1,4 @@
-(module BAP64Q (layer F.Cu) (tedit 5E4CB06B)
+(module BAP64Q (layer F.Cu) (tedit 5E4CB3FE)
   (descr SOT-753)
   (tags Diode)
   (attr smd)
