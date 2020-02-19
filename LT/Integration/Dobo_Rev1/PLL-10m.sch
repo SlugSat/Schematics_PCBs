@@ -217,7 +217,7 @@ AR Path="/5E4B185A/5E4E1565" Ref="U?"  Part="1"
 AR Path="/5E4DD63E/5E4E1565" Ref="U3"  Part="1" 
 F 0 "U3" H 4050 1750 50  0000 C CNN
 F 1 "L7808" H 4050 1841 50  0000 C CNN
-F 2 "" H 4075 1450 50  0001 L CIN
+F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 4075 1450 50  0001 L CIN
 F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf" H 4050 1550 50  0001 C CNN
 	1    4050 1600
 	1    0    0    -1  
@@ -386,7 +386,7 @@ AR Path="/5E4B185A/5E4E15B4" Ref="U?"  Part="1"
 AR Path="/5E4DD63E/5E4E15B4" Ref="U4"  Part="1" 
 F 0 "U4" H 3950 1250 50  0000 C CNN
 F 1 "LMX231X" H 3950 1150 50  0000 C CNN
-F 2 "" H 3600 1700 50  0001 C CNN
+F 2 "LT:LMX231X" H 3600 1700 50  0001 C CNN
 F 3 "" H 3600 1700 50  0001 C CNN
 	1    4100 2000
 	1    0    0    -1  
@@ -438,7 +438,7 @@ AR Path="/5E4B185A/5E4E15CC" Ref="Q?"  Part="1"
 AR Path="/5E4DD63E/5E4E15CC" Ref="Q4"  Part="1" 
 F 0 "Q4" H 7591 4246 50  0000 L CNN
 F 1 "Q_NJFET_DSG" H 7591 4155 50  0000 L CNN
-F 2 "" H 7600 4300 50  0001 C CNN
+F 2 "Package_TO_SOT_THT:TO-251-3_Vertical" H 7600 4300 50  0001 C CNN
 F 3 "~" H 7400 4200 50  0001 C CNN
 	1    7400 4200
 	1    0    0    -1  
@@ -451,7 +451,7 @@ AR Path="/5E4B185A/5E4E15D2" Ref="Q?"  Part="1"
 AR Path="/5E4DD63E/5E4E15D2" Ref="Q3"  Part="1" 
 F 0 "Q3" H 7291 3796 50  0000 L CNN
 F 1 "Q_NJFET_DSG" H 7291 3705 50  0000 L CNN
-F 2 "" H 7300 3850 50  0001 C CNN
+F 2 "Package_TO_SOT_THT:TO-251-3_Vertical" H 7300 3850 50  0001 C CNN
 F 3 "~" H 7100 3750 50  0001 C CNN
 	1    7100 3750
 	1    0    0    -1  

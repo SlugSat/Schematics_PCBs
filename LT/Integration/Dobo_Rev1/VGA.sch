@@ -174,7 +174,7 @@ U 1 1 5E4C6278
 P 2850 3850
 F 0 "U7" H 3194 3896 50  0000 L CNN
 F 1 "LMH6505" H 3194 3805 50  0000 L CNN
-F 2 "" H 2900 3900 50  0001 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 2900 3900 50  0001 C CNN
 F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/AD797.pdf" H 2900 4000 50  0001 C CNN
 	1    2850 3850
 	1    0    0    -1  
@@ -185,7 +185,7 @@ U 1 1 5E4C9133
 P 4150 3850
 F 0 "U8" H 4494 3896 50  0000 L CNN
 F 1 "LMH6624" H 4494 3805 50  0000 L CNN
-F 2 "" H 4150 3850 50  0001 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 4150 3850 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm321.pdf" H 4150 3850 50  0001 C CNN
 	1    4150 3850
 	1    0    0    -1  
