@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SGC3S300
+D Trimmer / Variable Capacitors 8-30pF 500V TRM CAP
+K
+F http://www.mouser.com/datasheet/2/384/d86717_38d9821e12823a7aa9cef38c6c2a73cc-516186.pdf
+$ENDCMP
+#
+#End Doc Library

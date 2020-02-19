@@ -1,9 +1,0 @@
-Manufacturer=Sprague Goodman
-PartNumber=SGC3S300
-PartCategory=Capacitor
-PackageCategory=Capacitor Moulded Non Polarised
-PinCount=2
-Version=1.1
-Released=2018-07-27 16:05:48
-Downloaded=2020-02-18 22:42:43
-3D=Y
