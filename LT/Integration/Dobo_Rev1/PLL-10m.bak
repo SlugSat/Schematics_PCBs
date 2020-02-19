@@ -67,7 +67,7 @@ F 3 "~" H 3900 5950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Dobo_Rev1-rescue:R-Device R?
 U 1 1 5E4E1517
 P 7200 2850
 AR Path="/5E4B185A/5E4E1517" Ref="R?"  Part="1" 
@@ -80,7 +80,7 @@ F 3 "~" H 7200 2850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Dobo_Rev1-rescue:R-Device R?
 U 1 1 5E4E151D
 P 6250 2700
 AR Path="/5E4B185A/5E4E151D" Ref="R?"  Part="1" 
@@ -93,7 +93,7 @@ F 3 "~" H 6250 2700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Dobo_Rev1-rescue:R-Device R?
 U 1 1 5E4E1523
 P 6750 2700
 AR Path="/5E4B185A/5E4E1523" Ref="R?"  Part="1" 
@@ -106,7 +106,7 @@ F 3 "~" H 6750 2700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Dobo_Rev1-rescue:R-Device R?
 U 1 1 5E4E1529
 P 6000 1800
 AR Path="/5E4B185A/5E4E1529" Ref="R?"  Part="1" 
@@ -314,7 +314,7 @@ F 3 "~" H 4650 4800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Dobo_Rev1-rescue:R-Device R?
 U 1 1 5E4E1595
 P 6000 2300
 AR Path="/5E4B185A/5E4E1595" Ref="R?"  Part="1" 
@@ -327,7 +327,7 @@ F 3 "~" H 6000 2300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Dobo_Rev1-rescue:R-Device R?
 U 1 1 5E4E159B
 P 7050 2350
 AR Path="/5E4B185A/5E4E159B" Ref="R?"  Part="1" 
@@ -340,7 +340,7 @@ F 3 "~" H 7050 2350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Dobo_Rev1-rescue:R-Device R?
 U 1 1 5E4E15A1
 P 6350 2250
 AR Path="/5E4B185A/5E4E15A1" Ref="R?"  Part="1" 
@@ -418,7 +418,7 @@ F 3 "~" H 4800 5350 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R R?
+L Dobo_Rev1-rescue:R-Device R?
 U 1 1 5E4E15C6
 P 6650 1750
 AR Path="/5E4B185A/5E4E15C6" Ref="R?"  Part="1" 
@@ -457,7 +457,7 @@ F 3 "~" H 7100 3750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Dobo_Rev1-rescue:R-Device R?
 U 1 1 5E4E15D8
 P 6400 1750
 AR Path="/5E4B185A/5E4E15D8" Ref="R?"  Part="1" 
@@ -509,7 +509,7 @@ F 3 "~" H 6300 5350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Dobo_Rev1-rescue:R-Device R?
 U 1 1 5E4E15F0
 P 6700 2300
 AR Path="/5E4B185A/5E4E15F0" Ref="R?"  Part="1" 
@@ -535,7 +535,7 @@ F 3 "~" H 4550 5350 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R R?
+L Dobo_Rev1-rescue:R-Device R?
 U 1 1 5E4E15FC
 P 6800 3050
 AR Path="/5E4B185A/5E4E15FC" Ref="R?"  Part="1" 
@@ -561,7 +561,7 @@ F 3 "~" H 3700 4400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Dobo_Rev1-rescue:R-Device R?
 U 1 1 5E4E1608
 P 6000 2700
 AR Path="/5E4B185A/5E4E1608" Ref="R?"  Part="1" 
@@ -639,7 +639,7 @@ F 3 "~" H 5400 5350 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R R?
+L Dobo_Rev1-rescue:R-Device R?
 U 1 1 5E4E162C
 P 6950 1750
 AR Path="/5E4B185A/5E4E162C" Ref="R?"  Part="1" 
