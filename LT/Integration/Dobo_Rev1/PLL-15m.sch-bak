@@ -1,5 +1,6 @@
 EESchema Schematic File Version 4
-EELAYER 30 0
+LIBS:Dobo_Rev1-cache
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -58,45 +59,45 @@ F 3 "~" H 3650 5900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R13
+L Dobo_Rev1-rescue:R-Device R13
 U 1 1 5C6B70C1
 P 6950 2800
 F 0 "R13" H 7020 2846 50  0000 L CNN
 F 1 "18" H 7020 2755 50  0000 L CNN
-F 2 "" V 6880 2800 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 6880 2800 50  0001 C CNN
 F 3 "~" H 6950 2800 50  0001 C CNN
 	1    6950 2800
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R4
+L Dobo_Rev1-rescue:R-Device R4
 U 1 1 5C6B724B
 P 6000 2650
 F 0 "R4" H 6070 2696 50  0000 L CNN
 F 1 "18" H 6070 2605 50  0000 L CNN
-F 2 "" V 5930 2650 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 5930 2650 50  0001 C CNN
 F 3 "~" H 6000 2650 50  0001 C CNN
 	1    6000 2650
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R9
+L Dobo_Rev1-rescue:R-Device R9
 U 1 1 5C6B7281
 P 6500 2650
 F 0 "R9" H 6570 2696 50  0000 L CNN
 F 1 "18" H 6570 2605 50  0000 L CNN
-F 2 "" V 6430 2650 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 6430 2650 50  0001 C CNN
 F 3 "~" H 6500 2650 50  0001 C CNN
 	1    6500 2650
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R1
+L Dobo_Rev1-rescue:R-Device R1
 U 1 1 5C6B86E4
 P 5750 1750
 F 0 "R1" H 5820 1796 50  0000 L CNN
 F 1 "10k" H 5820 1705 50  0000 L CNN
-F 2 "" V 5680 1750 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 5680 1750 50  0001 C CNN
 F 3 "~" H 5750 1750 50  0001 C CNN
 	1    5750 1750
 	1    0    0    -1  
@@ -179,34 +180,12 @@ F 3 "~" H 3950 5350 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L pspice:DIODE D1
-U 1 1 5C7D8EB6
-P 5900 3450
-F 0 "D1" H 5900 3715 50  0000 C CNN
-F 1 "DIODE" H 5900 3624 50  0000 C CNN
-F 2 "" H 5900 3450 50  0001 C CNN
-F 3 "~" H 5900 3450 50  0001 C CNN
-	1    5900 3450
-	1    0    0    -1  
-$EndComp
-$Comp
-L pspice:DIODE D2
-U 1 1 5C7DE26D
-P 5900 3950
-F 0 "D2" H 5900 3685 50  0000 C CNN
-F 1 "DIODE" H 5900 3776 50  0000 C CNN
-F 2 "" H 5900 3950 50  0001 C CNN
-F 3 "~" H 5900 3950 50  0001 C CNN
-	1    5900 3950
-	1    0    0    -1  
-$EndComp
-$Comp
 L Regulator_Linear:L7808 U1
 U 1 1 5C7E2384
 P 3800 1550
 F 0 "U1" H 3800 1700 50  0000 C CNN
 F 1 "L7808" H 3800 1791 50  0000 C CNN
-F 2 "" H 3825 1400 50  0001 L CIN
+F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 3825 1400 50  0001 L CIN
 F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf" H 3800 1500 50  0001 C CNN
 	1    3800 1550
 	1    0    0    -1  
@@ -250,29 +229,29 @@ U 1 1 5C7F1161
 P 8750 3650
 F 0 "L1" V 8704 3728 50  0000 L CNN
 F 1 "1.8uH" V 8795 3728 50  0000 L CNN
-F 2 "" H 8750 3650 50  0001 C CNN
+F 2 "Inductor_SMD:L_0805_2012Metric" H 8750 3650 50  0001 C CNN
 F 3 "~" H 8750 3650 50  0001 C CNN
 	1    8750 3650
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:D_Capacitance D3
+L Device:D_Capacitance D1
 U 1 1 5C7F18B5
 P 8300 3450
-F 0 "D3" V 8400 3650 50  0000 R CNN
+F 0 "D1" V 8400 3650 50  0000 R CNN
 F 1 "D_Cap" V 8200 3750 50  0000 R CNN
-F 2 "" H 8300 3450 50  0001 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric" H 8300 3450 50  0001 C CNN
 F 3 "~" H 8300 3450 50  0001 C CNN
 	1    8300 3450
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D_Capacitance D4
+L Device:D_Capacitance D2
 U 1 1 5C7F2025
 P 8300 4000
-F 0 "D4" V 8300 4100 50  0000 L CNN
+F 0 "D2" V 8300 4100 50  0000 L CNN
 F 1 "D_Cap" V 8700 3950 50  0000 L CNN
-F 2 "" H 8300 4000 50  0001 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric" H 8300 4000 50  0001 C CNN
 F 3 "~" H 8300 4000 50  0001 C CNN
 	1    8300 4000
 	0    1    1    0   
@@ -289,34 +268,34 @@ F 3 "~" H 4400 4750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R2
+L Dobo_Rev1-rescue:R-Device R2
 U 1 1 5C802100
 P 5750 2250
 F 0 "R2" H 5820 2296 50  0000 L CNN
 F 1 "3.3k" H 5820 2205 50  0000 L CNN
-F 2 "" V 5680 2250 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 5680 2250 50  0001 C CNN
 F 3 "~" H 5750 2250 50  0001 C CNN
 	1    5750 2250
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R12
+L Dobo_Rev1-rescue:R-Device R12
 U 1 1 5C809914
 P 6800 2300
 F 0 "R12" H 6850 2250 50  0000 L CNN
 F 1 "100k" H 6850 2150 50  0000 L CNN
-F 2 "" V 6730 2300 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 6730 2300 50  0001 C CNN
 F 3 "~" H 6800 2300 50  0001 C CNN
 	1    6800 2300
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R5
+L Dobo_Rev1-rescue:R-Device R5
 U 1 1 5C80AB36
 P 6100 2200
 F 0 "R5" H 6170 2246 50  0000 L CNN
 F 1 "3.3k" H 6170 2155 50  0000 L CNN
-F 2 "" V 6030 2200 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 6030 2200 50  0001 C CNN
 F 3 "~" H 6100 2200 50  0001 C CNN
 	1    6100 2200
 	1    0    0    -1  
@@ -346,12 +325,12 @@ $EndComp
 Text Notes 10600 7650 0    50   ~ 10
 1
 $Comp
-L Complete-PLL-Board-Rev5-rescue:LMX231X-LMX2313-Complete-PLL-Board-Rev4-rescue U2
+L Dobo_Rev1-rescue:LMX231X-LMX2313-Complete-PLL-Board-Rev4-rescue-Complete-PLL-Board-Rev5-rescue U2
 U 1 1 5C7E02DA
 P 3850 1950
 F 0 "U2" H 3700 1200 50  0000 C CNN
 F 1 "LMX231X" H 3700 1100 50  0000 C CNN
-F 2 "" H 3350 1650 50  0001 C CNN
+F 2 "LT:LMX231X" H 3350 1650 50  0001 C CNN
 F 3 "" H 3350 1650 50  0001 C CNN
 	1    3850 1950
 	1    0    0    -1  
@@ -362,7 +341,7 @@ U 1 1 5C8494FF
 P 3000 4300
 F 0 "C1" H 2700 4350 50  0000 L CNN
 F 1 "C" H 2750 4200 50  0000 L CNN
-F 2 "LT:CAP_trimmer_SGC3" H 3038 4150 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 3038 4150 50  0001 C CNN
 F 3 "~" H 3000 4300 50  0001 C CNN
 	1    3000 4300
 	-1   0    0    1   
@@ -379,12 +358,12 @@ F 3 "~" H 4550 5300 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R R7
+L Dobo_Rev1-rescue:R-Device R7
 U 1 1 5C863D30
 P 6400 1700
 F 0 "R7" V 6600 1750 50  0000 C CNN
 F 1 "R" V 6500 1700 50  0000 C CNN
-F 2 "" V 6330 1700 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 6330 1700 50  0001 C CNN
 F 3 "~" H 6400 1700 50  0001 C CNN
 	1    6400 1700
 	-1   0    0    1   
@@ -395,7 +374,7 @@ U 1 1 5C882EC7
 P 7150 4150
 F 0 "Q2" H 7341 4196 50  0000 L CNN
 F 1 "Q_NJFET_DSG" H 7341 4105 50  0000 L CNN
-F 2 "" H 7350 4250 50  0001 C CNN
+F 2 "Package_TO_SOT_THT:TO-251-3_Vertical" H 7350 4250 50  0001 C CNN
 F 3 "~" H 7150 4150 50  0001 C CNN
 	1    7150 4150
 	1    0    0    -1  
@@ -406,18 +385,18 @@ U 1 1 5C883145
 P 6850 3700
 F 0 "Q1" H 7041 3746 50  0000 L CNN
 F 1 "Q_NJFET_DSG" H 7041 3655 50  0000 L CNN
-F 2 "" H 7050 3800 50  0001 C CNN
+F 2 "Package_TO_SOT_THT:TO-251-3_Vertical" H 7050 3800 50  0001 C CNN
 F 3 "~" H 6850 3700 50  0001 C CNN
 	1    6850 3700
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R6
+L Dobo_Rev1-rescue:R-Device R6
 U 1 1 5C8FC8A8
 P 6150 1700
 F 0 "R6" H 6050 1650 50  0000 C CNN
 F 1 "R" H 6050 1750 50  0000 C CNN
-F 2 "" V 6080 1700 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 6080 1700 50  0001 C CNN
 F 3 "~" H 6150 1700 50  0001 C CNN
 	1    6150 1700
 	1    0    0    -1  
@@ -456,12 +435,12 @@ F 3 "~" H 6050 5300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R8
+L Dobo_Rev1-rescue:R-Device R8
 U 1 1 5CA66BF5
 P 6450 2250
 F 0 "R8" V 6250 2300 50  0000 L CNN
 F 1 "0 Ohms" V 6350 2150 50  0000 L CNN
-F 2 "" V 6380 2250 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 6380 2250 50  0001 C CNN
 F 3 "~" H 6450 2250 50  0001 C CNN
 	1    6450 2250
 	-1   0    0    1   
@@ -478,12 +457,12 @@ F 3 "~" H 4300 5300 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R R10
+L Dobo_Rev1-rescue:R-Device R10
 U 1 1 5CA7D1B6
 P 6550 3000
 F 0 "R10" V 6750 3050 50  0000 C CNN
 F 1 "R" V 6650 3000 50  0000 C CNN
-F 2 "" V 6480 3000 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 6480 3000 50  0001 C CNN
 F 3 "~" H 6550 3000 50  0001 C CNN
 	1    6550 3000
 	-1   0    0    1   
@@ -500,12 +479,12 @@ F 3 "~" H 3450 4350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R3
+L Dobo_Rev1-rescue:R-Device R3
 U 1 1 5CB9DB4B
 P 5750 2650
 F 0 "R3" V 5950 2600 50  0000 L CNN
 F 1 "1k" V 5850 2600 50  0000 L CNN
-F 2 "" V 5680 2650 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 5680 2650 50  0001 C CNN
 F 3 "~" H 5750 2650 50  0001 C CNN
 	1    5750 2650
 	-1   0    0    1   
@@ -566,12 +545,12 @@ F 3 "~" H 5150 5300 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R R11
+L Dobo_Rev1-rescue:R-Device R11
 U 1 1 5CF74DDD
 P 6700 1700
 F 0 "R11" V 6600 1950 50  0000 C CNN
 F 1 "10k" V 6584 1700 50  0000 C CNN
-F 2 "" V 6630 1700 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 6630 1700 50  0001 C CNN
 F 3 "~" H 6700 1700 50  0001 C CNN
 	1    6700 1700
 	-1   0    0    1   
