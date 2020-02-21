@@ -58,50 +58,6 @@ F 3 "~" H 3000 3150 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L Device:R R1
-U 1 1 5E4AF5B7
-P 2450 2450
-F 0 "R1" H 2520 2496 50  0000 L CNN
-F 1 "4.7k Ohms" H 2520 2405 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2380 2450 50  0001 C CNN
-F 3 "~" H 2450 2450 50  0001 C CNN
-	1    2450 2450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R2
-U 1 1 5E4AF63C
-P 2450 2750
-F 0 "R2" H 2520 2796 50  0000 L CNN
-F 1 "3.3k Ohms" H 2520 2705 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2380 2750 50  0001 C CNN
-F 3 "~" H 2450 2750 50  0001 C CNN
-	1    2450 2750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R RE2
-U 1 1 5E4AF68A
-P 3100 2800
-F 0 "RE2" H 3170 2846 50  0000 L CNN
-F 1 "47 Ohms" H 3170 2755 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3030 2800 50  0001 C CNN
-F 3 "~" H 3100 2800 50  0001 C CNN
-	1    3100 2800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R RE1
-U 1 1 5E4AF6D8
-P 3100 2400
-F 0 "RE1" H 3170 2446 50  0000 L CNN
-F 1 "47 Ohms" H 3170 2355 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3030 2400 50  0001 C CNN
-F 3 "~" H 3100 2400 50  0001 C CNN
-	1    3100 2400
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:C CE1
 U 1 1 5E4AF73F
 P 3700 2400
@@ -124,10 +80,10 @@ F 3 "~" H 3700 2800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C CB1
+L Device:C CB2
 U 1 1 5E4AF863
 P 4700 1850
-F 0 "CB1" H 4815 1896 50  0000 L CNN
+F 0 "CB2" H 4815 1896 50  0000 L CNN
 F 1 "100 nF" H 4815 1805 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4738 1700 50  0001 C CNN
 F 3 "~" H 4700 1850 50  0001 C CNN
@@ -148,12 +104,12 @@ $EndComp
 $Comp
 L Connector:Conn_01x02_Male J0
 U 1 1 5E4AFB32
-P 1950 1700
-F 0 "J0" H 2056 1878 50  0000 C CNN
-F 1 "Power" H 2056 1787 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 1950 1700 50  0001 C CNN
-F 3 "~" H 1950 1700 50  0001 C CNN
-	1    1950 1700
+P 800 1700
+F 0 "J0" H 906 1878 50  0000 C CNN
+F 1 "Power" H 906 1787 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 800 1700 50  0001 C CNN
+F 3 "~" H 800 1700 50  0001 C CNN
+	1    800  1700
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -193,7 +149,6 @@ F 3 "" H 2450 2900 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2450 2600 2150 2600
-Connection ~ 2450 2600
 Wire Wire Line
 	2150 2800 2150 3150
 Wire Wire Line
@@ -208,10 +163,8 @@ Wire Wire Line
 	3100 2550 3100 2600
 Wire Wire Line
 	3700 2950 3100 2950
-Connection ~ 3100 2950
 Wire Wire Line
 	3100 2250 3700 2250
-Connection ~ 3100 2250
 Wire Wire Line
 	3700 2550 3700 2600
 Wire Wire Line
@@ -251,17 +204,6 @@ Wire Wire Line
 	4350 2600 4350 1700
 Wire Wire Line
 	4350 1700 2450 1700
-$Comp
-L power:GND #PWR0104
-U 1 1 5E4B2448
-P 2150 1800
-F 0 "#PWR0104" H 2150 1550 50  0001 C CNN
-F 1 "GND" H 2155 1627 50  0000 C CNN
-F 2 "" H 2150 1800 50  0001 C CNN
-F 3 "" H 2150 1800 50  0001 C CNN
-	1    2150 1800
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5600 2400 5350 2400
 $Comp
@@ -311,7 +253,127 @@ $EndComp
 Wire Wire Line
 	4350 1700 4700 1700
 Connection ~ 4350 1700
+$Comp
+L Device:R_US R1
+U 1 1 5E502F81
+P 2450 2450
+F 0 "R1" H 2518 2496 50  0000 L CNN
+F 1 "4.7k Ohms" H 2518 2405 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2490 2440 50  0001 C CNN
+F 3 "~" H 2450 2450 50  0001 C CNN
+	1    2450 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R2
+U 1 1 5E5041ED
+P 2450 2750
+F 0 "R2" H 2518 2796 50  0000 L CNN
+F 1 "3.3k Ohms" H 2518 2705 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2490 2740 50  0001 C CNN
+F 3 "~" H 2450 2750 50  0001 C CNN
+	1    2450 2750
+	1    0    0    -1  
+$EndComp
+Connection ~ 2450 2600
+$Comp
+L Device:R_US RE1
+U 1 1 5E505059
+P 3100 2400
+F 0 "RE1" H 3168 2446 50  0000 L CNN
+F 1 "470 Ohms" H 3168 2355 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3140 2390 50  0001 C CNN
+F 3 "~" H 3100 2400 50  0001 C CNN
+	1    3100 2400
+	1    0    0    -1  
+$EndComp
+Connection ~ 3100 2250
+$Comp
+L Device:R_US RE2
+U 1 1 5E50535E
+P 3100 2800
+F 0 "RE2" H 3168 2846 50  0000 L CNN
+F 1 "470 Ohms" H 3168 2755 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3140 2790 50  0001 C CNN
+F 3 "~" H 3100 2800 50  0001 C CNN
+	1    3100 2800
+	1    0    0    -1  
+$EndComp
+Connection ~ 3100 2950
+$Comp
+L Regulator_Linear:LM7805_TO220 U0
+U 1 1 5E507706
+P 2050 1700
+F 0 "U0" H 2050 1942 50  0000 C CNN
+F 1 "LM7805" H 2050 1851 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 2050 1925 50  0001 C CIN
+F 3 "http://www.fairchildsemi.com/ds/LM/LM7805.pdf" H 2050 1650 50  0001 C CNN
+	1    2050 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:DIODE D0
+U 1 1 5E5094A4
+P 1250 1700
+F 0 "D0" H 1250 1965 50  0000 C CNN
+F 1 "DIODE" H 1250 1874 50  0000 C CNN
+F 2 "" H 1250 1700 50  0001 C CNN
+F 3 "~" H 1250 1700 50  0001 C CNN
+	1    1250 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C CB1
+U 1 1 5E509CF7
+P 1550 1850
+F 0 "CB1" H 1665 1896 50  0000 L CNN
+F 1 "100 nF" H 1665 1805 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1588 1700 50  0001 C CNN
+F 3 "~" H 1550 1850 50  0001 C CNN
+	1    1550 1850
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	2150 1700 2450 1700
+	1000 1700 1050 1700
+Wire Wire Line
+	1450 1700 1550 1700
+Wire Wire Line
+	1550 1700 1750 1700
+Connection ~ 1550 1700
+$Comp
+L power:GND #PWR?
+U 1 1 5E50EEB4
+P 2050 2000
+F 0 "#PWR?" H 2050 1750 50  0001 C CNN
+F 1 "GND" H 2055 1827 50  0000 C CNN
+F 2 "" H 2050 2000 50  0001 C CNN
+F 3 "" H 2050 2000 50  0001 C CNN
+	1    2050 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E50F2B3
+P 1550 2000
+F 0 "#PWR?" H 1550 1750 50  0001 C CNN
+F 1 "GND" H 1555 1827 50  0000 C CNN
+F 2 "" H 1550 2000 50  0001 C CNN
+F 3 "" H 1550 2000 50  0001 C CNN
+	1    1550 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E50F562
+P 1000 1800
+F 0 "#PWR?" H 1000 1550 50  0001 C CNN
+F 1 "GND" H 1005 1627 50  0000 C CNN
+F 2 "" H 1000 1800 50  0001 C CNN
+F 3 "" H 1000 1800 50  0001 C CNN
+	1    1000 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2350 1700 2450 1700
 Connection ~ 2450 1700
 $EndSCHEMATC
