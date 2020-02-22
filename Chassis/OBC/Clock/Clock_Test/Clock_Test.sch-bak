@@ -247,4 +247,12 @@ Wire Wire Line
 	1900 750  1900 800 
 Text Label 1900 750  0    50   ~ 0
 GND
+Text Label 1900 1400 0    50   ~ 0
+Output
+Text Label 1300 1400 0    50   ~ 0
+Output
+Text Label 700  1800 0    50   ~ 0
+GND
+Text Label 950  1000 0    50   ~ 0
+Gate
 $EndSCHEMATC

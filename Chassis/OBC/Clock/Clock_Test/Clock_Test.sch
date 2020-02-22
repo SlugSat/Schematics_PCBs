@@ -90,17 +90,6 @@ F 3 "" H 2150 1700 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2150 1600 2150 1700
-$Comp
-L Device:Q_NJFET_GSD Q1
-U 1 1 5E41F262
-P 1400 1000
-F 0 "Q1" H 1591 1046 50  0000 L CNN
-F 1 "Q_NJFET_GSD" H 1591 955 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline_Wide" H 1600 1100 50  0001 C CNN
-F 3 "~" H 1400 1000 50  0001 C CNN
-	1    1400 1000
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	600  1050 600  1000
 Wire Wire Line
@@ -255,4 +244,15 @@ Text Label 700  1800 0    50   ~ 0
 GND
 Text Label 950  1000 0    50   ~ 0
 Gate
+$Comp
+L Device:Q_NJFET_DSG Q1
+U 1 1 5E5136FB
+P 1400 1000
+F 0 "Q1" H 1591 1046 50  0000 L CNN
+F 1 "Q_NJFET_DSG" H 1591 955 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline_Wide" H 1600 1100 50  0001 C CNN
+F 3 "~" H 1400 1000 50  0001 C CNN
+	1    1400 1000
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

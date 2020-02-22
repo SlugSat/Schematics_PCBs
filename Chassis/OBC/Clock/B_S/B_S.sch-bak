@@ -16,50 +16,54 @@ $EndDescr
 $Comp
 L Connector:Conn_Coaxial J?
 U 1 1 5E50A907
-P 650 850
-F 0 "J?" H 550 950 50  0000 C CNN
-F 1 "Conn_Coaxial" V 750 850 50  0000 C CNN
-F 2 "Connector_Coaxial:SMA_Molex_73251-1153_EdgeMount_Horizontal" H 650 850 50  0001 C CNN
-F 3 " ~" H 650 850 50  0001 C CNN
-	1    650  850 
+P 750 800
+F 0 "J?" H 678 1038 50  0000 C CNN
+F 1 "Conn_Coaxial" H 678 947 50  0000 C CNN
+F 2 "Connector_Coaxial:SMA_Molex_73251-1153_EdgeMount_Horizontal" H 750 800 50  0001 C CNN
+F 3 " ~" H 750 800 50  0001 C CNN
+	1    750  800 
 	-1   0    0    -1  
 $EndComp
 $Comp
 L Connector:Conn_01x01_Male J?
 U 1 1 5E50C7EA
-P 800 7750
-F 0 "J?" V 954 7662 50  0000 R CNN
-F 1 "Conn_01x01_Male" V 863 7662 50  0000 R CNN
-F 2 "" H 800 7750 50  0001 C CNN
-F 3 "~" H 800 7750 50  0001 C CNN
-	1    800  7750
+P 750 2200
+F 0 "J?" V 904 2112 50  0000 R CNN
+F 1 "Conn_01x01_Male" V 813 2112 50  0000 R CNN
+F 2 "" H 750 2200 50  0001 C CNN
+F 3 "~" H 750 2200 50  0001 C CNN
+	1    750  2200
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	800  7550 800  7500
+	750  2000 750  1950
 Wire Wire Line
-	800  7500 600  7500
+	750  1950 550  1950
 Wire Wire Line
-	600  7500 600  7050
+	550  1950 550  1500
 Wire Wire Line
-	600  7050 800  7050
+	550  1500 750  1500
 Wire Wire Line
-	800  7050 800  7000
-Connection ~ 800  7500
+	750  1500 750  1450
+Connection ~ 750  1950
 Wire Wire Line
-	800  7500 800  7450
+	750  1950 750  1900
 Wire Wire Line
-	600  7050 600  6600
-Connection ~ 600  7050
+	550  1500 550  1050
+Wire Wire Line
+	550  1050 750  1050
+Wire Wire Line
+	750  1050 750  1000
+Connection ~ 550  1500
 $Comp
 L 4xxx:4013 U?
 U 1 1 5E50F0A0
-P 1250 850
-F 0 "U?" H 1350 1100 50  0000 C CNN
-F 1 "4013" H 1100 1100 50  0000 C CNN
-F 2 "" H 1250 850 50  0001 C CNN
-F 3 "http://www.onsemi.com/pub/Collateral/MC14013B-D.PDF" H 1250 850 50  0001 C CNN
-	1    1250 850 
+P 900 9000
+F 0 "U?" H 900 9481 50  0000 C CNN
+F 1 "4013" H 900 9390 50  0000 C CNN
+F 2 "" H 900 9000 50  0001 C CNN
+F 3 "http://www.onsemi.com/pub/Collateral/MC14013B-D.PDF" H 900 9000 50  0001 C CNN
+	1    900  9000
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -417,25 +421,23 @@ $EndComp
 $Comp
 L Connector:Conn_Coaxial J?
 U 1 1 5E605A51
-P 800 6800
-F 0 "J?" H 728 7038 50  0000 C CNN
-F 1 "Conn_Coaxial" H 728 6947 50  0000 C CNN
-F 2 "Connector_Coaxial:SMA_Molex_73251-1153_EdgeMount_Horizontal" H 800 6800 50  0001 C CNN
-F 3 " ~" H 800 6800 50  0001 C CNN
-	1    800  6800
+P 750 1250
+F 0 "J?" H 678 1488 50  0000 C CNN
+F 1 "Conn_Coaxial" H 678 1397 50  0000 C CNN
+F 2 "Connector_Coaxial:SMA_Molex_73251-1153_EdgeMount_Horizontal" H 750 1250 50  0001 C CNN
+F 3 " ~" H 750 1250 50  0001 C CNN
+	1    750  1250
 	-1   0    0    -1  
 $EndComp
 $Comp
 L Connector:Conn_Coaxial J?
 U 1 1 5E605CEF
-P 800 7250
-F 0 "J?" H 728 7488 50  0000 C CNN
-F 1 "Conn_Coaxial" H 728 7397 50  0000 C CNN
-F 2 "Connector_Coaxial:SMA_Molex_73251-1153_EdgeMount_Horizontal" H 800 7250 50  0001 C CNN
-F 3 " ~" H 800 7250 50  0001 C CNN
-	1    800  7250
+P 750 1700
+F 0 "J?" H 678 1938 50  0000 C CNN
+F 1 "Conn_Coaxial" H 678 1847 50  0000 C CNN
+F 2 "Connector_Coaxial:SMA_Molex_73251-1153_EdgeMount_Horizontal" H 750 1700 50  0001 C CNN
+F 3 " ~" H 750 1700 50  0001 C CNN
+	1    750  1700
 	-1   0    0    -1  
 $EndComp
-Wire Wire Line
-	850  850  950  850 
 $EndSCHEMATC
