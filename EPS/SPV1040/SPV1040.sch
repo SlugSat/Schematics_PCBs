@@ -385,7 +385,7 @@ U 1 1 5E4D96D4
 P 2700 3500
 F 0 "J2" H 2620 3175 50  0000 C CNN
 F 1 "Screw_Terminal_01x02" H 2620 3266 50  0000 C CNN
-F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 2700 3500 50  0001 C CNN
+F 2 "TerminalBlock_RND:TerminalBlock_RND_205-00232_1x02_P5.08mm_Horizontal" H 2700 3500 50  0001 C CNN
 F 3 "~" H 2700 3500 50  0001 C CNN
 	1    2700 3500
 	-1   0    0    1   
@@ -396,7 +396,7 @@ U 1 1 5E4D976A
 P 8550 3450
 F 0 "J1" H 8469 3125 50  0000 C CNN
 F 1 "Screw_Terminal_01x02" H 8469 3216 50  0000 C CNN
-F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 8550 3450 50  0001 C CNN
+F 2 "TerminalBlock_RND:TerminalBlock_RND_205-00232_1x02_P5.08mm_Horizontal" H 8550 3450 50  0001 C CNN
 F 3 "~" H 8550 3450 50  0001 C CNN
 	1    8550 3450
 	1    0    0    1   

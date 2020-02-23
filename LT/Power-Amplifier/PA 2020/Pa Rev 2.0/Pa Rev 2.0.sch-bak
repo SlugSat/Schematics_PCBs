@@ -18,7 +18,7 @@ Power Amplifier
 Text Notes 10550 7650 0    59   ~ 0
 2.0\n
 $Comp
-L Pa-Rev-2.0-rescue:Connector_Conn_01x02_Male-Daisy~Chain-cache J0
+L Pa-Rev-2.0-rescue:Connector_Conn_01x02_Male-Daisy_Chain-cache J0
 U 1 1 5E3E9B29
 P 1100 850
 F 0 "J0" H 1206 1028 50  0000 C CNN
@@ -57,17 +57,6 @@ Wire Wire Line
 Wire Wire Line
 	2800 1650 3050 1650
 $Comp
-L Device:R R2
-U 1 1 5E3EA2C9
-P 3050 1800
-F 0 "R2" H 3120 1846 50  0000 L CNN
-F 1 "3.3k Ohms" H 3120 1755 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2980 1800 50  0001 C CNN
-F 3 "~" H 3050 1800 50  0001 C CNN
-	1    3050 1800
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR0101
 U 1 1 5E3EA33F
 P 3050 1950
@@ -83,7 +72,7 @@ Wire Wire Line
 Wire Wire Line
 	4400 1850 4400 2250
 $Comp
-L Pa-Rev-2.0-rescue:Connector_Conn_01x02_Male-Daisy~Chain-cache J1
+L Pa-Rev-2.0-rescue:Connector_Conn_01x02_Male-Daisy_Chain-cache J1
 U 1 1 5E3EA65E
 P 1550 1450
 F 0 "J1" H 1656 1628 50  0000 C CNN
@@ -94,7 +83,7 @@ F 3 "" H 1550 1450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Pa-Rev-2.0-rescue:Connector_Conn_01x02_Male-Daisy~Chain-cache J2
+L Pa-Rev-2.0-rescue:Connector_Conn_01x02_Male-Daisy_Chain-cache J2
 U 1 1 5E3EA692
 P 5650 1450
 F 0 "J2" H 5622 1423 50  0000 R CNN
@@ -141,18 +130,6 @@ F 3 "" H 2000 1850 50  0001 C CNN
 	1    2000 1850
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:R R1
-U 1 1 5E3EABA7
-P 3050 1500
-F 0 "R1" H 3120 1546 50  0000 L CNN
-F 1 "4.7k Ohms" H 3120 1455 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2980 1500 50  0001 C CNN
-F 3 "~" H 3050 1500 50  0001 C CNN
-	1    3050 1500
-	1    0    0    -1  
-$EndComp
-Connection ~ 3050 1650
 Wire Wire Line
 	2800 1250 3300 1250
 Wire Wire Line
@@ -171,15 +148,13 @@ F 3 "" H 3850 1950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3600 2250 4400 2250
-Wire Wire Line
 	3600 1050 4400 1050
 Wire Wire Line
 	4250 850  4250 1650
 Wire Wire Line
 	4250 1650 4400 1650
 $Comp
-L Pa-Rev-2.0-rescue:Device_C-Daisy~Chain-cache C1
+L Pa-Rev-2.0-rescue:Device_C-Daisy_Chain-cache C1
 U 1 1 5E3EBF51
 P 2100 1000
 F 0 "C1" H 2215 1046 50  0000 L CNN
@@ -190,7 +165,7 @@ F 3 "" H 2100 1000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Pa-Rev-2.0-rescue:Device_C-Daisy~Chain-cache C2
+L Pa-Rev-2.0-rescue:Device_C-Daisy_Chain-cache C2
 U 1 1 5E3EBFD1
 P 4800 1000
 F 0 "C2" H 4915 1046 50  0000 L CNN
@@ -213,17 +188,6 @@ F 3 "http://www.fairchildsemi.com/ds/LM/LM7805.pdf" H 2650 800 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3600 1450 3600 1650
-$Comp
-L Device:R R0
-U 1 1 5E3EC461
-P 3850 1800
-F 0 "R0" H 3920 1846 50  0000 L CNN
-F 1 "47 Ohms" H 3920 1755 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3780 1800 50  0001 C CNN
-F 3 "~" H 3850 1800 50  0001 C CNN
-	1    3850 1800
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3600 1650 3850 1650
 Connection ~ 3600 1650
@@ -306,7 +270,7 @@ $EndComp
 Wire Wire Line
 	1450 850  1300 850 
 $Comp
-L Pa-Rev-2.0-rescue:Device_C-Daisy~Chain-cache C3
+L Pa-Rev-2.0-rescue:Device_C-Daisy_Chain-cache C3
 U 1 1 5E3F15C2
 P 3850 1500
 F 0 "C3" H 3735 1454 50  0000 R CNN
@@ -351,4 +315,41 @@ F 3 "" H 5450 1550 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1850 850  2350 850 
+Wire Wire Line
+	3600 2250 4400 2250
+$Comp
+L Device:R_US R1
+U 1 1 5E502CC9
+P 3050 1500
+F 0 "R1" H 3118 1546 50  0000 L CNN
+F 1 "4.7k Ohms" H 3118 1455 50  0000 L CNN
+F 2 "" V 3090 1490 50  0001 C CNN
+F 3 "~" H 3050 1500 50  0001 C CNN
+	1    3050 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R2
+U 1 1 5E503331
+P 3050 1800
+F 0 "R2" H 3118 1846 50  0000 L CNN
+F 1 "3.3k Ohms" H 3118 1755 50  0000 L CNN
+F 2 "" V 3090 1790 50  0001 C CNN
+F 3 "~" H 3050 1800 50  0001 C CNN
+	1    3050 1800
+	1    0    0    -1  
+$EndComp
+Connection ~ 3050 1650
+$Comp
+L Device:R_US R3
+U 1 1 5E5037C6
+P 3850 1800
+F 0 "R3" H 3918 1846 50  0000 L CNN
+F 1 "470 Ohms" H 3918 1755 50  0000 L CNN
+F 2 "" V 3890 1790 50  0001 C CNN
+F 3 "~" H 3850 1800 50  0001 C CNN
+	1    3850 1800
+	1    0    0    -1  
+$EndComp
+Connection ~ 3850 1650
 $EndSCHEMATC

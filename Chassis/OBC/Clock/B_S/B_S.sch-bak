@@ -1,0 +1,443 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:Conn_Coaxial J?
+U 1 1 5E50A907
+P 750 800
+F 0 "J?" H 678 1038 50  0000 C CNN
+F 1 "Conn_Coaxial" H 678 947 50  0000 C CNN
+F 2 "Connector_Coaxial:SMA_Molex_73251-1153_EdgeMount_Horizontal" H 750 800 50  0001 C CNN
+F 3 " ~" H 750 800 50  0001 C CNN
+	1    750  800 
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 5E50C7EA
+P 750 2200
+F 0 "J?" V 904 2112 50  0000 R CNN
+F 1 "Conn_01x01_Male" V 813 2112 50  0000 R CNN
+F 2 "" H 750 2200 50  0001 C CNN
+F 3 "~" H 750 2200 50  0001 C CNN
+	1    750  2200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	750  2000 750  1950
+Wire Wire Line
+	750  1950 550  1950
+Wire Wire Line
+	550  1950 550  1500
+Wire Wire Line
+	550  1500 750  1500
+Wire Wire Line
+	750  1500 750  1450
+Connection ~ 750  1950
+Wire Wire Line
+	750  1950 750  1900
+Wire Wire Line
+	550  1500 550  1050
+Wire Wire Line
+	550  1050 750  1050
+Wire Wire Line
+	750  1050 750  1000
+Connection ~ 550  1500
+$Comp
+L 4xxx:4013 U?
+U 1 1 5E50F0A0
+P 900 9000
+F 0 "U?" H 900 9481 50  0000 C CNN
+F 1 "4013" H 900 9390 50  0000 C CNN
+F 2 "" H 900 9000 50  0001 C CNN
+F 3 "http://www.onsemi.com/pub/Collateral/MC14013B-D.PDF" H 900 9000 50  0001 C CNN
+	1    900  9000
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4xxx:4013 U?
+U 2 1 5E50F9E3
+P 1650 9050
+F 0 "U?" H 1650 9531 50  0000 C CNN
+F 1 "4013" H 1650 9440 50  0000 C CNN
+F 2 "" H 1650 9050 50  0001 C CNN
+F 3 "http://www.onsemi.com/pub/Collateral/MC14013B-D.PDF" H 1650 9050 50  0001 C CNN
+	2    1650 9050
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4xxx:4013 U?
+U 3 1 5E5109B6
+P 2450 9100
+F 0 "U?" H 2680 9146 50  0000 L CNN
+F 1 "4013" H 2680 9055 50  0000 L CNN
+F 2 "" H 2450 9100 50  0001 C CNN
+F 3 "http://www.onsemi.com/pub/Collateral/MC14013B-D.PDF" H 2450 9100 50  0001 C CNN
+	3    2450 9100
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4xxx:4081 U?
+U 1 1 5E515F69
+P 3750 10300
+F 0 "U?" H 3750 10625 50  0000 C CNN
+F 1 "4081" H 3750 10534 50  0000 C CNN
+F 2 "" H 3750 10300 50  0001 C CNN
+F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4073bms-81bms-82bms.pdf" H 3750 10300 50  0001 C CNN
+	1    3750 10300
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4xxx:4081 U?
+U 2 1 5E516C5B
+P 4450 10300
+F 0 "U?" H 4450 10625 50  0000 C CNN
+F 1 "4081" H 4450 10534 50  0000 C CNN
+F 2 "" H 4450 10300 50  0001 C CNN
+F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4073bms-81bms-82bms.pdf" H 4450 10300 50  0001 C CNN
+	2    4450 10300
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4xxx:4081 U?
+U 3 1 5E519622
+P 5150 10300
+F 0 "U?" H 5150 10625 50  0000 C CNN
+F 1 "4081" H 5150 10534 50  0000 C CNN
+F 2 "" H 5150 10300 50  0001 C CNN
+F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4073bms-81bms-82bms.pdf" H 5150 10300 50  0001 C CNN
+	3    5150 10300
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4xxx:4081 U?
+U 4 1 5E51A31C
+P 5900 10300
+F 0 "U?" H 5900 10625 50  0000 C CNN
+F 1 "4081" H 5900 10534 50  0000 C CNN
+F 2 "" H 5900 10300 50  0001 C CNN
+F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4073bms-81bms-82bms.pdf" H 5900 10300 50  0001 C CNN
+	4    5900 10300
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4xxx:4081 U?
+U 5 1 5E51B80B
+P 6550 10400
+F 0 "U?" H 6780 10446 50  0000 L CNN
+F 1 "4081" H 6780 10355 50  0000 L CNN
+F 2 "" H 6550 10400 50  0001 C CNN
+F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4073bms-81bms-82bms.pdf" H 6550 10400 50  0001 C CNN
+	5    6550 10400
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4xxx:4025 U?
+U 1 1 5E51D632
+P 3750 12550
+F 0 "U?" H 3750 12875 50  0000 C CNN
+F 1 "4025" H 3750 12784 50  0000 C CNN
+F 2 "" H 3750 12550 50  0001 C CNN
+F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4000bms-01bms-02bms-25bms.pdf" H 3750 12550 50  0001 C CNN
+	1    3750 12550
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4xxx:4025 U?
+U 2 1 5E521096
+P 4500 12550
+F 0 "U?" H 4500 12875 50  0000 C CNN
+F 1 "4025" H 4500 12784 50  0000 C CNN
+F 2 "" H 4500 12550 50  0001 C CNN
+F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4000bms-01bms-02bms-25bms.pdf" H 4500 12550 50  0001 C CNN
+	2    4500 12550
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4xxx:4025 U?
+U 3 1 5E522784
+P 5250 12550
+F 0 "U?" H 5250 12875 50  0000 C CNN
+F 1 "4025" H 5250 12784 50  0000 C CNN
+F 2 "" H 5250 12550 50  0001 C CNN
+F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4000bms-01bms-02bms-25bms.pdf" H 5250 12550 50  0001 C CNN
+	3    5250 12550
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4xxx:4025 U?
+U 4 1 5E523293
+P 5950 12550
+F 0 "U?" H 6180 12596 50  0000 L CNN
+F 1 "4025" H 6180 12505 50  0000 L CNN
+F 2 "" H 5950 12550 50  0001 C CNN
+F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4000bms-01bms-02bms-25bms.pdf" H 5950 12550 50  0001 C CNN
+	4    5950 12550
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4xxx:4013 U?
+U 1 1 5E52D175
+P 950 10150
+F 0 "U?" H 950 10631 50  0000 C CNN
+F 1 "4013" H 950 10540 50  0000 C CNN
+F 2 "" H 950 10150 50  0001 C CNN
+F 3 "http://www.onsemi.com/pub/Collateral/MC14013B-D.PDF" H 950 10150 50  0001 C CNN
+	1    950  10150
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4xxx:4013 U?
+U 2 1 5E52D17B
+P 1700 10200
+F 0 "U?" H 1700 10681 50  0000 C CNN
+F 1 "4013" H 1700 10590 50  0000 C CNN
+F 2 "" H 1700 10200 50  0001 C CNN
+F 3 "http://www.onsemi.com/pub/Collateral/MC14013B-D.PDF" H 1700 10200 50  0001 C CNN
+	2    1700 10200
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4xxx:4013 U?
+U 3 1 5E52D181
+P 2500 10250
+F 0 "U?" H 2730 10296 50  0000 L CNN
+F 1 "4013" H 2730 10205 50  0000 L CNN
+F 2 "" H 2500 10250 50  0001 C CNN
+F 3 "http://www.onsemi.com/pub/Collateral/MC14013B-D.PDF" H 2500 10250 50  0001 C CNN
+	3    2500 10250
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4xxx:4013 U?
+U 1 1 5E52E13E
+P 950 11200
+F 0 "U?" H 950 11681 50  0000 C CNN
+F 1 "4013" H 950 11590 50  0000 C CNN
+F 2 "" H 950 11200 50  0001 C CNN
+F 3 "http://www.onsemi.com/pub/Collateral/MC14013B-D.PDF" H 950 11200 50  0001 C CNN
+	1    950  11200
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4xxx:4013 U?
+U 2 1 5E52E144
+P 1700 11250
+F 0 "U?" H 1700 11731 50  0000 C CNN
+F 1 "4013" H 1700 11640 50  0000 C CNN
+F 2 "" H 1700 11250 50  0001 C CNN
+F 3 "http://www.onsemi.com/pub/Collateral/MC14013B-D.PDF" H 1700 11250 50  0001 C CNN
+	2    1700 11250
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4xxx:4013 U?
+U 3 1 5E52E14A
+P 2500 11300
+F 0 "U?" H 2730 11346 50  0000 L CNN
+F 1 "4013" H 2730 11255 50  0000 L CNN
+F 2 "" H 2500 11300 50  0001 C CNN
+F 3 "http://www.onsemi.com/pub/Collateral/MC14013B-D.PDF" H 2500 11300 50  0001 C CNN
+	3    2500 11300
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4xxx:4013 U?
+U 1 1 5E52F12D
+P 1000 12350
+F 0 "U?" H 1000 12831 50  0000 C CNN
+F 1 "4013" H 1000 12740 50  0000 C CNN
+F 2 "" H 1000 12350 50  0001 C CNN
+F 3 "http://www.onsemi.com/pub/Collateral/MC14013B-D.PDF" H 1000 12350 50  0001 C CNN
+	1    1000 12350
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4xxx:4013 U?
+U 2 1 5E52F133
+P 1750 12400
+F 0 "U?" H 1750 12881 50  0000 C CNN
+F 1 "4013" H 1750 12790 50  0000 C CNN
+F 2 "" H 1750 12400 50  0001 C CNN
+F 3 "http://www.onsemi.com/pub/Collateral/MC14013B-D.PDF" H 1750 12400 50  0001 C CNN
+	2    1750 12400
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4xxx:4013 U?
+U 3 1 5E52F139
+P 2550 12450
+F 0 "U?" H 2780 12496 50  0000 L CNN
+F 1 "4013" H 2780 12405 50  0000 L CNN
+F 2 "" H 2550 12450 50  0001 C CNN
+F 3 "http://www.onsemi.com/pub/Collateral/MC14013B-D.PDF" H 2550 12450 50  0001 C CNN
+	3    2550 12450
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4xxx:4081 U?
+U 1 1 5E54A3D1
+P 3750 11500
+F 0 "U?" H 3750 11825 50  0000 C CNN
+F 1 "4081" H 3750 11734 50  0000 C CNN
+F 2 "" H 3750 11500 50  0001 C CNN
+F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4073bms-81bms-82bms.pdf" H 3750 11500 50  0001 C CNN
+	1    3750 11500
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4xxx:4081 U?
+U 2 1 5E54A3D7
+P 4450 11500
+F 0 "U?" H 4450 11825 50  0000 C CNN
+F 1 "4081" H 4450 11734 50  0000 C CNN
+F 2 "" H 4450 11500 50  0001 C CNN
+F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4073bms-81bms-82bms.pdf" H 4450 11500 50  0001 C CNN
+	2    4450 11500
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4xxx:4081 U?
+U 3 1 5E54A3DD
+P 5150 11500
+F 0 "U?" H 5150 11825 50  0000 C CNN
+F 1 "4081" H 5150 11734 50  0000 C CNN
+F 2 "" H 5150 11500 50  0001 C CNN
+F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4073bms-81bms-82bms.pdf" H 5150 11500 50  0001 C CNN
+	3    5150 11500
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4xxx:4081 U?
+U 4 1 5E54A3E3
+P 5900 11500
+F 0 "U?" H 5900 11825 50  0000 C CNN
+F 1 "4081" H 5900 11734 50  0000 C CNN
+F 2 "" H 5900 11500 50  0001 C CNN
+F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4073bms-81bms-82bms.pdf" H 5900 11500 50  0001 C CNN
+	4    5900 11500
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4xxx:4081 U?
+U 5 1 5E54A3E9
+P 6550 11600
+F 0 "U?" H 6780 11646 50  0000 L CNN
+F 1 "4081" H 6780 11555 50  0000 L CNN
+F 2 "" H 6550 11600 50  0001 C CNN
+F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4073bms-81bms-82bms.pdf" H 6550 11600 50  0001 C CNN
+	5    6550 11600
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74HC04 U?
+U 1 1 5E56A8B2
+P 3650 9150
+F 0 "U?" H 3650 9467 50  0000 C CNN
+F 1 "74HC04" H 3650 9376 50  0000 C CNN
+F 2 "" H 3650 9150 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 3650 9150 50  0001 C CNN
+	1    3650 9150
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74HC04 U?
+U 2 1 5E56BEDC
+P 4350 9150
+F 0 "U?" H 4350 9467 50  0000 C CNN
+F 1 "74HC04" H 4350 9376 50  0000 C CNN
+F 2 "" H 4350 9150 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 4350 9150 50  0001 C CNN
+	2    4350 9150
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74HC04 U?
+U 3 1 5E56D03B
+P 5100 9150
+F 0 "U?" H 5100 9467 50  0000 C CNN
+F 1 "74HC04" H 5100 9376 50  0000 C CNN
+F 2 "" H 5100 9150 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 5100 9150 50  0001 C CNN
+	3    5100 9150
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74HC04 U?
+U 4 1 5E56DFF6
+P 5850 9150
+F 0 "U?" H 5850 9467 50  0000 C CNN
+F 1 "74HC04" H 5850 9376 50  0000 C CNN
+F 2 "" H 5850 9150 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 5850 9150 50  0001 C CNN
+	4    5850 9150
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74HC04 U?
+U 5 1 5E56F803
+P 6600 9150
+F 0 "U?" H 6600 9467 50  0000 C CNN
+F 1 "74HC04" H 6600 9376 50  0000 C CNN
+F 2 "" H 6600 9150 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 6600 9150 50  0001 C CNN
+	5    6600 9150
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74HC04 U?
+U 6 1 5E5704D0
+P 7400 9150
+F 0 "U?" H 7400 9467 50  0000 C CNN
+F 1 "74HC04" H 7400 9376 50  0000 C CNN
+F 2 "" H 7400 9150 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 7400 9150 50  0001 C CNN
+	6    7400 9150
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74HC04 U?
+U 7 1 5E571760
+P 8200 9150
+F 0 "U?" H 8430 9196 50  0000 L CNN
+F 1 "74HC04" H 8430 9105 50  0000 L CNN
+F 2 "" H 8200 9150 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 8200 9150 50  0001 C CNN
+	7    8200 9150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J?
+U 1 1 5E605A51
+P 750 1250
+F 0 "J?" H 678 1488 50  0000 C CNN
+F 1 "Conn_Coaxial" H 678 1397 50  0000 C CNN
+F 2 "Connector_Coaxial:SMA_Molex_73251-1153_EdgeMount_Horizontal" H 750 1250 50  0001 C CNN
+F 3 " ~" H 750 1250 50  0001 C CNN
+	1    750  1250
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J?
+U 1 1 5E605CEF
+P 750 1700
+F 0 "J?" H 678 1938 50  0000 C CNN
+F 1 "Conn_Coaxial" H 678 1847 50  0000 C CNN
+F 2 "Connector_Coaxial:SMA_Molex_73251-1153_EdgeMount_Horizontal" H 750 1700 50  0001 C CNN
+F 3 " ~" H 750 1700 50  0001 C CNN
+	1    750  1700
+	-1   0    0    -1  
+$EndComp
+$EndSCHEMATC
