@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name Lithium_ion_charger_L6924D-rescue)(type Legacy)(uri ${KIPRJMOD}/Lithium_ion_charger_L6924D-rescue.lib)(options "")(descr ""))
+)
