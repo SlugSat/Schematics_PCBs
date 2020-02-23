@@ -68,7 +68,7 @@ U 1 1 5E4D945A
 P 3450 3350
 F 0 "J1" H 3370 3025 50  0000 C CNN
 F 1 "Screw_Terminal_01x02" H 3370 3116 50  0000 C CNN
-F 2 "TerminalBlock_RND:TerminalBlock_RND_205-00287_1x02_P5.08mm_Horizontal" H 3450 3350 50  0001 C CNN
+F 2 "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type094_RT03502HBLU_1x02_P5.00mm_Horizontal" H 3450 3350 50  0001 C CNN
 F 3 "~" H 3450 3350 50  0001 C CNN
 	1    3450 3350
 	-1   0    0    1   
@@ -221,7 +221,7 @@ U 1 1 5E50DEFE
 P 7900 3350
 F 0 "J2" H 7820 3025 50  0000 C CNN
 F 1 "Screw_Terminal_01x02" H 7820 3116 50  0000 C CNN
-F 2 "TerminalBlock_RND:TerminalBlock_RND_205-00232_1x02_P5.08mm_Horizontal" H 7900 3350 50  0001 C CNN
+F 2 "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type094_RT03502HBLU_1x02_P5.00mm_Horizontal" H 7900 3350 50  0001 C CNN
 F 3 "~" H 7900 3350 50  0001 C CNN
 	1    7900 3350
 	1    0    0    1   
