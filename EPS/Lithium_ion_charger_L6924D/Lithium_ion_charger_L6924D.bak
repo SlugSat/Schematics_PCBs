@@ -66,17 +66,14 @@ Wire Wire Line
 $Comp
 L Connector:Screw_Terminal_01x02 J?
 U 1 1 5E4D945A
-P 2600 3350
-F 0 "J?" H 2520 3025 50  0000 C CNN
-F 1 "Screw_Terminal_01x02" H 2520 3116 50  0000 C CNN
-F 2 "" H 2600 3350 50  0001 C CNN
-F 3 "~" H 2600 3350 50  0001 C CNN
-	1    2600 3350
+P 3450 3350
+F 0 "J?" H 3370 3025 50  0000 C CNN
+F 1 "Screw_Terminal_01x02" H 3370 3116 50  0000 C CNN
+F 2 "" H 3450 3350 50  0001 C CNN
+F 3 "~" H 3450 3350 50  0001 C CNN
+	1    3450 3350
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	2800 3250 4950 3250
-Connection ~ 4950 3250
 Wire Wire Line
 	6350 3600 6650 3600
 Wire Wire Line
@@ -134,4 +131,118 @@ Wire Wire Line
 Connection ~ 5450 5250
 Wire Wire Line
 	5450 5250 5450 5150
+Wire Wire Line
+	5900 4650 5900 5250
+Wire Wire Line
+	5900 5250 5450 5250
+Wire Wire Line
+	4950 3850 4550 3850
+Wire Wire Line
+	4550 3850 4550 5250
+Wire Wire Line
+	4550 5250 4750 5250
+Connection ~ 4750 5250
+$Comp
+L Device:R_US R?
+U 1 1 5E50AC1B
+P 7250 4100
+F 0 "R?" H 7318 4146 50  0000 L CNN
+F 1 "1k" H 7318 4055 50  0000 L CNN
+F 2 "" V 7290 4090 50  0001 C CNN
+F 3 "~" H 7250 4100 50  0001 C CNN
+	1    7250 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 5E50AC5B
+P 7250 4850
+F 0 "R?" H 7318 4896 50  0000 L CNN
+F 1 "470" H 7318 4805 50  0000 L CNN
+F 2 "" V 7290 4840 50  0001 C CNN
+F 3 "~" H 7250 4850 50  0001 C CNN
+	1    7250 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5E50B4E6
+P 6350 4900
+F 0 "D?" V 6388 4783 50  0000 R CNN
+F 1 "LED" V 6297 4783 50  0000 R CNN
+F 2 "" H 6350 4900 50  0001 C CNN
+F 3 "~" H 6350 4900 50  0001 C CNN
+	1    6350 4900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5E50B555
+P 6800 4900
+F 0 "D?" V 6838 4783 50  0000 R CNN
+F 1 "LED" V 6747 4783 50  0000 R CNN
+F 2 "" H 6800 4900 50  0001 C CNN
+F 3 "~" H 6800 4900 50  0001 C CNN
+	1    6800 4900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6350 4750 6350 4500
+Wire Wire Line
+	6350 5050 6350 5250
+Wire Wire Line
+	6350 5250 5900 5250
+Connection ~ 5900 5250
+Wire Wire Line
+	6350 4350 6800 4350
+Wire Wire Line
+	6800 4350 6800 4750
+Wire Wire Line
+	6800 5050 6800 5250
+Wire Wire Line
+	6800 5250 6350 5250
+Connection ~ 6350 5250
+Wire Wire Line
+	6350 3950 7250 3950
+Wire Wire Line
+	7250 5000 7250 5250
+Wire Wire Line
+	7250 5250 6800 5250
+Connection ~ 6800 5250
+Wire Wire Line
+	7250 4250 6350 4250
+Wire Wire Line
+	6350 4250 6350 4100
+Wire Wire Line
+	7250 4250 7250 4700
+Connection ~ 7250 4250
+$Comp
+L Connector:Screw_Terminal_01x02 J?
+U 1 1 5E50DEFE
+P 7900 3350
+F 0 "J?" H 7820 3025 50  0000 C CNN
+F 1 "Screw_Terminal_01x02" H 7820 3116 50  0000 C CNN
+F 2 "" H 7900 3350 50  0001 C CNN
+F 3 "~" H 7900 3350 50  0001 C CNN
+	1    7900 3350
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	7700 3350 7700 5250
+Wire Wire Line
+	7700 5250 7250 5250
+Connection ~ 7250 5250
+Wire Wire Line
+	7700 3250 6650 3250
+Connection ~ 6650 3250
+Wire Wire Line
+	3650 3250 4950 3250
+Connection ~ 4950 3250
+Wire Wire Line
+	3650 3350 3950 3350
+Wire Wire Line
+	3950 3350 3950 5250
+Wire Wire Line
+	3950 5250 4550 5250
+Connection ~ 4550 5250
 $EndSCHEMATC
