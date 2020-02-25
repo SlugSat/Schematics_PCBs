@@ -42,7 +42,7 @@ L Connector:Conn_01x01_Male J3
 U 1 1 5E465990
 P 1750 1250
 F 0 "J3" H 1750 1200 50  0000 L CNN
-F 1 "Conn_01x01_Male" H 1300 1300 50  0000 L CNN
+F 1 "Conn_01x01_Male" H 1050 1200 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 1750 1250 50  0001 C CNN
 F 3 "~" H 1750 1250 50  0001 C CNN
 	1    1750 1250
@@ -58,7 +58,7 @@ L Device:C C1
 U 1 1 5E429397
 P 1700 750
 F 0 "C1" V 1650 650 50  0000 C CNN
-F 1 "100 nF" V 1650 950 50  0000 C CNN
+F 1 "100 nF" V 1550 900 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1738 600 50  0001 C CNN
 F 3 "~" H 1700 750 50  0001 C CNN
 	1    1700 750 
@@ -238,7 +238,7 @@ Text Label 1900 750  0    50   ~ 0
 GND
 Text Label 1900 1400 0    50   ~ 0
 Output
-Text Label 1300 1400 0    50   ~ 0
+Text Label 1200 1400 0    50   ~ 0
 Output
 Text Label 700  1800 0    50   ~ 0
 GND
