@@ -4654,11 +4654,6 @@
       (net 330 "Net-(J1-Pad22)"))
     (pad 35 thru_hole circle (at 66.085 -87.12 90) (size 1.5 1.5) (drill 1) (layers *.Cu *.Mask F.SilkS)
       (net 331 "Net-(J1-Pad35)"))
-    (model C:/Users/lfbarrag/Documents/SlugSat/GitHub/Schematics_PCBs/Chassis/PCB_Standards/Mechanical/PTHF-130-02-G-Q-368.stp
-      (offset (xyz 74 83 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
   )
 
 )
