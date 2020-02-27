@@ -2081,8 +2081,8 @@
     (pad 4 thru_hole circle (at 2.25 2.25) (size 1.75 1.75) (drill 1) (layers *.Cu *.Mask))
     (pad 5 thru_hole circle (at -3.62 0) (size 2.25 2.25) (drill 1.5) (layers *.Cu *.Mask))
     (pad 5 thru_hole circle (at 3.62 0) (size 2.25 2.25) (drill 1.5) (layers *.Cu *.Mask))
-    (model ":SLUGSAT-3D:User Library-Coils_150_SL.stp"
-      (offset (xyz 3.5 -4 0))
+    (model ":SLUGSAT:User Library-Coils_150_SL.stp"
+      (offset (xyz 3.5 -3.5 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
@@ -2111,8 +2111,8 @@
     (pad 6 thru_hole circle (at -2.25 2.25) (size 1.75 1.75) (drill 1) (layers *.Cu *.Mask))
     (pad 2 thru_hole circle (at 0 -2.25) (size 1.75 1.75) (drill 1) (layers *.Cu *.Mask)
       (net 98 "Net-(L2-Pad2)"))
-    (model ":SLUGSAT-3D:User Library-Coils_150_SL.stp"
-      (offset (xyz 4 -4 0))
+    (model ":SLUGSAT:User Library-Coils_150_SL.stp"
+      (offset (xyz 3.5 -3.5 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
@@ -2177,8 +2177,8 @@
     (pad 4 thru_hole circle (at 2.25 2.25) (size 1.75 1.75) (drill 1) (layers *.Cu *.Mask))
     (pad 5 thru_hole circle (at -3.62 0) (size 2.25 2.25) (drill 1.5) (layers *.Cu *.Mask))
     (pad 5 thru_hole circle (at 3.62 0) (size 2.25 2.25) (drill 1.5) (layers *.Cu *.Mask))
-    (model ":SLUGSAT-3D:User Library-Coils_150_SL.stp"
-      (offset (xyz 4 -4 0))
+    (model ":SLUGSAT:User Library-Coils_150_SL.stp"
+      (offset (xyz 4 -3.5 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
@@ -2207,8 +2207,8 @@
     (pad 6 thru_hole circle (at -2.25 2.25) (size 1.75 1.75) (drill 1) (layers *.Cu *.Mask))
     (pad 2 thru_hole circle (at 0 -2.25) (size 1.75 1.75) (drill 1) (layers *.Cu *.Mask)
       (net 104 "Net-(L5-Pad2)"))
-    (model ":SLUGSAT-3D:User Library-Coils_150_SL.stp"
-      (offset (xyz 4 -4 -0.5))
+    (model ":SLUGSAT:User Library-Coils_150_SL.stp"
+      (offset (xyz 3.5 -3.5 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
@@ -3860,7 +3860,7 @@
       (net 200 "Net-(T1-Pad2)"))
     (pad 1 smd rect (at -1.715 -1.27 90) (size 1.4 0.76) (layers F.Cu F.Paste F.Mask)
       (net 201 "Net-(T1-Pad1)"))
-    (model :SLUGSAT-3D:Transformer.stp
+    (model :SLUGSAT:Transformer.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3909,7 +3909,7 @@
       (net 205 "Net-(T2-Pad4)"))
     (pad 5 smd rect (at 1.715 -1.27) (size 1.4 0.76) (layers F.Cu F.Paste F.Mask)
       (net 206 "Net-(T2-Pad5)"))
-    (model :SLUGSAT-3D:Transformer.stp
+    (model :SLUGSAT:Transformer.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3945,7 +3945,7 @@
       (net 3 "Net-(C2-Pad1)"))
     (pad 2 smd rect (at 1.95 0 90) (size 1.3 2) (layers F.Cu F.Paste F.Mask)
       (net 4 "Net-(C2-Pad2)"))
-    (model :SLUGSAT-3D:SGC3S300.stp
+    (model :SLUGSAT:SGC3S300.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3981,7 +3981,7 @@
       (net 7 "Net-(C4-Pad1)"))
     (pad 2 smd rect (at 1.95 0 90) (size 1.3 2) (layers F.Cu F.Paste F.Mask)
       (net 8 "Net-(C4-Pad2)"))
-    (model :SLUGSAT-3D:SGC3S300.stp
+    (model :SLUGSAT:SGC3S300.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4017,7 +4017,7 @@
       (net 9 "Net-(C5-Pad2)"))
     (pad 1 smd rect (at -1.95 0 90) (size 1.3 2) (layers F.Cu F.Paste F.Mask)
       (net 10 "Net-(C5-Pad1)"))
-    (model :SLUGSAT-3D:SGC3S300.stp
+    (model :SLUGSAT:SGC3S300.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4063,7 +4063,7 @@
       (net 210 "Net-(U1-Pad4)"))
     (pad 5 smd rect (at 1.25 -0.95 90) (size 0.5 1.25) (layers F.Cu F.Paste F.Mask)
       (net 211 "Net-(U1-Pad5)"))
-    (model :SLUGSAT-3D:BAP64Q,125.stp
+    (model :SLUGSAT:BAP64Q,125.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4099,7 +4099,7 @@
       (net 79 "Net-(C40-Pad1)"))
     (pad 2 smd rect (at 1.95 0 90) (size 1.3 2) (layers F.Cu F.Paste F.Mask)
       (net 80 "Net-(C40-Pad2)"))
-    (model :SLUGSAT-3D:SGC3S300.stp
+    (model :SLUGSAT:SGC3S300.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4135,7 +4135,7 @@
       (net 81 "Net-(C41-Pad2)"))
     (pad 1 smd rect (at -1.95 0 90) (size 1.3 2) (layers F.Cu F.Paste F.Mask)
       (net 82 "Net-(C41-Pad1)"))
-    (model :SLUGSAT-3D:SGC3S300.stp
+    (model :SLUGSAT:SGC3S300.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4171,7 +4171,7 @@
       (net 83 "Net-(C42-Pad1)"))
     (pad 2 smd rect (at 1.95 0 90) (size 1.3 2) (layers F.Cu F.Paste F.Mask)
       (net 84 "Net-(C42-Pad2)"))
-    (model :SLUGSAT-3D:SGC3S300.stp
+    (model :SLUGSAT:SGC3S300.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4207,7 +4207,7 @@
       (net 85 "Net-(C43-Pad2)"))
     (pad 1 smd rect (at -1.95 0 90) (size 1.3 2) (layers F.Cu F.Paste F.Mask)
       (net 86 "Net-(C43-Pad1)"))
-    (model :SLUGSAT-3D:SGC3S300.stp
+    (model :SLUGSAT:SGC3S300.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4243,7 +4243,7 @@
       (net 87 "Net-(C44-Pad1)"))
     (pad 2 smd rect (at 1.95 0 90) (size 1.3 2) (layers F.Cu F.Paste F.Mask)
       (net 88 "Net-(C44-Pad2)"))
-    (model :SLUGSAT-3D:SGC3S300.stp
+    (model :SLUGSAT:SGC3S300.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4279,7 +4279,7 @@
       (net 89 "Net-(C45-Pad2)"))
     (pad 1 smd rect (at -1.95 0 90) (size 1.3 2) (layers F.Cu F.Paste F.Mask)
       (net 90 "Net-(C45-Pad1)"))
-    (model :SLUGSAT-3D:SGC3S300.stp
+    (model :SLUGSAT:SGC3S300.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4315,7 +4315,7 @@
       (net 91 "Net-(C46-Pad1)"))
     (pad 2 smd rect (at 1.95 0 90) (size 1.3 2) (layers F.Cu F.Paste F.Mask)
       (net 92 "Net-(C46-Pad2)"))
-    (model :SLUGSAT-3D:SGC3S300.stp
+    (model :SLUGSAT:SGC3S300.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4351,7 +4351,7 @@
       (net 93 "Net-(C47-Pad2)"))
     (pad 1 smd rect (at -1.95 0 90) (size 1.3 2) (layers F.Cu F.Paste F.Mask)
       (net 94 "Net-(C47-Pad1)"))
-    (model :SLUGSAT-3D:SGC3S300.stp
+    (model :SLUGSAT:SGC3S300.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4654,11 +4654,6 @@
       (net 330 "Net-(J1-Pad22)"))
     (pad 35 thru_hole circle (at 66.085 -87.12 90) (size 1.5 1.5) (drill 1) (layers *.Cu *.Mask F.SilkS)
       (net 331 "Net-(J1-Pad35)"))
-    (model C:/Users/lfbarrag/Documents/SlugSat/GitHub/Schematics_PCBs/Chassis/PCB_Standards/Mechanical/PTHF-130-02-G-Q-368.stp
-      (offset (xyz 74 83 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
   )
 
 )
