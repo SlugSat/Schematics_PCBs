@@ -301,7 +301,7 @@ F 1 "Transformer_6" H 7350 4340 50  0000 C CNN
 F 2 "LT:PWB1040L" H 7350 4050 50  0001 C CNN
 F 3 "~" H 7350 4050 50  0001 C CNN
 	1    7350 4050
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 NoConn ~ 3300 3950
 NoConn ~ 4100 3950
