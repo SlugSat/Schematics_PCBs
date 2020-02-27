@@ -87,11 +87,11 @@ X 2 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Down_Mixer_Rev2-rescue_SA602-LT-Schematics
+# Down_Mixer_Rev1-rescue_SA602-LT-Schematics-Down_Mixer_Rev2-rescue
 #
-DEF Down_Mixer_Rev2-rescue_SA602-LT-Schematics U 0 40 Y Y 1 F N
+DEF Down_Mixer_Rev1-rescue_SA602-LT-Schematics-Down_Mixer_Rev2-rescue U 0 40 Y Y 1 F N
 F0 "U" 750 -650 50 H V C CNN
-F1 "Down_Mixer_Rev2-rescue_SA602-LT-Schematics" 750 -550 50 H V C CNN
+F1 "Down_Mixer_Rev1-rescue_SA602-LT-Schematics-Down_Mixer_Rev2-rescue" 750 -550 50 H V C CNN
 F2 "" 400 -300 50 H I C CNN
 F3 "" 400 -300 50 H I C CNN
 DRAW

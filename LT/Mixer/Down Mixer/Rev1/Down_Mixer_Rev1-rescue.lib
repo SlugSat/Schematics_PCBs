@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# SA602-LT-Schematics
+# SA602-LT-Schematics-Down_Mixer_Rev2-rescue
 #
-DEF SA602-LT-Schematics U 0 40 Y Y 1 F N
+DEF SA602-LT-Schematics-Down_Mixer_Rev2-rescue U 0 40 Y Y 1 F N
 F0 "U" 750 -650 50 H V C CNN
-F1 "SA602-LT-Schematics" 750 -550 50 H V C CNN
+F1 "SA602-LT-Schematics-Down_Mixer_Rev2-rescue" 750 -550 50 H V C CNN
 F2 "" 400 -300 50 H I C CNN
 F3 "" 400 -300 50 H I C CNN
 DRAW

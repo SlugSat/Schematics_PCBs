@@ -36,7 +36,7 @@ F 3 "~" H 4450 4150 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Down_Mixer_Rev2-rescue:SA602-LT-Schematics U1
+L Down_Mixer_Rev1-rescue:SA602-LT-Schematics-Down_Mixer_Rev2-rescue U1
 U 1 1 5E447907
 P 5000 3750
 F 0 "U1" H 5300 4150 50  0000 C CNN
