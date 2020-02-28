@@ -10,4 +10,9 @@ $CMP Bus
 D SS SatBus
 $ENDCMP
 #
+$CMP TPS63700DRCR-2
+D Adjustable, -15V Output Inverting DC/DC Converter in 3x3 QFN
+F http://www.ti.com/lit/gpn/tps63700
+$ENDCMP
+#
 #End Doc Library
