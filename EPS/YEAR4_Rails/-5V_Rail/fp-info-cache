@@ -1,4 +1,4 @@
-16385881486662289
+16387464417737289
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -66807,6 +66807,13 @@ TPS63700DRCR
 0
 10
 10
+SS
+TPS63700DRCR_copy
+TPS63700DRCR-4
+Integrated Circuit
+0
+15
+15
 SS
 TSSOP-8_W4.4mm
 http://www.st.com/content/ccc/resource/technical/document/datasheet/0d/30/c2/1a/92/03/48/cb/CD00287506.pdf/files/CD00287506.pdf/jcr:content/translations/en.CD00287506.pdf
