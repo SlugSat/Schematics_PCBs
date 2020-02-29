@@ -80,10 +80,10 @@ F 3 "~" H 3700 2800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C CB1
+L Device:C CB2
 U 1 1 5E4AF863
 P 4700 1850
-F 0 "CB1" H 4815 1896 50  0000 L CNN
+F 0 "CB2" H 4815 1896 50  0000 L CNN
 F 1 "100 nF" H 4815 1805 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4738 1700 50  0001 C CNN
 F 3 "~" H 4700 1850 50  0001 C CNN
@@ -104,12 +104,12 @@ $EndComp
 $Comp
 L Connector:Conn_01x02_Male J0
 U 1 1 5E4AFB32
-P 1950 1700
-F 0 "J0" H 2056 1878 50  0000 C CNN
-F 1 "Power" H 2056 1787 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 1950 1700 50  0001 C CNN
-F 3 "~" H 1950 1700 50  0001 C CNN
-	1    1950 1700
+P 800 1700
+F 0 "J0" H 906 1878 50  0000 C CNN
+F 1 "Power" H 906 1787 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 800 1700 50  0001 C CNN
+F 3 "~" H 800 1700 50  0001 C CNN
+	1    800  1700
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -204,17 +204,6 @@ Wire Wire Line
 	4350 2600 4350 1700
 Wire Wire Line
 	4350 1700 2450 1700
-$Comp
-L power:GND #PWR0104
-U 1 1 5E4B2448
-P 2150 1800
-F 0 "#PWR0104" H 2150 1550 50  0001 C CNN
-F 1 "GND" H 2155 1627 50  0000 C CNN
-F 2 "" H 2150 1800 50  0001 C CNN
-F 3 "" H 2150 1800 50  0001 C CNN
-	1    2150 1800
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5600 2400 5350 2400
 $Comp
@@ -264,9 +253,6 @@ $EndComp
 Wire Wire Line
 	4350 1700 4700 1700
 Connection ~ 4350 1700
-Wire Wire Line
-	2150 1700 2450 1700
-Connection ~ 2450 1700
 $Comp
 L Device:R_US R1
 U 1 1 5E502F81
@@ -314,4 +300,18 @@ F 3 "~" H 3100 2800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 3100 2950
+$Comp
+L power:GND #PWR?
+U 1 1 5E50F562
+P 1000 1800
+F 0 "#PWR?" H 1000 1550 50  0001 C CNN
+F 1 "GND" H 1005 1627 50  0000 C CNN
+F 2 "" H 1000 1800 50  0001 C CNN
+F 3 "" H 1000 1800 50  0001 C CNN
+	1    1000 1800
+	1    0    0    -1  
+$EndComp
+Connection ~ 2450 1700
+Wire Wire Line
+	1000 1700 2450 1700
 $EndSCHEMATC
