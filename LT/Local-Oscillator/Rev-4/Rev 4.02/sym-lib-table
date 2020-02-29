@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name PLL-Board-Rev4.02-rescue)(type Legacy)(uri "${KIPRJMOD}/PLL Board Rev4.02-rescue.lib")(options "")(descr ""))
+)

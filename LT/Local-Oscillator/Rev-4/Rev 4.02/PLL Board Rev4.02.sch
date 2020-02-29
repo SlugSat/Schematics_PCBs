@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:Complete PLL Board Rev4-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -249,7 +248,7 @@ F 3 "~" H 2300 3250 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R R1
+L PLL-Board-Rev4.02-rescue:R-Device-Complete-PLL-Board-Rev4-rescue-PLL-Board-Rev4.01-rescue R1
 U 1 1 5C6B70C1
 P 2500 1400
 F 0 "R1" H 2570 1446 50  0000 L CNN
@@ -260,7 +259,7 @@ F 3 "~" H 2500 1400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R3
+L PLL-Board-Rev4.02-rescue:R-Device-Complete-PLL-Board-Rev4-rescue-PLL-Board-Rev4.01-rescue R3
 U 1 1 5C6B724B
 P 3500 1350
 F 0 "R3" H 3570 1396 50  0000 L CNN
@@ -271,7 +270,7 @@ F 3 "~" H 3500 1350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R4
+L PLL-Board-Rev4.02-rescue:R-Device-Complete-PLL-Board-Rev4-rescue-PLL-Board-Rev4.01-rescue R4
 U 1 1 5C6B7281
 P 4000 1350
 F 0 "R4" H 4070 1396 50  0000 L CNN
@@ -284,7 +283,7 @@ $EndComp
 Wire Wire Line
 	2450 3250 4150 3250
 $Comp
-L Device:R R2
+L PLL-Board-Rev4.02-rescue:R-Device-Complete-PLL-Board-Rev4-rescue-PLL-Board-Rev4.01-rescue R2
 U 1 1 5C6B86E4
 P 2800 2100
 F 0 "R2" H 2870 2146 50  0000 L CNN
@@ -651,7 +650,7 @@ L Device:D_Capacitance D3
 U 1 1 5C7F18B5
 P 6750 4700
 F 0 "D3" V 6750 4900 50  0000 R CNN
-F 1 "1SV232" V 6650 5050 50  0000 R CNN
+F 1 "???" V 6650 5050 50  0000 R CNN
 F 2 "Diode_SMD:D_SC-80_HandSoldering" H 6750 4700 50  0001 C CNN
 F 3 "~" H 6750 4700 50  0001 C CNN
 	1    6750 4700
@@ -662,7 +661,7 @@ L Device:D_Capacitance D4
 U 1 1 5C7F2025
 P 6750 5250
 F 0 "D4" V 6750 5350 50  0000 L CNN
-F 1 "1SV232" V 6850 5300 50  0000 L CNN
+F 1 "???" V 6850 5300 50  0000 L CNN
 F 2 "Diode_SMD:D_SC-80_HandSoldering" H 6750 5250 50  0001 C CNN
 F 3 "~" H 6750 5250 50  0001 C CNN
 	1    6750 5250
@@ -719,7 +718,7 @@ F 3 "~" H 9100 4900 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R R9
+L PLL-Board-Rev4.02-rescue:R-Device-Complete-PLL-Board-Rev4-rescue-PLL-Board-Rev4.01-rescue R9
 U 1 1 5C802100
 P 8800 5200
 F 0 "R9" H 8850 5200 50  0000 L CNN
@@ -746,7 +745,7 @@ Connection ~ 8100 5050
 Wire Wire Line
 	8100 5050 8100 5150
 $Comp
-L Device:R R10
+L PLL-Board-Rev4.02-rescue:R-Device-Complete-PLL-Board-Rev4-rescue-PLL-Board-Rev4.01-rescue R10
 U 1 1 5C809914
 P 9600 5050
 F 0 "R10" H 9650 5000 50  0000 L CNN
@@ -768,7 +767,7 @@ F 3 "" H 9600 5200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R11
+L PLL-Board-Rev4.02-rescue:R-Device-Complete-PLL-Board-Rev4-rescue-PLL-Board-Rev4.01-rescue R11
 U 1 1 5C80AB36
 P 9950 5500
 F 0 "R11" H 10020 5546 50  0000 L CNN
@@ -1090,20 +1089,9 @@ Wire Wire Line
 Text Notes 7350 7500 0    50   Italic 10
 PLL Board
 Text Notes 8150 7650 0    50   Italic 10
-3/3/19
+1/3/20
 Text Notes 10600 7650 0    50   ~ 10
 1
-$Comp
-L Complete-PLL-Board-Rev4-rescue:LMX231X-LMX2313 U1
-U 1 1 5C7E02DA
-P 4850 2300
-F 0 "U1" H 4700 1550 50  0000 C CNN
-F 1 "LMX231X" H 4700 1450 50  0000 C CNN
-F 2 "LMX231X:LMX231X" H 4350 2000 50  0001 C CNN
-F 3 "" H 4350 2000 50  0001 C CNN
-	1    4850 2300
-	1    0    0    -1  
-$EndComp
 Text GLabel 9050 3000 1    50   Input ~ 0
 8V
 $Comp
@@ -1206,7 +1194,7 @@ Wire Wire Line
 	7200 1850 7550 1850
 Connection ~ 7200 1850
 $Comp
-L Device:R R6
+L PLL-Board-Rev4.02-rescue:R-Device-Complete-PLL-Board-Rev4-rescue-PLL-Board-Rev4.01-rescue R6
 U 1 1 5C863D30
 P 7700 1850
 F 0 "R6" V 7500 1850 50  0000 C CNN
@@ -1281,7 +1269,7 @@ Connection ~ 7800 3000
 Wire Wire Line
 	7800 3000 7900 3000
 $Comp
-L Device:R R5
+L PLL-Board-Rev4.02-rescue:R-Device-Complete-PLL-Board-Rev4-rescue-PLL-Board-Rev4.01-rescue R5
 U 1 1 5C8FC8A8
 P 7500 2850
 F 0 "R5" H 7400 2800 50  0000 C CNN
@@ -1378,7 +1366,7 @@ Wire Wire Line
 Wire Wire Line
 	8800 4750 8800 4900
 $Comp
-L Device:R R8
+L PLL-Board-Rev4.02-rescue:R-Device-Complete-PLL-Board-Rev4-rescue-PLL-Board-Rev4.01-rescue R8
 U 1 1 5CA66BF5
 P 9400 4900
 F 0 "R8" V 9500 4850 50  0000 L CNN
@@ -1408,7 +1396,7 @@ F 3 "~" H 7550 1000 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R R7
+L PLL-Board-Rev4.02-rescue:R-Device-Complete-PLL-Board-Rev4-rescue-PLL-Board-Rev4.01-rescue R7
 U 1 1 5CA7D1B6
 P 7550 1300
 F 0 "R7" H 7350 1250 50  0000 C CNN
@@ -1458,7 +1446,7 @@ F 3 "" H 7950 2150 50  0001 C CNN
 $EndComp
 Connection ~ 9950 4550
 $Comp
-L Device:R R12
+L PLL-Board-Rev4.02-rescue:R-Device-Complete-PLL-Board-Rev4-rescue-PLL-Board-Rev4.01-rescue R12
 U 1 1 5CB9DB4B
 P 6500 5100
 F 0 "R12" V 6700 5050 50  0000 L CNN
@@ -1471,22 +1459,22 @@ $EndComp
 Wire Wire Line
 	8800 4900 8950 4900
 $Comp
-L Device:R R13
+L PLL-Board-Rev4.02-rescue:R-Device-Complete-PLL-Board-Rev4-rescue-PLL-Board-Rev4.01-rescue R13
 U 1 1 5CBB0D39
 P 6150 4400
 F 0 "R13" V 6350 4350 50  0000 L CNN
-F 1 "1k" V 6250 4350 50  0000 L CNN
+F 1 "0k" V 6250 4350 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6080 4400 50  0001 C CNN
 F 3 "~" H 6150 4400 50  0001 C CNN
 	1    6150 4400
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R R14
+L PLL-Board-Rev4.02-rescue:R-Device-Complete-PLL-Board-Rev4-rescue-PLL-Board-Rev4.01-rescue R14
 U 1 1 5CBBAAF0
 P 6300 4400
 F 0 "R14" V 6500 4350 50  0000 L CNN
-F 1 "1k" V 6400 4350 50  0000 L CNN
+F 1 "0k" V 6400 4350 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6230 4400 50  0001 C CNN
 F 3 "~" H 6300 4400 50  0001 C CNN
 	1    6300 4400
@@ -1624,4 +1612,17 @@ Wire Wire Line
 	7050 3950 8350 3950
 Wire Wire Line
 	7950 1850 8350 1850
+$Comp
+L LMX2313:LMX231X U1
+U 1 1 5E5B770A
+P 4850 2300
+F 0 "U1" H 4700 1500 50  0000 C CNN
+F 1 "LMX231X" H 4750 1400 50  0000 C CNN
+F 2 "LT:LMX231X" H 4350 2000 50  0001 C CNN
+F 3 "" H 4350 2000 50  0001 C CNN
+	1    4850 2300
+	1    0    0    -1  
+$EndComp
+Text Notes 2350 7150 0    79   ~ 16
+Rev4.02: Unknown Varactor Values
 $EndSCHEMATC
