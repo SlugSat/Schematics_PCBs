@@ -1,4 +1,4 @@
-update=Saturday, February 29, 2020 at 03:28:26 PM
+update=Saturday, February 29, 2020 at 02:43:22 PM
 version=1
 last_client=kicad
 [general]
@@ -25,7 +25,7 @@ ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=PLL Board Rev4.02.net
+LastNetListRead=PLL Board Rev4.07.net
 CopperLayerCount=2
 BoardThickness=1.6
 AllowMicroVias=0

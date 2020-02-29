@@ -153,27 +153,6 @@ X G 3 -200 0 210 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# Device_R
-#
-DEF Device_R R 0 0 N Y 1 F N
-F0 "R" 100 0 50 V V C CNN
-F1 "Device_R" -100 0 50 V V C CNN
-F2 "" 40 -10 50 V I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- R_*
-$ENDFPLIST
-DRAW
-P 2 0 1 0 0 -90 0 -100 N
-P 2 0 1 0 0 90 0 100 N
-P 5 0 1 0 0 -30 40 -45 0 -60 -40 -75 0 -90 N
-P 5 0 1 0 0 30 40 15 0 0 -40 -15 0 -30 N
-P 5 0 1 0 0 90 40 75 0 60 -40 45 0 30 N
-X ~ 1 0 150 50 D 50 50 1 1 P
-X ~ 2 0 -150 50 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
 # LMX2313_LMX231X
 #
 DEF LMX2313_LMX231X U 0 40 Y Y 1 F N
@@ -206,11 +185,11 @@ X FoLD 9 500 -950 100 L 50 50 1 1 O
 ENDDRAW
 ENDDEF
 #
-# PLL-Board-Rev4.01-rescue_R-Device-Complete-PLL-Board-Rev4-rescue
+# PLL-Board-Rev4.07-rescue_R-Device-Complete-PLL-Board-Rev4-rescue-PLL-Board-Rev4.01-rescue-PLL-Board-Rev4.02-rescue-PLL-Board-Rev4.03-rescue-PLL-Board-Rev4.04-rescue
 #
-DEF PLL-Board-Rev4.01-rescue_R-Device-Complete-PLL-Board-Rev4-rescue R 0 0 N Y 1 F N
+DEF PLL-Board-Rev4.07-rescue_R-Device-Complete-PLL-Board-Rev4-rescue-PLL-Board-Rev4.01-rescue-PLL-Board-Rev4.02-rescue-PLL-Board-Rev4.03-rescue-PLL-Board-Rev4.04-rescue R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "PLL-Board-Rev4.01-rescue_R-Device-Complete-PLL-Board-Rev4-rescue" 0 0 50 V V C CNN
+F1 "PLL-Board-Rev4.07-rescue_R-Device-Complete-PLL-Board-Rev4-rescue-PLL-Board-Rev4.01-rescue-PLL-Board-Rev4.02-rescue-PLL-Board-Rev4.03-rescue-PLL-Board-Rev4.04-rescue" 0 0 50 V V C CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
