@@ -539,21 +539,8 @@ Wire Wire Line
 	6200 4550 6600 4550
 Wire Wire Line
 	6600 4550 6600 4900
-$Comp
-L Connector:Conn_01x02_Male J7
-U 1 1 5C868E39
-P 5050 7450
-F 0 "J7" V 4900 7400 50  0000 C CNN
-F 1 "Conn_01x02_Male" V 5000 7400 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 5050 7450 50  0001 C CNN
-F 3 "~" H 5050 7450 50  0001 C CNN
-	1    5050 7450
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	5050 7700 5050 7650
-Wire Wire Line
-	4950 7650 2700 7650
 $Comp
 L Connector:Conn_Coaxial FL1
 U 1 1 5C87AAE2
@@ -651,21 +638,6 @@ F 3 "" H 6750 2350 50  0001 C CNN
 $EndComp
 Text Notes 6200 2100 0    50   ~ 10
 Test Charge Pumps (i)
-$Comp
-L Connector:Conn_01x02_Male J20
-U 1 1 5C7EAF41
-P 7000 4650
-F 0 "J20" V 6850 4600 50  0000 C CNN
-F 1 "Conn_01x02_Male" V 6950 4600 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 7000 4650 50  0001 C CNN
-F 3 "~" H 7000 4650 50  0001 C CNN
-	1    7000 4650
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	6200 4450 7000 4450
-Wire Wire Line
-	7100 4450 7450 4450
 Wire Wire Line
 	5650 4950 5650 5050
 Wire Wire Line
@@ -817,9 +789,7 @@ Wire Wire Line
 Wire Wire Line
 	10750 3250 10750 3550
 Wire Wire Line
-	11650 2600 11650 2300
-Wire Wire Line
-	11300 2900 11650 2900
+	11300 2600 11300 2300
 Wire Wire Line
 	11300 2950 11300 2900
 Wire Wire Line
@@ -827,12 +797,12 @@ Wire Wire Line
 $Comp
 L StabilityTestRev0-rescue:R_US-Device R17
 U 1 1 5E5AD2CA
-P 11650 2750
-F 0 "R17" H 11718 2796 50  0000 L CNN
-F 1 "1k" H 11718 2705 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 11690 2740 50  0001 C CNN
-F 3 "~" H 11650 2750 50  0001 C CNN
-	1    11650 2750
+P 11300 2750
+F 0 "R17" H 11368 2796 50  0000 L CNN
+F 1 "1k" H 11368 2705 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 11340 2740 50  0001 C CNN
+F 3 "~" H 11300 2750 50  0001 C CNN
+	1    11300 2750
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -953,8 +923,6 @@ $EndComp
 Connection ~ 8700 2850
 Wire Wire Line
 	8700 2850 9050 2850
-Wire Wire Line
-	8450 2850 8700 2850
 $Comp
 L Device:C C12
 U 1 1 5C85A1FA
@@ -968,17 +936,6 @@ F 3 "~" H 8700 3000 50  0001 C CNN
 $EndComp
 Text Notes 7850 1800 0    50   ~ 10
 Charge Pump Filters
-$Comp
-L Connector:Conn_01x02_Male J13
-U 1 1 5C886707
-P 8450 2650
-F 0 "J13" V 8300 2600 50  0000 C CNN
-F 1 "Conn_01x02_Male" V 8400 2700 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 8450 2650 50  0001 C CNN
-F 3 "~" H 8450 2650 50  0001 C CNN
-	1    8450 2650
-	0    1    1    0   
-$EndComp
 $Comp
 L Device:C C15
 U 1 1 5C7EFAA1
@@ -1416,12 +1373,12 @@ Wire Wire Line
 $Comp
 L power:GND #PWR0109
 U 1 1 5E5C1BFD
-P 12450 3750
-F 0 "#PWR0109" H 12450 3500 50  0001 C CNN
-F 1 "GND" H 12455 3577 50  0000 C CNN
-F 2 "" H 12450 3750 50  0001 C CNN
-F 3 "" H 12450 3750 50  0001 C CNN
-	1    12450 3750
+P 11150 1800
+F 0 "#PWR0109" H 11150 1550 50  0001 C CNN
+F 1 "GND" H 11155 1627 50  0000 C CNN
+F 2 "" H 11150 1800 50  0001 C CNN
+F 3 "" H 11150 1800 50  0001 C CNN
+	1    11150 1800
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1613,8 +1570,6 @@ Wire Wire Line
 	11250 4450 11250 4850
 Wire Wire Line
 	10150 5750 10150 4850
-Wire Wire Line
-	7450 2850 8350 2850
 Connection ~ 7450 2850
 Wire Wire Line
 	7450 2850 7450 4450
@@ -1672,21 +1627,18 @@ $EndComp
 Wire Wire Line
 	10150 4850 11250 4850
 Wire Wire Line
-	10550 2300 11650 2300
+	10550 2300 10950 2300
 $Comp
 L Connector:Conn_Coaxial J11
 U 1 1 5E5B37F5
-P 12450 3550
-F 0 "J11" H 12550 3525 50  0000 L CNN
-F 1 "Conn_Coaxial" H 12550 3434 50  0000 L CNN
-F 2 "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount" H 12450 3550 50  0001 C CNN
-F 3 " ~" H 12450 3550 50  0001 C CNN
-	1    12450 3550
+P 11150 1600
+F 0 "J11" H 11250 1575 50  0000 L CNN
+F 1 "Conn_Coaxial" H 11250 1484 50  0000 L CNN
+F 2 "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount" H 11150 1600 50  0001 C CNN
+F 3 " ~" H 11150 1600 50  0001 C CNN
+	1    11150 1600
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	11400 3550 12250 3550
-Connection ~ 11400 3550
 $Comp
 L Connector:Conn_Coaxial J10
 U 1 1 5E5B8ABE
@@ -1712,4 +1664,15 @@ F 3 "" H 11850 5050 50  0001 C CNN
 	1    11850 5050
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	6200 4450 7450 4450
+Wire Wire Line
+	7450 2850 8700 2850
+Wire Wire Line
+	2700 7650 5050 7650
+Wire Wire Line
+	10950 1600 10950 2300
+Connection ~ 10950 2300
+Wire Wire Line
+	10950 2300 11300 2300
 $EndSCHEMATC

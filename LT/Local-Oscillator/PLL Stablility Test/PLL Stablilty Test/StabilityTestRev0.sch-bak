@@ -767,7 +767,11 @@ F 3 "~" H 9750 3800 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
+<<<<<<< HEAD
+L Device:R_US R5
+=======
 L StabilityTestRev0-rescue:R_US-Device R5
+>>>>>>> 0397e9d45c7475dd55336b90a0778834e06b44d6
 U 1 1 5E5E2D3B
 P 10300 3900
 F 0 "R5" V 10050 3850 50  0000 L CNN
@@ -781,7 +785,11 @@ Wire Wire Line
 	11150 3550 11400 3550
 Connection ~ 11150 3550
 $Comp
+<<<<<<< HEAD
+L Device:R_US R16
+=======
 L StabilityTestRev0-rescue:R_US-Device R16
+>>>>>>> 0397e9d45c7475dd55336b90a0778834e06b44d6
 U 1 1 5E5D8E8D
 P 11150 3700
 F 0 "R16" H 10950 3750 50  0000 L CNN
@@ -800,7 +808,11 @@ Wire Wire Line
 Wire Wire Line
 	10450 4200 10450 4300
 $Comp
+<<<<<<< HEAD
+L Device:R_US R13
+=======
 L StabilityTestRev0-rescue:R_US-Device R13
+>>>>>>> 0397e9d45c7475dd55336b90a0778834e06b44d6
 U 1 1 5E5C96C2
 P 10450 4050
 F 0 "R13" H 10518 4096 50  0000 L CNN
@@ -825,7 +837,11 @@ Wire Wire Line
 Wire Wire Line
 	10750 2950 11300 2950
 $Comp
+<<<<<<< HEAD
+L Device:R_US R17
+=======
 L StabilityTestRev0-rescue:R_US-Device R17
+>>>>>>> 0397e9d45c7475dd55336b90a0778834e06b44d6
 U 1 1 5E5AD2CA
 P 11650 2750
 F 0 "R17" H 11718 2796 50  0000 L CNN
@@ -836,7 +852,11 @@ F 3 "~" H 11650 2750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
+<<<<<<< HEAD
+L Device:R_US R15
+=======
 L StabilityTestRev0-rescue:R_US-Device R15
+>>>>>>> 0397e9d45c7475dd55336b90a0778834e06b44d6
 U 1 1 5E5AB6E7
 P 10750 3100
 F 0 "R15" H 11000 3000 50  0000 R CNN
