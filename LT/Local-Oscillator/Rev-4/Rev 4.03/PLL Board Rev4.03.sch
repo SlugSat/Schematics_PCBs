@@ -1311,28 +1311,6 @@ $EndComp
 Connection ~ 9950 4550
 Wire Wire Line
 	8800 4900 8950 4900
-$Comp
-L PLL-Board-Rev4.03-rescue:R-Device-Complete-PLL-Board-Rev4-rescue-PLL-Board-Rev4.01-rescue-PLL-Board-Rev4.02-rescue R13
-U 1 1 5CBB0D39
-P 6150 4400
-F 0 "R13" V 6350 4350 50  0000 L CNN
-F 1 "0k" V 6250 4350 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6080 4400 50  0001 C CNN
-F 3 "~" H 6150 4400 50  0001 C CNN
-	1    6150 4400
-	-1   0    0    1   
-$EndComp
-$Comp
-L PLL-Board-Rev4.03-rescue:R-Device-Complete-PLL-Board-Rev4-rescue-PLL-Board-Rev4.01-rescue-PLL-Board-Rev4.02-rescue R14
-U 1 1 5CBBAAF0
-P 6300 4400
-F 0 "R14" V 6500 4350 50  0000 L CNN
-F 1 "0k" V 6400 4350 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6230 4400 50  0001 C CNN
-F 3 "~" H 6300 4400 50  0001 C CNN
-	1    6300 4400
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6300 3950 6300 4250
 Wire Wire Line
@@ -1478,9 +1456,11 @@ F 3 "" H 4350 2000 50  0001 C CNN
 $EndComp
 Text Notes 1700 7150 0    79   ~ 16
 Rev4.03: C15 & C16 were changed to 22pF and 47pF respectively
+Wire Wire Line
+	7550 1450 7550 1850
 $Comp
-L Device:R R1
-U 1 1 5E5B44C7
+L Device:R_US R1
+U 1 1 5E5B7761
 P 2500 1400
 F 0 "R1" H 2568 1446 50  0000 L CNN
 F 1 "18" H 2568 1355 50  0000 L CNN
@@ -1490,8 +1470,8 @@ F 3 "~" H 2500 1400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R3
-U 1 1 5E5B9B47
+L Device:R_US R3
+U 1 1 5E5BCAEE
 P 3500 1350
 F 0 "R3" H 3568 1396 50  0000 L CNN
 F 1 "18" H 3568 1305 50  0000 L CNN
@@ -1500,20 +1480,10 @@ F 3 "~" H 3500 1350 50  0001 C CNN
 	1    3500 1350
 	1    0    0    -1  
 $EndComp
+Connection ~ 3500 1500
 $Comp
-L Device:R R4
-U 1 1 5E5BA584
-P 4000 1350
-F 0 "R4" H 4068 1396 50  0000 L CNN
-F 1 "18" H 4068 1305 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4040 1340 50  0001 C CNN
-F 3 "~" H 4000 1350 50  0001 C CNN
-	1    4000 1350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R2
-U 1 1 5E5BAE2B
+L Device:R_US R2
+U 1 1 5E5C1CE4
 P 2800 2100
 F 0 "R2" H 2868 2146 50  0000 L CNN
 F 1 "10k" H 2868 2055 50  0000 L CNN
@@ -1523,8 +1493,41 @@ F 3 "~" H 2800 2100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R12
-U 1 1 5E5BB6EA
+L Device:R_US R4
+U 1 1 5E5C7B55
+P 4000 1350
+F 0 "R4" H 4068 1396 50  0000 L CNN
+F 1 "18" H 4068 1305 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4040 1340 50  0001 C CNN
+F 3 "~" H 4000 1350 50  0001 C CNN
+	1    4000 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R13
+U 1 1 5E5CC974
+P 6150 4400
+F 0 "R13" H 5950 4450 50  0000 L CNN
+F 1 "0" H 6000 4350 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6190 4390 50  0001 C CNN
+F 3 "~" H 6150 4400 50  0001 C CNN
+	1    6150 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R14
+U 1 1 5E5CD5D3
+P 6300 4400
+F 0 "R14" H 6368 4446 50  0000 L CNN
+F 1 "0" H 6368 4355 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6340 4390 50  0001 C CNN
+F 3 "~" H 6300 4400 50  0001 C CNN
+	1    6300 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R12
+U 1 1 5E5D7D5A
 P 6500 5100
 F 0 "R12" V 6700 5100 50  0000 C CNN
 F 1 "1k" V 6600 5100 50  0000 C CNN
@@ -1534,8 +1537,8 @@ F 3 "~" H 6500 5100 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R9
-U 1 1 5E5BC174
+L Device:R_US R9
+U 1 1 5E5DE536
 P 8800 5200
 F 0 "R9" H 8868 5246 50  0000 L CNN
 F 1 "1k" H 8868 5155 50  0000 L CNN
@@ -1544,31 +1547,10 @@ F 3 "~" H 8800 5200 50  0001 C CNN
 	1    8800 5200
 	1    0    0    -1  
 $EndComp
+Connection ~ 8800 5050
 $Comp
-L Device:R R11
-U 1 1 5E5BCA63
-P 9950 5500
-F 0 "R11" H 10018 5546 50  0000 L CNN
-F 1 "1k" H 10018 5455 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 9990 5490 50  0001 C CNN
-F 3 "~" H 9950 5500 50  0001 C CNN
-	1    9950 5500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R10
-U 1 1 5E5BD36A
-P 9600 5050
-F 0 "R10" H 9650 5050 50  0000 L CNN
-F 1 "100k" H 9650 4950 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 9640 5040 50  0001 C CNN
-F 3 "~" H 9600 5050 50  0001 C CNN
-	1    9600 5050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R8
-U 1 1 5E5BDC89
+L Device:R_US R8
+U 1 1 5E5E44F2
 P 9400 4900
 F 0 "R8" V 9500 4900 50  0000 C CNN
 F 1 "1 Ohm" V 9286 4900 50  0000 C CNN
@@ -1578,8 +1560,35 @@ F 3 "~" H 9400 4900 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R5
-U 1 1 5E5BE5C0
+L Device:R_US R10
+U 1 1 5E5EA354
+P 9600 5050
+F 0 "R10" H 9450 5050 50  0000 C CNN
+F 1 "100k" H 9450 5150 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 9640 5040 50  0001 C CNN
+F 3 "~" H 9600 5050 50  0001 C CNN
+	1    9600 5050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9550 4900 9600 4900
+Connection ~ 9600 4900
+Wire Wire Line
+	9600 4900 9650 4900
+$Comp
+L Device:R_US R11
+U 1 1 5E5EFA99
+P 9950 5500
+F 0 "R11" H 10018 5546 50  0000 L CNN
+F 1 "1k" H 10018 5455 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 9990 5490 50  0001 C CNN
+F 3 "~" H 9950 5500 50  0001 C CNN
+	1    9950 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R5
+U 1 1 5E5F4B63
 P 7500 2850
 F 0 "R5" H 7568 2896 50  0000 L CNN
 F 1 "R" H 7568 2805 50  0000 L CNN
@@ -1588,9 +1597,14 @@ F 3 "~" H 7500 2850 50  0001 C CNN
 	1    7500 2850
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	6950 3000 7500 3000
+Connection ~ 7500 3000
+Wire Wire Line
+	7500 3000 7800 3000
 $Comp
-L Device:R R6
-U 1 1 5E5BEF0F
+L Device:R_US R6
+U 1 1 5E5FA494
 P 7700 1850
 F 0 "R6" V 7495 1850 50  0000 C CNN
 F 1 "1k" V 7586 1850 50  0000 C CNN
@@ -1599,9 +1613,10 @@ F 3 "~" H 7700 1850 50  0001 C CNN
 	1    7700 1850
 	0    1    1    0   
 $EndComp
+Connection ~ 7550 1850
 $Comp
-L Device:R R7
-U 1 1 5E5BF876
+L Device:R_US R7
+U 1 1 5E600879
 P 7550 1300
 F 0 "R7" H 7618 1346 50  0000 L CNN
 F 1 "62k" H 7618 1255 50  0000 L CNN
@@ -1610,19 +1625,4 @@ F 3 "~" H 7550 1300 50  0001 C CNN
 	1    7550 1300
 	1    0    0    -1  
 $EndComp
-Connection ~ 3500 1500
-Connection ~ 8800 5050
-Wire Wire Line
-	9550 4900 9600 4900
-Connection ~ 9600 4900
-Wire Wire Line
-	9600 4900 9650 4900
-Wire Wire Line
-	6950 3000 7500 3000
-Connection ~ 7500 3000
-Wire Wire Line
-	7500 3000 7800 3000
-Wire Wire Line
-	7550 1450 7550 1850
-Connection ~ 7550 1850
 $EndSCHEMATC
