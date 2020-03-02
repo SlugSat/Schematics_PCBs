@@ -98,7 +98,7 @@ Wire Notes Line width 39 style solid rgb(194, 132, 143)
 Text Notes 3600 4800 0    118  ~ 0
 Notch Filters
 $Comp
-L SS:Bus J1
+L Mobo_Rev1-rescue:Bus-SS J1
 U 1 1 5E4D68DD
 P 8800 2900
 F 0 "J1" H 10328 3434 50  0000 L CNN
@@ -109,7 +109,7 @@ F 3 "" H 7500 3950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SS:Bus J1
+L Mobo_Rev1-rescue:Bus-SS J1
 U 2 1 5E4D9735
 P 8800 3600
 F 0 "J1" H 8795 4456 50  0000 C CNN
@@ -120,7 +120,7 @@ F 3 "" H 7500 4650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SS:Bus J1
+L Mobo_Rev1-rescue:Bus-SS J1
 U 3 1 5E4E007E
 P 8750 4400
 F 0 "J1" H 8745 5206 50  0000 C CNN
@@ -131,7 +131,7 @@ F 3 "" H 7450 5450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SS:Bus J1
+L Mobo_Rev1-rescue:Bus-SS J1
 U 4 1 5E4E41F8
 P 8750 5550
 F 0 "J1" H 10278 6184 50  0000 L CNN

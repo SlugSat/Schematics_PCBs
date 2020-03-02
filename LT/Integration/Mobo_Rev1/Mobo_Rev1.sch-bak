@@ -77,23 +77,23 @@ Wire Notes Line width 39 style solid rgb(194, 127, 0)
 	2250 950  2250 2350
 Text Notes 3550 850  0    118  ~ 0
 Receiving Stage
-Wire Notes Line width 39 style solid rgb(127, 36, 0)
+Wire Notes Line width 39 style solid rgb(127, 0, 111)
 	2000 3000 2000 4150
-Wire Notes Line width 39 style solid rgb(127, 36, 0)
+Wire Notes Line width 39 style solid rgb(127, 0, 111)
 	2000 4150 6350 4150
-Wire Notes Line width 39 style solid rgb(127, 36, 0)
+Wire Notes Line width 39 style solid rgb(127, 0, 111)
 	6350 4150 6350 3000
-Wire Notes Line width 39 style solid rgb(126, 35, 0)
+Wire Notes Line width 39 style solid rgb(127, 35, 111)
 	6350 3000 2000 3000
 Text Notes 3500 2900 0    118  ~ 0
 Transmitting Stage
-Wire Notes Line width 39 style solid rgb(194, 107, 0)
+Wire Notes Line width 39 style solid rgb(194, 132, 143)
 	2650 4900 2650 5650
-Wire Notes Line width 39 style solid rgb(194, 106, 0)
+Wire Notes Line width 39 style solid rgb(194, 132, 143)
 	2650 5650 5800 5650
-Wire Notes Line width 39 style solid rgb(194, 107, 0)
+Wire Notes Line width 39 style solid rgb(194, 132, 143)
 	5800 5650 5800 4900
-Wire Notes Line width 39 style solid rgb(194, 107, 0)
+Wire Notes Line width 39 style solid rgb(194, 132, 143)
 	5800 4900 2650 4900
 Text Notes 3600 4800 0    118  ~ 0
 Notch Filters
@@ -141,4 +141,14 @@ F 3 "" H 7450 6600 50  0001 C CNN
 	4    8750 5550
 	1    0    0    -1  
 $EndComp
+Wire Notes Line width 39
+	7050 1800 7050 5750
+Wire Notes Line width 39
+	7050 5750 10550 5750
+Wire Notes Line width 39
+	10550 5750 10550 1800
+Wire Notes Line width 39
+	10550 1800 7050 1800
+Text Notes 8500 1650 0    118  ~ 0
+The Bus
 $EndSCHEMATC
