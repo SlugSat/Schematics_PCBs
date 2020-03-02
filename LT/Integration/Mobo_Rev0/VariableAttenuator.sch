@@ -255,4 +255,15 @@ F 3 "http://www.ti.com/lit/ds/symlink/lmv331.pdf" H 5100 3350 50  0001 C CNN
 	1    5100 3150
 	1    0    0    -1  
 $EndComp
+$Comp
+L Amplifier_Audio:IR4302 U?
+U 1 1 5E5DD07E
+P 8100 4650
+F 0 "U?" H 8100 5631 50  0000 C CNN
+F 1 "IR4302" H 8100 5540 50  0000 C CNN
+F 2 "Package_DFN_QFN:Infineon_PQFN-44-31-5EP_7x7mm_P0.5mm" H 8100 4650 50  0001 C CIN
+F 3 "https://www.infineon.com/dgdl/ir4302.pdf?fileId=5546d462533600a4015355d602a9181d" H 8100 4650 50  0001 C CNN
+	1    8100 4650
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
