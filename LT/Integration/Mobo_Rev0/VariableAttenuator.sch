@@ -266,4 +266,15 @@ F 3 "https://www.infineon.com/dgdl/ir4302.pdf?fileId=5546d462533600a4015355d602a
 	1    8100 4650
 	1    0    0    -1  
 $EndComp
+$Comp
+L Video:AD9708AR U?
+U 1 1 5E5DF289
+P 9500 4600
+F 0 "U?" H 9500 5681 50  0000 C CNN
+F 1 "AD9708AR" H 9500 5590 50  0000 C CNN
+F 2 "" H 9500 4600 50  0001 C CNN
+F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/AD9708.pdf" H 9500 4600 50  0001 C CNN
+	1    9500 4600
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
