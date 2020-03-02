@@ -277,4 +277,15 @@ F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/AD9708.
 	1    9500 4600
 	1    0    0    -1  
 $EndComp
+$Comp
+L FPGA_Xilinx_Virtex7:XC7V585T-FFG1761 U?
+U 1 1 5E5D8E3C
+P 3950 5550
+F 0 "U?" V 3904 2621 50  0000 R CNN
+F 1 "XC7V585T-FFG1761" V 3995 2621 50  0000 R CNN
+F 2 "" H 3950 5550 50  0001 C CNN
+F 3 "" H 3950 5550 50  0000 C CNN
+	1    3950 5550
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
