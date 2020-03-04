@@ -1,0 +1,284 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Notes 12200 10900 0    50   Italic 10
+PLL Board
+Text Notes 13000 11050 0    50   Italic 10
+3/3/19
+Text Notes 15450 11050 0    50   ~ 10
+1
+$Comp
+L Connector:Conn_01x03_Male J9
+U 1 1 5E57360C
+P 12250 2300
+F 0 "J9" H 12358 2581 50  0000 C CNN
+F 1 "Conn_01x03_Male" H 12358 2490 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 12250 2300 50  0001 C CNN
+F 3 "~" H 12250 2300 50  0001 C CNN
+	1    12250 2300
+	1    0    0    -1  
+$EndComp
+Text Notes 12050 2400 0    50   ~ 0
++5V\nGND\n-5V
+$Comp
+L power:GND #PWR0104
+U 1 1 5E586322
+P 12550 2300
+F 0 "#PWR0104" H 12550 2050 50  0001 C CNN
+F 1 "GND" H 12555 2127 50  0000 C CNN
+F 2 "" H 12550 2300 50  0001 C CNN
+F 3 "" H 12550 2300 50  0001 C CNN
+	1    12550 2300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	12450 2300 12550 2300
+Text GLabel 12450 2200 2    50   Input ~ 0
++5V
+Text GLabel 12450 2400 2    50   Input ~ 0
+-5V
+Text Notes 12100 1900 0    50   ~ 10
+Op-Amp Supply
+$Comp
+L power:GND #PWR0107
+U 1 1 5E5E43E2
+P 9650 3850
+F 0 "#PWR0107" H 9650 3600 50  0001 C CNN
+F 1 "GND" H 9655 3677 50  0000 C CNN
+F 2 "" H 9650 3850 50  0001 C CNN
+F 3 "" H 9650 3850 50  0001 C CNN
+	1    9650 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male J6
+U 1 1 5E5E33D0
+P 9750 3650
+F 0 "J6" V 9812 3694 50  0000 L CNN
+F 1 "Conn_01x02_Male" V 9700 3100 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 9750 3650 50  0001 C CNN
+F 3 "~" H 9750 3650 50  0001 C CNN
+	1    9750 3650
+	0    1    1    0   
+$EndComp
+$Comp
+L StabilityTestRev1-rescue:R_US-Device-StabilityTestRev0-rescue R5
+U 1 1 5E5E2D3B
+P 10300 3850
+F 0 "R5" V 10050 3800 50  0000 L CNN
+F 1 "1k" V 10150 3800 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 10340 3840 50  0001 C CNN
+F 3 "~" H 10300 3850 50  0001 C CNN
+	1    10300 3850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	11150 3550 11400 3550
+Connection ~ 11150 3550
+$Comp
+L StabilityTestRev1-rescue:R_US-Device-StabilityTestRev0-rescue R16
+U 1 1 5E5D8E8D
+P 11150 3700
+F 0 "R16" H 10950 3750 50  0000 L CNN
+F 1 "1k" H 10950 3650 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 11190 3690 50  0001 C CNN
+F 3 "~" H 11150 3700 50  0001 C CNN
+	1    11150 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10450 4150 10450 4450
+$Comp
+L StabilityTestRev1-rescue:R_US-Device-StabilityTestRev0-rescue R13
+U 1 1 5E5C96C2
+P 10450 4000
+F 0 "R13" H 10518 4046 50  0000 L CNN
+F 1 "1k" H 10518 3955 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 10490 3990 50  0001 C CNN
+F 3 "~" H 10450 4000 50  0001 C CNN
+	1    10450 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11350 3850 11900 3850
+Wire Wire Line
+	10750 3550 11150 3550
+Wire Wire Line
+	10750 3250 10750 3550
+Wire Wire Line
+	11300 2950 11300 2900
+Wire Wire Line
+	10750 2950 11300 2950
+$Comp
+L StabilityTestRev1-rescue:R_US-Device-StabilityTestRev0-rescue R17
+U 1 1 5E5AD2CA
+P 11300 2750
+F 0 "R17" H 11368 2796 50  0000 L CNN
+F 1 "1k" H 11368 2705 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 11340 2740 50  0001 C CNN
+F 3 "~" H 11300 2750 50  0001 C CNN
+	1    11300 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L StabilityTestRev1-rescue:R_US-Device-StabilityTestRev0-rescue R15
+U 1 1 5E5AB6E7
+P 10750 3100
+F 0 "R15" H 11000 3000 50  0000 R CNN
+F 1 "1k" H 11000 3100 50  0000 R CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 10790 3090 50  0001 C CNN
+F 3 "~" H 10750 3100 50  0001 C CNN
+	1    10750 3100
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	11500 2950 12050 2950
+$Comp
+L power:GND #PWR0108
+U 1 1 5E5A446C
+P 12050 2950
+F 0 "#PWR0108" H 12050 2700 50  0001 C CNN
+F 1 "GND" H 12055 2777 50  0000 C CNN
+F 2 "" H 12050 2950 50  0001 C CNN
+F 3 "" H 12050 2950 50  0001 C CNN
+	1    12050 2950
+	1    0    0    -1  
+$EndComp
+Text GLabel 11550 4050 2    50   Input ~ 0
++5V
+Text GLabel 10950 4050 0    50   Input ~ 0
+-5V
+Text GLabel 11100 3150 0    50   Input ~ 0
+-5V
+Text GLabel 11700 3150 2    50   Input ~ 0
++5V
+$Comp
+L power:GND #PWR0109
+U 1 1 5E5C1BFD
+P 11500 1550
+F 0 "#PWR0109" H 11500 1300 50  0001 C CNN
+F 1 "GND" H 11505 1377 50  0000 C CNN
+F 2 "" H 11500 1550 50  0001 C CNN
+F 3 "" H 11500 1550 50  0001 C CNN
+	1    11500 1550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9750 3850 10150 3850
+Text Notes 8650 4000 0    50   ~ 10
+Control Voltage Vc
+$Comp
+L Amplifier_Operational:LMH6611 U4
+U 1 1 5E55DBE3
+P 11400 3250
+F 0 "U4" V 11450 3450 50  0000 L CNN
+F 1 "LMH6611" V 11500 3450 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:TSOT-23-6" H 11500 3000 50  0001 L CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lmh6612.pdf" H 11550 3400 50  0001 C CNN
+	1    11400 3250
+	0    1    1    0   
+$EndComp
+Connection ~ 11300 2950
+$Comp
+L Amplifier_Operational:LMH6611 U3
+U 1 1 5E5688E0
+P 11250 4150
+F 0 "U3" V 11300 4350 50  0000 L CNN
+F 1 "LMH6611" V 11400 4350 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:TSOT-23-6" H 11350 3900 50  0001 L CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lmh6612.pdf" H 11400 4300 50  0001 C CNN
+	1    11250 4150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	11150 3850 10450 3850
+Connection ~ 11150 3850
+Connection ~ 10450 3850
+$Comp
+L power:GND #PWR0110
+U 1 1 5E57E67E
+P 11900 3850
+F 0 "#PWR0110" H 11900 3600 50  0001 C CNN
+F 1 "GND" H 11905 3677 50  0000 C CNN
+F 2 "" H 11900 3850 50  0001 C CNN
+F 3 "" H 11900 3850 50  0001 C CNN
+	1    11900 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J11
+U 1 1 5E5B37F5
+P 11500 1350
+F 0 "J11" H 11600 1325 50  0000 L CNN
+F 1 "Conn_Coaxial" H 11600 1234 50  0000 L CNN
+F 2 "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount" H 11500 1350 50  0001 C CNN
+F 3 " ~" H 11500 1350 50  0001 C CNN
+	1    11500 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 5E60BB77
+P 13100 3750
+F 0 "#PWR0101" H 13100 3500 50  0001 C CNN
+F 1 "GND" H 13105 3577 50  0000 C CNN
+F 2 "" H 13100 3750 50  0001 C CNN
+F 3 "" H 13100 3750 50  0001 C CNN
+	1    13100 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J2
+U 1 1 5E60BB7D
+P 13100 3550
+F 0 "J2" H 13200 3525 50  0000 L CNN
+F 1 "Conn_Coaxial" H 13200 3434 50  0000 L CNN
+F 2 "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount" H 13100 3550 50  0001 C CNN
+F 3 " ~" H 13100 3550 50  0001 C CNN
+	1    13100 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11400 3550 12900 3550
+Connection ~ 11400 3550
+$Comp
+L power:GND #PWR0102
+U 1 1 5E60E076
+P 12950 4650
+F 0 "#PWR0102" H 12950 4400 50  0001 C CNN
+F 1 "GND" H 12955 4477 50  0000 C CNN
+F 2 "" H 12950 4650 50  0001 C CNN
+F 3 "" H 12950 4650 50  0001 C CNN
+	1    12950 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J1
+U 1 1 5E60E07C
+P 12950 4450
+F 0 "J1" H 13050 4425 50  0000 L CNN
+F 1 "Conn_Coaxial" H 13050 4334 50  0000 L CNN
+F 2 "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount" H 12950 4450 50  0001 C CNN
+F 3 " ~" H 12950 4450 50  0001 C CNN
+	1    12950 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11250 4450 12750 4450
+Wire Wire Line
+	11300 1350 11300 2600
+Wire Wire Line
+	10450 4450 11250 4450
+$EndSCHEMATC
