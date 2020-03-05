@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:LNAv2-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -24,17 +23,6 @@ F 2 "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount" H 1600 2350 50  0001 C CNN
 F 3 " ~" H 1600 2350 50  0001 C CNN
 	1    1600 2350
 	-1   0    0    -1  
-$EndComp
-$Comp
-L Device:C_Variable C1
-U 1 1 5E4707C9
-P 2400 2350
-F 0 "C1" V 2150 2350 50  0000 C CNN
-F 1 "8-30pF" V 2250 2400 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:Variable Capacitor" H 2400 2350 50  0001 C CNN
-F 3 "~" H 2400 2350 50  0001 C CNN
-	1    2400 2350
-	0    1    1    0   
 $EndComp
 $Comp
 L Device:LTRIM L1
@@ -189,4 +177,15 @@ $EndComp
 Connection ~ 3500 1200
 Wire Wire Line
 	3500 1200 3500 1600
+$Comp
+L Device:C_Variable C1
+U 1 1 5E4707C9
+P 2400 2350
+F 0 "C1" V 2150 2350 50  0000 C CNN
+F 1 "8-30pF" V 2250 2400 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:Variable Capacitor" H 2400 2350 50  0001 C CNN
+F 3 "~" H 2400 2350 50  0001 C CNN
+	1    2400 2350
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC

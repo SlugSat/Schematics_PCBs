@@ -1,5 +1,0 @@
-(sym_lib_table
-  (lib (name LMX2313_Test-rescue)(type Legacy)(uri ${KIPRJMOD}/LMX2313_Test-rescue.lib)(options "")(descr ""))
-  (lib (name Complete-PLL-Board-Rev1-rescue)(type Legacy)(uri "${KIPRJMOD}/Complete PLL Board Rev1-rescue.lib")(options "")(descr ""))
-  (lib (name Complete-PLL-Board-Rev4-rescue)(type Legacy)(uri "${KIPRJMOD}/Complete PLL Board Rev4-rescue.lib")(options "")(descr ""))
-)

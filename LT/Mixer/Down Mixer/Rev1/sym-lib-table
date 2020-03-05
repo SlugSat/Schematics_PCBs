@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name Down_Mixer_Rev2-rescue)(type Legacy)(uri ${KIPRJMOD}/Down_Mixer_Rev2-rescue.lib)(options "")(descr ""))
+  (lib (name Down_Mixer_Rev1-rescue)(type Legacy)(uri ${KIPRJMOD}/Down_Mixer_Rev1-rescue.lib)(options "")(descr ""))
+)
