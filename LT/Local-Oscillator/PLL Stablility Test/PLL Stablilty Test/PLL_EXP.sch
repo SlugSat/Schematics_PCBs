@@ -18,8 +18,8 @@ L Connector:Conn_01x03_Male J?
 U 1 1 5E6EBFA5
 P 4100 3250
 AR Path="/5E6EBFA5" Ref="J?"  Part="1" 
-AR Path="/5E6E06F1/5E6EBFA5" Ref="J?"  Part="1" 
-F 0 "J?" H 4208 3531 50  0000 C CNN
+AR Path="/5E6E06F1/5E6EBFA5" Ref="J103"  Part="1" 
+F 0 "J103" H 4208 3531 50  0000 C CNN
 F 1 "Conn_01x03_Male" H 4208 3440 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 4100 3250 50  0001 C CNN
 F 3 "~" H 4100 3250 50  0001 C CNN
@@ -33,8 +33,8 @@ L power:GND #PWR?
 U 1 1 5E6EBFAC
 P 4400 3250
 AR Path="/5E6EBFAC" Ref="#PWR?"  Part="1" 
-AR Path="/5E6E06F1/5E6EBFAC" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 4400 3000 50  0001 C CNN
+AR Path="/5E6E06F1/5E6EBFAC" Ref="#PWR0144"  Part="1" 
+F 0 "#PWR0144" H 4400 3000 50  0001 C CNN
 F 1 "GND" H 4405 3077 50  0000 C CNN
 F 2 "" H 4400 3250 50  0001 C CNN
 F 3 "" H 4400 3250 50  0001 C CNN
@@ -54,27 +54,27 @@ Control Voltage Vc
 $Comp
 L power:GND #PWR?
 U 1 1 5E6EC052
-P 8250 4650
+P 6550 3350
 AR Path="/5E6EC052" Ref="#PWR?"  Part="1" 
-AR Path="/5E6E06F1/5E6EC052" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 8250 4400 50  0001 C CNN
-F 1 "GND" H 8255 4477 50  0000 C CNN
-F 2 "" H 8250 4650 50  0001 C CNN
-F 3 "" H 8250 4650 50  0001 C CNN
-	1    8250 4650
+AR Path="/5E6E06F1/5E6EC052" Ref="#PWR0145"  Part="1" 
+F 0 "#PWR0145" H 6550 3100 50  0001 C CNN
+F 1 "GND" H 6555 3177 50  0000 C CNN
+F 2 "" H 6550 3350 50  0001 C CNN
+F 3 "" H 6550 3350 50  0001 C CNN
+	1    6550 3350
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector:Conn_Coaxial J?
 U 1 1 5E6EC04B
-P 8250 4450
+P 6550 3150
 AR Path="/5E6EC04B" Ref="J?"  Part="1" 
-AR Path="/5E6E06F1/5E6EC04B" Ref="J?"  Part="1" 
-F 0 "J?" H 8350 4425 50  0000 L CNN
-F 1 "Conn_Coaxial" H 8350 4334 50  0000 L CNN
-F 2 "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount" H 8250 4450 50  0001 C CNN
-F 3 " ~" H 8250 4450 50  0001 C CNN
-	1    8250 4450
+AR Path="/5E6E06F1/5E6EC04B" Ref="J105"  Part="1" 
+F 0 "J105" H 6650 3125 50  0000 L CNN
+F 1 "Conn_Coaxial" H 6650 3034 50  0000 L CNN
+F 2 "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount" H 6550 3150 50  0001 C CNN
+F 3 " ~" H 6550 3150 50  0001 C CNN
+	1    6550 3150
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -82,8 +82,8 @@ L Connector:Conn_Coaxial J?
 U 1 1 5E6EC045
 P 4650 4650
 AR Path="/5E6EC045" Ref="J?"  Part="1" 
-AR Path="/5E6E06F1/5E6EC045" Ref="J?"  Part="1" 
-F 0 "J?" H 4750 4625 50  0000 L CNN
+AR Path="/5E6E06F1/5E6EC045" Ref="J102"  Part="1" 
+F 0 "J102" H 4750 4625 50  0000 L CNN
 F 1 "Conn_Coaxial" H 4750 4534 50  0000 L CNN
 F 2 "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount" H 4650 4650 50  0001 C CNN
 F 3 " ~" H 4650 4650 50  0001 C CNN
@@ -95,8 +95,8 @@ L Amplifier_Operational:LMH6611 U?
 U 1 1 5E6EC033
 P 7300 4450
 AR Path="/5E6EC033" Ref="U?"  Part="1" 
-AR Path="/5E6E06F1/5E6EC033" Ref="U?"  Part="1" 
-F 0 "U?" V 7350 4650 50  0000 L CNN
+AR Path="/5E6E06F1/5E6EC033" Ref="U101"  Part="1" 
+F 0 "U101" V 7350 4650 50  0000 L CNN
 F 1 "LMH6611" V 7450 4650 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:TSOT-23-6" H 7400 4200 50  0001 L CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lmh6612.pdf" H 7450 4600 50  0001 C CNN
@@ -108,8 +108,8 @@ L Amplifier_Operational:LMH6611 U?
 U 1 1 5E6EC02C
 P 5900 4550
 AR Path="/5E6EC02C" Ref="U?"  Part="1" 
-AR Path="/5E6E06F1/5E6EC02C" Ref="U?"  Part="1" 
-F 0 "U?" V 5950 4750 50  0000 L CNN
+AR Path="/5E6E06F1/5E6EC02C" Ref="U102"  Part="1" 
+F 0 "U102" V 5950 4750 50  0000 L CNN
 F 1 "LMH6611" V 6000 4750 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:TSOT-23-6" H 6000 4300 50  0001 L CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lmh6612.pdf" H 6050 4700 50  0001 C CNN
@@ -129,8 +129,8 @@ L StabilityTestRev0-rescue:R_US-Device R?
 U 1 1 5E6EBFE6
 P 5800 3850
 AR Path="/5E6EBFE6" Ref="R?"  Part="1" 
-AR Path="/5E6E06F1/5E6EBFE6" Ref="R?"  Part="1" 
-F 0 "R?" H 5700 3950 50  0000 R CNN
+AR Path="/5E6E06F1/5E6EBFE6" Ref="R103"  Part="1" 
+F 0 "R103" H 5700 3950 50  0000 R CNN
 F 1 "1k" H 5700 3850 50  0000 R CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5840 3840 50  0001 C CNN
 F 3 "~" H 5800 3850 50  0001 C CNN
@@ -142,8 +142,8 @@ L StabilityTestRev0-rescue:R_US-Device R?
 U 1 1 5E6EBFE0
 P 5250 4650
 AR Path="/5E6EBFE0" Ref="R?"  Part="1" 
-AR Path="/5E6E06F1/5E6EBFE0" Ref="R?"  Part="1" 
-F 0 "R?" H 5318 4696 50  0000 L CNN
+AR Path="/5E6E06F1/5E6EBFE0" Ref="R105"  Part="1" 
+F 0 "R105" H 5318 4696 50  0000 L CNN
 F 1 "1k" H 5318 4605 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5290 4640 50  0001 C CNN
 F 3 "~" H 5250 4650 50  0001 C CNN
@@ -155,8 +155,8 @@ L StabilityTestRev0-rescue:R_US-Device R?
 U 1 1 5E6EBFD4
 P 7200 3750
 AR Path="/5E6EBFD4" Ref="R?"  Part="1" 
-AR Path="/5E6E06F1/5E6EBFD4" Ref="R?"  Part="1" 
-F 0 "R?" H 7268 3796 50  0000 L CNN
+AR Path="/5E6E06F1/5E6EBFD4" Ref="R102"  Part="1" 
+F 0 "R102" H 7268 3796 50  0000 L CNN
 F 1 "1k" H 7268 3705 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7240 3740 50  0001 C CNN
 F 3 "~" H 7200 3750 50  0001 C CNN
@@ -168,8 +168,8 @@ L StabilityTestRev0-rescue:R_US-Device R?
 U 1 1 5E6EBFCA
 P 6550 4550
 AR Path="/5E6EBFCA" Ref="R?"  Part="1" 
-AR Path="/5E6E06F1/5E6EBFCA" Ref="R?"  Part="1" 
-F 0 "R?" H 6350 4600 50  0000 L CNN
+AR Path="/5E6E06F1/5E6EBFCA" Ref="R104"  Part="1" 
+F 0 "R104" H 6350 4600 50  0000 L CNN
 F 1 "1k" H 6350 4500 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6590 4540 50  0001 C CNN
 F 3 "~" H 6550 4550 50  0001 C CNN
@@ -181,8 +181,8 @@ L Connector:Conn_01x02_Male J?
 U 1 1 5E6EBFBC
 P 6500 5500
 AR Path="/5E6EBFBC" Ref="J?"  Part="1" 
-AR Path="/5E6E06F1/5E6EBFBC" Ref="J?"  Part="1" 
-F 0 "J?" V 6562 5544 50  0000 L CNN
+AR Path="/5E6E06F1/5E6EBFBC" Ref="J101"  Part="1" 
+F 0 "J101" V 6562 5544 50  0000 L CNN
 F 1 "Conn_01x02_Male" V 6450 4950 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 6500 5500 50  0001 C CNN
 F 3 "~" H 6500 5500 50  0001 C CNN
@@ -194,8 +194,8 @@ L power:GND #PWR?
 U 1 1 5E6EBFB6
 P 6700 5600
 AR Path="/5E6EBFB6" Ref="#PWR?"  Part="1" 
-AR Path="/5E6E06F1/5E6EBFB6" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 6700 5350 50  0001 C CNN
+AR Path="/5E6E06F1/5E6EBFB6" Ref="#PWR0146"  Part="1" 
+F 0 "#PWR0146" H 6700 5350 50  0001 C CNN
 F 1 "GND" H 6705 5427 50  0000 C CNN
 F 2 "" H 6700 5600 50  0001 C CNN
 F 3 "" H 6700 5600 50  0001 C CNN
@@ -209,8 +209,8 @@ L power:GND #PWR?
 U 1 1 5E7339C0
 P 5500 4450
 AR Path="/5E7339C0" Ref="#PWR?"  Part="1" 
-AR Path="/5E6E06F1/5E7339C0" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 5500 4200 50  0001 C CNN
+AR Path="/5E6E06F1/5E7339C0" Ref="#PWR0147"  Part="1" 
+F 0 "#PWR0147" H 5500 4200 50  0001 C CNN
 F 1 "GND" H 5400 4500 50  0000 C CNN
 F 2 "" H 5500 4450 50  0001 C CNN
 F 3 "" H 5500 4450 50  0001 C CNN
@@ -221,23 +221,20 @@ Wire Wire Line
 	5500 4450 5600 4450
 NoConn ~ 5900 4850
 Wire Wire Line
-	5650 3850 5100 3850
-Wire Wire Line
-	5100 3850 5100 4650
+	5650 3850 5400 3850
 Wire Wire Line
 	5950 3850 6200 3850
 Wire Wire Line
 	6200 3850 6200 4550
 Wire Wire Line
 	4850 4650 5100 4650
-Connection ~ 5100 4650
 $Comp
 L power:GND #PWR?
 U 1 1 5E736B1A
 P 4650 4850
 AR Path="/5E736B1A" Ref="#PWR?"  Part="1" 
-AR Path="/5E6E06F1/5E736B1A" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 4650 4600 50  0001 C CNN
+AR Path="/5E6E06F1/5E736B1A" Ref="#PWR0148"  Part="1" 
+F 0 "#PWR0148" H 4650 4600 50  0001 C CNN
 F 1 "GND" H 4655 4677 50  0000 C CNN
 F 2 "" H 4650 4850 50  0001 C CNN
 F 3 "" H 4650 4850 50  0001 C CNN
@@ -249,8 +246,8 @@ L power:GND #PWR?
 U 1 1 5E73C187
 P 6900 4350
 AR Path="/5E73C187" Ref="#PWR?"  Part="1" 
-AR Path="/5E6E06F1/5E73C187" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 6900 4100 50  0001 C CNN
+AR Path="/5E6E06F1/5E73C187" Ref="#PWR0149"  Part="1" 
+F 0 "#PWR0149" H 6900 4100 50  0001 C CNN
 F 1 "GND" H 6800 4400 50  0000 C CNN
 F 2 "" H 6900 4350 50  0001 C CNN
 F 3 "" H 6900 4350 50  0001 C CNN
@@ -265,7 +262,7 @@ Wire Wire Line
 	6700 4550 7000 4550
 Connection ~ 6700 4550
 Wire Wire Line
-	6400 4550 6200 4550
+	6400 4550 6350 4550
 Connection ~ 6200 4550
 Wire Wire Line
 	6700 3750 7050 3750
@@ -281,8 +278,8 @@ L StabilityTestRev0-rescue:R_US-Device R?
 U 1 1 5E73EE36
 P 6700 5000
 AR Path="/5E73EE36" Ref="R?"  Part="1" 
-AR Path="/5E6E06F1/5E73EE36" Ref="R?"  Part="1" 
-F 0 "R?" V 6450 4950 50  0000 L CNN
+AR Path="/5E6E06F1/5E73EE36" Ref="R101"  Part="1" 
+F 0 "R101" V 6450 4950 50  0000 L CNN
 F 1 "1k" V 6550 4950 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6740 4990 50  0001 C CNN
 F 3 "~" H 6700 5000 50  0001 C CNN
@@ -294,6 +291,57 @@ Wire Wire Line
 Wire Wire Line
 	6700 5500 6700 5150
 Wire Wire Line
-	7700 4450 8050 4450
+	7700 4450 7950 4450
 Connection ~ 7700 4450
+Wire Wire Line
+	6350 3150 6350 4550
+Connection ~ 6350 4550
+Wire Wire Line
+	6350 4550 6200 4550
+$Comp
+L power:GND #PWR?
+U 1 1 5E771CBB
+P 8250 4650
+AR Path="/5E771CBB" Ref="#PWR?"  Part="1" 
+AR Path="/5E6E06F1/5E771CBB" Ref="#PWR0150"  Part="1" 
+F 0 "#PWR0150" H 8250 4400 50  0001 C CNN
+F 1 "GND" H 8255 4477 50  0000 C CNN
+F 2 "" H 8250 4650 50  0001 C CNN
+F 3 "" H 8250 4650 50  0001 C CNN
+	1    8250 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J?
+U 1 1 5E771CC1
+P 8250 4450
+AR Path="/5E771CC1" Ref="J?"  Part="1" 
+AR Path="/5E6E06F1/5E771CC1" Ref="J104"  Part="1" 
+F 0 "J104" H 8350 4425 50  0000 L CNN
+F 1 "Conn_Coaxial" H 8350 4334 50  0000 L CNN
+F 2 "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount" H 8250 4450 50  0001 C CNN
+F 3 " ~" H 8250 4450 50  0001 C CNN
+	1    8250 4450
+	1    0    0    -1  
+$EndComp
+Text GLabel 4850 4250 0    50   Input ~ 0
+LOOPo
+Wire Wire Line
+	4850 4250 4850 4650
+Connection ~ 4850 4650
+Text GLabel 7950 4000 2    50   Output ~ 0
+EXPo
+Wire Wire Line
+	7950 4000 7950 4450
+Connection ~ 7950 4450
+Wire Wire Line
+	7950 4450 8050 4450
+Text GLabel 6350 3000 1    50   Output ~ 0
+INVo
+Wire Wire Line
+	6350 3000 6350 3150
+Connection ~ 6350 3150
+Wire Wire Line
+	5400 3850 5400 4650
+Connection ~ 5400 4650
 $EndSCHEMATC
