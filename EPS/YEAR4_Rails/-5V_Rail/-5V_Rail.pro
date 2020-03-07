@@ -1,4 +1,4 @@
-update=Tuesday, March 03, 2020 at 12:23:37 AM
+update=Friday, March 06, 2020 at 11:45:10 AM
 version=1
 last_client=kicad
 [general]
@@ -240,7 +240,7 @@ Enabled=0
 [pcbnew/Netclasses]
 [pcbnew/Netclasses/Default]
 Name=Default
-Clearance=0.2
+Clearance=0.1524
 TrackWidth=0.25
 ViaDiameter=0.8
 ViaDrill=0.4
@@ -251,7 +251,7 @@ dPairGap=0.25
 dPairViaGap=0.25
 [pcbnew/Netclasses/1]
 Name=PWR
-Clearance=0.2
+Clearance=0.1524
 TrackWidth=0.8128
 ViaDiameter=0.8
 ViaDrill=0.4
@@ -262,7 +262,7 @@ dPairGap=0.25
 dPairViaGap=0.25
 [pcbnew/Netclasses/2]
 Name=SIGNAL
-Clearance=0.2
+Clearance=0.1524
 TrackWidth=0.3048
 ViaDiameter=0.8
 ViaDrill=0.4
