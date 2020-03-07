@@ -11,7 +11,7 @@
 #include <AD.h>
 #define BUFFERLENGTH 30
 #define SCALEFACTOR 0.0032
-#define BIAS 0.0091
+#define BIAS 0 //0.0091
 int ADC;
 char string [30]; 
 double current;
@@ -33,8 +33,8 @@ int main(void) {
         current=SCALEFACTOR*ADC+BIAS;
         movingAverage(current,BUFFERLENGTH,&buffer,&counter,&average);
         sprintf(string, "Current: %0.3fA", average);
-        if(ADC>300){
-          sprintf(string, "Current: %0.3fA \n Above Limit!",average);  
+        if(ADC>150){
+          sprintf(string, "Current: %0.3fA \n CAUTION HOT!",average);  
         }
         /*Prints String on Oled*/
         OledDrawString(string);
