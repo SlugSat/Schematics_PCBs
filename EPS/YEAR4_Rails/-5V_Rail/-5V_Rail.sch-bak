@@ -538,8 +538,4 @@ Text Label 2250 3350 0    50   ~ 0
 Vin
 Text Label 9400 3950 0    50   ~ 0
 Vout
-Text GLabel 5950 3950 0    50   Input ~ 0
-C
-Text GLabel 6400 3950 0    50   Input ~ 0
-A
 $EndSCHEMATC
