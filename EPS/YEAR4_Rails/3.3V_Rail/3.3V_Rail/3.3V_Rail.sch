@@ -1,0 +1,239 @@
+EESchema Schematic File Version 4
+LIBS:3.3V_Rail-cache
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:R_US R?
+U 1 1 5E677105
+P 3900 2750
+F 0 "R?" H 3968 2796 50  0000 L CNN
+F 1 "R_US" H 3968 2705 50  0000 L CNN
+F 2 "" V 3940 2740 50  0001 C CNN
+F 3 "~" H 3900 2750 50  0001 C CNN
+	1    3900 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 5E6791B0
+P 3950 3600
+F 0 "R?" H 4018 3646 50  0000 L CNN
+F 1 "R_US" H 4018 3555 50  0000 L CNN
+F 2 "" V 3990 3590 50  0001 C CNN
+F 3 "~" H 3950 3600 50  0001 C CNN
+	1    3950 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 5E679831
+P 7650 2650
+F 0 "R?" H 7718 2696 50  0000 L CNN
+F 1 "R_US" H 7718 2605 50  0000 L CNN
+F 2 "" V 7690 2640 50  0001 C CNN
+F 3 "~" H 7650 2650 50  0001 C CNN
+	1    7650 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 5E679E95
+P 7650 3500
+F 0 "R?" H 7718 3546 50  0000 L CNN
+F 1 "R_US" H 7718 3455 50  0000 L CNN
+F 2 "" V 7690 3490 50  0001 C CNN
+F 3 "~" H 7650 3500 50  0001 C CNN
+	1    7650 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5E67A191
+P 3500 2300
+F 0 "C?" H 3592 2346 50  0000 L CNN
+F 1 "C_Small" H 3592 2255 50  0000 L CNN
+F 2 "" H 3500 2300 50  0001 C CNN
+F 3 "~" H 3500 2300 50  0001 C CNN
+	1    3500 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5E67CA79
+P 4350 2400
+F 0 "C?" H 4442 2446 50  0000 L CNN
+F 1 "C_Small" H 4442 2355 50  0000 L CNN
+F 2 "" H 4350 2400 50  0001 C CNN
+F 3 "~" H 4350 2400 50  0001 C CNN
+	1    4350 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5E67D4F1
+P 6350 2750
+F 0 "C?" H 6442 2796 50  0000 L CNN
+F 1 "C_Small" H 6442 2705 50  0000 L CNN
+F 2 "" H 6350 2750 50  0001 C CNN
+F 3 "~" H 6350 2750 50  0001 C CNN
+	1    6350 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5E67DABD
+P 6900 2750
+F 0 "C?" H 6992 2796 50  0000 L CNN
+F 1 "C_Small" H 6992 2705 50  0000 L CNN
+F 2 "" H 6900 2750 50  0001 C CNN
+F 3 "~" H 6900 2750 50  0001 C CNN
+	1    6900 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5E67E380
+P 6500 3250
+F 0 "C?" H 6592 3296 50  0000 L CNN
+F 1 "C_Small" H 6592 3205 50  0000 L CNN
+F 2 "" H 6500 3250 50  0001 C CNN
+F 3 "~" H 6500 3250 50  0001 C CNN
+	1    6500 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:Jumper_3_Open JP?
+U 1 1 5E67F9F9
+P 3650 3300
+F 0 "JP?" V 3696 3387 50  0000 L CNN
+F 1 "Jumper_3_Open" V 3605 3387 50  0000 L CNN
+F 2 "" H 3650 3300 50  0001 C CNN
+F 3 "~" H 3650 3300 50  0001 C CNN
+	1    3650 3300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Jumper:Jumper_3_Open JP?
+U 1 1 5E680FD7
+P 4400 3050
+F 0 "JP?" V 4446 3137 50  0000 L CNN
+F 1 "Jumper_3_Open" V 4355 3137 50  0000 L CNN
+F 2 "" H 4400 3050 50  0001 C CNN
+F 3 "~" H 4400 3050 50  0001 C CNN
+	1    4400 3050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:L_Core_Iron L?
+U 1 1 5E68151F
+P 5750 2200
+F 0 "L?" V 5975 2200 50  0000 C CNN
+F 1 "L_Core_Iron" V 5884 2200 50  0000 C CNN
+F 2 "" H 5750 2200 50  0001 C CNN
+F 3 "~" H 5750 2200 50  0001 C CNN
+	1    5750 2200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 5E68919A
+P 2650 2650
+F 0 "J?" H 2568 2325 50  0000 C CNN
+F 1 "Conn_01x02" H 2568 2416 50  0000 C CNN
+F 2 "" H 2650 2650 50  0001 C CNN
+F 3 "~" H 2650 2650 50  0001 C CNN
+	1    2650 2650
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 5E68A464
+P 2650 3200
+F 0 "J?" H 2568 2875 50  0000 C CNN
+F 1 "Conn_01x02" H 2568 2966 50  0000 C CNN
+F 2 "" H 2650 3200 50  0001 C CNN
+F 3 "~" H 2650 3200 50  0001 C CNN
+	1    2650 3200
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 5E68AFF1
+P 2650 3700
+F 0 "J?" H 2568 3375 50  0000 C CNN
+F 1 "Conn_01x02" H 2568 3466 50  0000 C CNN
+F 2 "" H 2650 3700 50  0001 C CNN
+F 3 "~" H 2650 3700 50  0001 C CNN
+	1    2650 3700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 5E68FBDA
+P 9800 3500
+F 0 "J?" H 9718 3175 50  0000 C CNN
+F 1 "Conn_01x02" H 9718 3266 50  0000 C CNN
+F 2 "" H 9800 3500 50  0001 C CNN
+F 3 "~" H 9800 3500 50  0001 C CNN
+	1    9800 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 5E68FBE0
+P 9800 2950
+F 0 "J?" H 9718 2625 50  0000 C CNN
+F 1 "Conn_01x02" H 9718 2716 50  0000 C CNN
+F 2 "" H 9800 2950 50  0001 C CNN
+F 3 "~" H 9800 2950 50  0001 C CNN
+	1    9800 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 5E68FBE6
+P 9800 2450
+F 0 "J?" H 9718 2125 50  0000 C CNN
+F 1 "Conn_01x02" H 9718 2216 50  0000 C CNN
+F 2 "" H 9800 2450 50  0001 C CNN
+F 3 "~" H 9800 2450 50  0001 C CNN
+	1    9800 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Female J?
+U 1 1 5E675EC8
+P 6950 1700
+F 0 "J?" V 6796 1748 50  0000 L CNN
+F 1 "Conn_01x02_Female" V 6887 1748 50  0000 L CNN
+F 2 "" H 6950 1700 50  0001 C CNN
+F 3 "~" H 6950 1700 50  0001 C CNN
+	1    6950 1700
+	0    1    -1   0   
+$EndComp
+$Comp
+L SS:TPS62060DSG U?
+U 1 1 5E679618
+P 5350 2300
+F 0 "U?" H 5325 2275 50  0000 C CNN
+F 1 "TPS62060DSG" H 5325 2184 50  0000 C CNN
+F 2 "" H 5350 2300 50  0001 C CNN
+F 3 "" H 5350 2300 50  0001 C CNN
+	1    5350 2300
+	1    0    0    -1  
+$EndComp
+Text Notes 4450 1700 0    118  ~ 0
+3.3V Buck Converter v0
+$EndSCHEMATC
