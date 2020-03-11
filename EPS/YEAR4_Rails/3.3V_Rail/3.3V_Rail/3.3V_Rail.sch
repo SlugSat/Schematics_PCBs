@@ -254,9 +254,6 @@ Connection ~ 2500 2400
 Wire Wire Line
 	2500 2400 3100 2400
 Wire Wire Line
-	2500 3850 2650 3850
-Connection ~ 2650 3850
-Wire Wire Line
 	2650 3850 3200 3850
 Wire Wire Line
 	3200 3850 4500 3850
