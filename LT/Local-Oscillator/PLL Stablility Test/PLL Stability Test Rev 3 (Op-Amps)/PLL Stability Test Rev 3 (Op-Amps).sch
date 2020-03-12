@@ -22,37 +22,35 @@ Text Notes 15450 11050 0    50   ~ 10
 $Comp
 L Connector:Conn_01x03_Male J9
 U 1 1 5E57360C
-P 12000 2300
-F 0 "J9" H 12108 2581 50  0000 C CNN
-F 1 "Conn_01x03_Male" H 12108 2490 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 12000 2300 50  0001 C CNN
-F 3 "~" H 12000 2300 50  0001 C CNN
-	1    12000 2300
+P 7400 3700
+F 0 "J9" H 7508 3981 50  0000 C CNN
+F 1 "Conn_01x03_Male" H 7508 3890 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 7400 3700 50  0001 C CNN
+F 3 "~" H 7400 3700 50  0001 C CNN
+	1    7400 3700
 	1    0    0    -1  
 $EndComp
-Text Notes 11800 2400 0    50   ~ 0
+Text Notes 7200 3800 0    50   ~ 0
 +5V\nGND\n-5V
 $Comp
 L power:GND #PWR0104
 U 1 1 5E586322
-P 12300 2300
-F 0 "#PWR0104" H 12300 2050 50  0001 C CNN
-F 1 "GND" H 12305 2127 50  0000 C CNN
-F 2 "" H 12300 2300 50  0001 C CNN
-F 3 "" H 12300 2300 50  0001 C CNN
-	1    12300 2300
+P 7700 3700
+F 0 "#PWR0104" H 7700 3450 50  0001 C CNN
+F 1 "GND" H 7705 3527 50  0000 C CNN
+F 2 "" H 7700 3700 50  0001 C CNN
+F 3 "" H 7700 3700 50  0001 C CNN
+	1    7700 3700
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	12200 2300 12300 2300
-Text GLabel 12200 2200 2    50   Input ~ 0
+	7600 3700 7700 3700
+Text GLabel 7600 3600 2    50   Input ~ 0
 +5V
-Text GLabel 12200 2400 2    50   Input ~ 0
+Text GLabel 7600 3800 2    50   Input ~ 0
 -5V
-Text Notes 11850 1900 0    50   ~ 10
+Text Notes 7250 3300 0    50   ~ 10
 Op-Amp Supply
-Text Notes 8500 2900 0    50   ~ 10
-Control Voltage Vc
 $Comp
 L Amplifier_Operational:LMH6611 U1
 U 1 1 5E631D2A
@@ -663,4 +661,10 @@ Wire Wire Line
 Connection ~ 5650 4700
 Wire Wire Line
 	5650 4700 5700 4700
+Text Notes 4250 4650 2    50   ~ 10
+Charge Pump Output  V
+Text Notes 4250 4700 0    39   ~ 8
+phi
+Text Notes 11100 4700 0    50   ~ 10
+Output Voltage Vx\nto input of the VCO
 $EndSCHEMATC

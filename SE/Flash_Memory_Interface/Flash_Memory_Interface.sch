@@ -389,8 +389,6 @@ Entry Wire Line
 Entry Wire Line
 	11700 3650 11600 3750
 Entry Wire Line
-	11700 3750 11600 3850
-Entry Wire Line
 	11700 3850 11600 3950
 Entry Wire Line
 	11700 3950 11600 4050
@@ -403,8 +401,6 @@ Wire Wire Line
 Wire Wire Line
 	11700 3650 12450 3650
 Wire Wire Line
-	11700 3750 12450 3750
-Wire Wire Line
 	11700 3850 12450 3850
 Wire Wire Line
 	11700 3950 12450 3950
@@ -412,20 +408,14 @@ Wire Wire Line
 	11700 4050 12450 4050
 Wire Wire Line
 	11700 4150 12450 4150
-Wire Bus Line
-	11800 1850 11800 3400
 Text Label 11700 3650 0    50   ~ 0
 Flash_ControlBus_1
-Text Label 11700 3750 0    50   ~ 0
-Flash_ControlBus_2
 Text Label 11700 3850 0    50   ~ 0
-Flash_ControlBus_3
-Text Label 11700 3950 0    50   ~ 0
-Flash_ControlBus_4
+Flash_ControlBus_2
 Text Label 11700 4050 0    50   ~ 0
-Flash_ControlBus_5
+Flash_ControlBus_4
 Text Label 11700 4150 0    50   ~ 0
-Flash_ControlBus_6
+Flash_ControlBus_5
 Entry Wire Line
 	11600 4400 11500 4500
 Entry Wire Line
@@ -588,8 +578,6 @@ Entry Wire Line
 Entry Wire Line
 	11700 8350 11600 8250
 Entry Wire Line
-	11700 8250 11600 8150
-Entry Wire Line
 	11700 8150 11600 8050
 Entry Wire Line
 	11700 8050 11600 7950
@@ -602,29 +590,21 @@ Wire Wire Line
 Wire Wire Line
 	11700 8350 12450 8350
 Wire Wire Line
-	11700 8250 12450 8250
-Wire Wire Line
 	11700 8150 12450 8150
 Wire Wire Line
 	11700 8050 12450 8050
 Wire Wire Line
 	11700 7950 12450 7950
-Wire Wire Line
-	11700 7850 12450 7850
-Wire Bus Line
-	11800 10150 11800 8600
 Text Label 11700 8350 0    50   ~ 0
 Flash_ControlBus_1
-Text Label 11700 8250 0    50   ~ 0
-Flash_ControlBus_2
 Text Label 11700 8150 0    50   ~ 0
-Flash_ControlBus_3
+Flash_ControlBus_2
 Text Label 11700 8050 0    50   ~ 0
-Flash_ControlBus_4
+Flash_ControlBus_3
 Text Label 11700 7950 0    50   ~ 0
-Flash_ControlBus_5
+Flash_ControlBus_4
 Text Label 11700 7850 0    50   ~ 0
-Flash_ControlBus_6
+Flash_ControlBus_5
 Entry Wire Line
 	11600 6700 11500 6800
 Entry Wire Line
@@ -742,8 +722,6 @@ Wire Wire Line
 	9500 7700 9500 7800
 Wire Bus Line
 	8000 3450 5500 3450
-Wire Bus Line
-	8000 1850 8000 3450
 Text Label 8300 9400 2    50   ~ 0
 IO_7
 Wire Wire Line
@@ -1040,6 +1018,18 @@ F 3 "" H 10350 6500 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	10050 6500 10350 6500
+Wire Bus Line
+	8000 1850 8000 3450
+Wire Bus Line
+	11800 1850 11800 3400
+Wire Bus Line
+	11800 8600 11800 10150
+Text Label 11700 3950 0    50   ~ 0
+Flash_ControlBus_3
+Wire Wire Line
+	11700 7850 12450 7850
+NoConn ~ 12450 8250
+NoConn ~ 12450 3750
 Wire Wire Line
 	11400 9400 12450 9400
 Wire Wire Line
