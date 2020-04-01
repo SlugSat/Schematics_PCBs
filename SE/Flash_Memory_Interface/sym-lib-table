@@ -1,3 +1,0 @@
-(sym_lib_table
-  (lib (name Flash_Memory_Interface-rescue)(type Legacy)(uri ${KIPRJMOD}/Flash_Memory_Interface-rescue.lib)(options "")(descr ""))
-)
