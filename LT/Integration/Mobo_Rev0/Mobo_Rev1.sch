@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
-S 2550 1350 750  550 
+S 4900 1350 750  550 
 U 5E4B296A
 F0 "LNA" 50
 F1 "LNA.sch" 50
@@ -26,13 +26,13 @@ F0 "Pre Amplifier" 50
 F1 "PreAmp.sch" 50
 $EndSheet
 $Sheet
-S 4900 1300 600  650 
+S 2550 1300 600  650 
 U 5E4B29B3
 F0 "Variable Attenuator" 50
 F1 "VariableAttenuator.sch" 50
 $EndSheet
 $Sheet
-S 3700 1450 500  350 
+S 3750 1450 500  350 
 U 5E4B29FB
 F0 "Image Reject Filter" 50
 F1 "ImageReject.sch" 50
