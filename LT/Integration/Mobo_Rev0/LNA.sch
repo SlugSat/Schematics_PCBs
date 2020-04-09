@@ -46,7 +46,7 @@ U 1 1 5E470B62
 P 4100 2050
 F 0 "C3" V 4200 2200 50  0000 C CNN
 F 1 "8-30pF" V 4300 2250 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:Variable Capacitor" H 4100 2050 50  0001 C CNN
+F 2 "LT:CAP_trimmer_SGC3_Download" H 4100 2050 50  0001 C CNN
 F 3 "~" H 4100 2050 50  0001 C CNN
 	1    4100 2050
 	0    1    1    0   
@@ -163,7 +163,7 @@ U 1 1 5E4707C9
 P 2400 2350
 F 0 "C1" V 2150 2350 50  0000 C CNN
 F 1 "8-30pF" V 2250 2400 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:Variable Capacitor" H 2400 2350 50  0001 C CNN
+F 2 "LT:CAP_trimmer_SGC3_Download" H 2400 2350 50  0001 C CNN
 F 3 "~" H 2400 2350 50  0001 C CNN
 	1    2400 2350
 	0    1    1    0   
@@ -177,8 +177,21 @@ Wire Wire Line
 	4800 2050 4950 2050
 Wire Wire Line
 	1150 2650 2850 2650
-Text HLabel 2150 2350 0    50   Input ~ 0
+Text HLabel 1950 2350 0    50   Input ~ 0
 Image_Reject_Out
 Wire Wire Line
 	2150 2350 2250 2350
+$Comp
+L Connector:Conn_01x02_Male J9
+U 1 1 5E8E7122
+P 2150 2150
+F 0 "J9" V 2050 2050 50  0000 L CNN
+F 1 "Conn_01x02_Male" V 1900 1650 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 2150 2150 50  0001 C CNN
+F 3 "~" H 2150 2150 50  0001 C CNN
+	1    2150 2150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2050 2350 1950 2350
 $EndSCHEMATC

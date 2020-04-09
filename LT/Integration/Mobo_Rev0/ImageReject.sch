@@ -127,41 +127,68 @@ F 3 "" H 2200 3200 50  0001 C CNN
 	1    2200 3200
 	1    0    0    -1  
 $EndComp
-Connection ~ 2200 2100
 $Comp
 L Connector:Conn_Coaxial J8
 U 1 1 5CAD1901
-P 4750 2100
-F 0 "J8" H 4849 2076 50  0000 L CNN
-F 1 "Conn_Coaxial" H 4849 1985 50  0000 L CNN
-F 2 "Connector_Coaxial:SMA_Molex_73251-1153_EdgeMount_Horizontal" H 4750 2100 50  0001 C CNN
-F 3 " ~" H 4750 2100 50  0001 C CNN
-	1    4750 2100
+P 5100 2100
+F 0 "J8" H 5199 2076 50  0000 L CNN
+F 1 "Conn_Coaxial" H 5199 1985 50  0000 L CNN
+F 2 "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount" H 5100 2100 50  0001 C CNN
+F 3 " ~" H 5100 2100 50  0001 C CNN
+	1    5100 2100
 	1    0    0    -1  
 $EndComp
 Connection ~ 3900 2100
 $Comp
 L power:GND #PWR013
 U 1 1 5CAD1A24
-P 4750 2300
-F 0 "#PWR013" H 4750 2050 50  0001 C CNN
-F 1 "GND" H 4755 2127 50  0000 C CNN
-F 2 "" H 4750 2300 50  0001 C CNN
-F 3 "" H 4750 2300 50  0001 C CNN
-	1    4750 2300
+P 5100 2300
+F 0 "#PWR013" H 5100 2050 50  0001 C CNN
+F 1 "GND" H 5105 2127 50  0000 C CNN
+F 2 "" H 5100 2300 50  0001 C CNN
+F 3 "" H 5100 2300 50  0001 C CNN
+	1    5100 2300
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3900 2100 4350 2100
-Wire Wire Line
-	1800 2100 2200 2100
-Text HLabel 1800 2100 0    50   Input ~ 0
+Text HLabel 1600 2100 0    50   Input ~ 0
 Variable_Attenuator_Out
-Text HLabel 4350 1800 0    50   Input ~ 0
+Text HLabel 4900 1800 2    50   Input ~ 0
 Image_Reject_Out
+$Comp
+L Connector:Conn_01x02_Male J11
+U 1 1 5E8E6F64
+P 1900 1900
+F 0 "J11" V 1550 2050 50  0000 L CNN
+F 1 "Conn_01x02_Male" V 1700 1950 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 1900 1900 50  0001 C CNN
+F 3 "~" H 1900 1900 50  0001 C CNN
+	1    1900 1900
+	0    1    1    0   
+$EndComp
 Wire Wire Line
-	4350 1800 4350 2100
-Connection ~ 4350 2100
+	1900 2100 2200 2100
+Connection ~ 2200 2100
 Wire Wire Line
-	4350 2100 4550 2100
+	1600 2100 1800 2100
+Wire Wire Line
+	3900 2100 4550 2100
+$Comp
+L Connector:Conn_01x02_Male J12
+U 1 1 5E8E9A6B
+P 4650 1900
+F 0 "J12" V 4550 1450 50  0000 L CNN
+F 1 "Conn_01x02_Male" V 4650 1050 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 4650 1900 50  0001 C CNN
+F 3 "~" H 4650 1900 50  0001 C CNN
+	1    4650 1900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4900 1800 4900 2100
+Connection ~ 4900 2100
+Connection ~ 4800 2100
+Wire Wire Line
+	4800 2100 4900 2100
+Wire Wire Line
+	4650 2100 4900 2100
 $EndSCHEMATC

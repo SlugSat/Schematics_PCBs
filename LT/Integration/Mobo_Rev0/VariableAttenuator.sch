@@ -202,17 +202,6 @@ F 3 "~" H 6450 4850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_Coaxial J4
-U 1 1 5E4FD570
-P 3150 4150
-F 0 "J4" H 3078 4388 50  0000 C CNN
-F 1 "Conn_Coaxial" H 3078 4297 50  0000 C CNN
-F 2 "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount" H 3150 4150 50  0001 C CNN
-F 3 " ~" H 3150 4150 50  0001 C CNN
-	1    3150 4150
-	-1   0    0    -1  
-$EndComp
-$Comp
 L Device:C C7
 U 1 1 5E4FD576
 P 3550 4300
@@ -296,10 +285,6 @@ Wire Wire Line
 Connection ~ 6450 4450
 Wire Wire Line
 	6450 4450 6450 4700
-Text Notes 2800 2450 0    50   ~ 0
-RF in
-Text Notes 2700 4200 0    50   ~ 0
-RF out
 Wire Wire Line
 	3200 2600 3200 2700
 Wire Wire Line
@@ -310,10 +295,6 @@ Wire Wire Line
 Connection ~ 4000 2700
 Wire Wire Line
 	4000 2700 4400 2700
-Wire Wire Line
-	3150 4350 3150 4450
-Wire Wire Line
-	3150 4450 3550 4450
 Connection ~ 3950 4450
 Wire Wire Line
 	3950 4450 4350 4450
@@ -487,11 +468,8 @@ Text Notes 3750 3350 0    50   ~ 0
 Control Voltage (Vr)
 Text Notes 2300 2150 0    50   ~ 0
 from Pre-select
-Text Notes 2450 3800 0    50   ~ 0
-to Image Reject Filter
 Wire Wire Line
 	3550 4450 3950 4450
-Connection ~ 3550 4450
 Wire Wire Line
 	5050 2400 5200 2400
 Wire Wire Line
@@ -556,13 +534,50 @@ Wire Wire Line
 Wire Wire Line
 	5200 4450 5400 4450
 Connection ~ 5400 4450
-Text HLabel 3450 3600 0    50   Input ~ 0
+Text Notes 2800 2450 0    50   ~ 0
+RF in
+Wire Wire Line
+	3100 4150 3550 4150
+Connection ~ 3550 4450
+Wire Wire Line
+	2500 4450 3550 4450
+$Comp
+L Connector:Conn_Coaxial J4
+U 1 1 5E4FD570
+P 2500 4150
+F 0 "J4" H 2600 4400 50  0000 C CNN
+F 1 "Conn_Coaxial" H 2600 4300 50  0000 C CNN
+F 2 "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount" H 2500 4150 50  0001 C CNN
+F 3 " ~" H 2500 4150 50  0001 C CNN
+	1    2500 4150
+	-1   0    0    -1  
+$EndComp
+Text Notes 2050 4200 0    50   ~ 0
+RF out
+Wire Wire Line
+	2500 4350 2500 4450
+Text Notes 1800 3800 0    50   ~ 0
+to Image Reject Filter
+Text HLabel 2250 3600 0    50   Input ~ 0
 Variable_Attenuator_Out
 Wire Wire Line
-	3450 3600 3450 4150
+	2250 3600 2800 3600
 Wire Wire Line
-	3350 4150 3450 4150
-Connection ~ 3450 4150
+	2800 4150 3000 4150
 Wire Wire Line
-	3450 4150 3550 4150
+	2700 4150 2800 4150
+Connection ~ 2800 4150
+Wire Wire Line
+	2800 3600 2800 4150
+$Comp
+L Connector:Conn_01x02_Male J10
+U 1 1 5E8F3127
+P 3100 3950
+F 0 "J10" V 3100 4050 50  0000 L CNN
+F 1 "Conn_01x02_Male" V 3000 4000 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 3100 3950 50  0001 C CNN
+F 3 "~" H 3100 3950 50  0001 C CNN
+	1    3100 3950
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC

@@ -96,7 +96,7 @@ Wire Notes Line width 39 style solid rgb(194, 132, 143)
 Wire Notes Line width 39 style solid rgb(194, 132, 143)
 	5800 4900 2650 4900
 Text Notes 3600 4800 0    118  ~ 0
-Notch Filters
+Antenna Stage
 $Comp
 L Mobo_Rev1-rescue:Bus-SS J1
 U 1 1 5E4D68DD
