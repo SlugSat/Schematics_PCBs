@@ -211,4 +211,14 @@ F 3 "~" H 3300 5650 50  0001 C CNN
 	1    3300 5650
 	1    0    0    -1  
 $EndComp
+Wire Notes Line
+	4850 1700 4850 2750
+Wire Notes Line
+	4850 2750 8400 2750
+Wire Notes Line
+	8400 2750 8400 1700
+Wire Notes Line
+	8400 1700 4850 1700
+Text Notes 6050 2250 0    50   ~ 0
+MY change biiiiitchesssssss
 $EndSCHEMATC
