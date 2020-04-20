@@ -1,10 +1,10 @@
 EESchema Schematic File Version 4
-LIBS:3rd Order Inverse Chebyshev-cache
+LIBS:Mobo_Rev1-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 1
+Sheet 6 10
 Title ""
 Date ""
 Rev ""
@@ -254,19 +254,16 @@ Connection ~ 7400 4050
 Wire Wire Line
 	7400 4050 7700 4050
 $Comp
-L power:GND #PWR0101
+L power:GND #PWR0108
 U 1 1 5E277AE7
 P 5850 4050
-F 0 "#PWR0101" H 5850 3800 50  0001 C CNN
+F 0 "#PWR0108" H 5850 3800 50  0001 C CNN
 F 1 "GND" H 5855 3877 50  0000 C CNN
 F 2 "" H 5850 4050 50  0001 C CNN
 F 3 "" H 5850 4050 50  0001 C CNN
 	1    5850 4050
 	1    0    0    -1  
 $EndComp
-Connection ~ 6200 4050
-Wire Wire Line
-	6200 4050 6750 4050
 $Comp
 L Device:L L7
 U 1 1 5E2812E7
@@ -408,5 +405,5 @@ Connection ~ 7700 4050
 Connection ~ 9100 4050
 Connection ~ 5850 4050
 Wire Wire Line
-	5850 4050 6200 4050
+	5850 4050 6750 4050
 $EndSCHEMATC

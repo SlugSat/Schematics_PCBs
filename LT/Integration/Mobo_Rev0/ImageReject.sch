@@ -1,5 +1,6 @@
 EESchema Schematic File Version 4
-EELAYER 30 0
+LIBS:Mobo_Rev1-cache
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -186,7 +187,6 @@ $EndComp
 Wire Wire Line
 	4900 1800 4900 2100
 Connection ~ 4900 2100
-Connection ~ 4800 2100
 Wire Wire Line
 	4800 2100 4900 2100
 Wire Wire Line

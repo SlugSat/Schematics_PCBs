@@ -1,5 +1,6 @@
 EESchema Schematic File Version 4
-EELAYER 30 0
+LIBS:Mobo_Rev1-cache
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -333,6 +334,8 @@ $Comp
 L LT-Schematics:BAP64Q U1
 U 1 1 5E4E98DA
 P 7050 3300
+AR Path="/5E4E98DA" Ref="U1"  Part="1" 
+AR Path="/5E4B29B3/5E4E98DA" Ref="U1"  Part="1" 
 F 0 "U1" H 7150 3865 50  0000 C CNN
 F 1 "BAP64Q" H 7150 3774 50  0000 C CNN
 F 2 "LT:BAP64Q" H 7050 3300 50  0001 C CNN
