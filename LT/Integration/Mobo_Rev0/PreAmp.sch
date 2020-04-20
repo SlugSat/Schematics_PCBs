@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 10
+Sheet 3 10
 Title ""
 Date ""
 Rev ""
@@ -37,10 +37,10 @@ F 3 "~" H 4550 2700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C2
+L Device:C C34
 U 1 1 5E544C2E
 P 4400 2300
-F 0 "C2" V 4652 2300 50  0000 C CNN
+F 0 "C34" V 4652 2300 50  0000 C CNN
 F 1 "1uF" V 4561 2300 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4438 2150 50  0001 C CNN
 F 3 "~" H 4400 2300 50  0001 C CNN
@@ -48,10 +48,10 @@ F 3 "~" H 4400 2300 50  0001 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L Device:C_Variable C1
+L Device:C_Variable C33
 U 1 1 5E545231
 P 3300 3450
-F 0 "C1" V 3048 3450 50  0000 C CNN
+F 0 "C33" V 3048 3450 50  0000 C CNN
 F 1 "C_Variable" V 3139 3450 50  0000 C CNN
 F 2 "LT:CAP_trimmer_SGC3_Download" H 3300 3450 50  0001 C CNN
 F 3 "~" H 3300 3450 50  0001 C CNN
@@ -88,10 +88,10 @@ Wire Wire Line
 	3850 3450 3850 3050
 Connection ~ 3850 3450
 $Comp
-L Device:C C3
+L Device:C C35
 U 1 1 5E54F603
 P 5450 2950
-F 0 "C3" V 5198 2950 50  0000 C CNN
+F 0 "C35" V 5198 2950 50  0000 C CNN
 F 1 "C" V 5289 2950 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5488 2800 50  0001 C CNN
 F 3 "~" H 5450 2950 50  0001 C CNN
