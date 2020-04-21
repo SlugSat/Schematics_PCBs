@@ -15,17 +15,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Connector:Conn_Coaxial J19
-U 1 1 5E1FC498
-P 3600 4050
-F 0 "J19" H 3528 4288 50  0000 C CNN
-F 1 "Conn_Coaxial" H 3528 4197 50  0000 C CNN
-F 2 "Connector_Coaxial:SMA_Molex_73251-1153_EdgeMount_Horizontal" H 3600 4050 50  0001 C CNN
-F 3 " ~" H 3600 4050 50  0001 C CNN
-	1    3600 4050
-	-1   0    0    -1  
-$EndComp
-$Comp
 L Device:C C40
 U 1 1 5E1FE5C6
 P 4150 4350
@@ -81,8 +70,6 @@ F 3 "~" H 6400 4350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3800 4050 4150 4050
-Wire Wire Line
 	5150 4050 5300 4050
 Wire Wire Line
 	6150 4050 6400 4050
@@ -92,17 +79,6 @@ Wire Wire Line
 	5300 4200 5300 4050
 Wire Wire Line
 	4150 4200 4150 4050
-$Comp
-L power:GND #PWR0113
-U 1 1 5E2035DD
-P 3600 4250
-F 0 "#PWR0113" H 3600 4000 50  0001 C CNN
-F 1 "GND" H 3605 4077 50  0000 C CNN
-F 2 "" H 3600 4250 50  0001 C CNN
-F 3 "" H 3600 4250 50  0001 C CNN
-	1    3600 4250
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:GND #PWR0114
 U 1 1 5E203C32
@@ -223,7 +199,7 @@ U 1 1 5E20B5B6
 P 7500 4050
 F 0 "J20" H 7600 4025 50  0000 L CNN
 F 1 "Conn_Coaxial" H 7600 3934 50  0000 L CNN
-F 2 "Connector_Coaxial:SMA_Molex_73251-1153_EdgeMount_Horizontal" H 7500 4050 50  0001 C CNN
+F 2 "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount" H 7500 4050 50  0001 C CNN
 F 3 " ~" H 7500 4050 50  0001 C CNN
 	1    7500 4050
 	1    0    0    -1  
@@ -248,4 +224,21 @@ Wire Wire Line
 Wire Wire Line
 	4600 4050 4850 4050
 Connection ~ 5750 4050
+Text HLabel 2950 4050 0    50   Input ~ 0
+PA_OUT
+Wire Wire Line
+	2950 4050 3250 4050
+$Comp
+L Connector:Conn_01x02_Male J19
+U 1 1 5EA07F0D
+P 3250 4250
+F 0 "J19" V 3403 4063 50  0000 R CNN
+F 1 "Conn_01x02_Male" V 3312 4063 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 3250 4250 50  0001 C CNN
+F 3 "~" H 3250 4250 50  0001 C CNN
+	1    3250 4250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3350 4050 4150 4050
 $EndSCHEMATC

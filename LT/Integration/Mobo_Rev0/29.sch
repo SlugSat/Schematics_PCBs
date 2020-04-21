@@ -191,17 +191,6 @@ F 3 "~" H 6250 3150 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:Conn_Coaxial J14
-U 1 1 5E27740C
-P 9500 3750
-F 0 "J14" H 9599 3726 50  0000 L CNN
-F 1 "Conn_Coaxial" H 9599 3635 50  0000 L CNN
-F 2 "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount" H 9500 3750 50  0001 C CNN
-F 3 " ~" H 9500 3750 50  0001 C CNN
-	1    9500 3750
-	1    0    0    -1  
-$EndComp
-$Comp
 L Connector:Conn_Coaxial J13
 U 1 1 5E2774D2
 P 2700 3750
@@ -220,8 +209,6 @@ Wire Wire Line
 Connection ~ 4650 3750
 Wire Wire Line
 	4650 3750 4950 3750
-Wire Wire Line
-	9300 3750 9100 3750
 Connection ~ 7050 3750
 Wire Wire Line
 	7050 3750 6750 3750
@@ -234,8 +221,6 @@ Wire Wire Line
 	2700 3950 2700 4050
 Wire Wire Line
 	2700 4050 2900 4050
-Wire Wire Line
-	9500 4050 9500 3950
 Wire Wire Line
 	3950 4050 4300 4050
 Connection ~ 4300 4050
@@ -312,9 +297,6 @@ $EndComp
 Connection ~ 2900 4050
 Wire Wire Line
 	2900 4050 3950 4050
-Wire Wire Line
-	9100 4050 9500 4050
-Connection ~ 9100 3750
 Wire Wire Line
 	9100 3750 9000 3750
 Connection ~ 2900 3750
@@ -402,8 +384,25 @@ Connection ~ 7700 3750
 Wire Wire Line
 	7700 4050 9100 4050
 Connection ~ 7700 4050
-Connection ~ 9100 4050
 Connection ~ 5850 4050
 Wire Wire Line
 	5850 4050 6750 4050
+Text HLabel 9850 3750 2    50   Output ~ 0
+29.4BPF_OUT
+Wire Wire Line
+	9850 3750 9450 3750
+$Comp
+L Connector:Conn_01x02_Male J14
+U 1 1 5EA00F7C
+P 9450 3550
+F 0 "J14" V 9510 3590 50  0000 L CNN
+F 1 "Conn_01x02_Male" V 9601 3590 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 9450 3550 50  0001 C CNN
+F 3 "~" H 9450 3550 50  0001 C CNN
+	1    9450 3550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9100 3750 9350 3750
+Connection ~ 9100 3750
 $EndSCHEMATC
