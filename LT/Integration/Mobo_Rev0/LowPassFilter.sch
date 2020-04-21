@@ -15,10 +15,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Connector:Conn_Coaxial J1
+L Connector:Conn_Coaxial J19
 U 1 1 5E1FC498
 P 3600 4050
-F 0 "J1" H 3528 4288 50  0000 C CNN
+F 0 "J19" H 3528 4288 50  0000 C CNN
 F 1 "Conn_Coaxial" H 3528 4197 50  0000 C CNN
 F 2 "Connector_Coaxial:SMA_Molex_73251-1153_EdgeMount_Horizontal" H 3600 4050 50  0001 C CNN
 F 3 " ~" H 3600 4050 50  0001 C CNN
@@ -37,10 +37,10 @@ F 3 "~" H 4150 4350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:L L1
+L Device:L L34
 U 1 1 5E1FED39
 P 5000 4050
-F 0 "L1" V 5190 4050 50  0000 C CNN
+F 0 "L34" V 5190 4050 50  0000 C CNN
 F 1 "330n" V 5099 4050 50  0000 C CNN
 F 2 "Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5000 4050 50  0001 C CNN
 F 3 "~" H 5000 4050 50  0001 C CNN
@@ -59,10 +59,10 @@ F 3 "~" H 5300 4350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:L L2
+L Device:L L35
 U 1 1 5E201B79
 P 6000 4050
-F 0 "L2" V 6190 4050 50  0000 C CNN
+F 0 "L35" V 6190 4050 50  0000 C CNN
 F 1 "330n" V 6099 4050 50  0000 C CNN
 F 2 "Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6000 4050 50  0001 C CNN
 F 3 "~" H 6000 4050 50  0001 C CNN
@@ -218,10 +218,10 @@ F 3 "" H 6850 4500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_Coaxial J2
+L Connector:Conn_Coaxial J20
 U 1 1 5E20B5B6
 P 7500 4050
-F 0 "J2" H 7600 4025 50  0000 L CNN
+F 0 "J20" H 7600 4025 50  0000 L CNN
 F 1 "Conn_Coaxial" H 7600 3934 50  0000 L CNN
 F 2 "Connector_Coaxial:SMA_Molex_73251-1153_EdgeMount_Horizontal" H 7500 4050 50  0001 C CNN
 F 3 " ~" H 7500 4050 50  0001 C CNN
