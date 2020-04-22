@@ -178,7 +178,7 @@ Wire Wire Line
 Text HLabel 6250 2950 2    50   Output ~ 0
 PREAMP_OUT
 Wire Wire Line
-	5800 2950 6250 2950
+	5800 2950 6150 2950
 $Comp
 L Connector:Conn_01x02_Male J15
 U 1 1 5EA03203
@@ -204,5 +204,32 @@ F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 5700 3150 50 
 F 3 "~" H 5700 3150 50  0001 C CNN
 	1    5700 3150
 	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male J23
+U 1 1 5E9FD848
+P 6150 2200
+F 0 "J23" V 6303 2013 50  0000 R CNN
+F 1 "Conn_01x02_Male" V 6212 2013 50  0000 R CNN
+F 2 "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount" H 6150 2200 50  0001 C CNN
+F 3 "~" H 6150 2200 50  0001 C CNN
+	1    6150 2200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6150 2400 6150 2950
+Connection ~ 6150 2950
+Wire Wire Line
+	6150 2950 6250 2950
+$Comp
+L power:GND #PWR0101
+U 1 1 5E9FD99D
+P 6050 2400
+F 0 "#PWR0101" H 6050 2150 50  0001 C CNN
+F 1 "GND" H 6055 2227 50  0000 C CNN
+F 2 "" H 6050 2400 50  0001 C CNN
+F 3 "" H 6050 2400 50  0001 C CNN
+	1    6050 2400
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

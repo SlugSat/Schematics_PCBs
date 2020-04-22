@@ -256,7 +256,7 @@ PREAMP_OUT
 Text HLabel 6100 1400 2    50   Output ~ 0
 PA_OUT
 Wire Wire Line
-	6100 1400 5750 1400
+	6100 1400 5900 1400
 Wire Wire Line
 	1200 1400 1350 1400
 $Comp
@@ -285,4 +285,31 @@ F 3 "~" H 5650 1600 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5500 1400 5650 1400
+$Comp
+L Connector:Conn_01x02_Male J24
+U 1 1 5E9FE57C
+P 5900 850
+F 0 "J24" V 6053 663 50  0000 R CNN
+F 1 "Conn_01x02_Male" V 5962 663 50  0000 R CNN
+F 2 "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount" H 5900 850 50  0001 C CNN
+F 3 "~" H 5900 850 50  0001 C CNN
+	1    5900 850 
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5900 1050 5900 1400
+Connection ~ 5900 1400
+Wire Wire Line
+	5900 1400 5750 1400
+$Comp
+L power:GND #PWR0113
+U 1 1 5E9FEAC7
+P 5800 1050
+F 0 "#PWR0113" H 5800 800 50  0001 C CNN
+F 1 "GND" H 5805 877 50  0000 C CNN
+F 2 "" H 5800 1050 50  0001 C CNN
+F 3 "" H 5800 1050 50  0001 C CNN
+	1    5800 1050
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

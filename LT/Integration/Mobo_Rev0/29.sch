@@ -390,7 +390,7 @@ Wire Wire Line
 Text HLabel 9850 3750 2    50   Output ~ 0
 29.4BPF_OUT
 Wire Wire Line
-	9850 3750 9450 3750
+	9850 3750 9650 3750
 $Comp
 L Connector:Conn_01x02_Male J14
 U 1 1 5EA00F7C
@@ -405,4 +405,35 @@ $EndComp
 Wire Wire Line
 	9100 3750 9350 3750
 Connection ~ 9100 3750
+$Comp
+L Connector:Conn_01x02_Male J22
+U 1 1 5E9FC4D5
+P 9900 3100
+F 0 "J22" V 9960 3140 50  0000 L CNN
+F 1 "Conn_01x02_Male" V 10051 3140 50  0000 L CNN
+F 2 "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount" H 9900 3100 50  0001 C CNN
+F 3 "~" H 9900 3100 50  0001 C CNN
+	1    9900 3100
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 5E9FC7DA
+P 9800 3300
+F 0 "#PWR0102" H 9800 3050 50  0001 C CNN
+F 1 "GND" H 9805 3127 50  0000 C CNN
+F 2 "" H 9800 3300 50  0001 C CNN
+F 3 "" H 9800 3300 50  0001 C CNN
+	1    9800 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9900 3300 9900 3550
+Wire Wire Line
+	9900 3550 9650 3550
+Wire Wire Line
+	9650 3550 9650 3750
+Connection ~ 9650 3750
+Wire Wire Line
+	9650 3750 9450 3750
 $EndSCHEMATC
