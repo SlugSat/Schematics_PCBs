@@ -63,12 +63,16 @@ Wire Notes Line width 39 style solid
 	8650 3300 8650 1450
 Wire Notes Line width 39 style solid
 	8650 1450 1600 1450
-Wire Notes Line width 39 style solid
+Wire Notes Line width 39 style solid rgb(0, 194, 0)
 	1200 4050 1200 5900
-Wire Notes Line width 39 style solid
+Wire Notes Line width 39 style solid rgb(0, 194, 0)
 	9450 5900 9450 4050
-Wire Notes Line width 39 style solid
+Wire Notes Line width 39 style solid rgb(0, 194, 0)
 	1200 5900 9450 5900
-Wire Notes Line width 39 style solid
+Wire Notes Line width 39 style solid rgb(0, 194, 0)
 	1200 4050 9450 4050
+Text Notes 3950 1250 0    197  ~ 39
+Receiving Stage
+Text Notes 4100 3850 0    197  ~ 39
+Transmitting Stage
 $EndSCHEMATC
