@@ -1,7 +1,7 @@
 EESchema Schematic File Version 4
 EELAYER 30 0
 EELAYER END
-$Descr A4 11693 8268
+$Descr A3 16535 11693
 encoding utf-8
 Sheet 1 8
 Title ""
@@ -75,4 +75,58 @@ Text Notes 3950 1250 0    197  ~ 39
 Receiving Stage
 Text Notes 4100 3850 0    197  ~ 39
 Transmitting Stage
+$Comp
+L SS:Bus J1
+U 1 1 5EA20A51
+P 13050 3300
+F 0 "J1" H 14578 3834 50  0000 L CNN
+F 1 "Bus" H 14578 3743 50  0000 L CNN
+F 2 "SS:STD_PCB_A1_v1.1" H 11750 4350 50  0001 C CNN
+F 3 "" H 11750 4350 50  0001 C CNN
+	1    13050 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L SS:Bus J1
+U 2 1 5EA309D4
+P 13050 4100
+F 0 "J1" H 13045 4956 50  0000 C CNN
+F 1 "Bus" H 13045 4865 50  0000 C CNN
+F 2 "SS:STD_PCB_A1_v1.1" H 11750 5150 50  0001 C CNN
+F 3 "" H 11750 5150 50  0001 C CNN
+	2    13050 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L SS:Bus J1
+U 3 1 5EA3AF6E
+P 13050 4900
+F 0 "J1" H 13045 5706 50  0000 C CNN
+F 1 "Bus" H 13045 5615 50  0000 C CNN
+F 2 "SS:STD_PCB_A1_v1.1" H 11750 5950 50  0001 C CNN
+F 3 "" H 11750 5950 50  0001 C CNN
+	3    13050 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L SS:Bus J1
+U 4 1 5EA3F11D
+P 13050 6200
+F 0 "J1" H 14578 6834 50  0000 L CNN
+F 1 "Bus" H 14578 6743 50  0000 L CNN
+F 2 "SS:STD_PCB_A1_v1.1" H 11750 7250 50  0001 C CNN
+F 3 "" H 11750 7250 50  0001 C CNN
+	4    13050 6200
+	1    0    0    -1  
+$EndComp
+Wire Notes Line width 39 style solid
+	11100 1800 11100 6850
+Wire Notes Line width 39 style solid
+	11100 6850 15250 6850
+Wire Notes Line width 39 style solid
+	15250 6850 15250 1800
+Wire Notes Line width 39 style solid
+	15250 1800 11100 1800
+Text Notes 12900 1600 0    197  ~ 39
+Bus
 $EndSCHEMATC
