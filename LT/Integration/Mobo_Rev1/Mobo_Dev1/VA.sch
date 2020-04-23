@@ -165,24 +165,6 @@ Wire Wire Line
 Connection ~ 5550 3250
 Wire Wire Line
 	5550 3250 5550 3350
-$Comp
-L Connector:Conn_01x02_Male J3
-U 1 1 5E4F0CB6
-P 4600 3250
-F 0 "J3" H 4700 3500 50  0000 C CNN
-F 1 "Conn_01x02_Male" H 4700 3400 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 4600 3250 50  0001 C CNN
-F 3 "~" H 4600 3250 50  0001 C CNN
-	1    4600 3250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4800 3250 5200 3250
-Connection ~ 5200 3250
-Wire Wire Line
-	4800 3350 4800 3550
-Wire Wire Line
-	4800 3550 4950 3550
 Wire Wire Line
 	5850 3150 6800 3150
 Connection ~ 5850 3150
@@ -362,20 +344,6 @@ F 3 "" H 8250 2900 50  0001 C CNN
 	1    8250 2900
 	0    -1   -1   0   
 $EndComp
-Connection ~ 8250 2900
-Wire Wire Line
-	8250 2900 8250 2750
-$Comp
-L Connector:Conn_01x02_Male J4
-U 1 1 5E50C337
-P 8250 2550
-F 0 "J4" V 8312 2362 50  0000 R CNN
-F 1 "Conn_01x02_Male" V 8403 2362 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 8250 2550 50  0001 C CNN
-F 3 "~" H 8250 2550 50  0001 C CNN
-	1    8250 2550
-	0    -1   1    0   
-$EndComp
 Wire Wire Line
 	8250 3550 8600 3550
 Wire Wire Line
@@ -408,20 +376,6 @@ Connection ~ 3900 2700
 Wire Wire Line
 	3900 2700 4000 2700
 $Comp
-L power:GND #PWR03
-U 1 1 5E529B3F
-P 4950 3550
-F 0 "#PWR03" H 4950 3300 50  0001 C CNN
-F 1 "GND" H 4955 3377 50  0000 C CNN
-F 2 "" H 4950 3550 50  0001 C CNN
-F 3 "" H 4950 3550 50  0001 C CNN
-	1    4950 3550
-	1    0    0    -1  
-$EndComp
-Connection ~ 4950 3550
-Wire Wire Line
-	4950 3550 5200 3550
-$Comp
 L power:GND #PWR08
 U 1 1 5E529E75
 P 8600 3550
@@ -435,17 +389,6 @@ $EndComp
 Connection ~ 8600 3550
 Wire Wire Line
 	8600 3550 8850 3550
-$Comp
-L power:GND #PWR07
-U 1 1 5E52A360
-P 8350 2800
-F 0 "#PWR07" H 8350 2550 50  0001 C CNN
-F 1 "GND" H 8355 2627 50  0000 C CNN
-F 2 "" H 8350 2800 50  0001 C CNN
-F 3 "" H 8350 2800 50  0001 C CNN
-	1    8350 2800
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:GND #PWR04
 U 1 1 5E52A954
@@ -468,10 +411,6 @@ F 3 "" H 6450 5000 50  0001 C CNN
 	1    6450 5000
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8350 2750 8350 2800
-Text Notes 3750 3350 0    50   ~ 0
-Control Voltage (Vr)
 Text Notes 2300 2150 0    50   ~ 0
 from Pre-select
 Text Notes 2700 4050 0    50   ~ 0
@@ -544,4 +483,22 @@ Wire Wire Line
 Connection ~ 5400 4450
 Text HLabel 3350 4150 0    50   Input ~ 0
 Variable_Attenuator_Out
+$Comp
+L power:GND #PWR03
+U 1 1 5E529B3F
+P 5200 3550
+F 0 "#PWR03" H 5200 3300 50  0001 C CNN
+F 1 "GND" H 5205 3377 50  0000 C CNN
+F 2 "" H 5200 3550 50  0001 C CNN
+F 3 "" H 5200 3550 50  0001 C CNN
+	1    5200 3550
+	1    0    0    -1  
+$EndComp
+Connection ~ 5200 3250
+Wire Wire Line
+	4800 3250 5200 3250
+Text Notes 4000 3550 0    50   ~ 0
+Control Voltage (Vr)\nFrom Microcontroller
+Text HLabel 4800 3250 0    50   Input ~ 0
+Control_Voltage_From_MicroController
 $EndSCHEMATC

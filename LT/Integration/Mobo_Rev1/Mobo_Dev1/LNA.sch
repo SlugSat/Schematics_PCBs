@@ -80,23 +80,8 @@ $EndComp
 Wire Wire Line
 	3500 1900 3500 2050
 Connection ~ 3500 2050
-$Comp
-L Connector:Conn_01x02_Male J5
-U 1 1 5E4711B0
-P 3500 950
-F 0 "J5" V 3560 763 50  0000 R CNN
-F 1 "Conn_01x02_Male" V 3651 763 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 3500 950 50  0001 C CNN
-F 3 "~" H 3500 950 50  0001 C CNN
-	1    3500 950 
-	0    -1   1    0   
-$EndComp
 Wire Wire Line
 	3500 1150 3500 1200
-Wire Wire Line
-	3600 1150 3600 1350
-Wire Wire Line
-	3600 1350 5950 1350
 Wire Wire Line
 	2850 2650 3500 2650
 Wire Wire Line
@@ -107,8 +92,6 @@ Wire Wire Line
 	2900 1600 1150 1600
 Wire Wire Line
 	1150 1600 1150 2650
-Wire Wire Line
-	5950 1350 5950 2650
 $Comp
 L power:GND #PWR012
 U 1 1 5E47267B
@@ -164,10 +147,7 @@ Connection ~ 4800 2050
 Wire Wire Line
 	4800 2050 4950 2050
 Wire Wire Line
-	5150 2650 5950 2650
-Wire Wire Line
 	3500 2650 5150 2650
-Connection ~ 5150 2650
 Wire Wire Line
 	5150 2250 5150 2650
 $Comp
