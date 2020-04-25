@@ -1,0 +1,21 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LM335ADT
+D Precision kelvin temperature sensor, SO-8
+K temperature sensor zener
+F https://static6.arrow.com/aropdfconversion/4a28c95c182a516e8f24e76a72ef0babcf3fb2c9/527cd00000459.pdf
+$ENDCMP
+#
+$CMP LM335AZ_NOPB
+D Precision kelvin temperature sensor, TO-92
+K temperature sensor zener
+F http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Flm135
+$ENDCMP
+#
+$CMP untitled
+D Precision kelvin temperature sensor, SO-8
+K temperature sensor zener
+F https://static6.arrow.com/aropdfconversion/4a28c95c182a516e8f24e76a72ef0babcf3fb2c9/527cd00000459.pdf
+$ENDCMP
+#
+#End Doc Library
