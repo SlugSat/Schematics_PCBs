@@ -1,0 +1,6 @@
+(sym_lib_table
+  (lib (name Cremat)(type Legacy)(uri ${KIPRJMOD}/Symbols/Cremat.lib)(options "")(descr ""))
+  (lib (name STM)(type Legacy)(uri ${KIPRJMOD}/Symbols/STM.lib)(options "")(descr ""))
+  (lib (name Sensl)(type Legacy)(uri ${KIPRJMOD}/Symbols/Sensl.lib)(options "")(descr ""))
+  (lib (name SiPM-Cremat-rescue)(type Legacy)(uri "${KIPRJMOD}/SiPM Cremat-rescue.lib")(options "")(descr ""))
+)

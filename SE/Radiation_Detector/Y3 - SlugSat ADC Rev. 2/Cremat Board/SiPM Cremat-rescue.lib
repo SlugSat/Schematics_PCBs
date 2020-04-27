@@ -1,0 +1,26 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# CR-113-R2.1-Cremat-SiPM-Cremat-rescue
+#
+DEF CR-113-R2.1-Cremat-SiPM-Cremat-rescue U 0 5 Y Y 1 F N
+F0 "U" 150 150 50 H V C CNN
+F1 "CR-113-R2.1-Cremat-SiPM-Cremat-rescue" 450 -100 50 H V C CNN
+F2 "Connector_PinHeader_1.00mm:PinHeader_1x08_P1.00mm_Vertical" 0 -600 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ SOIC*1EP*3.9x4.9mm*P1.27mm*
+$ENDFPLIST
+DRAW
+P 4 1 1 10 -200 200 200 0 -200 -200 -200 200 f
+X ~ 1 -300 0 100 R 50 50 1 1 I
+X GND 2 100 -50 0 U 50 50 1 1 W N
+X NC 3 -200 -100 0 R 50 50 1 1 N N
+X GND 4 0 -100 0 U 50 50 1 1 W N
+X V- 5 -100 -300 150 U 50 50 1 1 P
+X V+ 7 -100 300 150 D 50 50 1 1 P
+X ~ 8 300 0 100 L 50 50 1 1 O
+ENDDRAW
+ENDDEF
+#
+#End Library

@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name Sensl)(type KiCad)(uri ${KIPRJMOD}/Footprints/Sensl.pretty)(options "")(descr ""))
+)

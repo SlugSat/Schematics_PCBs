@@ -1,5 +1,6 @@
 EESchema Schematic File Version 4
-EELAYER 30 0
+LIBS:Mobo_Rev1-cache
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -14,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
-S 2550 1350 750  550 
+S 4900 1350 750  550 
 U 5E4B296A
 F0 "LNA" 50
 F1 "LNA.sch" 50
@@ -26,13 +27,13 @@ F0 "Pre Amplifier" 50
 F1 "PreAmp.sch" 50
 $EndSheet
 $Sheet
-S 4900 1300 600  650 
+S 2550 1300 600  650 
 U 5E4B29B3
 F0 "Variable Attenuator" 50
 F1 "VariableAttenuator.sch" 50
 $EndSheet
 $Sheet
-S 3700 1450 500  350 
+S 3750 1450 500  350 
 U 5E4B29FB
 F0 "Image Reject Filter" 50
 F1 "ImageReject.sch" 50
@@ -77,26 +78,26 @@ Wire Notes Line width 39 style solid rgb(194, 127, 0)
 	2250 950  2250 2350
 Text Notes 3550 850  0    118  ~ 0
 Receiving Stage
-Wire Notes Line width 39 style solid rgb(127, 0, 111)
+Wire Notes Line width 39 style solid rgb(127, 0, 0)
 	2000 3000 2000 4150
-Wire Notes Line width 39 style solid rgb(127, 0, 111)
+Wire Notes Line width 39 style solid rgb(127, 0, 0)
 	2000 4150 6350 4150
-Wire Notes Line width 39 style solid rgb(127, 0, 111)
+Wire Notes Line width 39 style solid rgb(127, 0, 0)
 	6350 4150 6350 3000
-Wire Notes Line width 39 style solid rgb(127, 35, 111)
+Wire Notes Line width 39 style solid rgb(127, 35, 0)
 	6350 3000 2000 3000
 Text Notes 3500 2900 0    118  ~ 0
 Transmitting Stage
-Wire Notes Line width 39 style solid rgb(194, 132, 143)
+Wire Notes Line width 39 style solid rgb(194, 132, 0)
 	2650 4900 2650 5650
-Wire Notes Line width 39 style solid rgb(194, 132, 143)
+Wire Notes Line width 39 style solid rgb(194, 132, 0)
 	2650 5650 5800 5650
-Wire Notes Line width 39 style solid rgb(194, 132, 143)
+Wire Notes Line width 39 style solid rgb(194, 132, 0)
 	5800 5650 5800 4900
-Wire Notes Line width 39 style solid rgb(194, 132, 143)
+Wire Notes Line width 39 style solid rgb(194, 132, 0)
 	5800 4900 2650 4900
 Text Notes 3600 4800 0    118  ~ 0
-Notch Filters
+Antenna Stage
 $Comp
 L Mobo_Rev1-rescue:Bus-SS J1
 U 1 1 5E4D68DD

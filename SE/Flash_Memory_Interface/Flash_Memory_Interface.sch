@@ -389,9 +389,13 @@ Entry Wire Line
 Entry Wire Line
 	7650 2450 7550 2550
 Entry Wire Line
+<<<<<<< HEAD
+	11700 3850 11600 3950
+=======
 	7650 2650 7550 2750
 Entry Wire Line
 	7650 2750 7550 2850
+>>>>>>> 039b671c63777e2600d8a6deded10ae6d90d40e9
 Entry Wire Line
 	7650 2850 7550 2950
 Entry Wire Line
@@ -399,14 +403,29 @@ Entry Wire Line
 Wire Wire Line
 	7650 2350 8400 2350
 Wire Wire Line
+<<<<<<< HEAD
+	11700 3850 12450 3850
+=======
 	7650 2450 8400 2450
 Wire Wire Line
 	7650 2650 8400 2650
+>>>>>>> 039b671c63777e2600d8a6deded10ae6d90d40e9
 Wire Wire Line
 	7650 2750 8400 2750
 Wire Wire Line
 	7650 2850 8400 2850
 Wire Wire Line
+<<<<<<< HEAD
+	11700 4150 12450 4150
+Text Label 11700 3650 0    50   ~ 0
+Flash_ControlBus_1
+Text Label 11700 3850 0    50   ~ 0
+Flash_ControlBus_2
+Text Label 11700 4050 0    50   ~ 0
+Flash_ControlBus_4
+Text Label 11700 4150 0    50   ~ 0
+Flash_ControlBus_5
+=======
 	7650 2950 8400 2950
 Text Label 7650 2450 0    50   ~ 0
 Flash_ControlBus_1
@@ -418,6 +437,7 @@ Text Label 7650 2850 0    50   ~ 0
 Flash_ControlBus_5
 Text Label 7650 2950 0    50   ~ 0
 Flash_ControlBus_6
+>>>>>>> 039b671c63777e2600d8a6deded10ae6d90d40e9
 Entry Wire Line
 	7550 3200 7450 3300
 Entry Wire Line
@@ -578,9 +598,13 @@ Flash_ControlBus_0
 Entry Wire Line
 	7650 7250 7550 7150
 Entry Wire Line
+<<<<<<< HEAD
+	11700 8150 11600 8050
+=======
 	7650 7150 7550 7050
 Entry Wire Line
 	7650 6950 7550 6850
+>>>>>>> 039b671c63777e2600d8a6deded10ae6d90d40e9
 Entry Wire Line
 	7650 6850 7550 6750
 Entry Wire Line
@@ -590,12 +614,29 @@ Entry Wire Line
 Wire Wire Line
 	7650 7250 8400 7250
 Wire Wire Line
+<<<<<<< HEAD
+	11700 8150 12450 8150
+=======
 	7650 7150 8400 7150
 Wire Wire Line
 	7650 6950 8400 6950
+>>>>>>> 039b671c63777e2600d8a6deded10ae6d90d40e9
 Wire Wire Line
 	7650 6850 8400 6850
 Wire Wire Line
+<<<<<<< HEAD
+	11700 7950 12450 7950
+Text Label 11700 8350 0    50   ~ 0
+Flash_ControlBus_1
+Text Label 11700 8150 0    50   ~ 0
+Flash_ControlBus_2
+Text Label 11700 8050 0    50   ~ 0
+Flash_ControlBus_3
+Text Label 11700 7950 0    50   ~ 0
+Flash_ControlBus_4
+Text Label 11700 7850 0    50   ~ 0
+Flash_ControlBus_5
+=======
 	7650 6750 8400 6750
 Wire Wire Line
 	7650 6650 8400 6650
@@ -609,6 +650,7 @@ Text Label 7650 6750 0    50   ~ 0
 Flash_ControlBus_5
 Text Label 7650 6650 0    50   ~ 0
 Flash_ControlBus_6
+>>>>>>> 039b671c63777e2600d8a6deded10ae6d90d40e9
 Entry Wire Line
 	7550 5500 7450 5600
 Entry Wire Line
@@ -723,10 +765,17 @@ Wire Wire Line
 Wire Wire Line
 	5500 6600 5450 6600
 Wire Wire Line
+<<<<<<< HEAD
+	9500 7700 9500 7800
+Wire Bus Line
+	8000 3450 5500 3450
+Text Label 8300 9400 2    50   ~ 0
+=======
 	5450 6500 5450 6600
 Wire Bus Line
 	3950 2250 1450 2250
 Text Label 4250 8200 2    50   ~ 0
+>>>>>>> 039b671c63777e2600d8a6deded10ae6d90d40e9
 IO_7
 Wire Wire Line
 	3750 8200 4600 8200
@@ -1021,6 +1070,21 @@ F 3 "" H 6300 5300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
+<<<<<<< HEAD
+	10050 6500 10350 6500
+Wire Bus Line
+	8000 1850 8000 3450
+Wire Bus Line
+	11800 1850 11800 3400
+Wire Bus Line
+	11800 8600 11800 10150
+Text Label 11700 3950 0    50   ~ 0
+Flash_ControlBus_3
+Wire Wire Line
+	11700 7850 12450 7850
+NoConn ~ 12450 8250
+NoConn ~ 12450 3750
+=======
 	6000 5300 6300 5300
 Wire Bus Line
 	3950 650  3950 2250
@@ -1034,6 +1098,7 @@ Text Notes 15450 11050 0    50   ~ 0
 3
 Text Notes 12250 10950 0    59   ~ 0
 Flash Memory Scheme v.3
+>>>>>>> 039b671c63777e2600d8a6deded10ae6d90d40e9
 Wire Wire Line
 	7350 7500 8400 7500
 Wire Wire Line
