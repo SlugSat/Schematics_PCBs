@@ -1,5 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:Mobo_Dev1-cache
+LIBS:Mobo_Phase3-cache
 EELAYER 26 0
 EELAYER END
 $Descr A3 16535 11693
@@ -77,7 +77,7 @@ Receiving Stage
 Text Notes 4100 3850 0    197  ~ 39
 Transmitting Stage
 $Comp
-L Mobo_Dev1-rescue:Bus-SS J1
+L Mobo_Phase3-rescue:Bus-SS J1
 U 1 1 5EA20A51
 P 13050 3300
 F 0 "J1" H 14578 3834 50  0000 L CNN
@@ -88,7 +88,7 @@ F 3 "" H 11750 4350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mobo_Dev1-rescue:Bus-SS J1
+L Mobo_Phase3-rescue:Bus-SS J1
 U 2 1 5EA309D4
 P 13050 4100
 F 0 "J1" H 13045 4956 50  0000 C CNN
@@ -99,7 +99,7 @@ F 3 "" H 11750 5150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mobo_Dev1-rescue:Bus-SS J1
+L Mobo_Phase3-rescue:Bus-SS J1
 U 3 1 5EA3AF6E
 P 13050 4900
 F 0 "J1" H 13045 5706 50  0000 C CNN
@@ -110,7 +110,7 @@ F 3 "" H 11750 5950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mobo_Dev1-rescue:Bus-SS J1
+L Mobo_Phase3-rescue:Bus-SS J1
 U 4 1 5EA3F11D
 P 13050 6200
 F 0 "J1" H 14578 6834 50  0000 L CNN

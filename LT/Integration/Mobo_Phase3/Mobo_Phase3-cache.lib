@@ -149,11 +149,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Mobo_Dev1-rescue_BAP64Q-LT-Schematics
+# Mobo_Phase3-rescue_BAP64Q-LT-Schematics
 #
-DEF Mobo_Dev1-rescue_BAP64Q-LT-Schematics U 0 40 Y Y 5 F N
+DEF Mobo_Phase3-rescue_BAP64Q-LT-Schematics U 0 40 Y Y 5 F N
 F0 "U" 100 450 50 H V C CNN
-F1 "Mobo_Dev1-rescue_BAP64Q-LT-Schematics" 100 -200 50 H V C CNN
+F1 "Mobo_Phase3-rescue_BAP64Q-LT-Schematics" 100 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -199,11 +199,11 @@ X ~ ~-UE -250 150 100 L 50 50 5 1 B N
 ENDDRAW
 ENDDEF
 #
-# Mobo_Dev1-rescue_Bus-SS
+# Mobo_Phase3-rescue_Bus-SS
 #
-DEF Mobo_Dev1-rescue_Bus-SS J 0 40 Y Y 4 L N
+DEF Mobo_Phase3-rescue_Bus-SS J 0 40 Y Y 4 L N
 F0 "J" -1300 1050 50 H V C CNN
-F1 "Mobo_Dev1-rescue_Bus-SS" -1450 1050 50 H V C CNN
+F1 "Mobo_Phase3-rescue_Bus-SS" -1450 1050 50 H V C CNN
 F2 "" -1300 1050 50 H I C CNN
 F3 "" -1300 1050 50 H I C CNN
 DRAW

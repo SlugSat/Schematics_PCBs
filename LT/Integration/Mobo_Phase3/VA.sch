@@ -1,5 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:Mobo_Dev1-cache
+LIBS:Mobo_Phase3-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -319,11 +319,9 @@ F 3 "~" H 8250 3400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mobo_Dev1-rescue:BAP64Q-LT-Schematics U1
+L Mobo_Phase3-rescue:BAP64Q-LT-Schematics U1
 U 1 1 5E4E98DA
 P 7050 3300
-AR Path="/5E4E98DA" Ref="U1"  Part="1" 
-AR Path="/5E9B72A2/5E4E98DA" Ref="U1"  Part="1" 
 F 0 "U1" H 7150 3865 50  0000 C CNN
 F 1 "BAP64Q" H 7150 3774 50  0000 C CNN
 F 2 "LT:BAP64Q" H 7050 3300 50  0001 C CNN
