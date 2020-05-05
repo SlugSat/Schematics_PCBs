@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name Bandgap_Regulator)(type Legacy)(uri "${KIPRJMOD}/Symbols/Bandgap Regulator.lib")(options "")(descr ""))
+  (lib (name Linear)(type Legacy)(uri ${KIPRJMOD}/Symbols/Linear.lib)(options "")(descr ""))
+)

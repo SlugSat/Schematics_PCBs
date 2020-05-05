@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name Amplifier)(type Legacy)(uri ${KIPRJMOD}/Symbols/Amplifier.lib)(options "")(descr ""))
+  (lib (name Linear)(type Legacy)(uri ${KIPRJMOD}/Symbols/Linear.lib)(options "")(descr ""))
+  (lib (name Power_Input_Connectors)(type Legacy)(uri "${KIPRJMOD}/Symbols/Power Input Connectors.lib")(options "")(descr ""))
+)

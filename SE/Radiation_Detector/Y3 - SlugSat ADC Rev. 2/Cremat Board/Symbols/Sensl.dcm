@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ArrayJ-60035-4P-PCB
+D High PDE and Timing Resolution Sensors in a TSV package
+K silicon photomultiplier
+F https://www.onsemi.com/pub/Collateral/MICROJ-SERIES-D.PDF
+$ENDCMP
+#
+#End Doc Library

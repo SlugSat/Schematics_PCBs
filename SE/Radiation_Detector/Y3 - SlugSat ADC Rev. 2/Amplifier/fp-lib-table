@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name Analog)(type KiCad)(uri ${KIPRJMOD}/Footprints/Analog.pretty)(options "")(descr ""))
+)
