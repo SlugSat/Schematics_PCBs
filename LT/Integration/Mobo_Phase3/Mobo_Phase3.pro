@@ -1,6 +1,6 @@
-update=Thursday, April 23, 2020 at 02:30:05 PM
+update=Tuesday, May 05, 2020 at 02:38:12 PM
 version=1
-last_client=kicad
+last_client=pcbnew
 [general]
 version=1
 RootSch=
@@ -25,7 +25,7 @@ ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=Mobo_Dev1.net
+LastNetListRead=Mobo_Phase3.net
 CopperLayerCount=4
 BoardThickness=1.6
 AllowMicroVias=0
@@ -74,11 +74,11 @@ Type=0
 Enabled=1
 [pcbnew/Layer.In1.Cu]
 Name=In1.Cu
-Type=0
+Type=1
 Enabled=1
 [pcbnew/Layer.In2.Cu]
 Name=In2.Cu
-Type=0
+Type=1
 Enabled=1
 [pcbnew/Layer.In3.Cu]
 Name=In3.Cu

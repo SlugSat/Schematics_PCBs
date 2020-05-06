@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:Mobo_Phase3-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -109,33 +108,88 @@ Wire Wire Line
 $Comp
 L power:GND #PWR010
 U 1 1 5CAD1657
-P 3900 3200
-F 0 "#PWR010" H 3900 2950 50  0001 C CNN
-F 1 "GND" H 3905 3027 50  0000 C CNN
-F 2 "" H 3900 3200 50  0001 C CNN
-F 3 "" H 3900 3200 50  0001 C CNN
-	1    3900 3200
+P 3900 3300
+F 0 "#PWR010" H 3900 3050 50  0001 C CNN
+F 1 "GND" H 3905 3127 50  0000 C CNN
+F 2 "" H 3900 3300 50  0001 C CNN
+F 3 "" H 3900 3300 50  0001 C CNN
+	1    3900 3300
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR09
 U 1 1 5CAD1681
-P 2200 3200
-F 0 "#PWR09" H 2200 2950 50  0001 C CNN
-F 1 "GND" H 2205 3027 50  0000 C CNN
-F 2 "" H 2200 3200 50  0001 C CNN
-F 3 "" H 2200 3200 50  0001 C CNN
-	1    2200 3200
+P 2200 3300
+F 0 "#PWR09" H 2200 3050 50  0001 C CNN
+F 1 "GND" H 2205 3127 50  0000 C CNN
+F 2 "" H 2200 3300 50  0001 C CNN
+F 3 "" H 2200 3300 50  0001 C CNN
+	1    2200 3300
 	1    0    0    -1  
 $EndComp
 Connection ~ 3900 2100
 Text HLabel 1600 2100 0    50   Input ~ 0
 Variable_Attenuator_Out
-Text HLabel 4900 2100 2    50   Input ~ 0
+Text HLabel 4850 1750 2    50   Input ~ 0
 Image_Reject_Out
 Connection ~ 2200 2100
 Wire Wire Line
-	1600 2100 2200 2100
+	1600 2100 1700 2100
 Wire Wire Line
-	3900 2100 4900 2100
+	3900 2100 4450 2100
+$Comp
+L Device:R R7
+U 1 1 5EB33475
+P 1850 2100
+F 0 "R7" V 1643 2100 50  0000 C CNN
+F 1 "0" V 1734 2100 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1780 2100 50  0001 C CNN
+F 3 "~" H 1850 2100 50  0001 C CNN
+	1    1850 2100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2000 2100 2200 2100
+$Comp
+L Connector:Conn_Coaxial J4
+U 1 1 5EB340A3
+P 5100 2100
+F 0 "J4" H 5200 2075 50  0000 L CNN
+F 1 "Conn_Coaxial" H 5200 1984 50  0000 L CNN
+F 2 "Connector_Coaxial:SMA_Amphenol_132291_Vertical" H 5100 2100 50  0001 C CNN
+F 3 " ~" H 5100 2100 50  0001 C CNN
+	1    5100 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4850 1750 4850 2100
+Connection ~ 4850 2100
+Wire Wire Line
+	4850 2100 4900 2100
+Wire Wire Line
+	2200 3200 2200 3300
+Wire Wire Line
+	3900 3200 3900 3250
+Wire Wire Line
+	5100 2300 5100 3250
+Wire Wire Line
+	5100 3250 3900 3250
+Connection ~ 3900 3250
+Wire Wire Line
+	3900 3250 3900 3300
+$Comp
+L Device:R R8
+U 1 1 5EB36333
+P 4600 2100
+F 0 "R8" V 4393 2100 50  0000 C CNN
+F 1 "0" V 4484 2100 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4530 2100 50  0001 C CNN
+F 3 "~" H 4600 2100 50  0001 C CNN
+	1    4600 2100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4750 2100 4850 2100
+Text Notes 1800 4450 0    197  ~ 39
+0 ohm resistors are used to short for testing purposes
 $EndSCHEMATC

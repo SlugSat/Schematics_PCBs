@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:Mobo_Phase3-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -82,17 +81,10 @@ Wire Wire Line
 	3500 1900 3500 2050
 Connection ~ 3500 2050
 Wire Wire Line
-	3500 1150 3500 1200
-Wire Wire Line
 	2850 2650 3500 2650
 Wire Wire Line
 	3500 2650 3500 2550
-Connection ~ 2850 2650
 Connection ~ 3500 2650
-Wire Wire Line
-	2900 1600 1150 1600
-Wire Wire Line
-	1150 1600 1150 2650
 $Comp
 L power:GND #PWR012
 U 1 1 5E47267B
@@ -108,21 +100,7 @@ Wire Wire Line
 	3200 1600 3500 1600
 Connection ~ 3500 1600
 Wire Wire Line
-	4250 2050 4800 2050
-$Comp
-L power:+8V #PWR011
-U 1 1 5E47402B
-P 3500 1200
-F 0 "#PWR011" H 3500 1050 50  0001 C CNN
-F 1 "+8V" V 3515 1328 50  0000 L CNN
-F 2 "" H 3500 1200 50  0001 C CNN
-F 3 "" H 3500 1200 50  0001 C CNN
-	1    3500 1200
-	0    -1   -1   0   
-$EndComp
-Connection ~ 3500 1200
-Wire Wire Line
-	3500 1200 3500 1600
+	4250 2050 4400 2050
 $Comp
 L Device:C_Variable C15
 U 1 1 5E4707C9
@@ -134,12 +112,8 @@ F 3 "~" H 2400 2350 50  0001 C CNN
 	1    2400 2350
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	1150 2650 2850 2650
-Text HLabel 1950 2350 0    50   Input ~ 0
+Text HLabel 1700 2100 0    50   Input ~ 0
 Image_Reject_Out
-Wire Wire Line
-	1950 2350 2250 2350
 Wire Wire Line
 	4800 2200 4800 2050
 Text HLabel 4800 2200 0    50   Input ~ 0
@@ -160,6 +134,91 @@ F 1 "Conn_Coaxial" H 5249 1935 50  0000 L CNN
 F 2 "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount" H 5150 2050 50  0001 C CNN
 F 3 " ~" H 5150 2050 50  0001 C CNN
 	1    5150 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+8V #PWR0102
+U 1 1 5EB37613
+P 3500 1200
+F 0 "#PWR0102" H 3500 1050 50  0001 C CNN
+F 1 "+8V" H 3515 1373 50  0000 C CNN
+F 2 "" H 3500 1200 50  0001 C CNN
+F 3 "" H 3500 1200 50  0001 C CNN
+	1    3500 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R10
+U 1 1 5EB38043
+P 4550 2050
+F 0 "R10" V 4343 2050 50  0000 C CNN
+F 1 "0" V 4434 2050 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4480 2050 50  0001 C CNN
+F 3 "~" H 4550 2050 50  0001 C CNN
+	1    4550 2050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4700 2050 4800 2050
+$Comp
+L Device:R R9
+U 1 1 5EB385B0
+P 2000 2350
+F 0 "R9" V 1793 2350 50  0000 C CNN
+F 1 "0" V 1884 2350 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1930 2350 50  0001 C CNN
+F 3 "~" H 2000 2350 50  0001 C CNN
+	1    2000 2350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2150 2350 2250 2350
+Wire Wire Line
+	1700 2100 1700 2350
+Wire Wire Line
+	1700 2350 1850 2350
+$Comp
+L power:GND #PWR0103
+U 1 1 5EB3ADA5
+P 2900 1600
+F 0 "#PWR0103" H 2900 1350 50  0001 C CNN
+F 1 "GND" H 2905 1427 50  0000 C CNN
+F 2 "" H 2900 1600 50  0001 C CNN
+F 3 "" H 2900 1600 50  0001 C CNN
+	1    2900 1600
+	1    0    0    -1  
+$EndComp
+Text Notes 1500 3650 0    197  ~ 39
+0 ohm resistors are used to short for testing purposes
+$Comp
+L Connector:TestPoint_Probe TP?
+U 1 1 5EB501A7
+P 3500 1450
+AR Path="/5E9B72A2/5EB501A7" Ref="TP?"  Part="1" 
+AR Path="/5E9B734B/5EB501A7" Ref="TP4"  Part="1" 
+F 0 "TP4" H 3653 1551 50  0000 L CNN
+F 1 "TestPoint_Probe" H 3500 1650 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Plated_Hole_D2.0mm" H 3700 1450 50  0001 C CNN
+F 3 "~" H 3700 1450 50  0001 C CNN
+	1    3500 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3500 1200 3500 1450
+Connection ~ 3500 1450
+Wire Wire Line
+	3500 1450 3500 1600
+$Comp
+L Connector:TestPoint_Probe TP?
+U 1 1 5EB6A857
+P 3500 2050
+AR Path="/5E9B72A2/5EB6A857" Ref="TP?"  Part="1" 
+AR Path="/5E9B734B/5EB6A857" Ref="TP6"  Part="1" 
+F 0 "TP6" H 3653 2151 50  0000 L CNN
+F 1 "TestPoint_Probe" H 3500 2250 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 3700 2050 50  0001 C CNN
+F 3 "~" H 3700 2050 50  0001 C CNN
+	1    3500 2050
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

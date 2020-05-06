@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:Mobo_Phase3-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -187,12 +186,12 @@ $EndComp
 $Comp
 L Device:C C1
 U 1 1 5E4FD576
-P 3550 4300
-F 0 "C1" H 3650 4300 50  0000 L CNN
-F 1 "220pF" H 3600 4200 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 3588 4150 50  0001 C CNN
-F 3 "~" H 3550 4300 50  0001 C CNN
-	1    3550 4300
+P 3600 4300
+F 0 "C1" H 3700 4300 50  0000 L CNN
+F 1 "220pF" H 3650 4200 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 3638 4150 50  0001 C CNN
+F 3 "~" H 3600 4300 50  0001 C CNN
+	1    3600 4300
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -251,10 +250,7 @@ F 3 "~" H 6150 4450 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	3350 4150 3550 4150
-Connection ~ 3550 4150
-Wire Wire Line
-	3550 4150 3950 4150
+	3600 4150 3950 4150
 Connection ~ 3950 4150
 Wire Wire Line
 	3950 4150 4350 4150
@@ -272,7 +268,7 @@ Wire Wire Line
 	6450 4450 6450 4700
 Text Notes 2800 2450 0    50   ~ 0
 RF in
-Text Notes 2700 4450 0    50   ~ 0
+Text Notes 2000 3950 0    50   ~ 0
 RF out
 Wire Wire Line
 	3200 2600 3200 2700
@@ -288,11 +284,9 @@ Connection ~ 3950 4450
 Wire Wire Line
 	3950 4450 4350 4450
 Wire Wire Line
-	7550 3100 8250 3100
+	7550 3100 7850 3100
 Wire Wire Line
 	8250 3100 8250 2900
-Wire Wire Line
-	8250 3100 8850 3100
 Wire Wire Line
 	8850 3100 8850 3200
 Connection ~ 8250 3100
@@ -339,11 +333,11 @@ L power:+5V #PWR06
 U 1 1 5E50B4E7
 P 8250 2900
 F 0 "#PWR06" H 8250 2750 50  0001 C CNN
-F 1 "+5V" V 8265 3028 50  0000 L CNN
+F 1 "+5V" H 8265 3028 50  0000 L CNN
 F 2 "" H 8250 2900 50  0001 C CNN
 F 3 "" H 8250 2900 50  0001 C CNN
 	1    8250 2900
-	0    -1   -1   0   
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	8250 3550 8600 3550
@@ -413,11 +407,11 @@ F 3 "" H 6450 5000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Notes 2300 2150 0    50   ~ 0
-from Pre-select
-Text Notes 2700 4050 0    50   ~ 0
+from Duplexer
+Text Notes 2000 4200 0    50   ~ 0
 to LNA
 Wire Wire Line
-	3550 4450 3950 4450
+	3600 4450 3950 4450
 Wire Wire Line
 	5050 2400 5200 2400
 Wire Wire Line
@@ -482,7 +476,7 @@ Wire Wire Line
 Wire Wire Line
 	5200 4450 5400 4450
 Connection ~ 5400 4450
-Text HLabel 3350 4150 0    50   Input ~ 0
+Text HLabel 2800 3700 0    50   Input ~ 0
 Variable_Attenuator_Out
 $Comp
 L power:GND #PWR03
@@ -497,9 +491,78 @@ F 3 "" H 5200 3550 50  0001 C CNN
 $EndComp
 Connection ~ 5200 3250
 Wire Wire Line
-	4800 3250 5200 3250
+	4800 3250 4900 3250
 Text Notes 4000 3550 0    50   ~ 0
 Control Voltage (Vr)\nFrom Microcontroller
 Text HLabel 4800 3250 0    50   Input ~ 0
 Control_Voltage_From_MicroController
+$Comp
+L Device:R R6
+U 1 1 5EB1ED68
+P 3100 4150
+F 0 "R6" V 2893 4150 50  0000 C CNN
+F 1 "0" V 2984 4150 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3030 4150 50  0001 C CNN
+F 3 "~" H 3100 4150 50  0001 C CNN
+	1    3100 4150
+	0    1    1    0   
+$EndComp
+Connection ~ 3600 4150
+$Comp
+L Connector:Conn_Coaxial J3
+U 1 1 5EB28989
+P 2500 4150
+F 0 "J3" H 2428 4388 50  0000 C CNN
+F 1 "Conn_Coaxial" H 2428 4297 50  0000 C CNN
+F 2 "Connector_Coaxial:SMA_Amphenol_132291_Vertical" H 2500 4150 50  0001 C CNN
+F 3 " ~" H 2500 4150 50  0001 C CNN
+	1    2500 4150
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2800 3700 2800 4150
+Wire Wire Line
+	2700 4150 2800 4150
+Connection ~ 2800 4150
+Wire Wire Line
+	2800 4150 2950 4150
+Wire Wire Line
+	2500 4350 2500 4450
+Wire Wire Line
+	2500 4450 3600 4450
+Connection ~ 3600 4450
+Text Notes 1400 5650 0    197  ~ 39
+0 ohm resistors are used to short for testing purposes
+$Comp
+L Connector:TestPoint_Probe TP2
+U 1 1 5EB433E7
+P 7850 3100
+F 0 "TP2" H 8003 3201 50  0000 L CNN
+F 1 "TestPoint_Probe" H 7850 3300 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Plated_Hole_D2.0mm" H 8050 3100 50  0001 C CNN
+F 3 "~" H 8050 3100 50  0001 C CNN
+	1    7850 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint_Probe TP1
+U 1 1 5EB460CF
+P 4900 3250
+F 0 "TP1" H 5053 3351 50  0000 L CNN
+F 1 "TestPoint_Probe" H 4900 3450 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 5100 3250 50  0001 C CNN
+F 3 "~" H 5100 3250 50  0001 C CNN
+	1    4900 3250
+	1    0    0    -1  
+$EndComp
+Connection ~ 4900 3250
+Wire Wire Line
+	4900 3250 5200 3250
+Wire Wire Line
+	3250 4150 3600 4150
+Connection ~ 7850 3100
+Wire Wire Line
+	7850 3100 8250 3100
+Wire Wire Line
+	8250 3100 8850 3100
 $EndSCHEMATC
