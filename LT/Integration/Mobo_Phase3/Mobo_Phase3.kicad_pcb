@@ -3,7 +3,7 @@
   (general
     (thickness 1.6)
     (drawings 1)
-    (tracks 157)
+    (tracks 159)
     (zones 0)
     (modules 112)
     (nets 178)
@@ -1626,7 +1626,7 @@
   )
 
   (module Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical (layer F.Cu) (tedit 5A19A420) (tstamp 5ED03545)
-    (at 181.30012 89.58072 90)
+    (at 181.61 92.0115 90)
     (descr "Through hole straight socket strip, 1x02, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
     (tags "Through hole socket strip THT 1x02 2.54mm single row")
     (path /5E9B7D7E/5EB64662)
@@ -4836,6 +4836,8 @@
   (segment (start 169.81904 97.8916) (end 171.5844 97.8916) (width 0.25) (layer F.Cu) (net 159))
   (segment (start 173.6344 93.448368) (end 173.6344 97.8916) (width 0.25) (layer F.Cu) (net 168))
   (segment (start 173.6344 91.9988) (end 173.6344 93.448368) (width 0.25) (layer F.Cu) (net 168))
+  (segment (start 181.5973 91.9988) (end 181.61 92.0115) (width 0.25) (layer F.Cu) (net 168))
+  (segment (start 173.6344 91.9988) (end 181.5973 91.9988) (width 0.25) (layer F.Cu) (net 168))
   (segment (start 195.25132 104.7496) (end 193.02984 104.7496) (width 0.25) (layer F.Cu) (net 173))
   (segment (start 195.64632 104.7496) (end 195.25132 104.7496) (width 0.25) (layer F.Cu) (net 173))
   (segment (start 191.77984 104.7496) (end 190.30696 104.7496) (width 0.25) (layer F.Cu) (net 173))
