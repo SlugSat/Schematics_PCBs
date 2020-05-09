@@ -1,5 +1,6 @@
 EESchema Schematic File Version 4
-EELAYER 30 0
+LIBS:Mobo_Phase3-cache
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -338,12 +339,12 @@ Connection ~ 6950 3600
 Wire Wire Line
 	6950 3600 7550 3600
 $Comp
-L Device:R R5
+L Device:R R11
 U 1 1 5EB0EEBE
 P 7850 3300
-F 0 "R5" V 7643 3300 50  0000 C CNN
-F 1 "0 Ohms" V 7734 3300 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 7780 3300 50  0001 C CNN
+F 0 "R11" V 7643 3300 50  0000 C CNN
+F 1 "0" V 7734 3300 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7780 3300 50  0001 C CNN
 F 3 "~" H 7850 3300 50  0001 C CNN
 	1    7850 3300
 	0    1    1    0   
@@ -373,4 +374,17 @@ Wire Wire Line
 Wire Wire Line
 	1650 3600 1850 3600
 Connection ~ 1850 3600
+Text HLabel 1600 2900 0    50   Input ~ 0
+29.4BPF_IN
+Wire Wire Line
+	1600 2900 1850 2900
+Wire Wire Line
+	1850 2900 1850 3300
+Text HLabel 8400 2900 2    50   Output ~ 0
+29.4BPF_OUT
+Wire Wire Line
+	8400 2900 8150 2900
+Wire Wire Line
+	8150 2900 8150 3300
+Connection ~ 8150 3300
 $EndSCHEMATC
