@@ -128,31 +128,9 @@ F 3 "" H 4350 2650 50  0001 C CNN
 	1    4350 2650
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector:Conn_01x02_Male J8
-U 1 1 5EB64300
-P 4650 1950
-F 0 "J8" V 4710 1763 50  0000 R CNN
-F 1 "Conn_01x02_Male" V 4801 1763 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 4650 1950 50  0001 C CNN
-F 3 "~" H 4650 1950 50  0001 C CNN
-	1    4650 1950
-	0    -1   1    0   
-$EndComp
 Wire Wire Line
 	4650 2150 4650 2350
 Connection ~ 4650 2350
-$Comp
-L power:GND #PWR0107
-U 1 1 5EB64481
-P 4750 2150
-F 0 "#PWR0107" H 4750 1900 50  0001 C CNN
-F 1 "GND" H 4900 2050 50  0000 C CNN
-F 2 "" H 4750 2150 50  0001 C CNN
-F 3 "" H 4750 2150 50  0001 C CNN
-	1    4750 2150
-	1    0    0    -1  
-$EndComp
 $Comp
 L Daisy~Chain-cache:Device_C C32
 U 1 1 5EB6449A
@@ -170,25 +148,78 @@ Connection ~ 4650 2850
 Wire Wire Line
 	4650 2850 4650 2950
 $Comp
-L Connector:Conn_01x02_Female J9
+L Connector:Conn_01x02_Female J10
 U 1 1 5EB64662
-P 5550 2850
-F 0 "J9" H 5577 2826 50  0000 L CNN
-F 1 "Conn_01x02_Female" H 5577 2735 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 5550 2850 50  0001 C CNN
-F 3 "~" H 5550 2850 50  0001 C CNN
-	1    5550 2850
-	1    0    0    -1  
+P 5800 2300
+F 0 "J10" V 5740 2112 50  0000 R CNN
+F 1 "Conn_01x02_Female" V 5649 2112 50  0000 R CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 5800 2300 50  0001 C CNN
+F 3 "~" H 5800 2300 50  0001 C CNN
+	1    5800 2300
+	0    -1   -1   0   
 $EndComp
 $Comp
 L power:GND #PWR0108
 U 1 1 5EB64C4A
-P 5350 2950
-F 0 "#PWR0108" H 5350 2700 50  0001 C CNN
-F 1 "GND" H 5355 2777 50  0000 C CNN
-F 2 "" H 5350 2950 50  0001 C CNN
-F 3 "" H 5350 2950 50  0001 C CNN
-	1    5350 2950
+P 5900 2500
+F 0 "#PWR0108" H 5900 2250 50  0001 C CNN
+F 1 "GND" H 5905 2327 50  0000 C CNN
+F 2 "" H 5900 2500 50  0001 C CNN
+F 3 "" H 5900 2500 50  0001 C CNN
+	1    5900 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J9
+U 1 1 5EB6B925
+P 6100 2850
+F 0 "J9" H 6199 2826 50  0000 L CNN
+F 1 "Conn_Coaxial" H 6199 2735 50  0000 L CNN
+F 2 "Connector_Coaxial:SMA_Amphenol_132291_Vertical" H 6100 2850 50  0001 C CNN
+F 3 " ~" H 6100 2850 50  0001 C CNN
+	1    6100 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0109
+U 1 1 5EB6BA87
+P 6100 3050
+F 0 "#PWR0109" H 6100 2800 50  0001 C CNN
+F 1 "GND" H 6105 2877 50  0000 C CNN
+F 2 "" H 6100 3050 50  0001 C CNN
+F 3 "" H 6100 3050 50  0001 C CNN
+	1    6100 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5450 2850 5350 2850
+$Comp
+L Device:R R13
+U 1 1 5EB6C81C
+P 5600 2850
+F 0 "R13" V 5393 2850 50  0000 C CNN
+F 1 "0" V 5484 2850 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5530 2850 50  0001 C CNN
+F 3 "~" H 5600 2850 50  0001 C CNN
+	1    5600 2850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5900 2850 5800 2850
+Wire Wire Line
+	5800 2500 5800 2850
+Connection ~ 5800 2850
+Wire Wire Line
+	5800 2850 5750 2850
+$Comp
+L power:+8V #PWR0107
+U 1 1 5EB725E6
+P 4650 2150
+F 0 "#PWR0107" H 4650 2000 50  0001 C CNN
+F 1 "+8V" H 4665 2323 50  0000 C CNN
+F 2 "" H 4650 2150 50  0001 C CNN
+F 3 "" H 4650 2150 50  0001 C CNN
+	1    4650 2150
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

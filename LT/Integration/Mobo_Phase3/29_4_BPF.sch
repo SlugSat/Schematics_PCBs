@@ -387,4 +387,22 @@ Wire Wire Line
 Wire Wire Line
 	8150 2900 8150 3300
 Connection ~ 8150 3300
+$Comp
+L Connector:Conn_Coaxial J8
+U 1 1 5EB691CD
+P 8750 3300
+F 0 "J8" H 8680 3538 50  0000 C CNN
+F 1 "Conn_Coaxial" H 8680 3447 50  0000 C CNN
+F 2 "Connector_Coaxial:SMA_Amphenol_132291_Vertical" H 8750 3300 50  0001 C CNN
+F 3 " ~" H 8750 3300 50  0001 C CNN
+	1    8750 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8750 3500 8750 3600
+Wire Wire Line
+	8750 3600 8150 3600
+Connection ~ 8150 3600
+Wire Wire Line
+	8150 3300 8550 3300
 $EndSCHEMATC
