@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 1 8
+Sheet 1 10
 Title ""
 Date ""
 Rev ""
@@ -56,11 +56,7 @@ F0 "PLL-10m" 50
 F1 "PLL-10m.sch" 50
 $EndSheet
 Wire Notes Line width 39 style solid
-	6400 6000 6400 9250
-Wire Notes Line width 39 style solid
-	6400 9250 10650 9250
-Wire Notes Line width 39 style solid
-	10650 9250 10650 6000
+	6400 11000 10650 11000
 Wire Notes Line width 39 style solid
 	10650 6000 6400 6000
 Wire Notes Line width 39 style solid rgb(0, 194, 0)
@@ -189,4 +185,20 @@ Text HLabel 4100 7400 2    50   Input ~ 0
 IF_Output
 Wire Wire Line
 	4100 7400 4050 7400
+$Sheet
+S 6800 9650 1300 1200
+U 5EB6970C
+F0 "Low Pass Filter for 15m PLL" 50
+F1 "LPF_15m_PLL.sch" 50
+$EndSheet
+$Sheet
+S 9050 9650 1200 1200
+U 5EB6A002
+F0 "Low Pass Filter for 10m PLL" 50
+F1 "LPF_10m_PLL.sch" 50
+$EndSheet
+Wire Notes Line width 39 style solid
+	6400 6000 6400 11000
+Wire Notes Line width 39 style solid
+	10650 6000 10650 11000
 $EndSCHEMATC

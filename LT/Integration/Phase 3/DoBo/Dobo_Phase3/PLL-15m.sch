@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 6 8
+Sheet 6 10
 Title ""
 Date ""
 Rev ""
@@ -706,7 +706,7 @@ F 3 " ~" H 7300 2250 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	7500 2250 8000 2250
+	7500 2250 7850 2250
 $Comp
 L power:GND #PWR059
 U 1 1 5EAF5C3D
@@ -1048,7 +1048,7 @@ Wire Wire Line
 	8150 5550 8600 5550
 Connection ~ 9350 2850
 Wire Wire Line
-	9750 2850 9750 4950
+	9750 2850 9750 3650
 Wire Wire Line
 	8450 4950 9750 4950
 Wire Wire Line
@@ -1360,4 +1360,32 @@ Text Notes 3100 8350 0    197  ~ 39
 0 ohm resistors are used to short the circuit for testing purposes
 Wire Wire Line
 	6750 4150 8000 4150
+$Comp
+L Connector:TestPoint_Probe TP1
+U 1 1 5EB650E0
+P 7850 2250
+F 0 "TP1" H 8003 2351 50  0000 L CNN
+F 1 "TestPoint_Probe" H 8003 2260 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 8050 2250 50  0001 C CNN
+F 3 "~" H 8050 2250 50  0001 C CNN
+	1    7850 2250
+	1    0    0    -1  
+$EndComp
+Connection ~ 7850 2250
+Wire Wire Line
+	7850 2250 8000 2250
+$Comp
+L Connector:TestPoint_Probe TP2
+U 1 1 5EB65EA5
+P 9750 3650
+F 0 "TP2" H 9903 3751 50  0000 L CNN
+F 1 "TestPoint_Probe" H 9903 3660 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 9950 3650 50  0001 C CNN
+F 3 "~" H 9950 3650 50  0001 C CNN
+	1    9750 3650
+	1    0    0    -1  
+$EndComp
+Connection ~ 9750 3650
+Wire Wire Line
+	9750 3650 9750 4950
 $EndSCHEMATC
