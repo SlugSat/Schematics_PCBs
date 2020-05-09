@@ -83,12 +83,12 @@ $EndComp
 $Comp
 L Device:C C29
 U 1 1 5EB08620
-P 8150 3450
-F 0 "C29" H 8265 3496 50  0000 L CNN
-F 1 "No Connect" H 8265 3405 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 8188 3300 50  0001 C CNN
-F 3 "~" H 8150 3450 50  0001 C CNN
-	1    8150 3450
+P 7950 3450
+F 0 "C29" H 8065 3496 50  0000 L CNN
+F 1 "No Connect" H 8065 3405 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 7988 3300 50  0001 C CNN
+F 3 "~" H 7950 3450 50  0001 C CNN
+	1    7950 3450
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -338,21 +338,15 @@ Wire Wire Line
 $Comp
 L Device:R R11
 U 1 1 5EB0EEBE
-P 7850 3300
-F 0 "R11" V 7643 3300 50  0000 C CNN
-F 1 "0" V 7734 3300 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7780 3300 50  0001 C CNN
-F 3 "~" H 7850 3300 50  0001 C CNN
-	1    7850 3300
+P 8200 3300
+F 0 "R11" V 7993 3300 50  0000 C CNN
+F 1 "0" V 8084 3300 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 8130 3300 50  0001 C CNN
+F 3 "~" H 8200 3300 50  0001 C CNN
+	1    8200 3300
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	7700 3300 7550 3300
 Connection ~ 7550 3300
-Wire Wire Line
-	8000 3300 8150 3300
-Wire Wire Line
-	8150 3600 7550 3600
 Connection ~ 7550 3600
 $Comp
 L Connector:Conn_Coaxial J7
@@ -377,13 +371,8 @@ Wire Wire Line
 	1600 2900 1850 2900
 Wire Wire Line
 	1850 2900 1850 3300
-Text HLabel 8400 2900 2    50   Output ~ 0
+Text HLabel 8700 2950 2    50   Output ~ 0
 29.4BPF_OUT
-Wire Wire Line
-	8400 2900 8150 2900
-Wire Wire Line
-	8150 2900 8150 3300
-Connection ~ 8150 3300
 $Comp
 L Connector:Conn_Coaxial J8
 U 1 1 5EB691CD
@@ -397,12 +386,26 @@ F 3 " ~" H 8750 3300 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	8750 3500 8750 3600
-Wire Wire Line
-	8750 3600 8150 3600
-Connection ~ 8150 3600
-Wire Wire Line
-	8150 3300 8550 3300
 Connection ~ 2750 3300
 Wire Wire Line
 	2750 3300 1850 3300
+Connection ~ 7950 3600
+Wire Wire Line
+	7950 3600 7550 3600
+Wire Wire Line
+	7550 3300 7950 3300
+Wire Wire Line
+	7950 3600 8750 3600
+Connection ~ 7950 3300
+Wire Wire Line
+	7950 3300 8050 3300
+Wire Wire Line
+	8350 3300 8400 3300
+Wire Wire Line
+	8700 2950 8400 2950
+Wire Wire Line
+	8400 2950 8400 3300
+Connection ~ 8400 3300
+Wire Wire Line
+	8400 3300 8550 3300
 $EndSCHEMATC
