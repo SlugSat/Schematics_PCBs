@@ -4692,7 +4692,7 @@
       (net 14 "Net-(C17-Pad2)"))
   )
 
-  (gr_text "PA \"Step\" Daughter Board" (at 252.73 93.98) (layer Dwgs.User)
+  (gr_text "PA Board" (at 249.9995 94.8055) (layer Dwgs.User)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
 
