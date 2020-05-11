@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 10
+Sheet 9 10
 Title ""
 Date ""
 Rev ""
@@ -34,17 +34,6 @@ F 2 "Capacitor_SMD:C_0402_1005Metric" H 4488 4000 50  0001 C CNN
 F 3 "~" H 4450 4150 50  0001 C CNN
 	1    4450 4150
 	0    1    1    0   
-$EndComp
-$Comp
-L Device:Transformer_1P_1S T3
-U 1 1 5E44A49C
-P 3700 3950
-F 0 "T3" H 3700 4331 50  0000 C CNN
-F 1 "3:16" H 3700 4240 50  0000 C CNN
-F 2 "" H 3700 3950 50  0001 C CNN
-F 3 "~" H 3700 3950 50  0001 C CNN
-	1    3700 3950
-	1    0    0    -1  
 $EndComp
 $Comp
 L LT-Schematics:SA602 U2
@@ -106,17 +95,6 @@ F 3 "~" H 6600 4250 50  0001 C CNN
 	1    6600 4250
 	0    -1   1    0   
 $EndComp
-$Comp
-L Device:Transformer_1P_1S T4
-U 1 1 5EAF5C80
-P 7350 4050
-F 0 "T4" H 7350 4431 50  0000 C CNN
-F 1 "8:1" H 7350 4340 50  0000 C CNN
-F 2 "" H 7350 4050 50  0001 C CNN
-F 3 "~" H 7350 4050 50  0001 C CNN
-	1    7350 4050
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
 	6450 3950 6450 3850
 Wire Wire Line
@@ -142,7 +120,7 @@ U 1 1 5E451EF7
 P 8400 3850
 F 0 "J8" H 8328 4088 50  0000 C CNN
 F 1 "Conn_Coaxial" H 8328 3997 50  0000 C CNN
-F 2 "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount" H 8400 3850 50  0001 C CNN
+F 2 "Connector_Coaxial:SMA_Amphenol_132291_Vertical" H 8400 3850 50  0001 C CNN
 F 3 " ~" H 8400 3850 50  0001 C CNN
 	1    8400 3850
 	1    0    0    -1  
@@ -246,17 +224,6 @@ Wire Wire Line
 Connection ~ 6150 2650
 Wire Wire Line
 	6150 2650 6300 2650
-$Comp
-L power:VCC #PWR015
-U 1 1 5E466840
-P 5450 3300
-F 0 "#PWR015" H 5450 3150 50  0001 C CNN
-F 1 "VCC" H 5467 3473 50  0000 C CNN
-F 2 "" H 5450 3300 50  0001 C CNN
-F 3 "" H 5450 3300 50  0001 C CNN
-	1    5450 3300
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5450 3300 5450 3350
 $Comp
@@ -298,24 +265,13 @@ F 3 "~" H 2700 3750 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Text HLabel 2500 3750 0    50   Input ~ 0
-VGA_output
+Up_Mixer_input
 Wire Wire Line
 	2550 3750 2500 3750
 Text HLabel 5250 2650 0    50   Input ~ 0
-40.1_LO_output
+Local_Oscillator_Output
 Wire Wire Line
 	5250 2650 5300 2650
-$Comp
-L Device:R R39
-U 1 1 5EB1E0C7
-P 7900 3850
-F 0 "R39" V 7693 3850 50  0000 C CNN
-F 1 "0" V 7784 3850 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7830 3850 50  0001 C CNN
-F 3 "~" H 7900 3850 50  0001 C CNN
-	1    7900 3850
-	0    1    1    0   
-$EndComp
 $Comp
 L Device:R R14
 U 1 1 5EB77032
@@ -336,6 +292,43 @@ Wire Wire Line
 Wire Wire Line
 	8100 4700 8250 4700
 Connection ~ 8100 3850
+$Comp
+L LT-Schematics:Transformer_6 T3
+U 1 1 5EEB8053
+P 3700 3950
+F 0 "T3" H 3700 4331 50  0000 C CNN
+F 1 "Transformer_6" H 3700 4240 50  0000 C CNN
+F 2 "LT:PWB1040L" H 3700 3950 50  0001 C CNN
+F 3 "~" H 3700 3950 50  0001 C CNN
+	1    3700 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L LT-Schematics:Transformer_6 T4
+U 1 1 5EEB9294
+P 7350 4050
+F 0 "T4" H 7350 4431 50  0000 C CNN
+F 1 "Transformer_6" H 7350 4340 50  0000 C CNN
+F 2 "LT:PWB1040L" H 7350 4050 50  0001 C CNN
+F 3 "~" H 7350 4050 50  0001 C CNN
+	1    7350 4050
+	-1   0    0    -1  
+$EndComp
+NoConn ~ 6950 4050
+NoConn ~ 7750 4050
+NoConn ~ 3300 3950
+NoConn ~ 4100 3950
 Wire Wire Line
-	8100 3850 8050 3850
+	7750 3850 8100 3850
+$Comp
+L power:+8V #PWR0135
+U 1 1 5EF04367
+P 5450 3300
+F 0 "#PWR0135" H 5450 3150 50  0001 C CNN
+F 1 "+8V" H 5465 3473 50  0000 C CNN
+F 2 "" H 5450 3300 50  0001 C CNN
+F 3 "" H 5450 3300 50  0001 C CNN
+	1    5450 3300
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

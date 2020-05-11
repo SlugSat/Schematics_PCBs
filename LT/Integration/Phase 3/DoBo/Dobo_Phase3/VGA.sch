@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 10
+Sheet 4 10
 Title ""
 Date ""
 Rev ""
@@ -280,22 +280,6 @@ Wire Wire Line
 	5800 3050 5900 3050
 Connection ~ 5800 3050
 $Comp
-L Connector:Conn_01x02_Male J11
-U 1 1 5E50257A
-P 5100 4300
-F 0 "J11" V 5100 3900 50  0000 R CNN
-F 1 "Conn_01x02_Male" V 5200 4050 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 5100 4300 50  0001 C CNN
-F 3 "~" H 5100 4300 50  0001 C CNN
-	1    5100 4300
-	0    -1   1    0   
-$EndComp
-Wire Wire Line
-	5100 4400 5100 4500
-Wire Wire Line
-	5000 4500 5100 4500
-Connection ~ 5100 4500
-$Comp
 L Device:C C27
 U 1 1 5E509049
 P 5550 1750
@@ -347,17 +331,6 @@ F 3 "" H 5400 1750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR033
-U 1 1 5E52AA4B
-P 5500 4500
-F 0 "#PWR033" H 5500 4250 50  0001 C CNN
-F 1 "GND" H 5505 4327 50  0000 C CNN
-F 2 "" H 5500 4500 50  0001 C CNN
-F 3 "" H 5500 4500 50  0001 C CNN
-	1    5500 4500
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:VS #PWR029
 U 1 1 5E52D788
 P 5000 4700
@@ -368,8 +341,6 @@ F 3 "" H 5000 4700 50  0001 C CNN
 	1    5000 4700
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	5000 4700 5000 4500
 Wire Wire Line
 	5100 2650 5100 2250
 Wire Wire Line
@@ -397,7 +368,7 @@ U 1 1 5E532DA5
 P 7200 2750
 F 0 "J13" H 7300 2725 50  0000 L CNN
 F 1 "Conn_Coaxial" H 7300 2634 50  0000 L CNN
-F 2 "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount" H 7200 2750 50  0001 C CNN
+F 2 "Connector_Coaxial:SMA_Amphenol_132291_Vertical" H 7200 2750 50  0001 C CNN
 F 3 " ~" H 7200 2750 50  0001 C CNN
 	1    7200 2750
 	1    0    0    -1  
@@ -443,13 +414,8 @@ Wire Wire Line
 	5400 3050 5400 3700
 Wire Wire Line
 	5400 3700 5000 3700
-Wire Wire Line
-	5000 3700 5000 4500
-Connection ~ 5000 4500
-Wire Wire Line
-	5200 4500 5500 4500
 Text HLabel 2050 2750 0    50   Input ~ 0
-IF_out
+VGA_input
 Wire Wire Line
 	2050 2750 2150 2750
 $Comp
@@ -513,4 +479,6 @@ F 3 "" H 3700 1950 50  0001 C CNN
 	1    3700 1950
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	5000 3700 5000 4700
 $EndSCHEMATC
