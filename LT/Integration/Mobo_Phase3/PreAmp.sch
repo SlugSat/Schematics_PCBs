@@ -148,28 +148,6 @@ Connection ~ 4650 2850
 Wire Wire Line
 	4650 2850 4650 2950
 $Comp
-L Connector:Conn_01x02_Female J10
-U 1 1 5EB64662
-P 5800 2300
-F 0 "J10" V 5740 2112 50  0000 R CNN
-F 1 "Conn_01x02_Female" V 5649 2112 50  0000 R CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 5800 2300 50  0001 C CNN
-F 3 "~" H 5800 2300 50  0001 C CNN
-	1    5800 2300
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:GND #PWR0108
-U 1 1 5EB64C4A
-P 5900 2500
-F 0 "#PWR0108" H 5900 2250 50  0001 C CNN
-F 1 "GND" H 5905 2327 50  0000 C CNN
-F 2 "" H 5900 2500 50  0001 C CNN
-F 3 "" H 5900 2500 50  0001 C CNN
-	1    5900 2500
-	1    0    0    -1  
-$EndComp
-$Comp
 L Connector:Conn_Coaxial J9
 U 1 1 5EB6B925
 P 6100 2850
@@ -220,6 +198,28 @@ F 1 "+8V" H 4665 2323 50  0000 C CNN
 F 2 "" H 4650 2150 50  0001 C CNN
 F 3 "" H 4650 2150 50  0001 C CNN
 	1    4650 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x05_Female J10
+U 1 1 5EB9C6B4
+P 6000 2300
+F 0 "J10" V 5940 2012 50  0000 R CNN
+F 1 "Conn_01x05_Female" V 5849 2012 50  0000 R CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical" H 6000 2300 50  0001 C CNN
+F 3 "~" H 6000 2300 50  0001 C CNN
+	1    6000 2300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0108
+U 1 1 5EB9E15B
+P 5900 2500
+F 0 "#PWR0108" H 5900 2250 50  0001 C CNN
+F 1 "GND" H 5905 2327 50  0000 C CNN
+F 2 "" H 5900 2500 50  0001 C CNN
+F 3 "" H 5900 2500 50  0001 C CNN
+	1    5900 2500
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
