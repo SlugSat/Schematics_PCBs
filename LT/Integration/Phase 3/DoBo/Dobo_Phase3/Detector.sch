@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 10
+Sheet 5 10
 Title ""
 Date ""
 Rev ""
@@ -190,7 +190,7 @@ F 3 "~" H 4900 4400 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Text HLabel 4600 4400 0    50   Input ~ 0
-VGA_Output
+Detector_Input
 Wire Wire Line
 	4600 4400 4750 4400
 $Comp

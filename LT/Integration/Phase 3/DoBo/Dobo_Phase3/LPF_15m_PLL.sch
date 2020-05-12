@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 9 10
+Sheet 6 10
 Title ""
 Date ""
 Rev ""
@@ -13,17 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L Connector:Conn_Coaxial J300
-U 1 1 5E4DB0EF
-P 2850 2200
-F 0 "J300" H 3200 2300 50  0000 C CNN
-F 1 "Conn_Coaxial" H 3250 2200 50  0000 C CNN
-F 2 "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount" H 2850 2200 50  0001 C CNN
-F 3 " ~" H 2850 2200 50  0001 C CNN
-	1    2850 2200
-	-1   0    0    -1  
-$EndComp
 $Comp
 L Device:L L301
 U 1 1 5E4DF0E6
@@ -104,12 +93,12 @@ $EndComp
 $Comp
 L Connector:Conn_Coaxial J301
 U 1 1 5E4E4646
-P 6250 2200
-F 0 "J301" H 6350 2175 50  0000 L CNN
-F 1 "Conn_Coaxial" H 6350 2084 50  0000 L CNN
-F 2 "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount" H 6250 2200 50  0001 C CNN
-F 3 " ~" H 6250 2200 50  0001 C CNN
-	1    6250 2200
+P 6850 2200
+F 0 "J301" H 6950 2175 50  0000 L CNN
+F 1 "Conn_Coaxial" H 6950 2084 50  0000 L CNN
+F 2 "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount" H 6850 2200 50  0001 C CNN
+F 3 " ~" H 6850 2200 50  0001 C CNN
+	1    6850 2200
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -132,7 +121,6 @@ Wire Wire Line
 Connection ~ 5400 2200
 Wire Wire Line
 	5400 2200 5750 2200
-Connection ~ 3500 2500
 Wire Wire Line
 	3500 2500 4150 2500
 Connection ~ 4150 2500
@@ -141,7 +129,6 @@ Wire Wire Line
 Connection ~ 4800 2500
 Wire Wire Line
 	4800 2500 5400 2500
-Connection ~ 5400 2500
 $Comp
 L Device:L L300
 U 1 1 5E4E763A
@@ -165,13 +152,7 @@ F 3 "~" H 5900 2200 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	2850 2400 2850 2500
-Wire Wire Line
-	2850 2500 3500 2500
-Wire Wire Line
-	6250 2500 6250 2400
-Wire Wire Line
-	5400 2500 6250 2500
+	6850 2500 6850 2400
 $Comp
 L power:GND #PWR0129
 U 1 1 5E4E98C9
@@ -186,4 +167,42 @@ $EndComp
 Connection ~ 4700 2500
 Wire Wire Line
 	4700 2500 4800 2500
+$Comp
+L Device:R R52
+U 1 1 5EE2561E
+P 2900 2200
+F 0 "R52" V 2693 2200 50  0000 C CNN
+F 1 "0" V 2784 2200 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2830 2200 50  0001 C CNN
+F 3 "~" H 2900 2200 50  0001 C CNN
+	1    2900 2200
+	0    1    1    0   
+$EndComp
+Text HLabel 2600 2200 0    50   Input ~ 0
+15m_PLL_Output
+Wire Wire Line
+	2600 2200 2750 2200
+$Comp
+L Device:R R53
+U 1 1 5EE26D32
+P 6200 2200
+F 0 "R53" V 5993 2200 50  0000 C CNN
+F 1 "0" V 6084 2200 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6130 2200 50  0001 C CNN
+F 3 "~" H 6200 2200 50  0001 C CNN
+	1    6200 2200
+	0    1    1    0   
+$EndComp
+Text HLabel 6550 1850 2    50   Input ~ 0
+Local_Oscillator_Output
+Wire Wire Line
+	5400 2500 6850 2500
+Connection ~ 5400 2500
+Wire Wire Line
+	6350 2200 6550 2200
+Wire Wire Line
+	6550 1850 6550 2200
+Connection ~ 6550 2200
+Wire Wire Line
+	6550 2200 6650 2200
 $EndSCHEMATC

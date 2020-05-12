@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 10 10
+Sheet 3 10
 Title ""
 Date ""
 Rev ""
@@ -14,25 +14,14 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Connector:Conn_Coaxial J302
-U 1 1 5E584FD6
-P 2950 2650
-F 0 "J302" H 2878 2888 50  0000 C CNN
-F 1 "Conn_Coaxial" H 2878 2797 50  0000 C CNN
-F 2 "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount" H 2950 2650 50  0001 C CNN
-F 3 " ~" H 2950 2650 50  0001 C CNN
-	1    2950 2650
-	-1   0    0    -1  
-$EndComp
-$Comp
 L Connector:Conn_Coaxial J306
 U 1 1 5E585AAA
-P 7200 2650
-F 0 "J306" H 7300 2625 50  0000 L CNN
-F 1 "Conn_Coaxial" H 7300 2534 50  0000 L CNN
-F 2 "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount" H 7200 2650 50  0001 C CNN
-F 3 " ~" H 7200 2650 50  0001 C CNN
-	1    7200 2650
+P 7800 2650
+F 0 "J306" H 7900 2625 50  0000 L CNN
+F 1 "Conn_Coaxial" H 7900 2534 50  0000 L CNN
+F 2 "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount" H 7800 2650 50  0001 C CNN
+F 3 " ~" H 7800 2650 50  0001 C CNN
+	1    7800 2650
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -134,16 +123,6 @@ Wire Wire Line
 Connection ~ 5450 2950
 Wire Wire Line
 	5450 2950 6500 2950
-Wire Wire Line
-	7200 2850 7200 2950
-Wire Wire Line
-	7200 2950 6500 2950
-Connection ~ 6500 2950
-Wire Wire Line
-	2950 2850 2950 2950
-Wire Wire Line
-	2950 2950 3550 2950
-Connection ~ 3550 2950
 $Comp
 L power:GND #PWR0142
 U 1 1 5E58AA02
@@ -190,4 +169,42 @@ Wire Wire Line
 	6800 2650 7000 2650
 Text Notes 2550 3650 0    50   ~ 0
 The first Rev of this filter was implemented using the 32.1MHz LPF board, but has been recreated as the PCB file represented here
+$Comp
+L Device:R R28
+U 1 1 5EE347F8
+P 3000 2650
+F 0 "R28" V 2793 2650 50  0000 C CNN
+F 1 "0" V 2884 2650 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2930 2650 50  0001 C CNN
+F 3 "~" H 3000 2650 50  0001 C CNN
+	1    3000 2650
+	0    1    1    0   
+$EndComp
+Text HLabel 2850 2650 0    50   Input ~ 0
+10m_PLL_Output
+$Comp
+L Device:R R51
+U 1 1 5EE35B28
+P 7150 2650
+F 0 "R51" V 6943 2650 50  0000 C CNN
+F 1 "0" V 7034 2650 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7080 2650 50  0001 C CNN
+F 3 "~" H 7150 2650 50  0001 C CNN
+	1    7150 2650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7300 2650 7500 2650
+Wire Wire Line
+	6500 2950 7800 2950
+Wire Wire Line
+	7800 2950 7800 2850
+Connection ~ 6500 2950
+Text HLabel 7500 2400 2    50   Input ~ 0
+Local_Oscillator_Output
+Wire Wire Line
+	7500 2400 7500 2650
+Connection ~ 7500 2650
+Wire Wire Line
+	7500 2650 7600 2650
 $EndSCHEMATC
