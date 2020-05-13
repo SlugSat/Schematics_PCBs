@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 10
+Sheet 9 10
 Title ""
 Date ""
 Rev ""
@@ -209,19 +209,6 @@ $EndComp
 Wire Wire Line
 	5600 2800 6150 2800
 $Comp
-L power:GND #PWR010
-U 1 1 5E566164
-P 2600 2800
-F 0 "#PWR010" H 2600 2550 50  0001 C CNN
-F 1 "GND" H 2605 2627 50  0000 C CNN
-F 2 "" H 2600 2800 50  0001 C CNN
-F 3 "" H 2600 2800 50  0001 C CNN
-	1    2600 2800
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2600 2800 3250 2800
-$Comp
 L power:GND #PWR011
 U 1 1 5E566693
 P 6150 2800
@@ -234,28 +221,6 @@ F 3 "" H 6150 2800 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2250 2500 2300 2500
-$Comp
-L Connector:Conn_01x02_Male J5
-U 1 1 5EB5471A
-P 1350 2500
-F 0 "J5" H 1458 2681 50  0000 C CNN
-F 1 "Conn_01x02_Male" H 1458 2590 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 1350 2500 50  0001 C CNN
-F 3 "~" H 1350 2500 50  0001 C CNN
-	1    1350 2500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x02_Male J6
-U 1 1 5EB54A90
-P 7200 2600
-F 0 "J6" H 7172 2482 50  0000 R CNN
-F 1 "Conn_01x02_Male" H 7172 2573 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 7200 2600 50  0001 C CNN
-F 3 "~" H 7200 2600 50  0001 C CNN
-	1    7200 2600
-	-1   0    0    1   
-$EndComp
 $Comp
 L Device:R R2
 U 1 1 5EB55CA0
@@ -281,37 +246,93 @@ $EndComp
 Text Notes 650  3600 0    197  ~ 39
 0 ohm resistors are used to short the circuit for testing purposes
 Wire Wire Line
-	1550 2500 1850 2500
-Wire Wire Line
-	1550 2600 1750 2600
-Wire Wire Line
-	1750 2600 1750 2800
-Wire Wire Line
-	1750 2800 2600 2800
-Connection ~ 2600 2800
-Wire Wire Line
 	6750 2500 6900 2500
-Wire Wire Line
-	7000 2600 7000 2800
-Wire Wire Line
-	7000 2800 6150 2800
 Connection ~ 6150 2800
-Text HLabel 1700 1950 0    50   Input ~ 0
-Down_Mixer_Output
-Wire Wire Line
-	1700 1950 1850 1950
-Wire Wire Line
-	1850 1950 1850 2500
-Connection ~ 1850 2500
 Wire Wire Line
 	1850 2500 1950 2500
 Text HLabel 7000 2300 2    50   Input ~ 0
-IF_output
+IF_Filter_Output
 Wire Wire Line
 	7000 2300 6900 2300
 Wire Wire Line
 	6900 2300 6900 2500
+$Comp
+L Connector:Conn_Coaxial J7
+U 1 1 5EE98DAD
+P 8250 2500
+F 0 "J7" H 8350 2475 50  0000 L CNN
+F 1 "Conn_Coaxial" H 8350 2384 50  0000 L CNN
+F 2 "Connector_Coaxial:SMA_Amphenol_132291_Vertical" H 8250 2500 50  0001 C CNN
+F 3 " ~" H 8250 2500 50  0001 C CNN
+	1    8250 2500
+	1    0    0    -1  
+$EndComp
 Connection ~ 6900 2500
 Wire Wire Line
-	6900 2500 7000 2500
+	8250 2800 8250 2700
+Text HLabel 1700 1950 0    50   Input ~ 0
+IF_Filter_Input
+Wire Wire Line
+	1700 1950 1850 1950
+Wire Wire Line
+	1850 1950 1850 2500
+Wire Wire Line
+	2600 2800 3250 2800
+$Comp
+L power:GND #PWR010
+U 1 1 5E566164
+P 2600 2800
+F 0 "#PWR010" H 2600 2550 50  0001 C CNN
+F 1 "GND" H 2605 2627 50  0000 C CNN
+F 2 "" H 2600 2800 50  0001 C CNN
+F 3 "" H 2600 2800 50  0001 C CNN
+	1    2600 2800
+	1    0    0    -1  
+$EndComp
+Connection ~ 2600 2800
+Wire Wire Line
+	1750 2800 2600 2800
+Wire Wire Line
+	1750 2600 1750 2800
+Wire Wire Line
+	1550 2600 1750 2600
+Connection ~ 1850 2500
+Wire Wire Line
+	1550 2500 1850 2500
+$Comp
+L Connector:Conn_01x02_Female J2
+U 1 1 5EFC06C0
+P 1350 2600
+F 0 "J2" H 1242 2275 50  0000 C CNN
+F 1 "Conn_01x02_Female" H 1242 2366 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 1350 2600 50  0001 C CNN
+F 3 "~" H 1350 2600 50  0001 C CNN
+	1    1350 2600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x02_Female J4
+U 1 1 5EFC250E
+P 7700 2600
+F 0 "J4" H 7728 2576 50  0000 L CNN
+F 1 "Conn_01x02_Female" H 7728 2485 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 7700 2600 50  0001 C CNN
+F 3 "~" H 7700 2600 50  0001 C CNN
+	1    7700 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6150 2800 7500 2800
+Wire Wire Line
+	6900 2500 7500 2500
+Wire Wire Line
+	7500 2600 7500 2500
+Connection ~ 7500 2500
+Wire Wire Line
+	7500 2500 8050 2500
+Wire Wire Line
+	7500 2700 7500 2800
+Connection ~ 7500 2800
+Wire Wire Line
+	7500 2800 8250 2800
 $EndSCHEMATC

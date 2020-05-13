@@ -15,17 +15,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Connector:Conn_01x02_Male J11
-U 1 1 5EB6D1F0
-P 2050 2250
-F 0 "J11" H 1950 2250 50  0000 C CNN
-F 1 "Conn_01x02_Male" H 1800 2100 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 2050 2250 50  0001 C CNN
-F 3 "~" H 2050 2250 50  0001 C CNN
-	1    2050 2250
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:R R14
 U 1 1 5EB6D28C
 P 2650 2250
@@ -56,7 +45,7 @@ F 1 "GND" H 2255 2177 50  0000 C CNN
 F 2 "" H 2250 2350 50  0001 C CNN
 F 3 "" H 2250 2350 50  0001 C CNN
 	1    2250 2350
-	1    0    0    -1  
+	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:Transformer_1P_SS T1
@@ -380,6 +369,17 @@ F 1 "GND" H 6855 2177 50  0000 C CNN
 F 2 "" H 6850 2350 50  0001 C CNN
 F 3 "" H 6850 2350 50  0001 C CNN
 	1    6850 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x05_Male J11
+U 1 1 5EB9DF65
+P 2050 2450
+F 0 "J11" H 1900 2600 50  0000 C CNN
+F 1 "Conn_01x05_Male" H 1650 2450 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 2050 2450 50  0001 C CNN
+F 3 "~" H 2050 2450 50  0001 C CNN
+	1    2050 2450
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

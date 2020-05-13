@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 6 10
+Sheet 2 10
 Title ""
 Date ""
 Rev ""
@@ -81,50 +81,6 @@ F 1 "GND" H 6105 3477 50  0000 C CNN
 F 2 "" H 6100 3650 50  0001 C CNN
 F 3 "" H 6100 3650 50  0001 C CNN
 	1    6100 3650
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:GND #PWR051
-U 1 1 5C6B419D
-P 6350 3650
-F 0 "#PWR051" H 6350 3400 50  0001 C CNN
-F 1 "GND" H 6355 3477 50  0000 C CNN
-F 2 "" H 6350 3650 50  0001 C CNN
-F 3 "" H 6350 3650 50  0001 C CNN
-	1    6350 3650
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:GND #PWR052
-U 1 1 5EAF5C20
-P 6400 3650
-F 0 "#PWR052" H 6400 3400 50  0001 C CNN
-F 1 "GND" H 6405 3477 50  0000 C CNN
-F 2 "" H 6400 3650 50  0001 C CNN
-F 3 "" H 6400 3650 50  0001 C CNN
-	1    6400 3650
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:GND #PWR054
-U 1 1 5EAF5C21
-P 6450 3650
-F 0 "#PWR054" H 6450 3400 50  0001 C CNN
-F 1 "GND" H 6455 3477 50  0000 C CNN
-F 2 "" H 6450 3650 50  0001 C CNN
-F 3 "" H 6450 3650 50  0001 C CNN
-	1    6450 3650
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:GND #PWR055
-U 1 1 5EAF5C22
-P 6500 3650
-F 0 "#PWR055" H 6500 3400 50  0001 C CNN
-F 1 "GND" H 6505 3477 50  0000 C CNN
-F 2 "" H 6500 3650 50  0001 C CNN
-F 3 "" H 6500 3650 50  0001 C CNN
-	1    6500 3650
 	-1   0    0    1   
 $EndComp
 Text Notes 3850 5350 0    50   ~ 10
@@ -378,46 +334,7 @@ Connection ~ 5400 2750
 Wire Wire Line
 	5400 2750 5400 3850
 Connection ~ 5700 2750
-Text GLabel 3900 2100 1    50   Input ~ 0
-PLL_Power
-Wire Wire Line
-	6350 4900 6300 4900
-Wire Wire Line
-	6350 4650 6350 4900
-$Comp
-L Connector:Conn_01x04_Male J19
-U 1 1 5C6E1196
-P 6200 5100
-F 0 "J19" V 6050 5100 50  0000 R CNN
-F 1 "Conn_01x04_Male" V 6150 5250 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 6200 5100 50  0001 C CNN
-F 3 "~" H 6200 5100 50  0001 C CNN
-	1    6200 5100
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:GND #PWR053
-U 1 1 5C6E1385
-P 6400 4900
-F 0 "#PWR053" H 6400 4650 50  0001 C CNN
-F 1 "GND" H 6405 4727 50  0000 C CNN
-F 2 "" H 6400 4900 50  0001 C CNN
-F 3 "" H 6400 4900 50  0001 C CNN
-	1    6400 4900
-	0    -1   -1   0   
-$EndComp
 Connection ~ 2650 2100
-$Comp
-L Device:C C55
-U 1 1 5C7E9D82
-P 11000 4150
-F 0 "C55" H 11115 4196 50  0000 L CNN
-F 1 "100nF" H 11115 4105 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 11038 4000 50  0001 C CNN
-F 3 "~" H 11000 4150 50  0001 C CNN
-	1    11000 4150
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:C C50
 U 1 1 5C7EFAA1
@@ -552,20 +469,6 @@ F 3 "" H 11000 6200 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	11350 6100 11350 6200
-Connection ~ 11000 4000
-Wire Wire Line
-	11000 4000 11150 4000
-$Comp
-L power:GND #PWR078
-U 1 1 5EAF5C4B
-P 11000 4300
-F 0 "#PWR078" H 11000 4050 50  0001 C CNN
-F 1 "GND" H 11005 4127 50  0000 C CNN
-F 2 "" H 11000 4300 50  0001 C CNN
-F 3 "" H 11000 4300 50  0001 C CNN
-	1    11000 4300
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	10700 4000 10200 4000
 Wire Wire Line
@@ -647,7 +550,7 @@ U 1 1 5EAF5C5F
 P 13050 6700
 F 0 "J27" H 12950 6600 50  0000 C CNN
 F 1 "Conn_Coaxial" H 13050 6900 50  0000 C CNN
-F 2 "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount" H 13050 6700 50  0001 C CNN
+F 2 "Connector_Coaxial:SMA_Amphenol_132291_Vertical" H 13050 6700 50  0001 C CNN
 F 3 " ~" H 13050 6700 50  0001 C CNN
 	1    13050 6700
 	1    0    0    -1  
@@ -685,7 +588,6 @@ Text Notes 3200 2300 0    50   ~ 10
 PLL Power
 Wire Wire Line
 	3250 4250 3250 7350
-Connection ~ 3250 4250
 Wire Wire Line
 	3250 4250 3550 4250
 Text Notes 12150 10900 0    50   Italic 10
@@ -700,13 +602,11 @@ U 1 1 5EAF5C3B
 P 7300 2250
 F 0 "Test_CP1" H 7100 2100 50  0000 C CNN
 F 1 "Conn_Coaxial" H 7400 2400 50  0000 C CNN
-F 2 "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount" H 7300 2250 50  0001 C CNN
+F 2 "Connector_Coaxial:SMA_Amphenol_132291_Vertical" H 7300 2250 50  0001 C CNN
 F 3 " ~" H 7300 2250 50  0001 C CNN
 	1    7300 2250
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	7500 2250 7850 2250
 $Comp
 L power:GND #PWR059
 U 1 1 5EAF5C3D
@@ -732,19 +632,7 @@ F 3 "~" H 6900 6100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6200 4650 6200 4750
-Wire Wire Line
-	6200 4750 6100 4750
-Wire Wire Line
-	6100 4750 6100 4900
-Wire Wire Line
-	6050 4650 6050 4850
-Wire Wire Line
-	6050 4850 6200 4850
-Wire Wire Line
-	6200 4850 6200 4900
-Text Notes 1950 4650 0    50   ~ 10
-VCO Test Oscillator (i)\n
+	6050 4650 6050 4700
 Text Notes 5950 5400 0    50   ~ 10
 Mircowire Interface
 Text Notes 6950 5950 0    50   ~ 10
@@ -794,7 +682,7 @@ Text GLabel 7250 4150 3    50   Input ~ 10
 CPo
 Text GLabel 6050 4700 0    50   Input ~ 10
 Data
-Text GLabel 6200 4700 2    50   Input ~ 10
+Text GLabel 6200 4800 0    50   Input ~ 10
 LE
 Text GLabel 6350 4750 2    50   Input ~ 10
 Clock
@@ -1048,22 +936,9 @@ Wire Wire Line
 	8150 5550 8600 5550
 Connection ~ 9350 2850
 Wire Wire Line
-	9750 2850 9750 3650
-Wire Wire Line
 	8450 4950 9750 4950
 Wire Wire Line
 	9350 2850 9750 2850
-$Comp
-L LT-Schematics:LMX231X U9
-U 1 1 5EAF5C8F
-P 6250 3300
-F 0 "U9" H 6100 2500 50  0000 C CNN
-F 1 "LMX231X" H 6150 2400 50  0000 C CNN
-F 2 "LT:LMX231X" H 5750 3000 50  0001 C CNN
-F 3 "" H 5750 3000 50  0001 C CNN
-	1    6250 3300
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:R_US R9
 U 1 1 5E7C46D4
@@ -1210,39 +1085,8 @@ Wire Wire Line
 	2450 2000 2450 2100
 Wire Wire Line
 	2450 2100 2650 2100
-$Comp
-L power:GND #PWR0135
-U 1 1 5EBB42B6
-P 6750 4050
-F 0 "#PWR0135" H 6750 3800 50  0001 C CNN
-F 1 "GND" H 6755 3877 50  0000 C CNN
-F 2 "" H 6750 4050 50  0001 C CNN
-F 3 "" H 6750 4050 50  0001 C CNN
-	1    6750 4050
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:GND #PWR0137
-U 1 1 5EBD62E5
-P 6850 4350
-F 0 "#PWR0137" H 6850 4100 50  0001 C CNN
-F 1 "GND" H 6855 4177 50  0000 C CNN
-F 2 "" H 6850 4350 50  0001 C CNN
-F 3 "" H 6850 4350 50  0001 C CNN
-	1    6850 4350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6750 4250 6850 4250
-Wire Wire Line
-	6850 4250 6850 4350
-Wire Wire Line
-	6750 4350 6850 4350
-Connection ~ 6850 4350
 Text HLabel 4700 5200 0    50   Input ~ 0
-Reference_Oscillator
-Wire Wire Line
-	10700 4000 11000 4000
+10MHz_Reference_Oscillator
 Connection ~ 10700 4000
 $Comp
 L power:+8V #PWR0138
@@ -1256,7 +1100,7 @@ F 3 "" H 11150 4000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text HLabel 12600 7200 2    50   Input ~ 0
-32.1_LO_Output
+15m_PLL_Output
 Wire Wire Line
 	12600 7200 12600 6700
 Connection ~ 12600 6700
@@ -1288,43 +1132,6 @@ F 3 "~" H 5550 7350 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5400 7350 3250 7350
-Wire Wire Line
-	3100 4250 3250 4250
-$Comp
-L power:GND #PWR038
-U 1 1 5C6B3952
-P 2200 4050
-F 0 "#PWR038" H 2200 3800 50  0001 C CNN
-F 1 "GND" H 2205 3877 50  0000 C CNN
-F 2 "" H 2200 4050 50  0001 C CNN
-F 3 "" H 2200 4050 50  0001 C CNN
-	1    2200 4050
-	-1   0    0    1   
-$EndComp
-$Comp
-L Connector:Conn_Coaxial J15
-U 1 1 5EAF5C17
-P 2200 4250
-F 0 "J15" H 2150 4400 50  0000 C CNN
-F 1 "Conn_Coaxial" H 2250 4450 50  0000 C CNN
-F 2 "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount" H 2200 4250 50  0001 C CNN
-F 3 " ~" H 2200 4250 50  0001 C CNN
-	1    2200 4250
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	2400 4250 2800 4250
-$Comp
-L Device:R R30
-U 1 1 5ECCC08B
-P 2950 4250
-F 0 "R30" V 2743 4250 50  0000 C CNN
-F 1 "0" V 2834 4250 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2880 4250 50  0001 C CNN
-F 3 "~" H 2950 4250 50  0001 C CNN
-	1    2950 4250
-	0    1    1    0   
-$EndComp
 $Comp
 L Device:R R42
 U 1 1 5ECE091C
@@ -1360,32 +1167,54 @@ Text Notes 3100 8350 0    197  ~ 39
 0 ohm resistors are used to short the circuit for testing purposes
 Wire Wire Line
 	6750 4150 8000 4150
+Wire Wire Line
+	10700 4000 11150 4000
+Wire Wire Line
+	6350 4650 6350 4750
+Wire Wire Line
+	6200 4650 6200 4800
+NoConn ~ 6750 4250
+NoConn ~ 6750 4350
 $Comp
-L Connector:TestPoint_Probe TP1
-U 1 1 5EB650E0
-P 7850 2250
-F 0 "TP1" H 8003 2351 50  0000 L CNN
-F 1 "TestPoint_Probe" H 8003 2260 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 8050 2250 50  0001 C CNN
-F 3 "~" H 8050 2250 50  0001 C CNN
-	1    7850 2250
+L LT-Schematics:LMX231X U9
+U 1 1 5EAF5C8F
+P 6250 3300
+F 0 "U9" H 6100 2500 50  0000 C CNN
+F 1 "LMX231X" H 6150 2400 50  0000 C CNN
+F 2 "LT:LMX231X" H 5750 3000 50  0001 C CNN
+F 3 "" H 5750 3000 50  0001 C CNN
+	1    6250 3300
 	1    0    0    -1  
 $EndComp
-Connection ~ 7850 2250
-Wire Wire Line
-	7850 2250 8000 2250
+NoConn ~ 6750 4050
 $Comp
-L Connector:TestPoint_Probe TP2
-U 1 1 5EB65EA5
-P 9750 3650
-F 0 "TP2" H 9903 3751 50  0000 L CNN
-F 1 "TestPoint_Probe" H 9903 3660 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 9950 3650 50  0001 C CNN
-F 3 "~" H 9950 3650 50  0001 C CNN
-	1    9750 3650
+L Connector:TestPoint TP1
+U 1 1 5EF4BA55
+P 8000 2250
+F 0 "TP1" H 8058 2368 50  0000 L CNN
+F 1 "TestPoint" H 8058 2277 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 8200 2250 50  0001 C CNN
+F 3 "~" H 8200 2250 50  0001 C CNN
+	1    8000 2250
 	1    0    0    -1  
 $EndComp
-Connection ~ 9750 3650
 Wire Wire Line
-	9750 3650 9750 4950
+	7500 2250 8000 2250
+Connection ~ 8000 2250
+Wire Wire Line
+	9750 2850 9750 3550
+$Comp
+L Connector:TestPoint TP2
+U 1 1 5EF64096
+P 9750 3550
+F 0 "TP2" V 9704 3738 50  0000 L CNN
+F 1 "TestPoint" V 9795 3738 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 9950 3550 50  0001 C CNN
+F 3 "~" H 9950 3550 50  0001 C CNN
+	1    9750 3550
+	0    1    1    0   
+$EndComp
+Connection ~ 9750 3550
+Wire Wire Line
+	9750 3550 9750 4950
 $EndSCHEMATC

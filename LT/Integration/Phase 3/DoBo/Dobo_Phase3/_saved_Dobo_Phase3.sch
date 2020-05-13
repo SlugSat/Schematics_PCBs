@@ -1,5 +1,6 @@
 EESchema Schematic File Version 4
-EELAYER 30 0
+LIBS:Dobo_Phase3-cache
+EELAYER 26 0
 EELAYER END
 $Descr A2 23386 16535
 encoding utf-8
@@ -14,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L SS:Bus J46
+L Dobo_Phase3-rescue:Bus-SS J46
 U 1 1 5EAFD80A
 P 11650 2800
 F 0 "J46" H 13178 3334 50  0000 L CNN
@@ -25,7 +26,7 @@ F 3 "" H 10350 3850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SS:Bus J46
+L Dobo_Phase3-rescue:Bus-SS J46
 U 2 1 5EB2EAA0
 P 11650 3700
 F 0 "J46" H 11645 4556 50  0000 C CNN
@@ -36,7 +37,7 @@ F 3 "" H 10350 4750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SS:Bus J46
+L Dobo_Phase3-rescue:Bus-SS J46
 U 3 1 5EB3328A
 P 11650 4650
 F 0 "J46" H 11645 5456 50  0000 C CNN
@@ -47,7 +48,7 @@ F 3 "" H 10350 5700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SS:Bus J46
+L Dobo_Phase3-rescue:Bus-SS J46
 U 4 1 5EB34CE3
 P 11650 5900
 F 0 "J46" H 13178 6534 50  0000 L CNN
@@ -57,13 +58,13 @@ F 3 "" H 10350 6950 50  0001 C CNN
 	4    11650 5900
 	1    0    0    -1  
 $EndComp
-Wire Notes Line width 39 style solid rgb(194, 0, 194)
+Wire Notes Line width 39 style solid rgb(194, 0, 0)
 	9600 1750 9600 6350
-Wire Notes Line width 39 style solid rgb(194, 0, 194)
+Wire Notes Line width 39 style solid rgb(194, 0, 0)
 	9600 6350 13600 6350
-Wire Notes Line width 39 style solid rgb(194, 0, 194)
+Wire Notes Line width 39 style solid rgb(194, 0, 0)
 	13600 6350 13600 1750
-Wire Notes Line width 39 style solid rgb(194, 0, 194)
+Wire Notes Line width 39 style solid rgb(194, 0, 0)
 	9600 1750 13600 1750
 Text Notes 11350 1550 0    197  ~ 39
 Bus
