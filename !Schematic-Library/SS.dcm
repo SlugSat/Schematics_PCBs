@@ -10,9 +10,19 @@ $CMP Bus
 D SS SatBus
 $ENDCMP
 #
+$CMP M20-7910842R
+D Headers & Wire Housings 8 WAY SIL HORIZ SMT SKT T&R
+F https://cdn.harwin.com/pdfs/M20-791R.pdf
+$ENDCMP
+#
 $CMP MICROFJ-30035-TSV-TR
 D Photodiodes J-SERIES 3MM 35U TSV
 F https://componentsearchengine.com/Datasheets/1/MICROFJ-30035-TSV-TR.pdf
+$ENDCMP
+#
+$CMP MICROFJ-60035-TSV-TR1
+D Silicon Photomultipliers (SiPM), High PDE and Timing Resolution Sensors in a TSV Package
+F https://www.onsemi.com/pub/Collateral/MICROJ-SERIES-D.PDF
 $ENDCMP
 #
 $CMP TPS63700DRCR-2
