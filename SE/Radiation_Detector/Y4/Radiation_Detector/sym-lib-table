@@ -1,2 +1,3 @@
 (sym_lib_table
+  (lib (name Radiation_Detector-rescue)(type Legacy)(uri ${KIPRJMOD}/Radiation_Detector-rescue.lib)(options "")(descr ""))
 )

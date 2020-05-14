@@ -1,9 +1,10 @@
 EESchema Schematic File Version 4
+LIBS:Radiation_Detector-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 3
+Sheet 1 4
 Title ""
 Date ""
 Rev ""
@@ -14,24 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L SS:MICROFJ-60035-TSV-TR1 IC1
-U 1 1 5EBBBC5F
-P 4750 1600
-F 0 "IC1" H 5000 -250 50  0000 C CNN
-F 1 "MICROFJ-60035-TSV-TR1" H 6050 -250 50  0000 C CNN
-F 2 "SS:SiPM_BGA36C100P6X6_613X613X67" H 6600 1700 50  0001 L CNN
-F 3 "https://www.onsemi.com/pub/Collateral/MICROJ-SERIES-D.PDF" H 6600 1600 50  0001 L CNN
-F 4 "Silicon Photomultipliers (SiPM), High PDE and Timing Resolution Sensors in a TSV Package" H 6600 1500 50  0001 L CNN "Description"
-F 5 "0.67" H 6600 1400 50  0001 L CNN "Height"
-F 6 "863-MFJ60035TSVTR1" H 6600 1300 50  0001 L CNN "Mouser Part Number"
-F 7 "https://www.mouser.co.uk/ProductDetail/ON-Semiconductor/MICROFJ-60035-TSV-TR1?qs=byeeYqUIh0NZJG9dg5%252B6Ug%3D%3D" H 6600 1200 50  0001 L CNN "Mouser Price/Stock"
-F 8 "ON Semiconductor" H 6600 1100 50  0001 L CNN "Manufacturer_Name"
-F 9 "MICROFJ-60035-TSV-TR1" H 6600 1000 50  0001 L CNN "Manufacturer_Part_Number"
-	1    4750 1600
-	1    0    0    -1  
-$EndComp
-$Comp
-L SS:Bus J1
+L Radiation_Detector-rescue:Bus-SS J1
 U 1 1 5EBBBD0C
 P 1350 2000
 F 0 "J1" V -200 2700 50  0000 L CNN
@@ -80,67 +64,6 @@ Wire Wire Line
 	1350 1750 1450 1750
 Wire Wire Line
 	1350 1550 1450 1550
-$Comp
-L power:GND #PWR0103
-U 1 1 5EBC13B6
-P 6950 3300
-F 0 "#PWR0103" H 6950 3050 50  0001 C CNN
-F 1 "GND" H 7050 3300 50  0000 C CNN
-F 2 "" H 6950 3300 50  0001 C CNN
-F 3 "" H 6950 3300 50  0001 C CNN
-	1    6950 3300
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0104
-U 1 1 5EBC14D7
-P 4550 3300
-F 0 "#PWR0104" H 4550 3050 50  0001 C CNN
-F 1 "GND" H 4650 3300 50  0000 C CNN
-F 2 "" H 4550 3300 50  0001 C CNN
-F 3 "" H 4550 3300 50  0001 C CNN
-	1    4550 3300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4650 2900 4650 3000
-Connection ~ 4650 2900
-Wire Wire Line
-	4650 3000 4650 3100
-Connection ~ 4650 3000
-Wire Wire Line
-	4650 3100 4650 3200
-Connection ~ 4650 3100
-Wire Wire Line
-	4650 2700 4650 2600
-Connection ~ 4650 2700
-Wire Wire Line
-	4650 2600 4650 2500
-Connection ~ 4650 2600
-Wire Wire Line
-	4650 2500 4650 2400
-Connection ~ 4650 2500
-Wire Wire Line
-	4650 2400 4650 2300
-Connection ~ 4650 2400
-Wire Wire Line
-	4650 2300 4650 2200
-Connection ~ 4650 2300
-Wire Wire Line
-	4650 2200 4650 2100
-Connection ~ 4650 2200
-Wire Wire Line
-	4650 2100 4650 2000
-Connection ~ 4650 2100
-Wire Wire Line
-	4650 2000 4650 1900
-Connection ~ 4650 2000
-Wire Wire Line
-	4650 1900 4650 1800
-Connection ~ 4650 1900
-Wire Wire Line
-	4650 1800 4650 1700
-Connection ~ 4650 1800
 $Comp
 L Device:R_US R1
 U 1 1 5EBE2FC5
@@ -229,75 +152,6 @@ F 3 "" H 1450 2850 50  0001 C CNN
 	1    1450 2850
 	1    0    0    -1  
 $EndComp
-$Comp
-L 001:C C2
-U 1 1 5EC53B0C
-P 4650 1000
-F 0 "C2" H 4850 950 50  0000 L CNN
-F 1 "10 nF (HV)" H 4550 1150 50  0000 L CNN
-F 2 "" H 4700 1090 50  0001 C CNN
-F 3 "" H 4700 1090 50  0001 C CNN
-	1    4650 1000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_US R6
-U 1 1 5EC964B4
-P 7050 1350
-F 0 "R6" H 7100 1250 50  0000 C CNN
-F 1 "1 k" H 7200 1400 50  0000 C CNN
-F 2 "" V 7090 1340 50  0001 C CNN
-F 3 "~" H 7050 1350 50  0001 C CNN
-	1    7050 1350
-	1    0    0    1   
-$EndComp
-$Comp
-L power:GND #PWR0108
-U 1 1 5ECA755E
-P 7050 1600
-F 0 "#PWR0108" H 7050 1350 50  0001 C CNN
-F 1 "GND" H 7150 1600 50  0000 C CNN
-F 2 "" H 7050 1600 50  0001 C CNN
-F 3 "" H 7050 1600 50  0001 C CNN
-	1    7050 1600
-	1    0    0    -1  
-$EndComp
-$Comp
-L 001:C C3
-U 1 1 5ECC1839
-P 7250 1000
-F 0 "C3" H 7450 950 50  0000 L CNN
-F 1 "1 uF" V 7400 900 50  0000 L CNN
-F 2 "" H 7300 1090 50  0001 C CNN
-F 3 "" H 7300 1090 50  0001 C CNN
-	1    7250 1000
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7050 1500 7050 1600
-$Comp
-L Device:R_US R7
-U 1 1 5ED1A67C
-P 8100 1200
-F 0 "R7" V 8000 1200 50  0000 C CNN
-F 1 "108 k" V 8200 1200 50  0000 C CNN
-F 2 "" V 8140 1190 50  0001 C CNN
-F 3 "~" H 8100 1200 50  0001 C CNN
-	1    8100 1200
-	0    1    -1   0   
-$EndComp
-Text Notes 5700 1250 0    100  ~ 20
-Charge\nSensitive\nPreamplifier
-$Sheet
-S 5350 600  1500 800 
-U 5ED7F1DB
-F0 "Charge_Sensitive_Preamplifier" 50
-F1 "Charge_Sensitive_Preamplifier.sch" 50
-F2 "GND" I L 5350 1200 50 
-F3 "+8V" I L 5350 800 50 
-F4 "CSP_In" I L 5350 1000 50 
-F5 "CSP_Out" I R 6850 1000 50 
-$EndSheet
 Wire Wire Line
 	1350 2550 1450 2550
 Wire Wire Line
@@ -324,61 +178,8 @@ Wire Wire Line
 	1450 3350 1450 3450
 Text Notes 750  3400 1    100  ~ 20
 SatBus
-Text GLabel 5300 800  0    50   Input ~ 10
-+8V
-Wire Wire Line
-	5300 800  5350 800 
-Text GLabel 5300 1200 0    50   Input ~ 10
-GND
-Wire Wire Line
-	5300 1200 5350 1200
-Text Notes 5450 1900 0    100  ~ 20
-SiPM
 Text Notes 2100 1700 0    100  ~ 20
 +30V\nBias
-$Sheet
-S 8450 600  1200 1000
-U 5EDDF03B
-F0 "Pulse_Shaper" 50
-F1 "Pulse_Shaper.sch" 50
-F2 "PS_In" I L 8450 1000 50 
-F3 "PS_Out" I R 9650 1000 50 
-F4 "GND" I L 8450 1400 50 
-F5 "+8V" I L 8450 800 50 
-F6 "R_PZ" I L 8450 1200 50 
-$EndSheet
-Text Notes 8750 1250 0    100  ~ 20
-Pulse\nShaper
-Text GLabel 8400 800  0    50   Input ~ 10
-+8V
-Wire Wire Line
-	8400 800  8450 800 
-Text GLabel 8400 1400 0    50   Input ~ 10
-GND
-Wire Wire Line
-	8400 1400 8450 1400
-Wire Wire Line
-	8450 1200 8250 1200
-Wire Wire Line
-	6850 1000 7050 1000
-Wire Wire Line
-	7050 1200 7050 1000
-Connection ~ 7050 1000
-Wire Wire Line
-	7050 1000 7250 1000
-Wire Wire Line
-	7550 1000 7750 1000
-Wire Wire Line
-	7950 1200 7750 1200
-Wire Wire Line
-	7750 1200 7750 1000
-Wire Wire Line
-	7750 1000 8450 1000
-Connection ~ 7750 1000
-Text GLabel 9850 1000 2    50   Input ~ 10
-PS-A2D
-Wire Wire Line
-	9850 1000 9650 1000
 Text GLabel 1750 1000 0    50   Input ~ 10
 +30V
 Wire Wire Line
@@ -408,8 +209,6 @@ Wire Wire Line
 Wire Wire Line
 	2850 1500 2850 1700
 Wire Wire Line
-	4250 1200 4250 1000
-Wire Wire Line
 	3050 1200 3050 1000
 Wire Wire Line
 	2850 1000 3050 1000
@@ -427,150 +226,108 @@ Wire Wire Line
 	3800 800  4250 800 
 Wire Wire Line
 	3050 800  3500 800 
+Wire Wire Line
+	4250 800  4250 1000
+$Sheet
+S 4850 800  1050 800 
+U 5EBD2B15
+F0 "Detector_1" 50
+F1 "Detector_1.sch" 50
+F2 "+30V_Bias" I L 4850 1000 50 
+F3 "+8V" I L 4850 1200 50 
+F4 "GND" I L 4850 1400 50 
+F5 "PS-A2D" I R 5900 1200 50 
+$EndSheet
+Text Notes 5100 1250 0    100  ~ 20
+Det_1
+$Sheet
+S 4850 1800 1050 800 
+U 5EC023EE
+F0 "sheet5EC023E8" 50
+F1 "Detector_1.sch" 50
+F2 "+30V_Bias" I L 4850 2000 50 
+F3 "+8V" I L 4850 2200 50 
+F4 "GND" I L 4850 2400 50 
+F5 "PS-A2D" I R 5900 2200 50 
+$EndSheet
+Text Notes 5100 2250 0    100  ~ 20
+Det_2
+$Sheet
+S 4850 2800 1050 800 
+U 5EC027A1
+F0 "sheet5EC0279B" 50
+F1 "Detector_1.sch" 50
+F2 "+30V_Bias" I L 4850 3000 50 
+F3 "+8V" I L 4850 3200 50 
+F4 "GND" I L 4850 3400 50 
+F5 "PS-A2D" I R 5900 3200 50 
+$EndSheet
+Text Notes 5100 3250 0    100  ~ 20
+Det_3
+$Sheet
+S 4850 3800 1050 800 
+U 5EC02B54
+F0 "sheet5EC02B4E" 50
+F1 "Detector_1.sch" 50
+F2 "+30V_Bias" I L 4850 4000 50 
+F3 "+8V" I L 4850 4200 50 
+F4 "GND" I L 4850 4400 50 
+F5 "PS-A2D" I R 5900 4200 50 
+$EndSheet
+Text Notes 5100 4250 0    100  ~ 20
+Det_4\n
 Connection ~ 4250 1000
 Wire Wire Line
-	4250 1000 4250 800 
+	4250 1000 4250 1200
 Wire Wire Line
-	4550 3300 4550 3200
-Wire Wire Line
-	4550 3200 4650 3200
-Connection ~ 4650 3200
-Wire Wire Line
-	6950 3300 6950 3200
-Wire Wire Line
-	6850 3200 6850 3100
-Connection ~ 6850 3200
-Wire Wire Line
-	6850 3200 6950 3200
-Wire Wire Line
-	6750 1600 6850 1600
-Wire Wire Line
-	6750 1700 6850 1700
-Connection ~ 6850 1700
-Wire Wire Line
-	6850 1700 6850 1600
-Wire Wire Line
-	6750 1800 6850 1800
-Connection ~ 6850 1800
-Wire Wire Line
-	6850 1800 6850 1700
-Connection ~ 6850 1900
-Wire Wire Line
-	6850 1900 6850 1800
-Wire Wire Line
-	6750 1900 6850 1900
-Wire Wire Line
-	6750 2400 6850 2400
-Connection ~ 6850 2400
-Wire Wire Line
-	6850 2400 6850 2300
-Wire Wire Line
-	6750 2300 6850 2300
-Connection ~ 6850 2300
-Wire Wire Line
-	6850 2300 6850 2200
-Wire Wire Line
-	6750 2200 6850 2200
-Connection ~ 6850 2200
-Wire Wire Line
-	6750 2000 6850 2000
-Wire Wire Line
-	6850 2000 6850 1900
-Wire Wire Line
-	6750 2500 6850 2500
-Connection ~ 6850 2500
-Wire Wire Line
-	6850 2500 6850 2400
-Wire Wire Line
-	6750 2600 6850 2600
-Connection ~ 6850 2600
-Wire Wire Line
-	6850 2600 6850 2500
-Wire Wire Line
-	6750 2700 6850 2700
-Connection ~ 6850 2700
-Wire Wire Line
-	6850 2700 6850 2600
-Connection ~ 6850 2800
-Wire Wire Line
-	6850 2800 6850 2700
-Wire Wire Line
-	6750 2800 6850 2800
-Wire Wire Line
-	6750 3200 6850 3200
-Wire Wire Line
-	6750 3100 6850 3100
-Connection ~ 6850 3100
-Wire Wire Line
-	6850 3100 6850 3000
-Wire Wire Line
-	6750 3000 6850 3000
-Connection ~ 6850 3000
-Wire Wire Line
-	6850 3000 6850 2900
-Wire Wire Line
-	6750 2900 6850 2900
-Connection ~ 6850 2900
-Wire Wire Line
-	6850 2900 6850 2800
-Wire Wire Line
-	6750 3300 6850 3300
-Wire Wire Line
-	6850 3300 6850 3500
-Wire Wire Line
-	4650 1700 4750 1700
-Wire Wire Line
-	4650 1800 4750 1800
-Wire Wire Line
-	4650 1900 4750 1900
-Wire Wire Line
-	4650 2000 4750 2000
-Wire Wire Line
-	4650 2100 4750 2100
-Wire Wire Line
-	4650 2200 4750 2200
-Wire Wire Line
-	4650 2300 4750 2300
-Wire Wire Line
-	4650 2400 4750 2400
-Wire Wire Line
-	4650 2500 4750 2500
-Wire Wire Line
-	4650 2600 4750 2600
-Wire Wire Line
-	4650 2700 4750 2700
-Wire Wire Line
-	4650 2700 4650 2800
-Wire Wire Line
-	4650 2900 4750 2900
-Wire Wire Line
-	4650 3000 4750 3000
-Wire Wire Line
-	4650 3100 4750 3100
-Wire Wire Line
-	4750 2800 4650 2800
-Connection ~ 4650 2800
-Wire Wire Line
-	4650 2800 4650 2900
-Wire Wire Line
-	4650 3200 4750 3200
-Wire Wire Line
-	4450 1600 4450 3500
-Wire Wire Line
-	4450 3500 6850 3500
-Wire Wire Line
-	5350 1000 4950 1000
-Wire Wire Line
-	4450 1600 4750 1600
-Wire Wire Line
-	6850 2000 6850 2200
-Connection ~ 6850 2000
-Wire Wire Line
-	4250 1000 4450 1000
-Wire Wire Line
-	4450 1000 4450 1600
+	4450 1000 4450 2000
 Connection ~ 4450 1000
 Wire Wire Line
-	4450 1000 4650 1000
-Connection ~ 4450 1600
+	4450 1000 4250 1000
+Connection ~ 4450 3000
+Wire Wire Line
+	4450 3000 4450 4000
+Connection ~ 4450 2000
+Wire Wire Line
+	4450 2000 4450 3000
+Text GLabel 4750 1200 0    50   Input ~ 0
++8V
+Wire Wire Line
+	4450 1000 4850 1000
+Wire Wire Line
+	4850 1200 4750 1200
+Text GLabel 4750 1400 0    50   Input ~ 0
+GND
+Wire Wire Line
+	4750 1400 4850 1400
+Wire Wire Line
+	4450 2000 4850 2000
+Wire Wire Line
+	4450 3000 4850 3000
+Wire Wire Line
+	4450 4000 4850 4000
+Text GLabel 4750 2200 0    50   Input ~ 0
++8V
+Wire Wire Line
+	4850 2200 4750 2200
+Text GLabel 4750 2400 0    50   Input ~ 0
+GND
+Wire Wire Line
+	4750 2400 4850 2400
+Text GLabel 4750 3200 0    50   Input ~ 0
++8V
+Wire Wire Line
+	4850 3200 4750 3200
+Text GLabel 4750 3400 0    50   Input ~ 0
+GND
+Wire Wire Line
+	4750 3400 4850 3400
+Text GLabel 4750 4200 0    50   Input ~ 0
++8V
+Wire Wire Line
+	4850 4200 4750 4200
+Text GLabel 4750 4400 0    50   Input ~ 0
+GND
+Wire Wire Line
+	4750 4400 4850 4400
 $EndSCHEMATC
