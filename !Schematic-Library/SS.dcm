@@ -1,3 +1,8 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP AFBR-S4N44C013
+D SIPM CSP 4X4MM 30UM NUVHD - Bulk
+F https://componentsearchengine.com/Datasheets/1/AFBR-S4N44C013.pdf
+$ENDCMP
+#
 #End Doc Library

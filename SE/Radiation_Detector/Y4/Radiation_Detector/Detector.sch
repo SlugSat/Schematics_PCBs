@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 11 17
+Sheet 2 17
 Title ""
 Date ""
 Rev ""
@@ -14,69 +14,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L Radiation_Detector-rescue:MICROFJ-60035-TSV-TR1-SS IC?
-U 1 1 5EBD2BB6
-P 1800 2050
-AR Path="/5EBD2B15/5EBD2BB6" Ref="IC?"  Part="1" 
-AR Path="/5EC023EE/5EBD2BB6" Ref="IC?"  Part="1" 
-AR Path="/5EC027A1/5EBD2BB6" Ref="IC?"  Part="1" 
-AR Path="/5EC02B54/5EBD2BB6" Ref="IC?"  Part="1" 
-AR Path="/5EC10E33/5EBD2BB6" Ref="IC?"  Part="1" 
-AR Path="/5EC116B0/5EBD2BB6" Ref="IC?"  Part="1" 
-AR Path="/5EC11F15/5EBD2BB6" Ref="IC?"  Part="1" 
-F 0 "IC?" H 2050 200 50  0000 C CNN
-F 1 "MICROFJ-60035-TSV-TR1" H 3100 200 50  0000 C CNN
-F 2 "SS:SiPM_BGA36C100P6X6_613X613X67" H 3650 2150 50  0001 L CNN
-F 3 "https://www.onsemi.com/pub/Collateral/MICROJ-SERIES-D.PDF" H 3650 2050 50  0001 L CNN
-F 4 "Silicon Photomultipliers (SiPM), High PDE and Timing Resolution Sensors in a TSV Package" H 3650 1950 50  0001 L CNN "Description"
-F 5 "0.67" H 3650 1850 50  0001 L CNN "Height"
-F 6 "863-MFJ60035TSVTR1" H 3650 1750 50  0001 L CNN "Mouser Part Number"
-F 7 "https://www.mouser.co.uk/ProductDetail/ON-Semiconductor/MICROFJ-60035-TSV-TR1?qs=byeeYqUIh0NZJG9dg5%252B6Ug%3D%3D" H 3650 1650 50  0001 L CNN "Mouser Price/Stock"
-F 8 "ON Semiconductor" H 3650 1550 50  0001 L CNN "Manufacturer_Name"
-F 9 "MICROFJ-60035-TSV-TR1" H 3650 1450 50  0001 L CNN "Manufacturer_Part_Number"
-	1    1800 2050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1700 3350 1700 3450
-Connection ~ 1700 3350
-Wire Wire Line
-	1700 3450 1700 3550
-Connection ~ 1700 3450
-Wire Wire Line
-	1700 3550 1700 3650
-Connection ~ 1700 3550
-Wire Wire Line
-	1700 3150 1700 3050
-Connection ~ 1700 3150
-Wire Wire Line
-	1700 3050 1700 2950
-Connection ~ 1700 3050
-Wire Wire Line
-	1700 2950 1700 2850
-Connection ~ 1700 2950
-Wire Wire Line
-	1700 2850 1700 2750
-Connection ~ 1700 2850
-Wire Wire Line
-	1700 2750 1700 2650
-Connection ~ 1700 2750
-Wire Wire Line
-	1700 2650 1700 2550
-Connection ~ 1700 2650
-Wire Wire Line
-	1700 2550 1700 2450
-Connection ~ 1700 2550
-Wire Wire Line
-	1700 2450 1700 2350
-Connection ~ 1700 2450
-Wire Wire Line
-	1700 2350 1700 2250
-Connection ~ 1700 2350
-Wire Wire Line
-	1700 2250 1700 2150
-Connection ~ 1700 2250
 $Comp
 L 001:C C?
 U 1 1 5EBD2BE3
@@ -161,7 +98,7 @@ F3 "+8V" I L 2300 1250 50
 F4 "CSP_In" I L 2300 1450 50 
 F5 "CSP_Out" I R 3800 1450 50 
 $EndSheet
-Text Notes 2500 2350 0    100  ~ 20
+Text Notes 2150 2300 0    100  ~ 20
 SiPM
 $Sheet
 S 5400 1050 1200 1000
@@ -197,122 +134,7 @@ Connection ~ 4700 1450
 Wire Wire Line
 	6800 1450 6600 1450
 Wire Wire Line
-	3900 3650 3900 3550
-Wire Wire Line
-	3800 2050 3900 2050
-Wire Wire Line
-	3800 2150 3900 2150
-Connection ~ 3900 2150
-Wire Wire Line
-	3900 2150 3900 2050
-Wire Wire Line
-	3800 2250 3900 2250
-Connection ~ 3900 2250
-Wire Wire Line
-	3900 2250 3900 2150
-Connection ~ 3900 2350
-Wire Wire Line
-	3900 2350 3900 2250
-Wire Wire Line
-	3800 2350 3900 2350
-Wire Wire Line
-	3800 2850 3900 2850
-Connection ~ 3900 2850
-Wire Wire Line
-	3900 2850 3900 2750
-Wire Wire Line
-	3800 2750 3900 2750
-Connection ~ 3900 2750
-Wire Wire Line
-	3900 2750 3900 2650
-Wire Wire Line
-	3800 2650 3900 2650
-Connection ~ 3900 2650
-Wire Wire Line
-	3800 2450 3900 2450
-Wire Wire Line
-	3900 2450 3900 2350
-Wire Wire Line
-	3800 2950 3900 2950
-Connection ~ 3900 2950
-Wire Wire Line
-	3900 2950 3900 2850
-Wire Wire Line
-	3800 3050 3900 3050
-Connection ~ 3900 3050
-Wire Wire Line
-	3900 3050 3900 2950
-Wire Wire Line
-	3800 3150 3900 3150
-Connection ~ 3900 3150
-Wire Wire Line
-	3900 3150 3900 3050
-Connection ~ 3900 3250
-Wire Wire Line
-	3900 3250 3900 3150
-Wire Wire Line
-	3800 3250 3900 3250
-Wire Wire Line
-	3800 3650 3900 3650
-Wire Wire Line
-	3800 3550 3900 3550
-Connection ~ 3900 3550
-Wire Wire Line
-	3900 3550 3900 3450
-Wire Wire Line
-	3800 3450 3900 3450
-Connection ~ 3900 3450
-Wire Wire Line
-	3900 3450 3900 3350
-Wire Wire Line
-	3800 3350 3900 3350
-Connection ~ 3900 3350
-Wire Wire Line
-	3900 3350 3900 3250
-Wire Wire Line
-	3800 3750 3900 3750
-Wire Wire Line
-	1700 2150 1800 2150
-Wire Wire Line
-	1700 2250 1800 2250
-Wire Wire Line
-	1700 2350 1800 2350
-Wire Wire Line
-	1700 2450 1800 2450
-Wire Wire Line
-	1700 2550 1800 2550
-Wire Wire Line
-	1700 2650 1800 2650
-Wire Wire Line
-	1700 2750 1800 2750
-Wire Wire Line
-	1700 2850 1800 2850
-Wire Wire Line
-	1700 2950 1800 2950
-Wire Wire Line
-	1700 3050 1800 3050
-Wire Wire Line
-	1700 3150 1800 3150
-Wire Wire Line
-	1700 3150 1700 3250
-Wire Wire Line
-	1700 3350 1800 3350
-Wire Wire Line
-	1700 3450 1800 3450
-Wire Wire Line
-	1700 3550 1800 3550
-Wire Wire Line
-	1800 3250 1700 3250
-Connection ~ 1700 3250
-Wire Wire Line
-	1700 3250 1700 3350
-Wire Wire Line
-	1700 3650 1800 3650
-Wire Wire Line
 	2300 1450 1900 1450
-Wire Wire Line
-	3900 2450 3900 2650
-Connection ~ 3900 2450
 Text HLabel 1200 1450 0    50   Input ~ 0
 +30V_Bias
 Text HLabel 2200 1250 0    50   Input ~ 0
@@ -335,36 +157,116 @@ Text HLabel 4100 2150 2    50   Input ~ 0
 GND
 Wire Wire Line
 	4000 1950 4000 2150
-Text HLabel 4000 3650 2    50   Input ~ 0
-GND
-Wire Wire Line
-	4000 3650 3900 3650
-Connection ~ 3900 3650
 Wire Wire Line
 	4100 2150 4000 2150
-Text HLabel 1600 3650 0    50   Input ~ 0
+Text HLabel 6800 1450 2    50   Input ~ 0
+PS-A2D
+$Comp
+L SS:AFBR-S4N44C013 D?
+U 1 1 5EBFD8B9
+P 1600 2200
+F 0 "D?" H 1850 1350 50  0000 C CNN
+F 1 "AFBR-S4N44C013" H 2650 1350 50  0000 C CNN
+F 2 "BGA16C97P4X4_388X388X60" H 3050 2300 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/AFBR-S4N44C013.pdf" H 3050 2200 50  0001 L CNN
+F 4 "SIPM CSP 4X4MM 30UM NUVHD - Bulk" H 3050 2100 50  0001 L CNN "Description"
+F 5 "0.6" H 3050 2000 50  0001 L CNN "Height"
+F 6 "Avago Technologies" H 3050 1700 50  0001 L CNN "Manufacturer_Name"
+F 7 "AFBR-S4N44C013" H 3050 1600 50  0001 L CNN "Manufacturer_Part_Number"
+	1    1600 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1600 2200 1500 2200
+Wire Wire Line
+	1500 2900 1600 2900
+Wire Wire Line
+	1600 2800 1500 2800
+Connection ~ 1500 2800
+Wire Wire Line
+	1500 2800 1500 2900
+Wire Wire Line
+	1500 2200 1500 2300
+Wire Wire Line
+	1600 2600 1500 2600
+Connection ~ 1500 2600
+Wire Wire Line
+	1500 2600 1500 2800
+Wire Wire Line
+	1500 2500 1600 2500
+Connection ~ 1500 2500
+Wire Wire Line
+	1500 2500 1500 2600
+Wire Wire Line
+	1600 2400 1500 2400
+Connection ~ 1500 2400
+Wire Wire Line
+	1500 2400 1500 2500
+Wire Wire Line
+	1500 2300 1600 2300
+Connection ~ 1500 2300
+Wire Wire Line
+	1500 2300 1500 2400
+Wire Wire Line
+	3200 2200 3300 2200
+Wire Wire Line
+	3300 2200 3300 2300
+Wire Wire Line
+	3300 2900 3200 2900
+Wire Wire Line
+	3200 2800 3300 2800
+Connection ~ 3300 2800
+Wire Wire Line
+	3300 2800 3300 2900
+Wire Wire Line
+	3300 2700 3200 2700
+Connection ~ 3300 2700
+Wire Wire Line
+	3300 2700 3300 2800
+Wire Wire Line
+	3200 2600 3300 2600
+Connection ~ 3300 2600
+Wire Wire Line
+	3300 2600 3300 2700
+Wire Wire Line
+	3300 2500 3200 2500
+Connection ~ 3300 2500
+Wire Wire Line
+	3300 2500 3300 2600
+Wire Wire Line
+	3200 2300 3300 2300
+Connection ~ 3300 2300
+Wire Wire Line
+	3300 2300 3300 2500
+Connection ~ 1500 2900
+Wire Wire Line
+	1500 2900 1500 3100
+Wire Wire Line
+	1500 3100 3300 3100
+Wire Wire Line
+	3300 3100 3300 2900
+Connection ~ 3300 2900
+Text HLabel 3400 3100 2    50   Input ~ 0
 GND
 Wire Wire Line
-	1600 3650 1700 3650
-Connection ~ 1700 3650
+	3300 3100 3400 3100
+Connection ~ 3300 3100
 Wire Wire Line
-	1800 2050 1400 2050
+	3200 2400 3400 2400
+Wire Wire Line
+	1600 2700 1400 2700
+Wire Wire Line
+	3400 2000 1400 2000
+Wire Wire Line
+	3400 2000 3400 2400
+Wire Wire Line
+	1400 2000 1400 2700
 Wire Wire Line
 	1200 1450 1400 1450
-Wire Wire Line
-	1400 2050 1400 1450
 Connection ~ 1400 1450
 Wire Wire Line
 	1400 1450 1600 1450
 Wire Wire Line
-	3900 4050 1300 4050
-Wire Wire Line
-	1300 4050 1300 2050
-Wire Wire Line
-	1300 2050 1400 2050
-Wire Wire Line
-	3900 3750 3900 4050
-Connection ~ 1400 2050
-Text HLabel 6800 1450 2    50   Input ~ 0
-PS-A2D
+	1400 1450 1400 2000
+Connection ~ 1400 2000
 $EndSCHEMATC
