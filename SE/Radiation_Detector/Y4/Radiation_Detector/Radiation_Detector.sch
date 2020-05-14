@@ -1,0 +1,333 @@
+EESchema Schematic File Version 4
+LIBS:Radiation_Detector-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Radiation_Detector-rescue:Bus-SS J1
+U 1 1 5EBBBD0C
+P 1350 2000
+F 0 "J1" V -200 2700 50  0000 L CNN
+F 1 "Bus" V -200 2150 50  0000 L CNN
+F 2 "SS:STD_PCB_A1_v1.1" H 0   3050 50  0001 C CNN
+F 3 "" H 50  3050 50  0001 C CNN
+	1    1350 2000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+36V #+30V0101
+U 1 1 5EBBBD77
+P 1550 2550
+F 0 "#+30V0101" H 1650 2550 50  0000 C CNN
+F 1 "+36V" H 1650 2500 50  0001 C CNN
+F 2 "" H 1550 2550 50  0001 C CNN
+F 3 "" H 1550 2550 50  0001 C CNN
+	1    1550 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 5EBBBDA4
+P 1450 3450
+F 0 "#PWR0101" H 1450 3200 50  0001 C CNN
+F 1 "GND" H 1550 3450 50  0000 C CNN
+F 2 "" H 1450 3450 50  0001 C CNN
+F 3 "" H 1450 3450 50  0001 C CNN
+	1    1450 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1350 3350 1450 3350
+$Comp
+L power:GND #PWR0102
+U 1 1 5EBBC3CE
+P 1550 2100
+F 0 "#PWR0102" H 1550 1850 50  0001 C CNN
+F 1 "GND" H 1650 2100 50  0000 C CNN
+F 2 "" H 1550 2100 50  0001 C CNN
+F 3 "" H 1550 2100 50  0001 C CNN
+	1    1550 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1350 1750 1450 1750
+Wire Wire Line
+	1350 1550 1450 1550
+$Comp
+L Device:R_US R1
+U 1 1 5EBE2FC5
+P 2300 800
+F 0 "R1" V 2250 650 50  0000 C CNN
+F 1 "10 M" V 2400 800 50  0000 C CNN
+F 2 "" V 2340 790 50  0001 C CNN
+F 3 "~" H 2300 800 50  0001 C CNN
+	1    2300 800 
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:R_US R2
+U 1 1 5EBE4AEB
+P 2300 1200
+F 0 "R2" V 2250 1050 50  0000 C CNN
+F 1 "100 k" V 2400 1200 50  0000 C CNN
+F 2 "" V 2340 1190 50  0001 C CNN
+F 3 "~" H 2300 1200 50  0001 C CNN
+	1    2300 1200
+	0    -1   1    0   
+$EndComp
+$Comp
+L 001:C C1
+U 1 1 5EBFF34A
+P 2850 1200
+F 0 "C1" V 2900 1200 50  0000 L CNN
+F 1 "10 nF (HV)" H 2900 1050 50  0000 L CNN
+F 2 "" H 2900 1290 50  0001 C CNN
+F 3 "" H 2900 1290 50  0001 C CNN
+	1    2850 1200
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0105
+U 1 1 5EC06ECC
+P 2850 1700
+F 0 "#PWR0105" H 2850 1450 50  0001 C CNN
+F 1 "GND" H 2900 1550 50  0000 C CNN
+F 2 "" H 2850 1700 50  0001 C CNN
+F 3 "" H 2850 1700 50  0001 C CNN
+	1    2850 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R3
+U 1 1 5EC0AEE4
+P 3400 1200
+F 0 "R3" V 3450 1350 50  0000 C CNN
+F 1 "100 M" V 3300 1200 50  0000 C CNN
+F 2 "" V 3440 1190 50  0001 C CNN
+F 3 "~" H 3400 1200 50  0001 C CNN
+	1    3400 1200
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:R_US R5
+U 1 1 5EC0AF9F
+P 3650 800
+F 0 "R5" V 3700 950 50  0000 C CNN
+F 1 "100 k" V 3550 800 50  0000 C CNN
+F 2 "" V 3690 790 50  0001 C CNN
+F 3 "~" H 3650 800 50  0001 C CNN
+	1    3650 800 
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:R_US R4
+U 1 1 5EC0D1F1
+P 3900 1200
+F 0 "R4" V 3950 1350 50  0000 C CNN
+F 1 "100 M" V 3800 1200 50  0000 C CNN
+F 2 "" V 3940 1190 50  0001 C CNN
+F 3 "~" H 3900 1200 50  0001 C CNN
+	1    3900 1200
+	0    1    -1   0   
+$EndComp
+$Comp
+L power:+8V #PWR0106
+U 1 1 5EC1EDB2
+P 1450 2850
+F 0 "#PWR0106" H 1450 2700 50  0001 C CNN
+F 1 "+8V" H 1550 2850 50  0000 C CNN
+F 2 "" H 1450 2850 50  0001 C CNN
+F 3 "" H 1450 2850 50  0001 C CNN
+	1    1450 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1350 2550 1450 2550
+Wire Wire Line
+	1450 2550 1450 2000
+Connection ~ 1450 1750
+Wire Wire Line
+	1450 1750 1450 1550
+Wire Wire Line
+	1550 2100 1550 2000
+Wire Wire Line
+	1550 2000 1450 2000
+Connection ~ 1450 2000
+Wire Wire Line
+	1450 2000 1450 1750
+Wire Wire Line
+	1350 2650 1550 2650
+Wire Wire Line
+	1550 2650 1550 2550
+Wire Wire Line
+	1350 2950 1450 2950
+Wire Wire Line
+	1450 2950 1450 2850
+Wire Wire Line
+	1450 3350 1450 3450
+Text Notes 750  3400 1    100  ~ 20
+SatBus
+Text Notes 2100 1700 0    100  ~ 20
++30V\nBias
+Text GLabel 1750 1000 0    50   Input ~ 10
++30V
+Wire Wire Line
+	1750 1000 1950 1000
+Wire Wire Line
+	1950 1000 1950 1200
+Wire Wire Line
+	1950 1200 2150 1200
+Wire Wire Line
+	1950 1000 1950 800 
+Wire Wire Line
+	1950 800  2150 800 
+Connection ~ 1950 1000
+Wire Wire Line
+	2450 800  2650 800 
+Wire Wire Line
+	2650 800  2650 1000
+Wire Wire Line
+	2650 1000 2850 1000
+Wire Wire Line
+	2450 1200 2650 1200
+Wire Wire Line
+	2650 1200 2650 1000
+Connection ~ 2650 1000
+Wire Wire Line
+	2850 1000 2850 1200
+Wire Wire Line
+	2850 1500 2850 1700
+Wire Wire Line
+	3050 1200 3050 1000
+Wire Wire Line
+	2850 1000 3050 1000
+Connection ~ 2850 1000
+Connection ~ 3050 1000
+Wire Wire Line
+	3050 1000 3050 800 
+Wire Wire Line
+	4050 1200 4250 1200
+Wire Wire Line
+	3750 1200 3550 1200
+Wire Wire Line
+	3250 1200 3050 1200
+Wire Wire Line
+	3800 800  4250 800 
+Wire Wire Line
+	3050 800  3500 800 
+Wire Wire Line
+	4250 800  4250 1000
+$Sheet
+S 4850 800  1050 800 
+U 5EBD2B15
+F0 "Detector_1" 50
+F1 "Detector_1.sch" 50
+F2 "+30V_Bias" I L 4850 1000 50 
+F3 "+8V" I L 4850 1200 50 
+F4 "GND" I L 4850 1400 50 
+F5 "PS-A2D" I R 5900 1200 50 
+$EndSheet
+Text Notes 5100 1250 0    100  ~ 20
+Det_1
+$Sheet
+S 4850 1800 1050 800 
+U 5EC023EE
+F0 "sheet5EC023E8" 50
+F1 "Detector_1.sch" 50
+F2 "+30V_Bias" I L 4850 2000 50 
+F3 "+8V" I L 4850 2200 50 
+F4 "GND" I L 4850 2400 50 
+F5 "PS-A2D" I R 5900 2200 50 
+$EndSheet
+Text Notes 5100 2250 0    100  ~ 20
+Det_2
+$Sheet
+S 4850 2800 1050 800 
+U 5EC027A1
+F0 "sheet5EC0279B" 50
+F1 "Detector_1.sch" 50
+F2 "+30V_Bias" I L 4850 3000 50 
+F3 "+8V" I L 4850 3200 50 
+F4 "GND" I L 4850 3400 50 
+F5 "PS-A2D" I R 5900 3200 50 
+$EndSheet
+Text Notes 5100 3250 0    100  ~ 20
+Det_3
+$Sheet
+S 4850 3800 1050 800 
+U 5EC02B54
+F0 "sheet5EC02B4E" 50
+F1 "Detector_1.sch" 50
+F2 "+30V_Bias" I L 4850 4000 50 
+F3 "+8V" I L 4850 4200 50 
+F4 "GND" I L 4850 4400 50 
+F5 "PS-A2D" I R 5900 4200 50 
+$EndSheet
+Text Notes 5100 4250 0    100  ~ 20
+Det_4\n
+Connection ~ 4250 1000
+Wire Wire Line
+	4250 1000 4250 1200
+Wire Wire Line
+	4450 1000 4450 2000
+Connection ~ 4450 1000
+Wire Wire Line
+	4450 1000 4250 1000
+Connection ~ 4450 3000
+Wire Wire Line
+	4450 3000 4450 4000
+Connection ~ 4450 2000
+Wire Wire Line
+	4450 2000 4450 3000
+Text GLabel 4750 1200 0    50   Input ~ 0
++8V
+Wire Wire Line
+	4450 1000 4850 1000
+Wire Wire Line
+	4850 1200 4750 1200
+Text GLabel 4750 1400 0    50   Input ~ 0
+GND
+Wire Wire Line
+	4750 1400 4850 1400
+Wire Wire Line
+	4450 2000 4850 2000
+Wire Wire Line
+	4450 3000 4850 3000
+Wire Wire Line
+	4450 4000 4850 4000
+Text GLabel 4750 2200 0    50   Input ~ 0
++8V
+Wire Wire Line
+	4850 2200 4750 2200
+Text GLabel 4750 2400 0    50   Input ~ 0
+GND
+Wire Wire Line
+	4750 2400 4850 2400
+Text GLabel 4750 3200 0    50   Input ~ 0
++8V
+Wire Wire Line
+	4850 3200 4750 3200
+Text GLabel 4750 3400 0    50   Input ~ 0
+GND
+Wire Wire Line
+	4750 3400 4850 3400
+Text GLabel 4750 4200 0    50   Input ~ 0
++8V
+Wire Wire Line
+	4850 4200 4750 4200
+Text GLabel 4750 4400 0    50   Input ~ 0
+GND
+Wire Wire Line
+	4750 4400 4850 4400
+$EndSCHEMATC

@@ -1,0 +1,411 @@
+EESchema Schematic File Version 4
+LIBS:Mobo_Phase3-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 5 8
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:C C18
+U 1 1 5EB083F0
+P 1850 3450
+F 0 "C18" H 1965 3496 50  0000 L CNN
+F 1 "No Connect" H 1965 3405 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 1888 3300 50  0001 C CNN
+F 3 "~" H 1850 3450 50  0001 C CNN
+	1    1850 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C20
+U 1 1 5EB084EA
+P 3250 3450
+F 0 "C20" H 3365 3496 50  0000 L CNN
+F 1 "56 pF" H 3365 3405 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 3288 3300 50  0001 C CNN
+F 3 "~" H 3250 3450 50  0001 C CNN
+	1    3250 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C19
+U 1 1 5EB08528
+P 2750 3450
+F 0 "C19" H 2865 3496 50  0000 L CNN
+F 1 "560pF" H 2865 3405 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 2788 3300 50  0001 C CNN
+F 3 "~" H 2750 3450 50  0001 C CNN
+	1    2750 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C27
+U 1 1 5EB08562
+P 6500 3450
+F 0 "C27" H 6615 3496 50  0000 L CNN
+F 1 "56pF" H 6615 3405 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 6538 3300 50  0001 C CNN
+F 3 "~" H 6500 3450 50  0001 C CNN
+	1    6500 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C24
+U 1 1 5EB085AA
+P 5550 2400
+F 0 "C24" V 5400 2350 50  0000 L CNN
+F 1 "43pF" V 5700 2350 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 5588 2250 50  0001 C CNN
+F 3 "~" H 5550 2400 50  0001 C CNN
+	1    5550 2400
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C22
+U 1 1 5EB085E4
+P 4750 2400
+F 0 "C22" V 4900 2350 50  0000 L CNN
+F 1 "18pF" V 4600 2300 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 4788 2250 50  0001 C CNN
+F 3 "~" H 4750 2400 50  0001 C CNN
+	1    4750 2400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C C29
+U 1 1 5EB08620
+P 7950 3450
+F 0 "C29" H 8065 3496 50  0000 L CNN
+F 1 "No Connect" H 8065 3405 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 7988 3300 50  0001 C CNN
+F 3 "~" H 7950 3450 50  0001 C CNN
+	1    7950 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C26
+U 1 1 5EB08660
+P 6000 3450
+F 0 "C26" H 6115 3496 50  0000 L CNN
+F 1 "560pF" H 6115 3405 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 6038 3300 50  0001 C CNN
+F 3 "~" H 6000 3450 50  0001 C CNN
+	1    6000 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Variable C21
+U 1 1 5EB080E8
+P 3700 3450
+F 0 "C21" H 3815 3496 50  0000 L CNN
+F 1 "No Connect" H 3815 3405 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 3700 3450 50  0001 C CNN
+F 3 "~" H 3700 3450 50  0001 C CNN
+	1    3700 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Variable C23
+U 1 1 5EB08265
+P 4750 2850
+F 0 "C23" V 4900 2850 50  0000 C CNN
+F 1 "No Connect" V 4600 2850 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 4750 2850 50  0001 C CNN
+F 3 "~" H 4750 2850 50  0001 C CNN
+	1    4750 2850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C_Variable C28
+U 1 1 5EB0829B
+P 6950 3450
+F 0 "C28" H 7065 3496 50  0000 L CNN
+F 1 "No Connect" H 7065 3405 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 6950 3450 50  0001 C CNN
+F 3 "~" H 6950 3450 50  0001 C CNN
+	1    6950 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Variable C25
+U 1 1 5EB082CF
+P 5550 2850
+F 0 "C25" V 5700 2850 50  0000 C CNN
+F 1 "No Connect" V 5400 2850 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 5550 2850 50  0001 C CNN
+F 3 "~" H 5550 2850 50  0001 C CNN
+	1    5550 2850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:L L14
+U 1 1 5EB08612
+P 4300 3450
+F 0 "L14" H 4353 3496 50  0000 L CNN
+F 1 "47nH" H 4353 3405 50  0000 L CNN
+F 2 "Inductor_SMD:L_0402_1005Metric" H 4300 3450 50  0001 C CNN
+F 3 "~" H 4300 3450 50  0001 C CNN
+	1    4300 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:L L15
+U 1 1 5EB086C5
+P 4600 3300
+F 0 "L15" V 4790 3300 50  0000 C CNN
+F 1 "680nH" V 4699 3300 50  0000 C CNN
+F 2 "Inductor_SMD:L_0402_1005Metric" H 4600 3300 50  0001 C CNN
+F 3 "~" H 4600 3300 50  0001 C CNN
+	1    4600 3300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:L L19
+U 1 1 5EB0873B
+P 5550 2100
+F 0 "L19" V 5740 2100 50  0000 C CNN
+F 1 "No Connect" V 5649 2100 50  0000 C CNN
+F 2 "Inductor_SMD:L_0402_1005Metric" H 5550 2100 50  0001 C CNN
+F 3 "~" H 5550 2100 50  0001 C CNN
+	1    5550 2100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:L L18
+U 1 1 5EB08795
+P 5400 3300
+F 0 "L18" V 5590 3300 50  0000 C CNN
+F 1 "1.5uH" V 5499 3300 50  0000 C CNN
+F 2 "Inductor_SMD:L_0402_1005Metric" H 5400 3300 50  0001 C CNN
+F 3 "~" H 5400 3300 50  0001 C CNN
+	1    5400 3300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:L L20
+U 1 1 5EB08807
+P 5700 3300
+F 0 "L20" V 5890 3300 50  0000 C CNN
+F 1 "72nH" V 5799 3300 50  0000 C CNN
+F 2 "Inductor_SMD:L_0402_1005Metric" H 5700 3300 50  0001 C CNN
+F 3 "~" H 5700 3300 50  0001 C CNN
+	1    5700 3300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:L L17
+U 1 1 5EB08865
+P 4900 3300
+F 0 "L17" V 5100 3300 50  0000 C CNN
+F 1 "6.8nH" V 5000 3300 50  0000 C CNN
+F 2 "Inductor_SMD:L_0402_1005Metric" H 4900 3300 50  0001 C CNN
+F 3 "~" H 4900 3300 50  0001 C CNN
+	1    4900 3300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:L L21
+U 1 1 5EB088DD
+P 7550 3450
+F 0 "L21" H 7603 3496 50  0000 L CNN
+F 1 "47nH" H 7603 3405 50  0000 L CNN
+F 2 "Inductor_SMD:L_0402_1005Metric" H 7550 3450 50  0001 C CNN
+F 3 "~" H 7550 3450 50  0001 C CNN
+	1    7550 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:L L16
+U 1 1 5EB08953
+P 4750 2100
+F 0 "L16" V 4940 2100 50  0000 C CNN
+F 1 "No Connect" V 4849 2100 50  0000 C CNN
+F 2 "Inductor_SMD:L_0402_1005Metric" H 4750 2100 50  0001 C CNN
+F 3 "~" H 4750 2100 50  0001 C CNN
+	1    4750 2100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1850 3600 2750 3600
+Connection ~ 2750 3600
+Wire Wire Line
+	2750 3600 3250 3600
+Connection ~ 3250 3600
+Wire Wire Line
+	3250 3600 3700 3600
+Wire Wire Line
+	3700 3600 4300 3600
+Connection ~ 3700 3600
+Wire Wire Line
+	4300 3300 3700 3300
+Connection ~ 3250 3300
+Wire Wire Line
+	3250 3300 2750 3300
+Connection ~ 3700 3300
+Wire Wire Line
+	3700 3300 3250 3300
+Wire Wire Line
+	4450 3300 4300 3300
+Connection ~ 4300 3300
+Wire Wire Line
+	4600 2100 4600 2400
+Connection ~ 4600 2400
+Wire Wire Line
+	4600 2400 4600 2850
+Wire Wire Line
+	4900 2100 4900 2400
+Connection ~ 4900 2400
+Wire Wire Line
+	4900 2400 4900 2850
+Wire Wire Line
+	4900 2400 5050 2400
+Wire Wire Line
+	5050 2400 5050 3300
+Wire Wire Line
+	4600 2400 4450 2400
+Wire Wire Line
+	4450 2400 4450 3300
+Connection ~ 4450 3300
+Wire Wire Line
+	5250 3300 5250 2400
+Wire Wire Line
+	5250 2400 5400 2400
+Connection ~ 5250 3300
+Wire Wire Line
+	5400 2100 5400 2400
+Connection ~ 5400 2400
+Wire Wire Line
+	5700 2100 5700 2400
+Wire Wire Line
+	5700 2400 5850 2400
+Wire Wire Line
+	5850 2400 5850 3300
+Connection ~ 5700 2400
+Wire Wire Line
+	5400 2400 5400 2850
+Wire Wire Line
+	5700 2400 5700 2850
+Connection ~ 4300 3600
+$Comp
+L power:GND #PWR0101
+U 1 1 5EB0D40D
+P 5150 3600
+F 0 "#PWR0101" H 5150 3350 50  0001 C CNN
+F 1 "GND" H 5155 3427 50  0000 C CNN
+F 2 "" H 5150 3600 50  0001 C CNN
+F 3 "" H 5150 3600 50  0001 C CNN
+	1    5150 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5050 3300 5250 3300
+Connection ~ 5050 3300
+Connection ~ 5150 3600
+Wire Wire Line
+	5150 3600 4300 3600
+Wire Wire Line
+	6000 3300 5850 3300
+Connection ~ 5850 3300
+Wire Wire Line
+	5150 3600 6000 3600
+Wire Wire Line
+	7550 3300 6950 3300
+Connection ~ 6000 3300
+Connection ~ 6500 3300
+Wire Wire Line
+	6500 3300 6000 3300
+Connection ~ 6950 3300
+Wire Wire Line
+	6950 3300 6500 3300
+Wire Wire Line
+	6000 3600 6500 3600
+Connection ~ 6000 3600
+Connection ~ 6500 3600
+Wire Wire Line
+	6500 3600 6950 3600
+Connection ~ 6950 3600
+Wire Wire Line
+	6950 3600 7550 3600
+$Comp
+L Device:R R11
+U 1 1 5EB0EEBE
+P 8200 3300
+F 0 "R11" V 7993 3300 50  0000 C CNN
+F 1 "0" V 8084 3300 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 8130 3300 50  0001 C CNN
+F 3 "~" H 8200 3300 50  0001 C CNN
+	1    8200 3300
+	0    1    1    0   
+$EndComp
+Connection ~ 7550 3300
+Connection ~ 7550 3600
+$Comp
+L Connector:Conn_Coaxial J7
+U 1 1 5EB11B52
+P 1650 3300
+F 0 "J7" H 1580 3538 50  0000 C CNN
+F 1 "Conn_Coaxial" H 1580 3447 50  0000 C CNN
+F 2 "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount" H 1650 3300 50  0001 C CNN
+F 3 " ~" H 1650 3300 50  0001 C CNN
+	1    1650 3300
+	-1   0    0    -1  
+$EndComp
+Connection ~ 1850 3300
+Wire Wire Line
+	1650 3500 1650 3600
+Wire Wire Line
+	1650 3600 1850 3600
+Connection ~ 1850 3600
+Text HLabel 1600 2900 0    50   Input ~ 0
+29.4BPF_IN
+Wire Wire Line
+	1600 2900 1850 2900
+Wire Wire Line
+	1850 2900 1850 3300
+Text HLabel 8700 2950 2    50   Output ~ 0
+29.4BPF_OUT
+$Comp
+L Connector:Conn_Coaxial J8
+U 1 1 5EB691CD
+P 8750 3300
+F 0 "J8" H 8680 3538 50  0000 C CNN
+F 1 "Conn_Coaxial" H 8680 3447 50  0000 C CNN
+F 2 "Connector_Coaxial:SMA_Amphenol_132291_Vertical" H 8750 3300 50  0001 C CNN
+F 3 " ~" H 8750 3300 50  0001 C CNN
+	1    8750 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8750 3500 8750 3600
+Connection ~ 2750 3300
+Wire Wire Line
+	2750 3300 1850 3300
+Connection ~ 7950 3600
+Wire Wire Line
+	7950 3600 7550 3600
+Wire Wire Line
+	7550 3300 7950 3300
+Wire Wire Line
+	7950 3600 8750 3600
+Connection ~ 7950 3300
+Wire Wire Line
+	7950 3300 8050 3300
+Wire Wire Line
+	8350 3300 8400 3300
+Wire Wire Line
+	8700 2950 8400 2950
+Wire Wire Line
+	8400 2950 8400 3300
+Connection ~ 8400 3300
+Wire Wire Line
+	8400 3300 8550 3300
+$EndSCHEMATC

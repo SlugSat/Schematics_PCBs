@@ -1,4 +1,11 @@
-17306220731629302
+17320596919140127
+AM29F016D-70EF
+SOP50P2000X120-48N
+
+
+0
+48
+48
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -51590,12 +51597,26 @@ LMX231X
 20
 20
 LT
+PWB1040L
+
+
+0
+6
+6
+LT
 Testing_Footprint
 
 
 0
 8
 8
+LT
+fuse_clip
+
+
+0
+2
+1
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
@@ -70609,6 +70630,20 @@ SS
 2
 2
 SS
+652-SRR1208-680KL
+
+
+0
+2
+2
+SS
+CRA2512
+
+
+0
+2
+2
+SS
 DIO_SMM4F5.0A-TR
 
 
@@ -70624,6 +70659,13 @@ EEE-HA1E47IP
 2
 SS
 L_Bourns_6540
+
+
+0
+2
+2
+SS
+SODFL3718X108N
 
 
 0
@@ -70658,12 +70700,33 @@ STD_PCB_B2_v1.1
 0
 0
 SS
+TPS63700DRCR
+
+
+0
+10
+10
+SS
+TPS63700DRCR_copy
+TPS63700DRCR-4
+Integrated Circuit
+0
+15
+15
+SS
 TSSOP-8_W4.4mm
 http://www.st.com/content/ccc/resource/technical/document/datasheet/0d/30/c2/1a/92/03/48/cb/CD00287506.pdf/files/CD00287506.pdf/jcr:content/translations/en.CD00287506.pdf
 
 0
 8
 8
+SS
+VFQFPN16
+
+
+0
+17
+17
 Sensor
 Aosong_DHT11_5.5x12.0_P2.54mm
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/DHT11.pdf
