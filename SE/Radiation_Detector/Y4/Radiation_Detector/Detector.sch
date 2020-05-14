@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 4
+Sheet 11 17
 Title ""
 Date ""
 Rev ""
@@ -22,6 +22,9 @@ AR Path="/5EBD2B15/5EBD2BB6" Ref="IC?"  Part="1"
 AR Path="/5EC023EE/5EBD2BB6" Ref="IC?"  Part="1" 
 AR Path="/5EC027A1/5EBD2BB6" Ref="IC?"  Part="1" 
 AR Path="/5EC02B54/5EBD2BB6" Ref="IC?"  Part="1" 
+AR Path="/5EC10E33/5EBD2BB6" Ref="IC?"  Part="1" 
+AR Path="/5EC116B0/5EBD2BB6" Ref="IC?"  Part="1" 
+AR Path="/5EC11F15/5EBD2BB6" Ref="IC?"  Part="1" 
 F 0 "IC?" H 2050 200 50  0000 C CNN
 F 1 "MICROFJ-60035-TSV-TR1" H 3100 200 50  0000 C CNN
 F 2 "SS:SiPM_BGA36C100P6X6_613X613X67" H 3650 2150 50  0001 L CNN
@@ -82,6 +85,9 @@ AR Path="/5EBD2B15/5EBD2BE3" Ref="C?"  Part="1"
 AR Path="/5EC023EE/5EBD2BE3" Ref="C?"  Part="1" 
 AR Path="/5EC027A1/5EBD2BE3" Ref="C?"  Part="1" 
 AR Path="/5EC02B54/5EBD2BE3" Ref="C?"  Part="1" 
+AR Path="/5EC10E33/5EBD2BE3" Ref="C?"  Part="1" 
+AR Path="/5EC116B0/5EBD2BE3" Ref="C?"  Part="1" 
+AR Path="/5EC11F15/5EBD2BE3" Ref="C?"  Part="1" 
 F 0 "C?" H 1800 1400 50  0000 L CNN
 F 1 "10 nF (HV)" H 1500 1600 50  0000 L CNN
 F 2 "" H 1650 1540 50  0001 C CNN
@@ -97,6 +103,9 @@ AR Path="/5EBD2B15/5EBD2BEA" Ref="R?"  Part="1"
 AR Path="/5EC023EE/5EBD2BEA" Ref="R?"  Part="1" 
 AR Path="/5EC027A1/5EBD2BEA" Ref="R?"  Part="1" 
 AR Path="/5EC02B54/5EBD2BEA" Ref="R?"  Part="1" 
+AR Path="/5EC10E33/5EBD2BEA" Ref="R?"  Part="1" 
+AR Path="/5EC116B0/5EBD2BEA" Ref="R?"  Part="1" 
+AR Path="/5EC11F15/5EBD2BEA" Ref="R?"  Part="1" 
 F 0 "R?" H 4050 1700 50  0000 C CNN
 F 1 "1 k" H 4150 1850 50  0000 C CNN
 F 2 "" V 4040 1790 50  0001 C CNN
@@ -112,6 +121,9 @@ AR Path="/5EBD2B15/5EBD2BF7" Ref="C?"  Part="1"
 AR Path="/5EC023EE/5EBD2BF7" Ref="C?"  Part="1" 
 AR Path="/5EC027A1/5EBD2BF7" Ref="C?"  Part="1" 
 AR Path="/5EC02B54/5EBD2BF7" Ref="C?"  Part="1" 
+AR Path="/5EC10E33/5EBD2BF7" Ref="C?"  Part="1" 
+AR Path="/5EC116B0/5EBD2BF7" Ref="C?"  Part="1" 
+AR Path="/5EC11F15/5EBD2BF7" Ref="C?"  Part="1" 
 F 0 "C?" H 4400 1400 50  0000 L CNN
 F 1 "1 uF" V 4350 1350 50  0000 L CNN
 F 2 "" H 4250 1540 50  0001 C CNN
@@ -127,6 +139,9 @@ AR Path="/5EBD2B15/5EBD2BFF" Ref="R?"  Part="1"
 AR Path="/5EC023EE/5EBD2BFF" Ref="R?"  Part="1" 
 AR Path="/5EC027A1/5EBD2BFF" Ref="R?"  Part="1" 
 AR Path="/5EC02B54/5EBD2BFF" Ref="R?"  Part="1" 
+AR Path="/5EC10E33/5EBD2BFF" Ref="R?"  Part="1" 
+AR Path="/5EC116B0/5EBD2BFF" Ref="R?"  Part="1" 
+AR Path="/5EC11F15/5EBD2BFF" Ref="R?"  Part="1" 
 F 0 "R?" V 4950 1650 50  0000 C CNN
 F 1 "108 k" V 5150 1650 50  0000 C CNN
 F 2 "" V 5090 1640 50  0001 C CNN
