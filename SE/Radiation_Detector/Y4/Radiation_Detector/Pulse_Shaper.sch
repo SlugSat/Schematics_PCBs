@@ -17,7 +17,11 @@ Text HLabel 1750 3300 0    50   Input ~ 10
 PS_In
 Text HLabel 10450 3700 2    50   Input ~ 10
 PS_Out
+<<<<<<< HEAD
 Text HLabel 1750 3700 0    50   Output ~ 10
+=======
+Text HLabel 1600 5600 0    50   Input ~ 10
+>>>>>>> d9ba35a123169ef9a54cbf2d94df67dd5ba68427
 GND
 $Comp
 L power:+8V #PWR?
@@ -47,7 +51,11 @@ Wire Wire Line
 $Comp
 L power:GND #PWR?
 U 1 1 5EDDF200
+<<<<<<< HEAD
 P 1800 3750
+=======
+P 1650 5650
+>>>>>>> d9ba35a123169ef9a54cbf2d94df67dd5ba68427
 AR Path="/5ED7F1DB/5EDDF200" Ref="#PWR?"  Part="1" 
 AR Path="/5EDDF03B/5EDDF200" Ref="#PWR?"  Part="1" 
 AR Path="/5EBD2B15/5EBD2C13/5EDDF200" Ref="#PWR013"  Part="1" 
@@ -58,6 +66,7 @@ AR Path="/5EC10E33/5EBD2C13/5EDDF200" Ref="#PWR041"  Part="1"
 AR Path="/5EC116B0/5EBD2C13/5EDDF200" Ref="#PWR069"  Part="1" 
 AR Path="/5EC11F15/5EBD2C13/5EDDF200" Ref="#PWR097"  Part="1" 
 AR Path="/5EDDF200" Ref="#PWR?"  Part="1" 
+<<<<<<< HEAD
 F 0 "#PWR013" H 1800 3500 50  0001 C CNN
 F 1 "GND" H 1805 3577 50  0000 C CNN
 F 2 "" H 1800 3750 50  0001 C CNN
@@ -70,6 +79,20 @@ Wire Wire Line
 Wire Wire Line
 	1800 3700 1800 3750
 Text HLabel 1750 3500 0    50   Input ~ 10
+=======
+F 0 "#PWR?" H 1650 5400 50  0001 C CNN
+F 1 "GND" H 1655 5477 50  0000 C CNN
+F 2 "" H 1650 5650 50  0001 C CNN
+F 3 "" H 1650 5650 50  0001 C CNN
+	1    1650 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1600 5600 1650 5600
+Wire Wire Line
+	1650 5600 1650 5650
+Text HLabel 1750 3550 0    50   Input ~ 10
+>>>>>>> d9ba35a123169ef9a54cbf2d94df67dd5ba68427
 R_PZ
 $Comp
 L Device:R_US Rpz1
