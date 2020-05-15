@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:32V Rail-cache
-EELAYER 30 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -314,7 +314,7 @@ F 3 "~" H 5100 2400 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L 32V-Rail-rescue:INA226-Analog_ADC U1
+L Analog_ADC:INA226 U1
 U 1 1 5CABD7F7
 P 5250 3000
 F 0 "U1" H 5250 3050 50  0000 C CNN
@@ -583,7 +583,7 @@ $EndComp
 Text Notes 6000 4150 0    50   ~ 0
 Mode Selection:\nCurrent Limiting w/ Auto-Retry \n(MODE shorted to RTN)
 $Comp
-L 32V-Rail-rescue:TPS26600-SlugSat_Power_Symbol_Library-32V-Rail-rescue U2
+L 32V-Rail-rescue:TPS26600-SlugSat_Power_Symbol_Library U2
 U 1 1 5CCCEBC6
 P 8200 4200
 F 0 "U2" H 8200 4865 50  0000 C CNN
@@ -734,7 +734,7 @@ Telemetry Monitor
 Text Notes 7550 3200 0    79   ~ 16
 Power Switch (1A Limit)
 $Comp
-L 32V-Rail-rescue:MCP1663-Custom-32V-Rail-rescue U3
+L 32V-Rail-rescue:MCP1663-Custom U3
 U 1 1 5CE40C22
 P 2200 3150
 F 0 "U3" H 2200 3425 50  0000 C CNN

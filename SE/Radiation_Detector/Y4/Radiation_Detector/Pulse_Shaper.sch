@@ -17,7 +17,7 @@ Text HLabel 1750 3300 0    50   Input ~ 10
 PS_In
 Text HLabel 10450 3700 2    50   Input ~ 10
 PS_Out
-Text HLabel 1600 4900 0    50   Input ~ 10
+Text HLabel 1600 5600 0    50   Input ~ 10
 GND
 $Comp
 L power:+8V #PWR?
@@ -47,7 +47,7 @@ Wire Wire Line
 $Comp
 L power:GND #PWR?
 U 1 1 5EDDF200
-P 1650 4950
+P 1650 5650
 AR Path="/5ED7F1DB/5EDDF200" Ref="#PWR?"  Part="1" 
 AR Path="/5EDDF03B/5EDDF200" Ref="#PWR?"  Part="1" 
 AR Path="/5EBD2B15/5EBD2C13/5EDDF200" Ref="#PWR?"  Part="1" 
@@ -58,17 +58,17 @@ AR Path="/5EC10E33/5EBD2C13/5EDDF200" Ref="#PWR?"  Part="1"
 AR Path="/5EC116B0/5EBD2C13/5EDDF200" Ref="#PWR?"  Part="1" 
 AR Path="/5EC11F15/5EBD2C13/5EDDF200" Ref="#PWR?"  Part="1" 
 AR Path="/5EDDF200" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 1650 4700 50  0001 C CNN
-F 1 "GND" H 1655 4777 50  0000 C CNN
-F 2 "" H 1650 4950 50  0001 C CNN
-F 3 "" H 1650 4950 50  0001 C CNN
-	1    1650 4950
+F 0 "#PWR?" H 1650 5400 50  0001 C CNN
+F 1 "GND" H 1655 5477 50  0000 C CNN
+F 2 "" H 1650 5650 50  0001 C CNN
+F 3 "" H 1650 5650 50  0001 C CNN
+	1    1650 5650
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1600 4900 1650 4900
+	1600 5600 1650 5600
 Wire Wire Line
-	1650 4900 1650 4950
+	1650 5600 1650 5650
 Text HLabel 1750 3550 0    50   Input ~ 10
 R_PZ
 $Comp
