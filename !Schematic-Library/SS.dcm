@@ -5,4 +5,9 @@ D SIPM CSP 4X4MM 30UM NUVHD - Bulk
 F https://componentsearchengine.com/Datasheets/1/AFBR-S4N44C013.pdf
 $ENDCMP
 #
+$CMP MAX944CSD+
+D MAX944CSD+, Quad Comparator Push-Pull 2.7  5.5 V 14-Pin SO
+F http://datasheets.maximintegrated.com/en/ds/MAX941-MAX944.pdf
+$ENDCMP
+#
 #End Doc Library
