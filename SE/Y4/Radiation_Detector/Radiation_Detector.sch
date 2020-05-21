@@ -305,7 +305,7 @@ $EndSheet
 $Sheet
 S 4650 3700 1050 600 
 U 5EEC25A3
-F0 "Det_$" 50
+F0 "Det_4" 50
 F1 "Detector.sch" 50
 F2 "+8V" I L 4650 4000 50 
 F3 "GND" O L 4650 4200 50 
