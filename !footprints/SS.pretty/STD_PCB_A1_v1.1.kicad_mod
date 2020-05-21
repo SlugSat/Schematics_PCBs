@@ -1,4 +1,7 @@
-(module STD_PCB_A1_v1.1 (layer F.Cu) (tedit 5E39F6A2)
+(module STD_PCB_A1_v1.1 (layer F.Cu) (tedit 5EC65327)
+  (solder_mask_margin 0.075)
+  (solder_paste_margin -0.025)
+  (clearance 0.1)
   (fp_text reference REF** (at -2.36 3.15) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )

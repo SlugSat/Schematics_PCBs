@@ -1,4 +1,7 @@
-(module UQFN-8 (layer F.Cu) (tedit 5EC279BA)
+(module UQFN-8 (layer F.Cu) (tedit 5EC65302)
+  (solder_mask_margin 0.075)
+  (solder_paste_margin -0.025)
+  (clearance 0.1)
   (fp_text reference REF** (at -0.725 -3.025) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
