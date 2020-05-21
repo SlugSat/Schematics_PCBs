@@ -14,27 +14,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L 74xx:CD74HC4067SM U26
-U 1 1 5EBE123B
-P 5200 4450
-AR Path="/5EBDE6C5/5EBE123B" Ref="U26"  Part="1" 
-AR Path="/5EBF5005/5EBE123B" Ref="U33"  Part="1" 
-AR Path="/5EBF586D/5EBE123B" Ref="U40"  Part="1" 
-AR Path="/5EBF60D5/5EBE123B" Ref="U47"  Part="1" 
-AR Path="/5ECA72A2/5EBE123B" Ref="U?"  Part="1" 
-AR Path="/5ECA9092/5EBE123B" Ref="U?"  Part="1" 
-AR Path="/5ECAA0F7/5EBE123B" Ref="U?"  Part="1" 
-AR Path="/5EEC35BD/5EBE123B" Ref="U?"  Part="1" 
-AR Path="/5EEC5A0D/5EBE123B" Ref="U?"  Part="1" 
-AR Path="/5EEC6FA6/5EBE123B" Ref="U?"  Part="1" 
-F 0 "U26" H 6050 4515 50  0000 C CNN
-F 1 "temp-mux" H 6050 4424 50  0000 C CNN
-F 2 "" H 5250 5050 50  0001 C CNN
-F 3 "" H 5250 5050 50  0001 C CNN
-	1    5200 4450
-	1    0    0    -1  
-$EndComp
 Text HLabel 950  1100 0    50   Input ~ 0
 PS-A2D
 Text HLabel 10450 3800 2    50   Input ~ 0
@@ -537,4 +516,132 @@ Text GLabel 10350 3200 0    50   Input ~ 0
 Data
 Wire Wire Line
 	10350 3200 10450 3200
+$Comp
+L SS:TMUX1104DQAR IC?
+U 1 1 5EC6E379
+P 4450 3450
+F 0 "IC?" H 5100 3100 50  0000 L CNN
+F 1 "TMUX1104DQAR" H 5100 2850 50  0000 L CNN
+F 2 "TMUX1104DQAR" H 5400 3400 50  0001 L CNN
+F 3 "http://www.ti.com/lit/gpn/TMUX1104" H 5400 3300 50  0001 L CNN
+F 4 "5-V low-leakage-current, 4:1, 1-ch precision analog multiplexer" H 5400 3200 50  0001 L CNN "Description"
+F 5 "0.55" H 5400 3100 50  0001 L CNN "Height"
+F 6 "595-TMUX1104DQAR" H 5400 3000 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TMUX1104DQAR?qs=T3oQrply3y%252BL6N4e8O%252Bk2g%3D%3D" H 5400 2900 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Texas Instruments" H 5400 2800 50  0001 L CNN "Manufacturer_Name"
+F 9 "TMUX1104DQAR" H 5400 2700 50  0001 L CNN "Manufacturer_Part_Number"
+	1    4450 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L 001:C C?
+U 1 1 5EC6E6BC
+P 4700 3300
+AR Path="/5EC6E6BC" Ref="C?"  Part="1" 
+AR Path="/5EBDE6C5/5EC6E6BC" Ref="C?"  Part="1" 
+AR Path="/5EEC35BD/5EC6E6BC" Ref="C?"  Part="1" 
+AR Path="/5EEC5A0D/5EC6E6BC" Ref="C?"  Part="1" 
+AR Path="/5EEC6FA6/5EC6E6BC" Ref="C?"  Part="1" 
+AR Path="/5EBDE6C5/5EED755D/5EC6E6BC" Ref="C?"  Part="1" 
+AR Path="/5EBDE6C5/5EFEC695/5EC6E6BC" Ref="C?"  Part="1" 
+AR Path="/5EBDE6C5/5EFED6C6/5EC6E6BC" Ref="C?"  Part="1" 
+AR Path="/5EBDE6C5/5EFEDDD3/5EC6E6BC" Ref="C?"  Part="1" 
+AR Path="/5EBDE6C5/5EFEE4F2/5EC6E6BC" Ref="C?"  Part="1" 
+F 0 "C?" H 4950 3350 50  0000 L CNN
+F 1 "0.1 uF" H 4750 3150 50  0000 L CNN
+F 2 "" H 4750 3390 50  0001 C CNN
+F 3 "" H 4750 3390 50  0001 C CNN
+	1    4700 3300
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	4600 3400 4600 3300
+Wire Wire Line
+	4500 3300 4600 3300
+Wire Wire Line
+	4600 3300 4700 3300
+Connection ~ 4600 3300
+Text GLabel 5200 3300 2    50   Output ~ 0
+GND
+Wire Wire Line
+	5000 3300 5100 3300
+Text GLabel 4850 4900 2    50   Input ~ 0
+S2
+Text GLabel 5000 4800 2    50   Input ~ 0
+S1
+Text GLabel 5300 4150 2    50   Output ~ 0
+Data
+Wire Wire Line
+	5200 4150 5300 4150
+$Comp
+L 001:C C?
+U 1 1 5EC9959B
+P 4600 5100
+AR Path="/5EC9959B" Ref="C?"  Part="1" 
+AR Path="/5EBDE6C5/5EC9959B" Ref="C?"  Part="1" 
+AR Path="/5EEC35BD/5EC9959B" Ref="C?"  Part="1" 
+AR Path="/5EEC5A0D/5EC9959B" Ref="C?"  Part="1" 
+AR Path="/5EEC6FA6/5EC9959B" Ref="C?"  Part="1" 
+AR Path="/5EBDE6C5/5EED755D/5EC9959B" Ref="C?"  Part="1" 
+AR Path="/5EBDE6C5/5EFEC695/5EC9959B" Ref="C?"  Part="1" 
+AR Path="/5EBDE6C5/5EFED6C6/5EC9959B" Ref="C?"  Part="1" 
+AR Path="/5EBDE6C5/5EFEDDD3/5EC9959B" Ref="C?"  Part="1" 
+AR Path="/5EBDE6C5/5EFEE4F2/5EC9959B" Ref="C?"  Part="1" 
+F 0 "C?" H 4850 5150 50  0000 L CNN
+F 1 "0.1 uF" H 4650 4950 50  0000 L CNN
+F 2 "" H 4650 5190 50  0001 C CNN
+F 3 "" H 4650 5190 50  0001 C CNN
+	1    4600 5100
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	4500 5000 4600 5000
+Text GLabel 4500 5500 0    50   Output ~ 0
+GND
+Text GLabel 4200 3850 0    50   Input ~ 0
+D0
+Text GLabel 4200 4050 0    50   Input ~ 0
+D1
+Text GLabel 4200 4250 0    50   Input ~ 0
+D2
+Text GLabel 4200 4450 0    50   Input ~ 0
+D3
+Wire Wire Line
+	4200 3850 4300 3850
+Wire Wire Line
+	4300 4050 4200 4050
+Wire Wire Line
+	4200 4250 4300 4250
+Wire Wire Line
+	4300 4450 4200 4450
+Wire Wire Line
+	4600 5400 4600 5500
+Wire Wire Line
+	4900 3600 4900 3500
+Wire Wire Line
+	4900 3500 5100 3500
+Wire Wire Line
+	5100 3500 5100 3300
+Wire Wire Line
+	5100 3300 5200 3300
+Connection ~ 5100 3300
+Wire Wire Line
+	4500 5500 4600 5500
+Wire Wire Line
+	4750 4800 4750 4900
+Wire Wire Line
+	4750 4900 4850 4900
+Wire Wire Line
+	4900 4700 4900 4800
+Wire Wire Line
+	4900 4800 5000 4800
+Wire Wire Line
+	4600 4900 4600 5000
+Connection ~ 4600 5000
+Wire Wire Line
+	4600 5000 4600 5100
+Text GLabel 4500 3300 0    50   Input ~ 0
++5V
+Text GLabel 4500 5000 0    50   Input ~ 0
++5V
 $EndSCHEMATC

@@ -10,4 +10,9 @@ D MAX944CSD+, Quad Comparator Push-Pull 2.7  5.5 V 14-Pin SO
 F http://datasheets.maximintegrated.com/en/ds/MAX941-MAX944.pdf
 $ENDCMP
 #
+$CMP TMUX1104DQAR
+D 5-V low-leakage-current, 4:1, 1-ch precision analog multiplexer
+F http://www.ti.com/lit/gpn/TMUX1104
+$ENDCMP
+#
 #End Doc Library

@@ -671,7 +671,7 @@ Wire Wire Line
 Wire Wire Line
 	3400 3450 3400 3250
 Connection ~ 3400 3450
-Text Notes 4350 2700 2    50   ~ 10
+Text Notes 4850 2850 2    50   ~ 10
 Cannot exceed 25 mA\n
 Text GLabel 3750 2900 2    50   Output ~ 0
 FF_Out
