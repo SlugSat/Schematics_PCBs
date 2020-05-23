@@ -317,7 +317,7 @@ F 3 "" H 5450 3300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LT-Schematics:SA602 U2
+L Dobo_Phase3-rescue:SA602-LT-Schematics U2
 U 1 1 5EBBC760
 P 5000 3750
 F 0 "U2" H 5250 4050 50  0000 C CNN

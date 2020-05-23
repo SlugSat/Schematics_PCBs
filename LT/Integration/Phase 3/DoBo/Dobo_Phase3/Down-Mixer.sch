@@ -350,7 +350,7 @@ Connection ~ 3050 3850
 Wire Wire Line
 	3050 3850 3300 3850
 $Comp
-L LT-Schematics:SA602 U5
+L Dobo_Phase3-rescue:SA602-LT-Schematics U5
 U 1 1 5EBB9D48
 P 5000 3750
 F 0 "U5" H 5425 4131 50  0000 C CNN

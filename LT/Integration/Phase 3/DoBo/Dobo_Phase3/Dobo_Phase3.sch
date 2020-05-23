@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L SS:Bus J46
+L Dobo_Phase3-rescue:Bus-SS J46
 U 1 1 5EAFD80A
 P 18500 8900
 F 0 "J46" H 20028 9434 50  0000 L CNN
@@ -25,7 +25,7 @@ F 3 "" H 17200 9950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SS:Bus J46
+L Dobo_Phase3-rescue:Bus-SS J46
 U 2 1 5EB2EAA0
 P 18500 9800
 F 0 "J46" H 18495 10656 50  0000 C CNN
@@ -36,7 +36,7 @@ F 3 "" H 17200 10850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SS:Bus J46
+L Dobo_Phase3-rescue:Bus-SS J46
 U 3 1 5EB3328A
 P 18500 10750
 F 0 "J46" H 18495 11556 50  0000 C CNN
@@ -363,7 +363,7 @@ Bus_87
 Text GLabel 19850 10800 3    28   Input ~ 0
 Bus_89
 $Comp
-L SS:Bus J46
+L Dobo_Phase3-rescue:Bus-SS J46
 U 4 1 5EB34CE3
 P 18500 12000
 F 0 "J46" H 20028 12634 50  0000 L CNN

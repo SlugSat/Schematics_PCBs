@@ -1,10 +1,9 @@
 EESchema Schematic File Version 4
-LIBS:Mobo_Phase3-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 8
+Sheet 8 8
 Title ""
 Date ""
 Rev ""
@@ -23,17 +22,6 @@ F 1 "0.54-0.81uH" H 2650 2150 50  0000 L CNN
 F 2 "LT:IND_trimmer_7M3" H 2850 2500 50  0001 C CNN
 F 3 "~" H 2850 2500 50  0001 C CNN
 	1    2850 2500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:Q_NJFET_DGS Q1
-U 1 1 5E47098D
-P 3400 2350
-F 0 "Q1" H 3591 2396 50  0000 L CNN
-F 1 "2N5486" H 3591 2305 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 3600 2450 50  0001 C CNN
-F 3 "~" H 3400 2350 50  0001 C CNN
-	1    3400 2350
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -113,15 +101,10 @@ F 3 "~" H 2400 2350 50  0001 C CNN
 	1    2400 2350
 	0    1    1    0   
 $EndComp
-Text HLabel 1700 2100 0    50   Input ~ 0
+Text HLabel 1700 2350 0    50   Input ~ 0
 Image_Reject_Out
-Wire Wire Line
-	4800 2200 4800 2050
-Text HLabel 4800 2200 0    50   Input ~ 0
+Text HLabel 4950 1750 2    50   Output ~ 0
 LNAout
-Connection ~ 4800 2050
-Wire Wire Line
-	4800 2050 4950 2050
 Wire Wire Line
 	3500 2650 5150 2650
 Wire Wire Line
@@ -159,8 +142,6 @@ F 3 "~" H 4550 2050 50  0001 C CNN
 	1    4550 2050
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	4700 2050 4800 2050
 $Comp
 L Device:R R9
 U 1 1 5EB385B0
@@ -174,8 +155,6 @@ F 3 "~" H 2000 2350 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2150 2350 2250 2350
-Wire Wire Line
-	1700 2100 1700 2350
 Wire Wire Line
 	1700 2350 1850 2350
 $Comp
@@ -192,34 +171,36 @@ $EndComp
 Text Notes 1500 3650 0    197  ~ 39
 0 ohm resistors are used to short for testing purposes
 $Comp
-L Connector:TestPoint_Probe TP?
-U 1 1 5EB501A7
-P 3500 1450
-AR Path="/5E9B72A2/5EB501A7" Ref="TP?"  Part="1" 
-AR Path="/5E9B734B/5EB501A7" Ref="TP4"  Part="1" 
-F 0 "TP4" H 3653 1551 50  0000 L CNN
-F 1 "TestPoint_Probe" H 3500 1650 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Plated_Hole_D2.0mm" H 3700 1450 50  0001 C CNN
-F 3 "~" H 3700 1450 50  0001 C CNN
-	1    3500 1450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3500 1200 3500 1450
-Connection ~ 3500 1450
-Wire Wire Line
-	3500 1450 3500 1600
-$Comp
-L Connector:TestPoint_Probe TP?
-U 1 1 5EB6A857
+L Connector:TestPoint TP4
+U 1 1 5ECAF0E2
 P 3500 2050
-AR Path="/5E9B72A2/5EB6A857" Ref="TP?"  Part="1" 
-AR Path="/5E9B734B/5EB6A857" Ref="TP6"  Part="1" 
-F 0 "TP6" H 3653 2151 50  0000 L CNN
-F 1 "TestPoint_Probe" H 3500 2250 50  0000 L CNN
+F 0 "TP4" V 3454 2238 50  0000 L CNN
+F 1 "TestPoint" V 3545 2238 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 3700 2050 50  0001 C CNN
 F 3 "~" H 3700 2050 50  0001 C CNN
 	1    3500 2050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4700 2050 4800 2050
+Wire Wire Line
+	4800 1750 4800 2050
+Connection ~ 4800 2050
+Wire Wire Line
+	4800 2050 4950 2050
+Wire Wire Line
+	4800 1750 4950 1750
+$Comp
+L Device:Q_NJFET_DSG Q1
+U 1 1 5ECB064C
+P 3400 2350
+F 0 "Q1" H 3591 2396 50  0000 L CNN
+F 1 "Q_NJFET_DSG" H 3591 2305 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 3600 2450 50  0001 C CNN
+F 3 "~" H 3400 2350 50  0001 C CNN
+	1    3400 2350
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	3500 1200 3500 1600
 $EndSCHEMATC
