@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 10
+Sheet 3 10
 Title ""
 Date ""
 Rev ""
@@ -165,7 +165,7 @@ $EndComp
 Text Notes 4150 4250 0    50   ~ 0
 from VGA
 Text Notes 7850 4150 0    50   ~ 0
-to micro-controller
+to Microcontroller
 $Comp
 L power:GND #PWR087
 U 1 1 5E4E81DB

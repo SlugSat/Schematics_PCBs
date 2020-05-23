@@ -1,10 +1,9 @@
 EESchema Schematic File Version 4
-LIBS:Mobo_Phase3-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 8
+Sheet 4 8
 Title ""
 Date ""
 Rev ""
