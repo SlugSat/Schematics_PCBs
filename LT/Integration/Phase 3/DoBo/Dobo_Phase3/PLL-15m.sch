@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 2 10
+Sheet 6 10
 Title ""
 Date ""
 Rev ""
@@ -44,7 +44,7 @@ L Device:C C31
 U 1 1 5C6B3E8B
 P 2650 2250
 F 0 "C31" H 2535 2204 50  0000 R CNN
-F 1 "C" H 2535 2295 50  0000 R CNN
+F 1 "100nF" H 2535 2295 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 2688 2100 50  0001 C CNN
 F 3 "~" H 2650 2250 50  0001 C CNN
 	1    2650 2250
@@ -84,7 +84,7 @@ F 3 "" H 6100 3650 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Text Notes 3850 5350 0    50   ~ 10
-Reference Oscillator (i)\n
+10MHz Reference Oscillator (i)\n
 Wire Wire Line
 	4700 5200 4700 4450
 Text Notes 2450 5350 0    50   ~ 10
@@ -509,24 +509,24 @@ Wire Wire Line
 $Comp
 L power:GND #PWR074
 U 1 1 5EAF5C4F
-P 10500 5150
-F 0 "#PWR074" H 10500 4900 50  0001 C CNN
-F 1 "GND" H 10505 4977 50  0000 C CNN
-F 2 "" H 10500 5150 50  0001 C CNN
-F 3 "" H 10500 5150 50  0001 C CNN
-	1    10500 5150
-	0    -1   -1   0   
+P 10550 5150
+F 0 "#PWR074" H 10550 4900 50  0001 C CNN
+F 1 "GND" H 10555 4977 50  0000 C CNN
+F 2 "" H 10550 5150 50  0001 C CNN
+F 3 "" H 10550 5150 50  0001 C CNN
+	1    10550 5150
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR080
 U 1 1 5C840A6A
-P 11650 5550
-F 0 "#PWR080" H 11650 5300 50  0001 C CNN
-F 1 "GND" H 11655 5377 50  0000 C CNN
-F 2 "" H 11650 5550 50  0001 C CNN
-F 3 "" H 11650 5550 50  0001 C CNN
-	1    11650 5550
-	0    -1   -1   0   
+P 11700 5550
+F 0 "#PWR080" H 11700 5300 50  0001 C CNN
+F 1 "GND" H 11705 5377 50  0000 C CNN
+F 2 "" H 11700 5550 50  0001 C CNN
+F 3 "" H 11700 5550 50  0001 C CNN
+	1    11700 5550
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR077
@@ -631,9 +631,7 @@ F 3 "~" H 6900 6100 50  0001 C CNN
 	1    6900 6100
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6050 4650 6050 4700
-Text Notes 5950 5400 0    50   ~ 10
+Text Notes 5850 5150 0    50   ~ 10
 Mircowire Interface
 Text Notes 6950 5950 0    50   ~ 10
 Loop Filter \nOutput
@@ -676,16 +674,14 @@ Text GLabel 5400 3400 0    50   Input ~ 10
 Vp
 Text GLabel 4050 4250 3    50   Input ~ 10
 F_IN
-Text GLabel 5050 4450 3    50   Input ~ 10
-OSC_IN
 Text GLabel 7250 4150 3    50   Input ~ 10
 CPo
-Text GLabel 6050 4700 0    50   Input ~ 10
-Data
-Text GLabel 6200 4800 0    50   Input ~ 10
-LE
 Text GLabel 6350 4750 2    50   Input ~ 10
-Clock
+Bus_89
+Text GLabel 6050 4700 0    50   Input ~ 10
+Bus_87
+Text GLabel 6200 4900 0    50   Input ~ 10
+Bus_85
 $Comp
 L Device:Q_NJFET_DSG Q2
 U 1 1 5EAF5C5B
@@ -773,29 +769,25 @@ Wire Wire Line
 $Comp
 L Device:C C46
 U 1 1 5EAF5C6B
-P 8950 2000
-F 0 "C46" H 8650 1950 50  0000 L CNN
-F 1 "80nF" H 8600 2050 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 8988 1850 50  0001 C CNN
-F 3 "~" H 8950 2000 50  0001 C CNN
-	1    8950 2000
-	-1   0    0    1   
+P 8950 3550
+F 0 "C46" H 9100 3500 50  0000 L CNN
+F 1 "80nF" H 9100 3600 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 8988 3400 50  0001 C CNN
+F 3 "~" H 8950 3550 50  0001 C CNN
+	1    8950 3550
+	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8950 2850 8950 2450
 $Comp
 L power:GND #PWR067
 U 1 1 5EAF5C6C
-P 8950 1850
-F 0 "#PWR067" H 8950 1600 50  0001 C CNN
-F 1 "GND" H 8955 1677 50  0000 C CNN
-F 2 "" H 8950 1850 50  0001 C CNN
-F 3 "" H 8950 1850 50  0001 C CNN
-	1    8950 1850
-	-1   0    0    1   
+P 8950 3700
+F 0 "#PWR067" H 8950 3450 50  0001 C CNN
+F 1 "GND" H 8955 3527 50  0000 C CNN
+F 2 "" H 8950 3700 50  0001 C CNN
+F 3 "" H 8950 3700 50  0001 C CNN
+	1    8950 3700
+	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	9250 2850 9350 2850
 $Comp
 L Device:C C49
 U 1 1 5EAF5C6D
@@ -838,13 +830,13 @@ Wire Wire Line
 $Comp
 L power:GND #PWR073
 U 1 1 5EAF5C70
-P 10500 4800
-F 0 "#PWR073" H 10500 4550 50  0001 C CNN
-F 1 "GND" H 10505 4627 50  0000 C CNN
-F 2 "" H 10500 4800 50  0001 C CNN
-F 3 "" H 10500 4800 50  0001 C CNN
-	1    10500 4800
-	0    -1   -1   0   
+P 10550 4800
+F 0 "#PWR073" H 10550 4550 50  0001 C CNN
+F 1 "GND" H 10555 4627 50  0000 C CNN
+F 2 "" H 10550 4800 50  0001 C CNN
+F 3 "" H 10550 4800 50  0001 C CNN
+	1    10550 4800
+	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C56
@@ -863,13 +855,13 @@ Wire Wire Line
 $Comp
 L power:GND #PWR079
 U 1 1 5EAF5C72
-P 11650 5150
-F 0 "#PWR079" H 11650 4900 50  0001 C CNN
-F 1 "GND" H 11655 4977 50  0000 C CNN
-F 2 "" H 11650 5150 50  0001 C CNN
-F 3 "" H 11650 5150 50  0001 C CNN
-	1    11650 5150
-	0    -1   -1   0   
+P 11700 5150
+F 0 "#PWR079" H 11700 4900 50  0001 C CNN
+F 1 "GND" H 11705 4977 50  0000 C CNN
+F 2 "" H 11700 5150 50  0001 C CNN
+F 3 "" H 11700 5150 50  0001 C CNN
+	1    11700 5150
+	1    0    0    -1  
 $EndComp
 Connection ~ 9000 5550
 Wire Wire Line
@@ -934,7 +926,6 @@ Wire Wire Line
 Connection ~ 8150 6100
 Wire Wire Line
 	8150 5550 8600 5550
-Connection ~ 9350 2850
 Wire Wire Line
 	8450 4950 9750 4950
 Wire Wire Line
@@ -1041,24 +1032,24 @@ $EndComp
 $Comp
 L Device:R_US R18
 U 1 1 5E7CC017
-P 9100 2850
-F 0 "R18" V 8895 2850 50  0000 C CNN
-F 1 "1k" V 8986 2850 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 9140 2840 50  0001 C CNN
-F 3 "~" H 9100 2850 50  0001 C CNN
-	1    9100 2850
+P 9150 2850
+F 0 "R18" V 8945 2850 50  0000 C CNN
+F 1 "1k" V 9036 2850 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 9190 2840 50  0001 C CNN
+F 3 "~" H 9150 2850 50  0001 C CNN
+	1    9150 2850
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R_US R17
 U 1 1 5EAF5C9D
-P 8950 2300
-F 0 "R17" H 9018 2346 50  0000 L CNN
-F 1 "62k" H 9018 2255 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 8990 2290 50  0001 C CNN
-F 3 "~" H 8950 2300 50  0001 C CNN
-	1    8950 2300
-	1    0    0    -1  
+P 8950 3250
+F 0 "R17" H 9018 3296 50  0000 L CNN
+F 1 "62k" H 9018 3205 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 8990 3240 50  0001 C CNN
+F 3 "~" H 8950 3250 50  0001 C CNN
+	1    8950 3250
+	-1   0    0    1   
 $EndComp
 Connection ~ 4900 2500
 Connection ~ 10200 6050
@@ -1067,7 +1058,6 @@ Wire Wire Line
 Connection ~ 11000 5900
 Wire Wire Line
 	11000 5900 11050 5900
-Connection ~ 8950 2850
 $Comp
 L power:+5V #PWR0123
 U 1 1 5EB92C28
@@ -1086,17 +1076,17 @@ Wire Wire Line
 Wire Wire Line
 	2450 2100 2650 2100
 Text HLabel 4700 5200 0    50   Input ~ 0
-10MHz_Reference_Oscillator
+Reference_Oscillator
 Connection ~ 10700 4000
 $Comp
 L power:+8V #PWR0138
 U 1 1 5EC1463B
-P 11150 4000
-F 0 "#PWR0138" H 11150 3850 50  0001 C CNN
-F 1 "+8V" H 11165 4173 50  0000 C CNN
-F 2 "" H 11150 4000 50  0001 C CNN
-F 3 "" H 11150 4000 50  0001 C CNN
-	1    11150 4000
+P 10700 4000
+F 0 "#PWR0138" H 10700 3850 50  0001 C CNN
+F 1 "+8V" H 10715 4173 50  0000 C CNN
+F 2 "" H 10700 4000 50  0001 C CNN
+F 3 "" H 10700 4000 50  0001 C CNN
+	1    10700 4000
 	1    0    0    -1  
 $EndComp
 Text HLabel 12600 7200 2    50   Input ~ 0
@@ -1167,12 +1157,6 @@ Text Notes 3100 8350 0    197  ~ 39
 0 ohm resistors are used to short the circuit for testing purposes
 Wire Wire Line
 	6750 4150 8000 4150
-Wire Wire Line
-	10700 4000 11150 4000
-Wire Wire Line
-	6350 4650 6350 4750
-Wire Wire Line
-	6200 4650 6200 4800
 NoConn ~ 6750 4250
 NoConn ~ 6750 4350
 $Comp
@@ -1217,4 +1201,34 @@ $EndComp
 Connection ~ 9750 3550
 Wire Wire Line
 	9750 3550 9750 4950
+Wire Wire Line
+	10500 4800 10550 4800
+Wire Wire Line
+	10500 5150 10550 5150
+Wire Wire Line
+	11650 5150 11700 5150
+Wire Wire Line
+	11650 5550 11700 5550
+Wire Wire Line
+	8950 3100 8950 2850
+Wire Wire Line
+	8950 2850 9000 2850
+Connection ~ 8950 2850
+Wire Wire Line
+	9300 2850 9350 2850
+Connection ~ 9350 2850
+Text HLabel 6050 4800 0    50   Input ~ 0
+Data
+Wire Wire Line
+	6050 4650 6050 4800
+Text HLabel 6200 5000 0    50   Input ~ 0
+LE
+Text HLabel 6350 4850 2    50   Input ~ 0
+Clock
+Wire Wire Line
+	6350 4650 6350 4850
+Wire Wire Line
+	6200 4650 6200 5000
+Text GLabel 4700 4900 0    50   Input ~ 10
+Bus_100
 $EndSCHEMATC

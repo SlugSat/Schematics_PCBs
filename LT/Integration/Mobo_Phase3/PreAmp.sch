@@ -1,10 +1,9 @@
 EESchema Schematic File Version 4
-LIBS:Mobo_Phase3-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 8
+Sheet 5 8
 Title ""
 Date ""
 Rev ""
@@ -26,7 +25,7 @@ F 3 "~" H 3200 3150 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Daisy~Chain-cache:Device_C C31
+L Mobo_Phase3-rescue:Device_C-Daisy_Chain-cache C31
 U 1 1 5EB62BDE
 P 4350 2500
 F 0 "C31" H 4100 2550 50  0000 L CNN
@@ -132,7 +131,7 @@ Wire Wire Line
 	4650 2150 4650 2350
 Connection ~ 4650 2350
 $Comp
-L Daisy~Chain-cache:Device_C C32
+L Mobo_Phase3-rescue:Device_C-Daisy_Chain-cache C32
 U 1 1 5EB6449A
 P 5200 2850
 F 0 "C32" V 5050 2800 50  0000 L CNN

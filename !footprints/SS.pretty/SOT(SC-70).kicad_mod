@@ -1,6 +1,9 @@
-(module "SOT(SC-70)" (layer F.Cu) (tedit 5EC29D5D)
+(module "SOT(SC-70)" (layer F.Cu) (tedit 5EC65344)
   (descr DCK)
   (tags "Integrated Circuit")
+  (solder_mask_margin 0.075)
+  (solder_paste_margin -0.025)
+  (clearance 0.1)
   (attr smd)
   (fp_text reference IC** (at 0 -2.15) (layer F.SilkS)
     (effects (font (size 1.27 1.27) (thickness 0.254)))
@@ -8,7 +11,6 @@
   (fp_text value "SOT(SC-70)" (at 3.95 2.575) (layer F.SilkS) hide
     (effects (font (size 1.27 1.27) (thickness 0.254)))
   )
-  (fp_line (start -1.55 -1.1) (end -0.35 -1.1) (layer F.SilkS) (width 0.2))
   (fp_line (start -0.625 -0.35) (end 0.025 -1) (layer F.Fab) (width 0.1))
   (fp_line (start -0.625 1) (end -0.625 -1) (layer F.Fab) (width 0.1))
   (fp_line (start 0.625 1) (end -0.625 1) (layer F.Fab) (width 0.1))
