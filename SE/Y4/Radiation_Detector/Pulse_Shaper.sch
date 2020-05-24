@@ -1090,7 +1090,7 @@ Wire Notes Line
 	2275 3100 2450 3100
 Wire Notes Line
 	2875 3525 2875 4550
-Text Notes 2700 4550 0    35   ~ 0
+Text Notes 2600 4525 0    50   ~ 10
 Buffer
 Wire Notes Line
 	2875 3525 2525 3525
@@ -1114,7 +1114,7 @@ Wire Notes Line
 	2925 4150 4825 4150
 Wire Notes Line
 	4825 2800 4825 4150
-Text Notes 4325 2875 0    35   ~ 0
+Text Notes 4250 2900 0    50   ~ 10
 SallenKey LPF
 Wire Wire Line
 	7800 3900 8000 3900
@@ -1127,8 +1127,8 @@ Wire Notes Line
 	4850 3300 4850 4925
 Wire Notes Line
 	7925 3300 7925 4925
-Text Notes 7500 3425 0    35   ~ 0
-Overall A_v=10\n?????????????
+Text Notes 7900 3475 2    50   ~ 10
+Overall A_v=10\n???????????
 Wire Notes Line
 	3950 4125 3950 3475
 Wire Notes Line
@@ -1219,4 +1219,14 @@ Text Notes 2450 3625 0    35   ~ 0
 Av=1
 Text Notes 4400 3725 0    35   ~ 0
 Av=1
+Text Notes 900  3100 0    100  ~ 20
+Pulse\nShaper
+Wire Notes Line
+	8350 2775 900  2775
+Wire Notes Line
+	900  2775 900  4950
+Wire Notes Line
+	900  4950 8350 4950
+Wire Notes Line
+	8350 2775 8350 4950
 $EndSCHEMATC

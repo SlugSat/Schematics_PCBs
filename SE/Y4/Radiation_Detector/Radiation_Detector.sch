@@ -124,9 +124,9 @@ Wire Wire Line
 Connection ~ 1250 1750
 Wire Wire Line
 	1250 1750 1250 1550
-Text Notes 650  3400 1    100  ~ 20
+Text Notes 675  3475 1    100  ~ 20
 SatBus
-Text Notes 3150 1450 0    100  ~ 20
+Text Notes 3150 1425 0    100  ~ 20
 SiPM Bias V
 $Sheet
 S 4250 950  900  450 
@@ -734,25 +734,15 @@ Wire Notes Line
 Wire Notes Line
 	4100 500  4100 1450
 Wire Notes Line
-	5175 650  4200 650 
-Wire Notes Line
-	4200 3900 5175 3900
+	5200 650  4200 650 
 Text Notes 4250 825  0    100  ~ 20
 Analog O/P\n
 Wire Notes Line
-	5175 650  5175 3900
-Wire Notes Line
 	4200 650  4200 3900
 Wire Notes Line
-	5225 4100 6325 4100
-Wire Notes Line
-	6325 4100 6325 700 
-Wire Notes Line
-	6325 700  5225 700 
+	6650 4100 6650 700 
 Text Notes 5350 875  0    100  ~ 20
 Digital O/P\n
-Wire Notes Line
-	5225 700  5225 4100
 $Comp
 L SS:SN74AUP1T32DCKR U?
 U 1 1 5EC879ED
@@ -795,4 +785,14 @@ Wire Notes Line
 	7350 1450 9525 1450
 Text Notes 9250 1600 0    100  ~ 20
 ISR
+Wire Notes Line
+	4200 3900 5200 3900
+Wire Notes Line
+	5200 650  5200 4100
+Wire Notes Line
+	5200 700  6650 700 
+Wire Notes Line
+	5200 4100 6650 4100
+Text Notes 11175 3475 1    100  ~ 20
+SatBus
 $EndSCHEMATC
