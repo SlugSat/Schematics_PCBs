@@ -205,10 +205,10 @@ Wire Wire Line
 Text Notes 11650 3700 0    79   ~ 16
 Power Switch (1A Limit)
 $Comp
-L Regulator_Linear:L78L05_SO8 U?
+L Regulator_Linear:L78L05_SO8 U0
 U 1 1 5EBE4497
 P 1600 2800
-F 0 "U?" H 1600 3042 50  0000 C CNN
+F 0 "U0" H 1600 3042 50  0000 C CNN
 F 1 "L78L05_SO8" H 1600 2951 50  0000 C CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 1700 3000 50  0001 C CIN
 F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/15/55/e5/aa/23/5b/43/fd/CD00000446.pdf/files/CD00000446.pdf/jcr:content/translations/en.CD00000446.pdf" H 1800 2800 50  0001 C CNN
