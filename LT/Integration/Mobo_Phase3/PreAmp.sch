@@ -36,7 +36,7 @@ F 3 "" H 4350 2500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text HLabel 2800 3150 0    50   Input ~ 0
-29.4BPF_OUT
+PRE-AMP_IN
 Wire Wire Line
 	2800 3150 3050 3150
 $Comp

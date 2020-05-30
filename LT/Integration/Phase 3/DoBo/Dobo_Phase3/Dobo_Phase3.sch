@@ -100,8 +100,6 @@ Text Notes 14700 9650 0    118  ~ 24
 PCB 11
 Text Notes 12000 9650 0    118  ~ 24
 PCB 10
-Text Notes 18950 6600 0    118  ~ 24
-PCB 12
 Text Notes 17750 3800 0    118  ~ 24
 PCB 9
 Text Notes 8550 9650 0    118  ~ 24
@@ -125,8 +123,6 @@ Text Label 13250 9000 2    50   ~ 0
 PLL_10m_LPF
 Text Label 15600 3600 2    50   ~ 0
 VGA-Detector
-Text Label 16300 6400 2    50   ~ 0
-LPF-Up_Mixer
 $Sheet
 S 6950 8200 2200 1500
 U 5EB6970C
@@ -146,25 +142,12 @@ F4 "Data" I L 3800 9200 50
 F5 "Clock" I L 3800 9500 50 
 F6 "LE" I L 3800 9350 50 
 $EndSheet
-$Sheet
-S 16400 5050 3250 1600
-U 5EAF3CBD
-F0 "Up-Mixer" 20
-F1 "Up-Mixer.sch" 20
-F2 "Local_Oscillator_Input" I L 16400 6400 79 
-F3 "Up_Mixer_Output" O R 19650 5500 79 
-F4 "Up_Mixer_Input" I L 16400 5500 79 
-$EndSheet
-Text Notes 17400 5000 0    197  ~ 39
-Up-Mixer
 Wire Wire Line
 	9150 8600 9350 8600
 Wire Wire Line
 	10750 5500 11550 5500
 Wire Wire Line
 	15400 8500 15750 8500
-Wire Wire Line
-	15750 6400 16400 6400
 Wire Wire Line
 	15750 6400 15750 8500
 Wire Wire Line
@@ -173,9 +156,6 @@ Wire Wire Line
 	14700 5500 14700 3600
 Wire Wire Line
 	14700 3600 16450 3600
-Connection ~ 14700 5500
-Wire Wire Line
-	14700 5500 16400 5500
 $Sheet
 S 4000 5050 3250 1600
 U 5EAF3C57
@@ -296,14 +276,10 @@ Wire Wire Line
 	11350 6450 11350 6900
 Wire Wire Line
 	11350 6900 11500 6900
-Text HLabel 20650 5500 2    79   Output ~ 0
-LPF_Input
-Wire Wire Line
-	19650 5500 20650 5500
 Text HLabel 3150 5500 0    79   Input ~ 0
 LNA_Output
 Wire Wire Line
-	3150 5500 4000 5500
+	3150 5500 3350 5500
 Wire Wire Line
 	6250 9000 6950 9000
 Wire Wire Line
@@ -374,8 +350,6 @@ F 3 "" H 17200 13050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	19850 10750 19850 10800
-Wire Wire Line
 	19650 10750 19650 10800
 Wire Wire Line
 	19450 10750 19450 10800
@@ -383,4 +357,110 @@ Text GLabel 19350 12050 3    50   Input ~ 0
 Bus_114
 Wire Wire Line
 	19350 12000 19350 12050
+$Comp
+L Connector:Conn_01x03_Male J12
+U 1 1 5ECA6C19
+P 18000 13350
+F 0 "J12" H 18108 13631 50  0000 C CNN
+F 1 "Conn_01x03_Male" H 17650 13350 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 18000 13350 50  0001 C CNN
+F 3 "~" H 18000 13350 50  0001 C CNN
+	1    18000 13350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+8V #PWR0180
+U 1 1 5EC95943
+P 18250 13250
+F 0 "#PWR0180" H 18250 13100 50  0001 C CNN
+F 1 "+8V" H 18265 13423 50  0000 C CNN
+F 2 "" H 18250 13250 50  0001 C CNN
+F 3 "" H 18250 13250 50  0001 C CNN
+	1    18250 13250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	18200 13250 18250 13250
+Wire Wire Line
+	18200 13350 18350 13350
+$Comp
+L power:+5V #PWR0178
+U 1 1 5EC946AC
+P 18200 13450
+F 0 "#PWR0178" H 18200 13300 50  0001 C CNN
+F 1 "+5V" H 18215 13623 50  0000 C CNN
+F 2 "" H 18200 13450 50  0001 C CNN
+F 3 "" H 18200 13450 50  0001 C CNN
+	1    18200 13450
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:-5V #PWR0179
+U 1 1 5EC95083
+P 18350 13350
+F 0 "#PWR0179" H 18350 13450 50  0001 C CNN
+F 1 "-5V" H 18365 13523 50  0000 C CNN
+F 2 "" H 18350 13350 50  0001 C CNN
+F 3 "" H 18350 13350 50  0001 C CNN
+	1    18350 13350
+	-1   0    0    1   
+$EndComp
+Connection ~ 14700 5500
+Wire Wire Line
+	19650 5500 20550 5500
+Text HLabel 20650 5500 2    79   Output ~ 0
+LPF_Input
+Wire Wire Line
+	14700 5500 16400 5500
+Wire Wire Line
+	15750 6400 16400 6400
+Text Notes 17400 5000 0    197  ~ 39
+Up-Mixer
+$Sheet
+S 16400 5050 3250 1600
+U 5EAF3CBD
+F0 "Up-Mixer" 20
+F1 "Up-Mixer.sch" 20
+F2 "Local_Oscillator_Input" I L 16400 6400 79 
+F3 "Up_Mixer_Output" O R 19650 5500 79 
+F4 "Up_Mixer_Input" I L 16400 5500 79 
+$EndSheet
+Text Label 16300 6400 2    50   ~ 0
+LPF-Up_Mixer
+Text Notes 18950 6600 0    118  ~ 24
+PCB 12
+Text Notes 22350 15900 0    50   ~ 0
+Rev0
+Text Notes 19850 15900 0    50   ~ 0
+5/12/20
+Text Notes 19150 15750 0    50   ~ 0
+DoBo_Phase3
+Text GLabel 19950 10800 3    28   Input ~ 0
+Bus_90
+Wire Wire Line
+	19950 10750 19950 10800
+Wire Wire Line
+	19850 10750 19850 10800
+Text GLabel 17350 10800 3    28   Input ~ 0
+Bus_64
+Wire Wire Line
+	17350 10750 17350 10800
+Text GLabel 3250 5750 0    79   Input ~ 0
+Bus_90
+Wire Wire Line
+	3250 5750 3350 5750
+Wire Wire Line
+	3350 5750 3350 5500
+Connection ~ 3350 5500
+Wire Wire Line
+	3350 5500 4000 5500
+Text GLabel 20650 5750 2    79   Input ~ 0
+Bus_64
+Wire Wire Line
+	20550 5500 20550 5750
+Wire Wire Line
+	20550 5750 20650 5750
+Connection ~ 20550 5500
+Wire Wire Line
+	20550 5500 20650 5500
 $EndSCHEMATC

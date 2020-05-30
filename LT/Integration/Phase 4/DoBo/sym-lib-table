@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name Dobo_Phase3-rescue)(type Legacy)(uri ${KIPRJMOD}/Dobo_Phase3-rescue.lib)(options "")(descr ""))
+  (lib (name Dobo_Phase4-rescue)(type Legacy)(uri ${KIPRJMOD}/Dobo_Phase4-rescue.lib)(options "")(descr ""))
+  (lib (name _saved_Dobo_Phase4-rescue)(type Legacy)(uri ${KIPRJMOD}/_saved_Dobo_Phase4-rescue.lib)(options "")(descr ""))
+)

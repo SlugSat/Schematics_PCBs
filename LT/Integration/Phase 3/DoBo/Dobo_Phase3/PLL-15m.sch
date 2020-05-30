@@ -393,17 +393,6 @@ $EndComp
 Wire Wire Line
 	8600 5650 8600 5550
 $Comp
-L power:GND #PWR061
-U 1 1 5EAF5C45
-P 7450 6400
-F 0 "#PWR061" H 7450 6150 50  0001 C CNN
-F 1 "GND" H 7455 6227 50  0000 C CNN
-F 2 "" H 7450 6400 50  0001 C CNN
-F 3 "" H 7450 6400 50  0001 C CNN
-	1    7450 6400
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR071
 U 1 1 5EAF5C46
 P 9500 6450
@@ -474,11 +463,7 @@ Wire Wire Line
 Wire Wire Line
 	10200 4000 10200 4800
 Wire Wire Line
-	10700 4000 10700 4750
-Wire Wire Line
-	10700 4750 11350 4750
-Wire Wire Line
-	11350 4750 11350 5150
+	10700 4000 11350 4000
 $Comp
 L Device:C C53
 U 1 1 5EAF5C4D
@@ -555,8 +540,6 @@ F 3 " ~" H 13050 6700 50  0001 C CNN
 	1    13050 6700
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8150 5850 8150 6000
 Text Notes 6300 6550 0    50   ~ 10
 VCO Tuning\nVoltage (i)
 $Comp
@@ -576,9 +559,6 @@ Text Notes 9600 2550 0    50   ~ 10
 Charge Pump Filters
 Wire Wire Line
 	8150 4950 7700 4950
-Wire Wire Line
-	7700 6000 8150 6000
-Connection ~ 8150 6000
 Wire Wire Line
 	9500 5700 9500 5550
 Connection ~ 9500 5550
@@ -633,7 +613,7 @@ F 3 "~" H 6900 6100 50  0001 C CNN
 $EndComp
 Text Notes 5850 5150 0    50   ~ 10
 Mircowire Interface
-Text Notes 6950 5950 0    50   ~ 10
+Text Notes 7250 5700 0    50   ~ 10
 Loop Filter \nOutput
 $Comp
 L Device:C C44
@@ -688,7 +668,7 @@ U 1 1 5EAF5C5B
 P 11250 5900
 F 0 "Q2" H 11441 5946 50  0000 L CNN
 F 1 "2N5486 JFET" H 11441 5855 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-251-3_Vertical" H 11450 6000 50  0001 C CNN
+F 2 "Package_TO_SOT_THT:TO-92L_Inline_Wide" H 11450 6000 50  0001 C CNN
 F 3 "~" H 11250 5900 50  0001 C CNN
 	1    11250 5900
 	1    0    0    -1  
@@ -699,7 +679,7 @@ U 1 1 5EAF5C5C
 P 10100 5550
 F 0 "Q1" H 10291 5596 50  0000 L CNN
 F 1 "2N5486 JFET" H 10291 5505 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-251-3_Vertical" H 10300 5650 50  0001 C CNN
+F 2 "Package_TO_SOT_THT:TO-92L_Inline_Wide" H 10300 5650 50  0001 C CNN
 F 3 "~" H 10100 5550 50  0001 C CNN
 	1    10100 5550
 	1    0    0    -1  
@@ -870,39 +850,6 @@ Wire Wire Line
 	8600 5550 9000 5550
 Connection ~ 8600 5550
 $Comp
-L Device:C C42
-U 1 1 5EAF5C73
-P 7450 6250
-F 0 "C42" H 7600 6400 50  0000 R CNN
-F 1 "100pF" H 7750 6500 50  0000 R CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 7488 6100 50  0001 C CNN
-F 3 "~" H 7450 6250 50  0001 C CNN
-	1    7450 6250
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:C C43
-U 1 1 5EAF5C74
-P 7700 6250
-F 0 "C43" H 7750 6700 50  0000 R CNN
-F 1 "100nF" H 7750 6800 50  0000 R CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 7738 6100 50  0001 C CNN
-F 3 "~" H 7700 6250 50  0001 C CNN
-	1    7700 6250
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:GND #PWR062
-U 1 1 5EAF5C75
-P 7700 6400
-F 0 "#PWR062" H 7700 6150 50  0001 C CNN
-F 1 "GND" H 7700 6200 50  0000 C CNN
-F 2 "" H 7700 6400 50  0001 C CNN
-F 3 "" H 7700 6400 50  0001 C CNN
-	1    7700 6400
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR063
 U 1 1 5EAF5C76
 P 8150 6400
@@ -913,14 +860,6 @@ F 3 "" H 8150 6400 50  0001 C CNN
 	1    8150 6400
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7100 6100 7450 6100
-Connection ~ 7450 6100
-Wire Wire Line
-	7450 6100 7700 6100
-Connection ~ 7700 6100
-Wire Wire Line
-	7700 6100 7750 6100
 Wire Wire Line
 	8050 6100 8150 6100
 Connection ~ 8150 6100
@@ -979,7 +918,7 @@ L Device:R_US R15
 U 1 1 5E7C868F
 P 7900 6100
 F 0 "R15" V 7700 6100 50  0000 C CNN
-F 1 "1k" V 7800 6100 50  0000 C CNN
+F 1 "10k" V 7800 6100 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 7940 6090 50  0001 C CNN
 F 3 "~" H 7900 6100 50  0001 C CNN
 	1    7900 6100
@@ -1107,8 +1046,6 @@ F 3 "~" H 12350 6700 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	12600 6700 12850 6700
-Wire Wire Line
-	8150 6000 8150 6100
 $Comp
 L Device:R R40
 U 1 1 5ECB9A6C
@@ -1151,8 +1088,6 @@ Wire Wire Line
 Connection ~ 8000 2850
 Wire Wire Line
 	8000 2850 8000 4150
-Wire Wire Line
-	7700 4950 7700 6000
 Text Notes 3100 8350 0    197  ~ 39
 0 ohm resistors are used to short the circuit for testing purposes
 Wire Wire Line
@@ -1200,7 +1135,7 @@ F 3 "~" H 9950 3550 50  0001 C CNN
 $EndComp
 Connection ~ 9750 3550
 Wire Wire Line
-	9750 3550 9750 4950
+	9750 3550 9750 3900
 Wire Wire Line
 	10500 4800 10550 4800
 Wire Wire Line
@@ -1231,4 +1166,30 @@ Wire Wire Line
 	6200 4650 6200 5000
 Text GLabel 4700 4900 0    50   Input ~ 10
 Bus_100
+Wire Wire Line
+	7700 4950 7700 6000
+Wire Wire Line
+	8150 6000 8150 6100
+Wire Wire Line
+	8150 5850 8150 6000
+Connection ~ 8150 6000
+Wire Wire Line
+	7700 6000 8150 6000
+Wire Wire Line
+	7100 6100 7750 6100
+Wire Wire Line
+	11350 4000 11350 5150
+$Comp
+L Device:R_US R52
+U 1 1 5ED05DA9
+P 9750 4050
+F 0 "R52" H 9818 4096 50  0000 L CNN
+F 1 "10k" H 9818 4005 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 9790 4040 50  0001 C CNN
+F 3 "~" H 9750 4050 50  0001 C CNN
+	1    9750 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9750 4200 9750 4950
 $EndSCHEMATC

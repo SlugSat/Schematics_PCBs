@@ -102,7 +102,7 @@ F 3 "~" H 2400 2350 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Text HLabel 1700 2350 0    50   Input ~ 0
-Image_Reject_Out
+LNA_IN
 Text HLabel 4950 1750 2    50   Output ~ 0
 LNAout
 Wire Wire Line
@@ -203,4 +203,11 @@ F 3 "~" H 3400 2350 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3500 1200 3500 1600
+Text GLabel 4900 1500 2    79   Input ~ 0
+Bus_90
+Wire Wire Line
+	4900 1500 4800 1500
+Wire Wire Line
+	4800 1500 4800 1750
+Connection ~ 4800 1750
 $EndSCHEMATC

@@ -1,0 +1,164 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 5 8
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Mobo_Phase4-rescue:Device_C-Daisy_Chain-cache-Mobo_Phase3-rescue C31
+U 1 1 5EB62BDE
+P 4350 2500
+F 0 "C31" H 4100 2550 50  0000 L CNN
+F 1 "1uF" H 4100 2450 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 4388 2350 50  0001 C CNN
+F 3 "" H 4350 2500 50  0001 C CNN
+	1    4350 2500
+	1    0    0    -1  
+$EndComp
+Text HLabel 3100 3150 0    50   Input ~ 0
+PRE-AMP_IN
+$Comp
+L Device:C_Variable C30
+U 1 1 5EB63DB3
+P 3700 3150
+F 0 "C30" V 3448 3150 50  0000 C CNN
+F 1 "C_Variable" V 3539 3150 50  0000 C CNN
+F 2 "LT:CAP_trimmer_SGC3_Download" H 3700 3150 50  0001 C CNN
+F 3 "~" H 3700 3150 50  0001 C CNN
+	1    3700 3150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LTRIM L22
+U 1 1 5EB63EB5
+P 4000 3300
+F 0 "L22" H 4102 3346 50  0000 L CNN
+F 1 "LTRIM" H 4102 3255 50  0000 L CNN
+F 2 "LT:IND_trimmer_7M3" H 4000 3300 50  0001 C CNN
+F 3 "~" H 4000 3300 50  0001 C CNN
+	1    4000 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0104
+U 1 1 5EB63F78
+P 4000 3450
+F 0 "#PWR0104" H 4000 3200 50  0001 C CNN
+F 1 "GND" H 4005 3277 50  0000 C CNN
+F 2 "" H 4000 3450 50  0001 C CNN
+F 3 "" H 4000 3450 50  0001 C CNN
+	1    4000 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 3150 3850 3150
+$Comp
+L Device:Q_NJFET_DSG Q2
+U 1 1 5EB64019
+P 4550 3150
+F 0 "Q2" H 4741 3196 50  0000 L CNN
+F 1 "Q_NJFET_DSG" H 4741 3105 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 4750 3250 50  0001 C CNN
+F 3 "~" H 4550 3150 50  0001 C CNN
+	1    4550 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4350 3150 4000 3150
+Connection ~ 4000 3150
+$Comp
+L power:GND #PWR0105
+U 1 1 5EB640D0
+P 4650 3350
+F 0 "#PWR0105" H 4650 3100 50  0001 C CNN
+F 1 "GND" H 4655 3177 50  0000 C CNN
+F 2 "" H 4650 3350 50  0001 C CNN
+F 3 "" H 4650 3350 50  0001 C CNN
+	1    4650 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LTRIM L23
+U 1 1 5EB640E5
+P 4650 2500
+F 0 "L23" H 4752 2546 50  0000 L CNN
+F 1 "LTRIM" H 4752 2455 50  0000 L CNN
+F 2 "LT:IND_trimmer_7M3" H 4650 2500 50  0001 C CNN
+F 3 "~" H 4650 2500 50  0001 C CNN
+	1    4650 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4650 2650 4650 2850
+Wire Wire Line
+	4350 2350 4650 2350
+$Comp
+L power:GND #PWR0106
+U 1 1 5EB64270
+P 4350 2650
+F 0 "#PWR0106" H 4350 2400 50  0001 C CNN
+F 1 "GND" H 4355 2477 50  0000 C CNN
+F 2 "" H 4350 2650 50  0001 C CNN
+F 3 "" H 4350 2650 50  0001 C CNN
+	1    4350 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4650 2150 4650 2350
+Connection ~ 4650 2350
+$Comp
+L Mobo_Phase4-rescue:Device_C-Daisy_Chain-cache-Mobo_Phase3-rescue C32
+U 1 1 5EB6449A
+P 5200 2850
+F 0 "C32" V 5050 2800 50  0000 L CNN
+F 1 "1uF" V 5350 2800 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 5238 2700 50  0001 C CNN
+F 3 "" H 5200 2850 50  0001 C CNN
+	1    5200 2850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5050 2850 4650 2850
+Connection ~ 4650 2850
+Wire Wire Line
+	4650 2850 4650 2950
+Wire Wire Line
+	5450 2850 5350 2850
+$Comp
+L Device:R R13
+U 1 1 5EB6C81C
+P 5600 2850
+F 0 "R13" V 5393 2850 50  0000 C CNN
+F 1 "0" V 5484 2850 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5530 2850 50  0001 C CNN
+F 3 "~" H 5600 2850 50  0001 C CNN
+	1    5600 2850
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+8V #PWR0107
+U 1 1 5EB725E6
+P 4650 2150
+F 0 "#PWR0107" H 4650 2000 50  0001 C CNN
+F 1 "+8V" H 4665 2323 50  0000 C CNN
+F 2 "" H 4650 2150 50  0001 C CNN
+F 3 "" H 4650 2150 50  0001 C CNN
+	1    4650 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3100 3150 3550 3150
+Text HLabel 5900 2850 2    50   Output ~ 0
+PRE-AMP_OUT
+Wire Wire Line
+	5750 2850 5900 2850
+$EndSCHEMATC
