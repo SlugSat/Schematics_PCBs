@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NE555DR
+D Single Precision Timer
+K
+F http://www.ti.com/lit/ds/symlink/ne555.pdf
+$ENDCMP
+#
+$CMP TPS62082DSGT
+D 1.2A High Efficient Step Down Converter in 2x2mm SON Package. 3.3 Vout (Min)
+K
+F http://www.ti.com/lit/gpn/tps62082
+$ENDCMP
+#
+#End Doc Library
