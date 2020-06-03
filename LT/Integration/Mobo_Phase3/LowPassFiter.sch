@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 8 8
+Sheet 7 8
 Title ""
 Date ""
 Rev ""
@@ -250,7 +250,7 @@ U 1 1 5EB7C17D
 P 7700 2850
 F 0 "J15" H 7799 2826 50  0000 L CNN
 F 1 "Conn_Coaxial" H 7799 2735 50  0000 L CNN
-F 2 "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount" H 7700 2850 50  0001 C CNN
+F 2 "Connector_Coaxial:SMA_Amphenol_132291_Vertical" H 7700 2850 50  0001 C CNN
 F 3 " ~" H 7700 2850 50  0001 C CNN
 	1    7700 2850
 	1    0    0    -1  

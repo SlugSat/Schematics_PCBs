@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 10 10
+Sheet 9 10
 Title ""
 Date ""
 Rev ""
@@ -415,7 +415,7 @@ Wire Wire Line
 Wire Wire Line
 	5400 3700 5000 3700
 Text HLabel 2050 2750 0    50   Input ~ 0
-VGA_input
+VGA_Input
 Wire Wire Line
 	2050 2750 2150 2750
 $Comp

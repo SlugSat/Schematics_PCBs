@@ -89,39 +89,6 @@ F 3 "" H 11750 4350 50  0001 C CNN
 	1    13050 3300
 	1    0    0    -1  
 $EndComp
-$Comp
-L Mobo_Phase3-rescue:Bus-SS J1
-U 2 1 5EA309D4
-P 13050 4100
-F 0 "J1" H 13045 4956 50  0000 C CNN
-F 1 "Bus" H 13045 4865 50  0000 C CNN
-F 2 "SS:STD_PCB_A1_v1.1" H 11750 5150 50  0001 C CNN
-F 3 "" H 11750 5150 50  0001 C CNN
-	2    13050 4100
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mobo_Phase3-rescue:Bus-SS J1
-U 3 1 5EA3AF6E
-P 13050 4900
-F 0 "J1" H 13045 5706 50  0000 C CNN
-F 1 "Bus" H 13045 5615 50  0000 C CNN
-F 2 "SS:STD_PCB_A1_v1.1" H 11750 5950 50  0001 C CNN
-F 3 "" H 11750 5950 50  0001 C CNN
-	3    13050 4900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mobo_Phase3-rescue:Bus-SS J1
-U 4 1 5EA3F11D
-P 13050 6200
-F 0 "J1" H 14578 6834 50  0000 L CNN
-F 1 "Bus" H 14578 6743 50  0000 L CNN
-F 2 "SS:STD_PCB_A1_v1.1" H 11750 7250 50  0001 C CNN
-F 3 "" H 11750 7250 50  0001 C CNN
-	4    13050 6200
-	1    0    0    -1  
-$EndComp
 Wire Notes Line width 39 style solid
 	11100 1800 11100 6850
 Wire Notes Line width 39 style solid
@@ -177,7 +144,7 @@ F2 "LNA_IN" I L 7350 2150 50
 F3 "LNA_OUT" O R 8650 2150 50 
 $EndSheet
 Wire Wire Line
-	8650 2150 9550 2150
+	8650 2150 9450 2150
 Text HLabel 1900 2150 0    50   Input ~ 0
 Duplexer_Output
 Wire Wire Line
@@ -193,7 +160,7 @@ Wire Wire Line
 Text HLabel 1350 4850 0    50   Input ~ 0
 Up_Mixer_Output
 Wire Wire Line
-	1350 4850 1700 4850
+	1350 4850 1600 4850
 Text Label 7900 4850 0    50   ~ 0
 POWER_AMP-LPF
 Wire Wire Line
@@ -210,8 +177,102 @@ Text GLabel 2550 2450 0    50   Input ~ 0
 Bus_116
 Wire Wire Line
 	2550 2450 2700 2450
-Text GLabel 14100 6250 3    50   Input ~ 0
+Text GLabel 14100 6350 3    50   Input ~ 0
 Bus_116
 Wire Wire Line
-	14100 6250 14100 6200
+	14100 6350 14100 6300
+$Comp
+L power:+8V #PWR0127
+U 1 1 5ED1ACEA
+P 12100 3350
+F 0 "#PWR0127" H 12100 3200 50  0001 C CNN
+F 1 "+8V" H 12115 3523 50  0000 C CNN
+F 2 "" H 12100 3350 50  0001 C CNN
+F 3 "" H 12100 3350 50  0001 C CNN
+	1    12100 3350
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+5V #PWR0128
+U 1 1 5ED1BF87
+P 11900 3350
+F 0 "#PWR0128" H 11900 3200 50  0001 C CNN
+F 1 "+5V" H 11915 3523 50  0000 C CNN
+F 2 "" H 11900 3350 50  0001 C CNN
+F 3 "" H 11900 3350 50  0001 C CNN
+	1    11900 3350
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:-5V #PWR0129
+U 1 1 5ED1C9AA
+P 12000 3300
+F 0 "#PWR0129" H 12000 3400 50  0001 C CNN
+F 1 "-5V" H 12015 3473 50  0000 C CNN
+F 2 "" H 12000 3300 50  0001 C CNN
+F 3 "" H 12000 3300 50  0001 C CNN
+	1    12000 3300
+	-1   0    0    1   
+$EndComp
+Text GLabel 9450 2350 2    79   Input ~ 0
+Bus_90
+Wire Wire Line
+	9450 2350 9450 2150
+Connection ~ 9450 2150
+Wire Wire Line
+	9450 2150 9550 2150
+Text GLabel 1300 5100 0    79   Input ~ 0
+Bus_64
+Wire Wire Line
+	1300 5100 1600 5100
+Wire Wire Line
+	1600 5100 1600 4850
+Connection ~ 1600 4850
+Wire Wire Line
+	1600 4850 1700 4850
+Wire Wire Line
+	11900 5000 11900 5050
+Text GLabel 11900 5050 3    28   Input ~ 0
+Bus_64
+Wire Wire Line
+	14500 5000 14500 5050
+Text GLabel 14500 5050 3    28   Input ~ 0
+Bus_90
+$Comp
+L Mobo_Phase3-rescue:Bus-SS J1
+U 4 1 5EA3F11D
+P 13050 6300
+F 0 "J1" H 14578 6934 50  0000 L CNN
+F 1 "Bus" H 14578 6843 50  0000 L CNN
+F 2 "SS:STD_PCB_A1_v1.1" H 11750 7350 50  0001 C CNN
+F 3 "" H 11750 7350 50  0001 C CNN
+	4    13050 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mobo_Phase3-rescue:Bus-SS J1
+U 3 1 5EA3AF6E
+P 13050 5000
+F 0 "J1" H 13045 5806 50  0000 C CNN
+F 1 "Bus" H 13045 5715 50  0000 C CNN
+F 2 "SS:STD_PCB_A1_v1.1" H 11750 6050 50  0001 C CNN
+F 3 "" H 11750 6050 50  0001 C CNN
+	3    13050 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mobo_Phase3-rescue:Bus-SS J1
+U 2 1 5EA309D4
+P 13050 4200
+F 0 "J1" H 13045 5056 50  0000 C CNN
+F 1 "Bus" H 13045 4965 50  0000 C CNN
+F 2 "SS:STD_PCB_A1_v1.1" H 11750 5250 50  0001 C CNN
+F 3 "" H 11750 5250 50  0001 C CNN
+	2    13050 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11900 3300 11900 3350
+Wire Wire Line
+	12100 3300 12100 3350
 $EndSCHEMATC

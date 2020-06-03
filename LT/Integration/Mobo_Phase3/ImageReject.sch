@@ -129,9 +129,9 @@ F 3 "" H 2200 3300 50  0001 C CNN
 $EndComp
 Connection ~ 3900 2100
 Text HLabel 1600 2100 0    50   Input ~ 0
-Variable_Attenuator_Out
+IR_IN
 Text HLabel 4850 1750 2    50   Input ~ 0
-Image_Reject_Out
+IR_OUT
 Connection ~ 2200 2100
 Wire Wire Line
 	1600 2100 1700 2100

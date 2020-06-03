@@ -19,7 +19,7 @@ U 1 1 5E4DBCA7
 P 1450 2300
 F 0 "J2" H 1378 2538 50  0000 C CNN
 F 1 "Conn_Coaxial" H 1378 2447 50  0000 C CNN
-F 2 "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount" H 1450 2300 50  0001 C CNN
+F 2 "Connector_Coaxial:SMA_Amphenol_132291_Vertical" H 1450 2300 50  0001 C CNN
 F 3 " ~" H 1450 2300 50  0001 C CNN
 	1    1450 2300
 	-1   0    0    -1  

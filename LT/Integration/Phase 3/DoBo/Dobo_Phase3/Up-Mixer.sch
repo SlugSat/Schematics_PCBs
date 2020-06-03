@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 10
+Sheet 10 10
 Title ""
 Date ""
 Rev ""
@@ -273,7 +273,7 @@ Wire Wire Line
 Text HLabel 8250 4700 2    50   Input ~ 0
 Up_Mixer_Output
 Wire Wire Line
-	8100 3850 8100 4700
+	8100 3850 8100 4400
 Wire Wire Line
 	8100 4700 8250 4700
 Connection ~ 8100 3850
@@ -334,5 +334,12 @@ Wire Wire Line
 Text Notes 2000 3750 0    50   ~ 0
 From VGA
 Text Notes 8450 4600 0    50   ~ 0
-to BPF
+to transmitting stage
+Text GLabel 8450 4400 2    50   Input ~ 0
+Bus_64
+Wire Wire Line
+	8450 4400 8100 4400
+Connection ~ 8100 4400
+Wire Wire Line
+	8100 4400 8100 4700
 $EndSCHEMATC

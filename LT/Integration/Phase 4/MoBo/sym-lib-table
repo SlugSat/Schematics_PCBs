@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name Mobo_Dev1-rescue)(type Legacy)(uri ${KIPRJMOD}/Mobo_Dev1-rescue.lib)(options "")(descr ""))
+  (lib (name Mobo_Phase3-rescue)(type Legacy)(uri ${KIPRJMOD}/Mobo_Phase3-rescue.lib)(options "")(descr ""))
+  (lib (name Mobo_Phase4-rescue)(type Legacy)(uri ${KIPRJMOD}/Mobo_Phase4-rescue.lib)(options "")(descr ""))
+)

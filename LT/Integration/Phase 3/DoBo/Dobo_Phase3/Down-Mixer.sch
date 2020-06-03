@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 8 10
+Sheet 7 10
 Title ""
 Date ""
 Rev ""
@@ -345,7 +345,7 @@ Wire Wire Line
 Text HLabel 3050 3300 0    50   Input ~ 0
 LNA_Output
 Wire Wire Line
-	3050 3300 3050 3850
+	3050 3300 3050 3450
 Connection ~ 3050 3850
 Wire Wire Line
 	3050 3850 3300 3850
@@ -360,4 +360,11 @@ F 3 "" H 5400 3450 50  0001 C CNN
 	1    5000 3750
 	1    0    0    -1  
 $EndComp
+Text GLabel 2950 3450 0    50   Input ~ 0
+Bus_90
+Wire Wire Line
+	2950 3450 3050 3450
+Connection ~ 3050 3450
+Wire Wire Line
+	3050 3450 3050 3850
 $EndSCHEMATC

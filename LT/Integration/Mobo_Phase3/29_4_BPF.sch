@@ -367,7 +367,7 @@ Connection ~ 1850 3600
 Text HLabel 1600 2900 0    50   Input ~ 0
 29.4BPF_IN
 Wire Wire Line
-	1600 2900 1850 2900
+	1600 2900 1800 2900
 Wire Wire Line
 	1850 2900 1850 3300
 Text HLabel 8700 2950 2    50   Output ~ 0
@@ -407,4 +407,13 @@ Wire Wire Line
 Connection ~ 8400 3300
 Wire Wire Line
 	8400 3300 8550 3300
+Text GLabel 1750 2500 0    79   Input ~ 0
+Bus_64
+Wire Wire Line
+	1750 2500 1800 2500
+Wire Wire Line
+	1800 2500 1800 2900
+Connection ~ 1800 2900
+Wire Wire Line
+	1800 2900 1850 2900
 $EndSCHEMATC
