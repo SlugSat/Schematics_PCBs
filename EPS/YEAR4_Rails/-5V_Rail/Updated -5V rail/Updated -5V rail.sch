@@ -1,0 +1,204 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L power:MAX764CPA+ U1
+U 1 1 5EDA708E
+P 4350 3300
+F 0 "U1" H 5450 3950 60  0000 C CNN
+F 1 "MAX764CPA+" H 5450 3800 60  0000 C CNN
+F 2 "21-0043D_8_MXM" H 5450 3540 60  0001 C CNN
+F 3 "" H 4350 3300 60  0000 C CNN
+	1    4350 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1_Small C1
+U 1 1 5EDA9751
+P 2900 3100
+F 0 "C1" H 2991 3146 50  0000 L CNN
+F 1 "100uF" H 2991 3055 50  0000 L CNN
+F 2 "" H 2900 3100 50  0001 C CNN
+F 3 "~" H 2900 3100 50  0001 C CNN
+	1    2900 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1_Small C4
+U 1 1 5EDAB4FE
+P 7500 3400
+F 0 "C4" H 7409 3354 50  0000 R CNN
+F 1 "68uF" H 7409 3445 50  0000 R CNN
+F 2 "" H 7500 3400 50  0001 C CNN
+F 3 "~" H 7500 3400 50  0001 C CNN
+	1    7500 3400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C_Small C2
+U 1 1 5EDAE432
+P 3550 3100
+F 0 "C2" H 3642 3146 50  0000 L CNN
+F 1 "100nF" H 3642 3055 50  0000 L CNN
+F 2 "" H 3550 3100 50  0001 C CNN
+F 3 "~" H 3550 3100 50  0001 C CNN
+	1    3550 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C3
+U 1 1 5EDAF0D8
+P 4100 3700
+F 0 "C3" H 4192 3746 50  0000 L CNN
+F 1 "100nF" H 4192 3655 50  0000 L CNN
+F 2 "" H 4100 3700 50  0001 C CNN
+F 3 "~" H 4100 3700 50  0001 C CNN
+	1    4100 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small_ALT D1
+U 1 1 5EDB4DA3
+P 7200 3300
+F 0 "D1" H 7200 3505 50  0000 C CNN
+F 1 "D_Small_ALT" H 7200 3414 50  0000 C CNN
+F 2 "" V 7200 3300 50  0001 C CNN
+F 3 "~" V 7200 3300 50  0001 C CNN
+	1    7200 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2900 3000 3550 3000
+Wire Wire Line
+	3550 3000 6750 3000
+Wire Wire Line
+	6750 3000 6750 3400
+Wire Wire Line
+	6750 3400 6550 3400
+Connection ~ 3550 3000
+Wire Wire Line
+	6750 3400 6750 3500
+Wire Wire Line
+	6750 3500 6550 3500
+Connection ~ 6750 3400
+Wire Wire Line
+	7300 3300 7350 3300
+Wire Wire Line
+	4350 3300 4200 3300
+Wire Wire Line
+	4200 3300 4200 2850
+Wire Wire Line
+	4200 2850 7350 2850
+Wire Wire Line
+	7350 2850 7350 3300
+Connection ~ 7350 3300
+Wire Wire Line
+	7350 3300 7500 3300
+Wire Wire Line
+	4350 3400 4100 3400
+Wire Wire Line
+	4100 3400 4100 3600
+Wire Wire Line
+	4100 3600 4350 3600
+Connection ~ 4100 3600
+$Comp
+L power:GND #PWR?
+U 1 1 5EDB75CD
+P 6550 3750
+F 0 "#PWR?" H 6550 3500 50  0001 C CNN
+F 1 "GND" H 6555 3577 50  0000 C CNN
+F 2 "" H 6550 3750 50  0001 C CNN
+F 3 "" H 6550 3750 50  0001 C CNN
+	1    6550 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6550 3600 6550 3700
+Connection ~ 6550 3700
+Wire Wire Line
+	6550 3700 6550 3750
+Wire Wire Line
+	7500 3500 7500 3700
+$Comp
+L Device:L_Small L1
+U 1 1 5EDB19CA
+P 6850 3450
+F 0 "L1" H 6898 3496 50  0000 L CNN
+F 1 "47uH" H 6898 3405 50  0000 L CNN
+F 2 "" H 6850 3450 50  0001 C CNN
+F 3 "~" H 6850 3450 50  0001 C CNN
+	1    6850 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6550 3700 6850 3700
+Wire Wire Line
+	6550 3300 6850 3300
+Wire Wire Line
+	6850 3350 6850 3300
+Connection ~ 6850 3300
+Wire Wire Line
+	6850 3300 7100 3300
+Wire Wire Line
+	6850 3550 6850 3700
+Connection ~ 6850 3700
+Wire Wire Line
+	6850 3700 7500 3700
+$Comp
+L power:GND #PWR?
+U 1 1 5EDBA357
+P 3800 4000
+F 0 "#PWR?" H 3800 3750 50  0001 C CNN
+F 1 "GND" H 3805 3827 50  0000 C CNN
+F 2 "" H 3800 4000 50  0001 C CNN
+F 3 "" H 3800 4000 50  0001 C CNN
+	1    3800 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4350 3500 3800 3500
+Wire Wire Line
+	3800 3500 3800 3900
+Wire Wire Line
+	4100 3800 4100 3900
+Wire Wire Line
+	4100 3900 3800 3900
+Connection ~ 3800 3900
+Wire Wire Line
+	3800 3900 3800 4000
+Wire Wire Line
+	3550 3200 3550 3900
+Wire Wire Line
+	3550 3900 3800 3900
+Wire Wire Line
+	2900 3200 2900 3900
+Wire Wire Line
+	2900 3900 3550 3900
+Connection ~ 3550 3900
+Text GLabel 2500 3000 0    50   Input ~ 10
+Vin
+Wire Wire Line
+	2500 3000 2900 3000
+Connection ~ 2900 3000
+Text Notes 2200 2900 0    50   ~ 10
+Vin = 3.9V
+Text GLabel 8000 3300 2    50   Input ~ 10
+Vout
+Wire Wire Line
+	7500 3300 8000 3300
+Connection ~ 7500 3300
+Text Notes 7900 3200 0    50   ~ 10
+Vout = -5V
+$EndSCHEMATC
