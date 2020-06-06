@@ -130,17 +130,15 @@ Text Notes 5350 1650 0    157  ~ 31
 35V Rail
 Text Notes 3050 1650 0    79   ~ 16
 Boost Converter
-Wire Wire Line
-	1000 2800 1100 2800
 $Comp
 L power:+BATT #PWR03
 U 1 1 5CD83E88
-P 1000 2800
-F 0 "#PWR03" H 1000 2650 50  0001 C CNN
-F 1 "+BATT" V 1015 2927 50  0000 L CNN
-F 2 "" H 1000 2800 50  0001 C CNN
-F 3 "" H 1000 2800 50  0001 C CNN
-	1    1000 2800
+P 2050 2650
+F 0 "#PWR03" H 2050 2500 50  0001 C CNN
+F 1 "+BATT" V 2065 2777 50  0000 L CNN
+F 2 "" H 2050 2650 50  0001 C CNN
+F 3 "" H 2050 2650 50  0001 C CNN
+	1    2050 2650
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -155,17 +153,6 @@ F 3 "" H 1350 1750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C1
-U 1 1 5CD8380F
-P 1100 2900
-F 0 "C1" H 900 2900 50  0000 L CNN
-F 1 "10u" H 850 2800 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1100 2900 50  0001 C CNN
-F 3 "~" H 1100 2900 50  0001 C CNN
-	1    1100 2900
-	1    0    0    -1  
-$EndComp
-$Comp
 L Connector:Screw_Terminal_01x02 J1
 U 1 1 5C80BD64
 P 1150 1850
@@ -175,17 +162,6 @@ F 2 "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type094_RT03502HBLU_1x0
 F 3 "~" H 1150 1850 50  0001 C CNN
 	1    1150 1850
 	-1   0    0    1   
-$EndComp
-$Comp
-L power:GND #PWR04
-U 1 1 5C80BFD3
-P 1100 3000
-F 0 "#PWR04" H 1100 2750 50  0001 C CNN
-F 1 "GND" H 1105 2827 50  0000 C CNN
-F 2 "" H 1100 3000 50  0001 C CNN
-F 3 "" H 1100 3000 50  0001 C CNN
-	1    1100 3000
-	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR02
@@ -205,53 +181,6 @@ Wire Wire Line
 Text Notes 11650 3700 0    79   ~ 16
 Power Switch (1A Limit)
 $Comp
-L Regulator_Linear:L78L05_SO8 U0
-U 1 1 5EBE4497
-P 1600 2800
-F 0 "U0" H 1600 3042 50  0000 C CNN
-F 1 "L78L05_SO8" H 1600 2951 50  0000 C CNN
-F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 1700 3000 50  0001 C CIN
-F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/15/55/e5/aa/23/5b/43/fd/CD00000446.pdf/files/CD00000446.pdf/jcr:content/translations/en.CD00000446.pdf" H 1800 2800 50  0001 C CNN
-	1    1600 2800
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1300 2800 1100 2800
-Connection ~ 1100 2800
-$Comp
-L Device:C_Small C1
-U 1 1 5EC1CFE6
-P 2050 2900
-F 0 "C1" H 2150 2950 50  0000 L CNN
-F 1 "10uF" H 2100 2850 50  0000 L CNN
-F 2 "" H 2050 2900 50  0001 C CNN
-F 3 "~" H 2050 2900 50  0001 C CNN
-	1    2050 2900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C2
-U 1 1 5EC1E0D6
-P 2350 2900
-F 0 "C2" H 2442 2946 50  0000 L CNN
-F 1 "0.1uF" H 2442 2855 50  0000 L CNN
-F 2 "" H 2350 2900 50  0001 C CNN
-F 3 "~" H 2350 2900 50  0001 C CNN
-	1    2350 2900
-	1    0    0    -1  
-$EndComp
-$Comp
-L 32V-Rail-rescue:LT3571 U1
-U 1 1 5EC27520
-P 3150 2500
-F 0 "U1" H 3350 2575 50  0000 C CNN
-F 1 "LT3571" H 3350 2484 50  0000 C CNN
-F 2 "" H 3150 2500 50  0001 C CNN
-F 3 "" H 3150 2500 50  0001 C CNN
-	1    3150 2500
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:L_Small L1
 U 1 1 5EC21ED5
 P 2800 2650
@@ -263,7 +192,7 @@ F 3 "~" H 2800 2650 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L 32V-Rail-rescue:STM32L1 U4
+L 32V-Rail-rescue:STM32L1-32V-Rail-rescue U4
 U 1 1 5EC2DDE8
 P 3300 4100
 F 0 "U4" H 3650 4150 50  0000 L CNN
@@ -472,23 +401,23 @@ $EndComp
 $Comp
 L Device:R_Small_US R2
 U 1 1 5EC94619
-P 4000 3000
-F 0 "R2" H 4068 3046 50  0000 L CNN
-F 1 "806k" H 4068 2955 50  0000 L CNN
-F 2 "" H 4000 3000 50  0001 C CNN
-F 3 "~" H 4000 3000 50  0001 C CNN
-	1    4000 3000
+P 4000 3050
+F 0 "R2" H 4068 3096 50  0000 L CNN
+F 1 "806k" H 4068 3005 50  0000 L CNN
+F 2 "" H 4000 3050 50  0001 C CNN
+F 3 "~" H 4000 3050 50  0001 C CNN
+	1    4000 3050
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R_Small_US R3
 U 1 1 5EC956E2
-P 4000 3250
-F 0 "R3" H 4068 3296 50  0000 L CNN
-F 1 "20.5k" H 4068 3205 50  0000 L CNN
-F 2 "" H 4000 3250 50  0001 C CNN
-F 3 "~" H 4000 3250 50  0001 C CNN
-	1    4000 3250
+P 4000 3300
+F 0 "R3" H 4068 3346 50  0000 L CNN
+F 1 "20.5k" H 4068 3255 50  0000 L CNN
+F 2 "" H 4000 3300 50  0001 C CNN
+F 3 "~" H 4000 3300 50  0001 C CNN
+	1    4000 3300
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -504,37 +433,17 @@ F 3 "~" H 4650 2950 50  0001 C CNN
 	1    4650 2950
 	1    0    0    -1  
 $EndComp
-$Comp
-L 32V-Rail-rescue:LM335 U3
-U 1 1 5ECC477A
-P 6700 4600
-F 0 "U3" H 6650 4700 50  0000 L CNN
-F 1 "LM335" H 6600 4600 50  0000 L CNN
-F 2 "" H 6700 4600 50  0001 C CNN
-F 3 "" H 6700 4600 50  0001 C CNN
-	1    6700 4600
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3800 2700 4000 2700
 Wire Wire Line
 	5200 3600 5450 3600
 Wire Wire Line
 	5200 3500 5200 3600
 Wire Wire Line
 	5200 3250 5200 3300
-Connection ~ 5200 2900
 Wire Wire Line
-	5200 2900 5200 3050
-Wire Wire Line
-	5950 2900 5200 2900
+	5200 2900 5200 3000
 Connection ~ 5800 2700
 Wire Wire Line
 	5200 2700 5800 2700
-Wire Wire Line
-	7050 3000 7800 3000
-Wire Wire Line
-	7050 3000 7050 2900
 $Comp
 L Device:R_Small_US R_FLT1
 U 1 1 5ECF74E7
@@ -546,17 +455,15 @@ F 3 "~" H 7050 2800 50  0001 C CNN
 	1    7050 2800
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7000 3500 7000 3950
 $Comp
 L Device:R_Small_US R_ILIM
 U 1 1 5ECF3E53
-P 7000 3400
-F 0 "R_ILIM" H 7068 3446 50  0000 L CNN
-F 1 "12k" H 7068 3355 50  0000 L CNN
-F 2 "" H 7000 3400 50  0001 C CNN
-F 3 "~" H 7000 3400 50  0001 C CNN
-	1    7000 3400
+P 7000 3500
+F 0 "R_ILIM" H 7068 3546 50  0000 L CNN
+F 1 "12k" H 7068 3455 50  0000 L CNN
+F 2 "" H 7000 3500 50  0001 C CNN
+F 3 "~" H 7000 3500 50  0001 C CNN
+	1    7000 3500
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -599,19 +506,14 @@ Text Notes 7350 3650 2    50   ~ 0
 $Comp
 L Connector:Conn_01x03_Male J6
 U 1 1 5CE1ECBF
-P 8000 3000
-F 0 "J6" H 8050 2850 50  0000 R CNN
-F 1 "Conn_01x03_Male" H 8500 3200 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 8000 3000 50  0001 C CNN
-F 3 "~" H 8000 3000 50  0001 C CNN
-	1    8000 3000
+P 8000 3100
+F 0 "J6" H 8050 2950 50  0000 R CNN
+F 1 "Conn_01x03_Male" H 8500 3300 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 8000 3100 50  0001 C CNN
+F 3 "~" H 8000 3100 50  0001 C CNN
+	1    8000 3100
 	-1   0    0    1   
 $EndComp
-Connection ~ 7050 3000
-Wire Wire Line
-	6850 3000 7050 3000
-Wire Wire Line
-	7800 2900 7800 2750
 Wire Wire Line
 	7650 2750 7800 2750
 Connection ~ 7650 2750
@@ -621,7 +523,6 @@ Wire Wire Line
 Connection ~ 7050 2700
 Wire Wire Line
 	7050 2450 7050 2700
-Connection ~ 6850 2700
 Wire Wire Line
 	6850 2700 7050 2700
 Wire Wire Line
@@ -632,25 +533,12 @@ Wire Wire Line
 	5800 2700 5950 2700
 Wire Wire Line
 	6850 2800 6850 2700
-Wire Wire Line
-	7800 3100 6850 3100
-Wire Wire Line
-	6850 3300 7000 3300
 Connection ~ 5950 3600
 Wire Wire Line
 	5950 3600 5950 3950
-Connection ~ 5950 3300
-Wire Wire Line
-	5950 3300 5950 3200
 Connection ~ 5450 3600
 Wire Wire Line
 	5950 3600 5450 3600
-Wire Wire Line
-	5950 3300 5950 3600
-Wire Wire Line
-	5450 3100 5950 3100
-Wire Wire Line
-	5450 3300 5450 3100
 $Comp
 L Device:C C_dVdT1
 U 1 1 5CCD23E1
@@ -662,7 +550,6 @@ F 3 "~" H 5450 3450 50  0001 C CNN
 	1    5450 3450
 	-1   0    0    1   
 $EndComp
-Connection ~ 5950 2700
 Wire Wire Line
 	5950 2800 5950 2700
 $Comp
@@ -676,31 +563,15 @@ F 3 "~" H 5800 2550 50  0001 C CNN
 	1    5800 2550
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	6400 3700 6550 3700
-Connection ~ 6400 3700
-Wire Wire Line
-	6250 3700 6400 3700
-$Comp
-L 32V-Rail-rescue:TPS26600-SlugSat_Power_Symbol_Library-32V-Rail-rescue U2
-U 1 1 5CCCEBC6
-P 6400 3050
-F 0 "U2" H 6400 3715 50  0000 C CNN
-F 1 "TPS26600" H 6400 3624 50  0000 C CNN
-F 2 "Package_SO:TSSOP-16_4.4x5mm_P0.65mm" H 6200 2750 50  0001 C CNN
-F 3 "" H 6200 2750 50  0001 C CNN
-	1    6400 3050
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:GND #PWR017
 U 1 1 5CB66D9E
-P 6400 3700
-F 0 "#PWR017" H 6400 3450 50  0001 C CNN
-F 1 "GND" H 6500 3550 50  0000 R CNN
-F 2 "" H 6400 3700 50  0001 C CNN
-F 3 "" H 6400 3700 50  0001 C CNN
-	1    6400 3700
+P 6400 3850
+F 0 "#PWR017" H 6400 3600 50  0001 C CNN
+F 1 "GND" H 6500 3700 50  0000 R CNN
+F 2 "" H 6400 3850 50  0001 C CNN
+F 3 "" H 6400 3850 50  0001 C CNN
+	1    6400 3850
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -714,9 +585,9 @@ F 3 "" H 5800 2400 50  0001 C CNN
 	1    5800 2400
 	-1   0    0    1   
 $EndComp
-Text Notes 8100 2350 2    50   ~ 0
+Text Notes 8100 2350 2    50   ~ 10
 Power Out\n
-Text Notes 8100 3100 0    50   ~ 0
+Text Notes 8100 3200 0    50   ~ 0
 3) uP GND\n2) 0=Fault (Output To uP)\n1) 0=Shutoff (Input from uP)\n
 $Comp
 L power:GND #PWR019
@@ -767,60 +638,31 @@ Wire Wire Line
 Connection ~ 4000 2700
 Connection ~ 5200 2700
 Wire Wire Line
-	3800 2900 4000 2900
-Connection ~ 4000 2900
-Wire Wire Line
-	3800 3100 4000 3100
-Wire Wire Line
-	4000 3150 4000 3100
-Connection ~ 4000 3100
-Wire Wire Line
-	1900 2800 2050 2800
-Wire Wire Line
-	2050 2800 2350 2800
-Connection ~ 2050 2800
-Wire Wire Line
-	2350 2800 2700 2800
-Connection ~ 2350 2800
-Wire Wire Line
 	2700 2650 2700 2800
-Connection ~ 2700 2800
 Wire Wire Line
 	2700 2800 2900 2800
-Wire Wire Line
-	2900 3000 2800 3000
-Wire Wire Line
-	2800 3000 2800 4700
-Wire Wire Line
-	2800 4700 2900 4700
 $Comp
 L power:GND #PWR?
 U 1 1 5ED3731C
-P 2900 3400
-F 0 "#PWR?" H 2900 3150 50  0001 C CNN
-F 1 "GND" H 2905 3227 50  0000 C CNN
-F 2 "" H 2900 3400 50  0001 C CNN
-F 3 "" H 2900 3400 50  0001 C CNN
-	1    2900 3400
+P 2900 3550
+F 0 "#PWR?" H 2900 3300 50  0001 C CNN
+F 1 "GND" H 2905 3377 50  0000 C CNN
+F 2 "" H 2900 3550 50  0001 C CNN
+F 3 "" H 2900 3550 50  0001 C CNN
+	1    2900 3550
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4000 3350 4000 3400
-Wire Wire Line
-	4000 3400 2900 3400
-Connection ~ 2900 3400
+	4000 3550 2900 3550
+Connection ~ 2900 3550
 Wire Wire Line
 	4650 2700 4650 2850
 Connection ~ 4650 2700
 Wire Wire Line
 	4650 2700 5200 2700
 Wire Wire Line
-	4650 3400 4000 3400
-Wire Wire Line
-	2900 3250 2900 3400
-Wire Wire Line
-	4650 3050 4650 3400
-Connection ~ 4000 3400
+	4650 3550 4000 3550
+Connection ~ 4000 3550
 $Comp
 L power:GND #PWR?
 U 1 1 5ED40CEA
@@ -891,47 +733,155 @@ Wire Wire Line
 	6350 4300 6450 4300
 Wire Wire Line
 	6450 4300 6450 4500
-$Comp
-L power:GND #PWR?
-U 1 1 5ED71BC7
-P 1600 3150
-F 0 "#PWR?" H 1600 2900 50  0001 C CNN
-F 1 "GND" H 1605 2977 50  0000 C CNN
-F 2 "" H 1600 3150 50  0001 C CNN
-F 3 "" H 1600 3150 50  0001 C CNN
-	1    1600 3150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1600 3100 1600 3150
-Wire Wire Line
-	1600 3100 2050 3100
-Wire Wire Line
-	2050 3100 2050 3000
-Connection ~ 1600 3100
-Wire Wire Line
-	2050 3100 2350 3100
-Wire Wire Line
-	2350 3100 2350 3000
-Connection ~ 2050 3100
 Wire Wire Line
 	6450 4300 6450 4250
 Connection ~ 6450 4300
-Text GLabel 7800 2450 2    50   UnSpc ~ 0
-SiPM
-Wire Wire Line
-	6850 4800 9350 4800
-Wire Wire Line
-	9350 4800 9350 2450
-Wire Wire Line
-	9350 2450 8000 2450
 Text Notes 6950 4750 0    50   ~ 0
 Thermally coupled to SiPM\n
 Wire Wire Line
-	5950 3000 5350 3000
-Wire Wire Line
-	5350 3000 5350 3250
-Wire Wire Line
 	5350 3250 5200 3250
 Connection ~ 5200 3250
+$Comp
+L power:GND #PWR04
+U 1 1 5C80BFD3
+P 2150 2850
+F 0 "#PWR04" H 2150 2600 50  0001 C CNN
+F 1 "GND" H 2155 2677 50  0000 C CNN
+F 2 "" H 2150 2850 50  0001 C CNN
+F 3 "" H 2150 2850 50  0001 C CNN
+	1    2150 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C1
+U 1 1 5CD8380F
+P 2150 2750
+F 0 "C1" H 1950 2750 50  0000 L CNN
+F 1 "10u" H 1900 2650 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2150 2750 50  0001 C CNN
+F 3 "~" H 2150 2750 50  0001 C CNN
+	1    2150 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2050 2650 2150 2650
+$Comp
+L power:LT3571 U1
+U 1 1 5EDC9F56
+P 3300 2450
+F 0 "U1" H 3400 2475 50  0000 C CNN
+F 1 "LT3571" H 3400 2384 50  0000 C CNN
+F 2 "" H 3300 2450 50  0001 C CNN
+F 3 "" H 3300 2450 50  0001 C CNN
+	1    3300 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2900 3350 2900 3550
+Wire Wire Line
+	3900 2700 4000 2700
+Wire Wire Line
+	2900 3050 2600 3050
+Wire Wire Line
+	2600 3050 2600 4700
+Wire Wire Line
+	2600 4700 2900 4700
+Wire Wire Line
+	4650 3050 4650 3550
+Wire Wire Line
+	4000 3400 4000 3550
+Wire Wire Line
+	4000 2900 4000 2950
+Wire Wire Line
+	3900 2950 4000 2950
+Connection ~ 4000 2950
+Wire Wire Line
+	3900 3200 4000 3200
+Wire Wire Line
+	4000 3200 4000 3150
+Connection ~ 4000 3200
+$Comp
+L power:TPS26600 U2
+U 1 1 5EE127E1
+P 6300 2450
+F 0 "U2" H 6400 2415 50  0000 C CNN
+F 1 "TPS26600" H 6400 2324 50  0000 C CNN
+F 2 "" H 6300 2450 50  0001 C CNN
+F 3 "" H 6300 2450 50  0001 C CNN
+	1    6300 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5950 3400 5950 3600
+Wire Wire Line
+	5950 3300 5950 3400
+Connection ~ 5950 3400
+Wire Wire Line
+	5950 3200 5450 3200
+Wire Wire Line
+	5450 3200 5450 3300
+Wire Wire Line
+	5950 2900 5950 2800
+Connection ~ 5950 2800
+Wire Wire Line
+	5200 3000 5950 3000
+Connection ~ 5200 3000
+Wire Wire Line
+	5200 3000 5200 3050
+Wire Wire Line
+	5950 3100 5350 3100
+Wire Wire Line
+	5350 3100 5350 3250
+Wire Wire Line
+	6250 3850 6400 3850
+Connection ~ 6400 3850
+Wire Wire Line
+	6550 3850 6400 3850
+Wire Wire Line
+	6850 3400 7000 3400
+Wire Wire Line
+	7000 3600 7000 3950
+Wire Wire Line
+	7800 2750 7800 3000
+Wire Wire Line
+	7800 3100 7050 3100
+Wire Wire Line
+	6850 3200 7800 3200
+Wire Wire Line
+	6850 2900 6850 2800
+Connection ~ 6850 2800
+Wire Wire Line
+	7050 2900 7050 3100
+Connection ~ 7050 3100
+Wire Wire Line
+	7050 3100 6850 3100
+Wire Wire Line
+	2700 2650 2150 2650
+Connection ~ 2700 2650
+Connection ~ 2150 2650
+Text Notes 1950 2600 0    50   ~ 10
+Vin = 3.9V
+Text GLabel 7800 2450 2    50   Input ~ 10
+SiPM
+$Comp
+L power:LM335 U3
+U 1 1 5EE8AF5D
+P 6700 4550
+F 0 "U3" H 6650 4550 50  0000 L CNN
+F 1 "LM335" H 6600 4450 50  0000 L CNN
+F 2 "" H 6700 4550 50  0001 C CNN
+F 3 "" H 6700 4550 50  0001 C CNN
+	1    6700 4550
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	8050 2450 9450 2450
+Wire Notes Line
+	9450 2450 9450 4800
+Wire Notes Line
+	9450 4800 6850 4800
+Text Notes 3900 4400 0    50   ~ 10
+ADC
+Text Notes 2800 4650 0    50   ~ 10
+DAC
 $EndSCHEMATC
