@@ -250,7 +250,7 @@ F 3 "~" H 2700 3850 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Text HLabel 2500 3850 0    50   Input ~ 0
-Up_Mixer_input
+Up_Mixer_Input
 Wire Wire Line
 	2550 3850 2500 3850
 Text HLabel 3950 2700 0    50   Input ~ 0
