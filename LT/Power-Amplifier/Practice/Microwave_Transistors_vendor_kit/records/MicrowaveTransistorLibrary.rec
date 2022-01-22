@@ -1,0 +1,2321 @@
+<?xml version="1.0" ?>
+<COMPONENTS>
+ <COMPONENT>
+    <NAME>cb_sms_T301_19960901</NAME>
+    <DESCRIPTION> rf-bjt die: SPICE Lib. V1.00 09.01.1996 valid under 6Ghz</DESCRIPTION>
+    <VENDOR>Siemens</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_nec_NE32700_19900413</NAME>
+    <DESCRIPTION> NE32700 Package:DIE Model:eebjt1 NPN Pdiss(max)=300, Ic(max)=50, Vce(max)=12, Ic(typical)=15, Vce(typical)=5, Ft=3, Hfe=100</DESCRIPTION>
+    <VENDOR>NEC</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_hp_AT41400_19900404</NAME>
+    <DESCRIPTION> AT41400 Package:DIE Model:eebjt1 NPN Pdiss(max)=500, Ic(max)=60, Vce(max)=12, Ic(typical)=25, Vce(typical)=8, Ft=9, Hfe=150</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <AVAILABILITY>OBSOLETE</AVAILABILITY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_hp_AT42000_19920721</NAME>
+    <DESCRIPTION> AT42000: Chip NPN Pdiss=600mW, Vce(Max)=12V, Ic(Max)=80mA, Vce(typical)=8V, Ic(Typical)=35mA, Hfe=150, Ft=10GHz</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_hp_AT41400_19920721</NAME>
+    <DESCRIPTION> AT41400: Chip, NPN Pdiss=500mW, Vce(Max)=12V, Ic(Max)=60mA, Vce(typical)=8V, Ic(Typical)=10mA, Hfe=150, Ft=10GHz</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_sms_T236_19960901</NAME>
+    <DESCRIPTION> rf-bjt die: SPICE Lib. V1.00 09.01.1996 valid under 6Ghz</DESCRIPTION>
+    <VENDOR>Siemens</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_nec_NE57800_19900403</NAME>
+    <DESCRIPTION> NE57800 Package:DIE Model:eebjt1 NPN Pdiss(max)=250, Ic(max)=30, Vce(max)=11, Ic(typical)=10, Vce(typical)=8, Ft=6, Hfe=100</DESCRIPTION>
+    <VENDOR>NEC</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cf_hm_HMF0610200_19921221</NAME>
+    <DESCRIPTION> HMF0610200 Package:DIE Model:eefet3 N-channel Gate Width=600, Gate Length=0.5, Pdiss(max)=1000, Vds(typical)=4, Idss=135.61, Vt=-3</DESCRIPTION>
+    <VENDOR>Harris</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_sms_T349_19960901</NAME>
+    <DESCRIPTION> rf-bjt die: SPICE Lib. V1.00 09.01.1996 valid under 6Ghz</DESCRIPTION>
+    <VENDOR>Siemens</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cf_ti_TGF1350_19920228</NAME>
+    <DESCRIPTION> TGF1350 Package:DIE Model:hpfet N-channel MDS b.07 library extraction</DESCRIPTION>
+    <VENDOR>TI</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cf_mwt_MWT13HP_19930730</NAME>
+    <DESCRIPTION> MWT-13HP Package:DIE Model:eefet3 N-channel Gate Width=1200, Gate Length=0.3, Pdiss(max)=3000, Vds(typical)=6, Idss=298.67, Vt=-2.6</DESCRIPTION>
+    <VENDOR>Mwt</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cf_hm_HMF0300_19921221</NAME>
+    <DESCRIPTION> HMF0300 Package:DIE Model:eefet3 N-channel Gate Width=300, Gate Length=0.5, Pdiss(max)=1000, Vds(typical)=8, Idss=84.84, Vt=-3.8</DESCRIPTION>
+    <VENDOR>Harris</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cf_mit_MGFC2407_19930609</NAME>
+    <DESCRIPTION> MGFC2407 Package:DIE Model:eefet3 N-channel Gate Width=750, Gate Length=0.5, Pdiss(max)=1500, Vds(typical)=10, Idss=191.64, Vt=-3</DESCRIPTION>
+    <VENDOR>Mitsubishi</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cf_mwt_MWT2HP_19930730</NAME>
+    <DESCRIPTION> MWT-2HP Package:DIE Model:eefet3 N-channel Gate Width=630, Gate Length=0.3, Pdiss(max)=1500, Vds(typical)=6, Idss=190.19, Vt=-2.9</DESCRIPTION>
+    <VENDOR>Mwt</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cf_mit_MGFC2430K_19930730</NAME>
+    <DESCRIPTION> MGFC2430K Package:DIE Model:eefet3 N-channel Gate Width=3000, Gate Length=0.6, Pdiss(max)=5000, Vds(typical)=10, Idss=547.88, Vt=-2.5</DESCRIPTION>
+    <VENDOR>Mitsubishi</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_sms_T395_19921101</NAME>
+    <DESCRIPTION> T395 die ( )</DESCRIPTION>
+    <VENDOR>Siemens</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_nec_NE68100_19921101</NAME>
+    <DESCRIPTION> embeded die, n/a</DESCRIPTION>
+    <VENDOR>NEC</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_nec_NE24600_19900503</NAME>
+    <DESCRIPTION> NE24600 Package:DIE Model:eebjt1 NPN Pdiss(max)=5000, Ic(max)=250, Vce(max)=20, Ic(typical)=100, Vce(typical)=15, Ft=4.5, Hfe=80</DESCRIPTION>
+    <VENDOR>NEC</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_nec_NE68000_19900403</NAME>
+    <DESCRIPTION> NE68000 Package:DIE Model:eebjt1 NPN Pdiss(max)=200, Ic(max)=35, Vce(max)=10, Ic(typical)=10, Vce(typical)=6, Ft=10, Hfe=100</DESCRIPTION>
+    <VENDOR>NEC</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_sms_T504_19960901</NAME>
+    <DESCRIPTION> rf-bjt die: SPICE Lib. V1.00 09.01.1996 valid under 6Ghz</DESCRIPTION>
+    <VENDOR>Siemens</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_mot_MRFC901_19921101</NAME>
+    <DESCRIPTION></DESCRIPTION>
+    <VENDOR>Motorola</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cf_lit_LF2503_19930609</NAME>
+    <DESCRIPTION> LF2503 Package:DIE Model:eefet3 N-channel Gate Width=280, Gate Length=0.5, Pdiss(max)=500, Vds(typical)=4, Idss=60.58, Vt=-2.4</DESCRIPTION>
+    <VENDOR>Litton</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cf_tsb_JS8818AS_19911201</NAME>
+    <DESCRIPTION> JS8818AS Package:DIE Model:curtice N-channel MDS b.07 library extraction</DESCRIPTION>
+    <VENDOR>Toshiba</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cf_hm_HMF1200_19921221</NAME>
+    <DESCRIPTION> HMF1200 Package:DIE Model:eefet3 N-channel Gate Width=1200, Gate Length=0.5, Pdiss(max)=4000, Vds(typical)=8, Idss=350.98, Vt=-4.9</DESCRIPTION>
+    <VENDOR>Harris</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cf_fuj_FLR024XV_19921218</NAME>
+    <DESCRIPTION> FLR024XV Package:DIE Model:eefet3 N-channel Gate Width=600, Gate Length=0.8, Pdiss(max)=1880, Vds(typical)=7.5, Idss=114.49, Vt=-2.7</DESCRIPTION>
+    <VENDOR>Fujitsu</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>ph_hp_ATF36077_19940627</NAME>
+    <DESCRIPTION> ATF36077 PHEMT(Pseudomorphic High Electron Mobility Transistor):Low parasitic ceramic microstrip package(style 77) -4 terminal, Pdiss=180mW, VDS(Max)=3V, VGS(Max)=-3V, VGD(Max)=-3.5V, Id(Max)=Idss(max)=45mA, VDS(typical)=1.5V, ID(Typical)=10mA, Gm=55, Ft=10GHz</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cf_mit_MGFC1404_19921217</NAME>
+    <DESCRIPTION> MGFC1404 Package:DIE Model:eefet3 N-channel Gate Width=300, Gate Length=0.5, Pdiss(max)=500, Vds(typical)=3, Idss=51.09, Vt=-1.4</DESCRIPTION>
+    <VENDOR>Mitsubishi</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cf_hm_HMF0600_19921221</NAME>
+    <DESCRIPTION> HMF0600 Package:DIE Model:eefet3 N-channel Gate Width=600, Gate Length=0.5, Pdiss(max)=1400, Vds(typical)=8, Idss=175.83, Vt=-4.1</DESCRIPTION>
+    <VENDOR>Harris</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cf_nec_NE900200_19930730</NAME>
+    <DESCRIPTION> NE900200 Package:DIE Model:eefet3 N-channel Gate Width=1500, Gate Length=0.5, Pdiss(max)=3000, Vds(typical)=8, Idss=404.17, Vt=-3.9</DESCRIPTION>
+    <VENDOR>NEC</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_hp_AT01600_19900404</NAME>
+    <DESCRIPTION> AT01600 Package:DIE Model:eebjt1 NPN Pdiss(max)=1000, Ic(max)=150, Vce(max)=12, Ic(typical)=35, Vce(typical)=8, Ft=8, Hfe=150</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <AVAILABILITY>OBSOLETE</AVAILABILITY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cf_hm_HMF03100d300_19940318</NAME>
+    <DESCRIPTION> HMF03100-300 Package:DIE Model:hpfet N-channel MDS b.07 library extraction</DESCRIPTION>
+    <VENDOR>Harris</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_sms_T351_19960901</NAME>
+    <DESCRIPTION> rf-bjt die: SPICE Lib. V1.00 09.01.1996 valid under 6Ghz</DESCRIPTION>
+    <VENDOR>Siemens</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>ch_nec_NE33200_19940322</NAME>
+    <DESCRIPTION> NE33200 Package:DIE Model:hpfet N-channel MDS b.07 library extraction</DESCRIPTION>
+    <VENDOR>NEC</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cf_hp_ATF25100_19911201</NAME>
+    <DESCRIPTION> ATF25100 Package:DIE Model:curtice N-channel MDS b.07 library extraction</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <AVAILABILITY>OBSOLETE</AVAILABILITY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cf_ctk_CF00102_19930609</NAME>
+    <DESCRIPTION> CF00102 Package:DIE Model:eefet3 N-channel Gate Width=300, Gate Length=0.5, Pdiss(max)=700, Vds(typical)=5.5, Idss=71.3, Vt=-0.9</DESCRIPTION>
+    <VENDOR>Celeritek</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cf_fuj_FLR016XP_19930730</NAME>
+    <DESCRIPTION> FLR016XP Package:DIE Model:eefet3 N-channel Gate Width=300, Gate Length=0.25, Pdiss(max)=1150, Vds(typical)=8, Idss=57.01, Vt=-2.9</DESCRIPTION>
+    <VENDOR>Fujitsu</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_mot_MRFC911_19931130</NAME>
+    <DESCRIPTION> MRFC911 Package:DIE Model:eebjt2 NPN Pdiss(max)=400, Ic(max)=40, Vce(max)=12, Ic(typical)=30, Vce(typical)=10, Ft=5, Hfe=30-200</DESCRIPTION>
+    <VENDOR>Motorola</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>ch_tsb_JS8902AS_19921222</NAME>
+    <DESCRIPTION> JS8902AS Package:DIE Model:eehemt1 N-channel Gate Width=200, Gate Length=0.5, Pdiss(max)=200, Vds(typical)=2, Idss=18.1, Vt=-0.46</DESCRIPTION>
+    <VENDOR>Toshiba</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>ch_oki_KGA1770_19930609</NAME>
+    <DESCRIPTION> KGA1770 Package:DIE Model:eehemt1 N-channel Gate Width=300, Gate Length=0.3, Pdiss(max)=200, Vds(typical)=2, Idss=17.5, Vt=-0.56</DESCRIPTION>
+    <VENDOR>Oki</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cf_hp_ATF44100_19930730</NAME>
+    <DESCRIPTION> ATF44100 Package:DIE Model:eefet3 N-channel Gate Width=5000, Gate Length=0.5, Pdiss(max)=8300, Vds(typical)=9, Idss=1093.28, Vt=-4.5</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <AVAILABILITY>OBSOLETE</AVAILABILITY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_mot_MRFC571_19931130</NAME>
+    <DESCRIPTION> MRFC571 Package:DIE Model:eebjt2 NPN Pdiss(max)=1500, Ic(max)=70, Vce(max)=10, Ic(typical)=50, Vce(typical)=8, Ft=8, Hfe=50-300</DESCRIPTION>
+    <VENDOR>Motorola</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>ch_mwt_MWTH4LN_19930915</NAME>
+    <DESCRIPTION> MWT-H4LN Package:DIE Model:eehemt1 N-channel Gate Width=180, Gate Length=0.3, Pdiss(max)=280, Vds(typical)=4.5, Idss=29.6, Vt=-0.92</DESCRIPTION>
+    <VENDOR>Mwt</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cf_tsb_JS8834AS_19921215</NAME>
+    <DESCRIPTION> JS8834AS Package:DIE Model:eefet3 N-channel Gate Width=400, Gate Length=0.8, Pdiss(max)=1500, Vds(typical)=10, Idss=179, Vt=-3.6</DESCRIPTION>
+    <VENDOR>Toshiba</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_sms_T301_19921101</NAME>
+    <DESCRIPTION> T301 die ( )</DESCRIPTION>
+    <VENDOR>Siemens</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cf_mit_MGFC2415A_19930730</NAME>
+    <DESCRIPTION> MGFC2415A Package:DIE Model:eefet3 N-channel Gate Width=1500, Gate Length=0.6, Pdiss(max)=2500, Vds(typical)=10, Idss=244.9, Vt=-2.2</DESCRIPTION>
+    <VENDOR>Mitsubishi</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_sms_T236_19921101</NAME>
+    <DESCRIPTION> T236 die ( )</DESCRIPTION>
+    <VENDOR>Siemens</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_sms_T349_19921101</NAME>
+    <DESCRIPTION> T349 die ( )</DESCRIPTION>
+    <VENDOR>Siemens</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_nec_NE73400_19921101</NAME>
+    <DESCRIPTION> embeded die, n/a</DESCRIPTION>
+    <VENDOR>NEC</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cf_fuj_FLK022XP_19921218</NAME>
+    <DESCRIPTION> FLK022XP Package:DIE Model:eefet3 N-channel Gate Width=600, Gate Length=0.8, Pdiss(max)=1880, Vds(typical)=10, Idss=129.64, Vt=-3.4</DESCRIPTION>
+    <VENDOR>Fujitsu</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>ph_mit_MGF4301_19930915</NAME>
+    <DESCRIPTION> MGF4301 Package:GD4 Model:eehemt1 N-channel Gate Width=na, Gate Length=na, Pdiss(max)=160, Vds(typical)=2, Idss=36.4, Vt=-0.75</DESCRIPTION>
+    <VENDOR>Mitsubishi</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cf_mwt_MWT8HP_19930730</NAME>
+    <DESCRIPTION> MWT-8HP Package:DIE Model:eefet3 N-channel Gate Width=1200, Gate Length=0.3, Pdiss(max)=3000, Vds(typical)=6, Idss=336.23, Vt=-3.1</DESCRIPTION>
+    <VENDOR>Mwt</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cf_nec_NE71000_19930730</NAME>
+    <DESCRIPTION> NE71000 Package:DIE Model:eefet3 N-channel Gate Width=300, Gate Length=0.3, Pdiss(max)=400, Vds(typical)=3, Idss=64.88, Vt=-1.5</DESCRIPTION>
+    <VENDOR>NEC</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cf_oki_KGA1450_19930609</NAME>
+    <DESCRIPTION> KGA1450 Package:DIE Model:eefet3 N-channel Gate Width=300, Gate Length=0.25, Pdiss(max)=450, Vds(typical)=2, Idss=86.33, Vt=-1</DESCRIPTION>
+    <VENDOR>Oki</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cf_ctk_CF00402_19930609</NAME>
+    <DESCRIPTION> CF00402 Package:DIE Model:eefet3 N-channel Gate Width=150, Gate Length=0.5, Pdiss(max)=400, Vds(typical)=5.5, Idss=48.48, Vt=-1.5</DESCRIPTION>
+    <VENDOR>Celeritek</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_nec_NE85600_19960501</NAME>
+    <DESCRIPTION> NE85600 Package:NE00 Type:NPN Vce(Max)=V, Ic(Max)=mA, Vce(typical)=V, Ic(Typical)=mA, Hfe=, Ft=Hz Valid within: Bias{Vce=1V to 10V, Ic=0.25mA to 40mA} Frequency{0.1GHz to 7.0GHz}</DESCRIPTION>
+    <VENDOR>NEC</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cf_hm_HMF03300_19940318</NAME>
+    <DESCRIPTION> HMF03300 Package:DIE Model:hpfet N-channel MDS b.07 library extraction</DESCRIPTION>
+    <VENDOR>Harris</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_mot_MRFC951_19921101</NAME>
+    <DESCRIPTION></DESCRIPTION>
+    <VENDOR>Motorola</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>ch_oki_KGA1860_19930609</NAME>
+    <DESCRIPTION> KGA1860 Package:DIE Model:eehemt1 N-channel Gate Width=200, Gate Length=0.3, Pdiss(max)=200, Vds(typical)=2, Idss=17.05, Vt=-0.65</DESCRIPTION>
+    <VENDOR>Oki</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cf_tsb_JS8830AS_19930730</NAME>
+    <DESCRIPTION> JS8830AS Package:DIE Model:eefet3 N-channel Gate Width=200, Gate Length=0.25, Pdiss(max)=250, Vds(typical)=3, Idss=19.61, Vt=-0.8</DESCRIPTION>
+    <VENDOR>Toshiba</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_mot_BFRC90_19931130</NAME>
+    <DESCRIPTION> BFRC90 Package:DIE Model:eebjt2 NPN Pdiss(max)=180, Ic(max)=30, Vce(max)=15, Ic(typical)=14, Vce(typical)=10, Ft=5, Hfe=25-250</DESCRIPTION>
+    <VENDOR>Motorola</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>ch_tsb_JS8905AS_19921222</NAME>
+    <DESCRIPTION> JS8905AS Package:DIE Model:eehemt1 N-channel Gate Width=200, Gate Length=0.25, Pdiss(max)=200, Vds(typical)=2, Idss=10.1, Vt=-0.56</DESCRIPTION>
+    <VENDOR>Toshiba</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>ch_fuj_FHX15X_19930913</NAME>
+    <DESCRIPTION> FHX15X Package:DIE Model:eehemt1 N-channel Gate Width=na, Gate Length=na, Pdiss(max)=180, Vds(typical)=2, Idss=36.2, Vt=-0.74</DESCRIPTION>
+    <VENDOR>Fujitsu</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cf_mit_MGFC1414_19930609</NAME>
+    <DESCRIPTION> MGFC1414 Package:DIE Model:eefet3 N-channel Gate Width=150, Gate Length=0.5, Pdiss(max)=200, Vds(typical)=3, Idss=24.38, Vt=-1.2</DESCRIPTION>
+    <VENDOR>Mitsubishi</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>ph_sny_SGH5002F_19931224</NAME>
+    <DESCRIPTION> SGH5002F Package:M253 Model:eehemt1 N-channel Gate Width=300, Gate Length=0.5, Pdiss(max)=340, Vds(typical)=3, Idss=49.1, Vt=-1.63</DESCRIPTION>
+    <VENDOR>Sony</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cf_lit_LF6828_19930609</NAME>
+    <DESCRIPTION> LF6828 Package:DIE Model:eefet3 N-channel Gate Width=280, Gate Length=0.5, Pdiss(max)=800, Vds(typical)=5.5, Idss=80.01, Vt=-2.7</DESCRIPTION>
+    <VENDOR>Litton</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>ch_fuj_FHR02X_19921221</NAME>
+    <DESCRIPTION> FHR02X Package:DIE Model:eehemt1 N-channel Gate Width=na, Gate Length=na, Pdiss(max)=180, Vds(typical)=2, Idss=42.2, Vt=-1.06</DESCRIPTION>
+    <VENDOR>Fujitsu</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cf_fuj_FLK012XP_19930730</NAME>
+    <DESCRIPTION> FLK012XP Package:DIE Model:eefet3 N-channel Gate Width=360, Gate Length=0.8, Pdiss(max)=1150, Vds(typical)=10, Idss=73.41, Vt=-2.6</DESCRIPTION>
+    <VENDOR>Fujitsu</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cf_fuj_FLK052XP_19930730</NAME>
+    <DESCRIPTION> FLK052XP Package:DIE Model:eefet3 N-channel Gate Width=1200, Gate Length=0.8, Pdiss(max)=3750, Vds(typical)=10, Idss=200.67, Vt=-1.9</DESCRIPTION>
+    <VENDOR>Fujitsu</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cf_mwt_MWT9LN_19930730</NAME>
+    <DESCRIPTION> MWT-9LN Package:DIE Model:eefet3 N-channel Gate Width=750, Gate Length=0.3, Pdiss(max)=1750, Vds(typical)=6, Idss=130.68, Vt=-1.2</DESCRIPTION>
+    <VENDOR>Mwt</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cf_lit_LF2501A_19930609</NAME>
+    <DESCRIPTION> LF2501A Package:DIE Model:eefet3 N-channel Gate Width=500, Gate Length=0.5, Pdiss(max)=500, Vds(typical)=6, Idss=79.88, Vt=-1.8</DESCRIPTION>
+    <VENDOR>Litton</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_mot_MRFC572_19921101</NAME>
+    <DESCRIPTION></DESCRIPTION>
+    <VENDOR>Motorola</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cf_nec_NE900100_19911201</NAME>
+    <DESCRIPTION> NE900200 Package:DIE Model:curtice N-channel MDS b.07 library extraction</DESCRIPTION>
+    <VENDOR>NEC</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cf_fuj_FLR026XV_19930730</NAME>
+    <DESCRIPTION> FLR026XV Package:DIE Model:eefet3 N-channel Gate Width=600, Gate Length=0.25, Pdiss(max)=1880, Vds(typical)=8, Idss=247.69, Vt=-2.9</DESCRIPTION>
+    <VENDOR>Fujitsu</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cf_hp_ATF46100_19940317</NAME>
+    <DESCRIPTION> ATF46100 Package:DIE Model:eefet3 N-channel Gate Width=1250, Gate Length=0.5, Pdiss(max)=2200, Vds(typical)=9, Idss=356.44, Vt=-5.1</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <AVAILABILITY>OBSOLETE</AVAILABILITY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cf_tsb_JS8852AS_19921217</NAME>
+    <DESCRIPTION> JS8852AS Package:DIE Model:eefet3 N-channel Gate Width=1500, Gate Length=0.5, Pdiss(max)=4000, Vds(typical)=10, Idss=452.65, Vt=-4.5</DESCRIPTION>
+    <VENDOR>Toshiba</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>ph_mit_MGF4918D_19930915</NAME>
+    <DESCRIPTION> MGF4918D Package:GD16 Model:eehemt1 N-channel Gate Width=na, Gate Length=0.25, Pdiss(max)=200, Vds(typical)=2, Idss=53.6, Vt=-0.79</DESCRIPTION>
+    <VENDOR>Mitsubishi</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cf_lit_LF6872_19930730</NAME>
+    <DESCRIPTION> LF6872 Package:DIE Model:eefet3 N-channel Gate Width=720, Gate Length=0.5, Pdiss(max)=1500, Vds(typical)=5.5, Idss=258.77, Vt=-3.7</DESCRIPTION>
+    <VENDOR>Litton</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_nec_NE02100_19911007</NAME>
+    <DESCRIPTION> die, n/a</DESCRIPTION>
+    <VENDOR>NEC</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_sms_T351_19921101</NAME>
+    <DESCRIPTION> T351 die ( )</DESCRIPTION>
+    <VENDOR>Siemens</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cf_tsb_JS8892AS_19921217</NAME>
+    <DESCRIPTION> JS8892AS Package:DIE Model:eefet3 N-channel Gate Width=600, Gate Length=0.5, Pdiss(max)=1500, Vds(typical)=7, Idss=183.23, Vt=-3.1</DESCRIPTION>
+    <VENDOR>Toshiba</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cf_ply_P351101_19930609</NAME>
+    <DESCRIPTION> P351101 Package:DIE Model:eefet3 N-channel Gate Width=350, Gate Length=4, Pdiss(max)=525, Vds(typical)=5, Idss=21.26, Vt=-1.5</DESCRIPTION>
+    <VENDOR>PolyFet</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cf_ctk_CF00102_19911201</NAME>
+    <DESCRIPTION> CF00102 Package:DIE Model:curtice N-channel MDS b.07 library extraction</DESCRIPTION>
+    <VENDOR>Celeritek</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_hp_AT42000_19921101</NAME>
+    <DESCRIPTION> die data n/a</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_nec_NE41600_19900403</NAME>
+    <DESCRIPTION> NE41600 Package:DIE Model:eebjt1 NPN Pdiss(max)=1800, Ic(max)=100, Vce(max)=18, Ic(typical)=50, Vce(typical)=10, Ft=3.5, Hfe=100</DESCRIPTION>
+    <VENDOR>NEC</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_bit_B20V1320d00_19931130</NAME>
+    <DESCRIPTION> B20V1320-00 Package:DIE Model:eebjt2 NPN Pdiss(max)=na, Ic(max)=na, Vce(max)=na, Ic(typical)=na, Vce(typical)=na, Ft=na, Hfe=na</DESCRIPTION>
+    <VENDOR>Bipolarics</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_hp_AT41400_19921101</NAME>
+    <DESCRIPTION> die data n/a</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>ph_nec_NE42484A_19921223</NAME>
+    <DESCRIPTION> NE42484A Package:NEC84A Model:eehemt1 N-channel Gate Width=na, Gate Length=0.35, Pdiss(max)=165, Vds(typical)=2, Idss=53.2, Vt=-1.04</DESCRIPTION>
+    <VENDOR>NEC</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>ph_sny_2SK677_19921217</NAME>
+    <DESCRIPTION> 2SK677 Package:M253 Model:eehemt1 N-channel Gate Width=360, Gate Length=0.5, Pdiss(max)=340, Vds(typical)=3, Idss=61.8, Vt=-2.15</DESCRIPTION>
+    <VENDOR>Sony</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cf_fuj_FLK102XP_19930730</NAME>
+    <DESCRIPTION> FLK102XP Package:DIE Model:eefet3 N-channel Gate Width=2400, Gate Length=0.8, Pdiss(max)=7500, Vds(typical)=10, Idss=476.79, Vt=-2.5</DESCRIPTION>
+    <VENDOR>Fujitsu</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cf_mwt_MWT7_19911201</NAME>
+    <DESCRIPTION> MWT-7HP Package:DIE Model:curtice N-channel MDS b.07 library extraction</DESCRIPTION>
+    <VENDOR>Mwt</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>ch_nec_NE32400_19921222</NAME>
+    <DESCRIPTION> NE32400 Package:DIE Model:eehemt1 N-channel Gate Width=na, Gate Length=0.25, Pdiss(max)=165, Vds(typical)=2, Idss=35.4, Vt=-0.74</DESCRIPTION>
+    <VENDOR>NEC</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cf_hm_HMF0610100_19921221</NAME>
+    <DESCRIPTION> HMF0610100 Package:DIE Model:eefet3 N-channel Gate Width=600, Gate Length=0.5, Pdiss(max)=1000, Vds(typical)=6, Idss=154.14, Vt=-3.1</DESCRIPTION>
+    <VENDOR>Harris</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cf_ply_P351140M_19930609</NAME>
+    <DESCRIPTION> P351140M Package:DIE Model:eefet3 N-channel Gate Width=265, Gate Length=0.35, Pdiss(max)=400, Vds(typical)=3, Idss=50.24, Vt=-1.4</DESCRIPTION>
+    <VENDOR>PolyFet</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_nec_NE68800_19960601</NAME>
+    <DESCRIPTION> NE68800 Package:NE00 Type:NPN Vce(Max)=V, Ic(Max)=mA, Vce(typical)=V, Ic(Typical)=mA, Hfe=, Ft=Hz Valid within: Bias{Vce=1V to 3V, Ic=1mA to 10mA} Frequency{0.1GHZ to 10GHZ}</DESCRIPTION>
+    <VENDOR>NEC</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_mot_MRFC941_19900412</NAME>
+    <DESCRIPTION> MRFC941 Package:DIE Model:eebjt1 NPN Pdiss(max)=400, Ic(max)=50, Vce(max)=10, Ic(typical)=15, Vce(typical)=6, Ft=8, Hfe=50-200</DESCRIPTION>
+    <VENDOR>Motorola</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>ch_tsb_JS8911AS_19931207</NAME>
+    <DESCRIPTION> JS8911AS Package:DIE Model:hpfet N-channel MDS b.07 library extraction</DESCRIPTION>
+    <VENDOR>Toshiba</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cf_nec_NE90000d12k_19931112</NAME>
+    <DESCRIPTION> NE90000-12k Package:DIE Model:hpfet N-channel MDS b.07 library extraction</DESCRIPTION>
+    <VENDOR>NEC</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>ch_tsb_JS8901AS_19930913</NAME>
+    <DESCRIPTION> JS8901AS Package:DIE Model:eehemt1 N-channel Gate Width=200, Gate Length=0.5, Pdiss(max)=200, Vds(typical)=2, Idss=16.9, Vt=-0.59</DESCRIPTION>
+    <VENDOR>Toshiba</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cf_fuj_FLR054XV_19921219</NAME>
+    <DESCRIPTION> FLR054XV Package:DIE Model:eefet3 N-channel Gate Width=1200, Gate Length=0.8, Pdiss(max)=3750, Vds(typical)=7.5, Idss=264.56, Vt=-3.2</DESCRIPTION>
+    <VENDOR>Fujitsu</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cf_hm_HMF2402_19921221</NAME>
+    <DESCRIPTION> HMF2402 Package:DIE Model:eefet3 N-channel Gate Width=2400, Gate Length=0.5, Pdiss(max)=8000, Vds(typical)=8, Idss=645.87, Vt=-3.4</DESCRIPTION>
+    <VENDOR>Harris</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_sms_T134_19921101</NAME>
+    <DESCRIPTION> T134 die ( )</DESCRIPTION>
+    <VENDOR>Siemens</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cf_ray_RPK200303_19911201</NAME>
+    <DESCRIPTION> RPK200303 Package:DIE Model:curtice N-channel MDS b.07 library extraction</DESCRIPTION>
+    <VENDOR>Raytheon</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cf_fuj_FLC151XP_19930730</NAME>
+    <DESCRIPTION> FLC151XP Package:DIE Model:eefet3 N-channel Gate Width=750, Gate Length=na, Pdiss(max)=8300, Vds(typical)=10, Idss=645.29, Vt=-2.2</DESCRIPTION>
+    <VENDOR>Fujitsu</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_nec_NE68000_19921101</NAME>
+    <DESCRIPTION> embeded die, n/a</DESCRIPTION>
+    <VENDOR>NEC</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_hp_AT21400_19900404</NAME>
+    <DESCRIPTION> AT21400 Package:DIE Model:eebjt1 NPN Pdiss(max)=250, Ic(max)=28, Vce(max)=10, Ic(typical)=14, Vce(typical)=8, Ft=10, Hfe=100</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <AVAILABILITY>OBSOLETE</AVAILABILITY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_sms_T501_19960901</NAME>
+    <DESCRIPTION> rf-bjt die: SPICE Lib. V1.00 09.01.1996 valid under 6Ghz</DESCRIPTION>
+    <VENDOR>Siemens</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cf_ctk_CF01501_19930730</NAME>
+    <DESCRIPTION> CF01501 Package:DIE Model:eefet3 N-channel Gate Width=1200, Gate Length=0.5, Pdiss(max)=3000, Vds(typical)=6, Idss=324, Vt=-1.7</DESCRIPTION>
+    <VENDOR>Celeritek</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_nec_NE68100_19960501</NAME>
+    <DESCRIPTION> NE68100 Package:NE00 Type:NPN Vce(Max)=V, Ic(Max)=mA, Vce(typical)=V, Ic(Typical)=mA, Hfe=, Ft=Hz Valid within: Bias{VCE=8V, IC=7mA,20mA; VCE=2.5V, IC=0.3/1/3mA} Frequency{1.5GHz TO 10GHz}</DESCRIPTION>
+    <VENDOR>NEC</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cf_fuj_FLK022XV_19930730</NAME>
+    <DESCRIPTION> FLK022XV Package:DIE Model:eefet3 N-channel Gate Width=600, Gate Length=0.8, Pdiss(max)=1880, Vds(typical)=10, Idss=111.45, Vt=-2.3</DESCRIPTION>
+    <VENDOR>Fujitsu</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cf_lit_LF3830_19930730</NAME>
+    <DESCRIPTION> LF3830 Package:DIE Model:eefet3 N-channel Gate Width=3000, Gate Length=0.5, Pdiss(max)=9000, Vds(typical)=9, Idss=795.4, Vt=-3.3</DESCRIPTION>
+    <VENDOR>Litton</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cf_hp_ATF10100_19930609</NAME>
+    <DESCRIPTION> ATF10100 Package:DIE Model:eefet3 N-channel Gate Width=250, Gate Length=0.3, Pdiss(max)=430, Vds(typical)=4, Idss=62.4, Vt=-1</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <AVAILABILITY>OBSOLETE</AVAILABILITY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cf_lit_LF6828_19911201</NAME>
+    <DESCRIPTION> LF6828 Package:DIE Model:curtice N-channel MDS b.07 library extraction</DESCRIPTION>
+    <VENDOR>Litton</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cf_lit_LF3814_19930730</NAME>
+    <DESCRIPTION> LF3814 Package:DIE Model:eefet3 N-channel Gate Width=1400, Gate Length=0.5, Pdiss(max)=3000, Vds(typical)=7, Idss=346.53, Vt=-3.5</DESCRIPTION>
+    <VENDOR>Litton</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>ph_fuj_FHX35LG_19921222</NAME>
+    <DESCRIPTION> FHX35LG Package:LG Model:eehemt1 N-channel Gate Width=na, Gate Length=na, Pdiss(max)=290, Vds(typical)=3, Idss=40, Vt=-0.77</DESCRIPTION>
+    <VENDOR>Fujitsu</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cf_mit_MGFC2430A_19930730</NAME>
+    <DESCRIPTION> MGFC2430A Package:DIE Model:eefet3 N-channel Gate Width=3000, Gate Length=0.6, Pdiss(max)=5000, Vds(typical)=10, Idss=576.75, Vt=-2.6</DESCRIPTION>
+    <VENDOR>Mitsubishi</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cf_tsb_JS8818AS_19921216</NAME>
+    <DESCRIPTION> JS8818AS Package:DIE Model:eefet3 N-channel Gate Width=300, Gate Length=0.3, Pdiss(max)=400, Vds(typical)=3, Idss=67.36, Vt=-1.8</DESCRIPTION>
+    <VENDOR>Toshiba</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_nec_NE02100_19900412</NAME>
+    <DESCRIPTION> NE02100 Package:DIE Model:eebjt1 NPN Pdiss(max)=700, Ic(max)=70, Vce(max)=12, Ic(typical)=20, Vce(typical)=10, Ft=4.5, Hfe=70</DESCRIPTION>
+    <VENDOR>NEC</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cf_fuj_FSX52X_19930730</NAME>
+    <DESCRIPTION> FSX52X Package:DIE Model:eefet3 N-channel Gate Width=600, Gate Length=1, Pdiss(max)=1500, Vds(typical)=8, Idss=166.97, Vt=-3.7</DESCRIPTION>
+    <VENDOR>Fujitsu</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cf_mit_MGFC1425_19930609</NAME>
+    <DESCRIPTION> MGFC1425 Package:DIE Model:eefet3 N-channel Gate Width=250, Gate Length=0.4, Pdiss(max)=350, Vds(typical)=3, Idss=22.78, Vt=-0.8</DESCRIPTION>
+    <VENDOR>Mitsubishi</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_hp_AT01600_19921101</NAME>
+    <DESCRIPTION> die data n/a</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <AVAILABILITY>OBSOLETE</AVAILABILITY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>ph_nec_NE32484A_19921222</NAME>
+    <DESCRIPTION> NE32484A Package:NEC84A Model:eehemt1 N-channel Gate Width=na, Gate Length=0.25, Pdiss(max)=165, Vds(typical)=2, Idss=37.4, Vt=-0.79</DESCRIPTION>
+    <VENDOR>NEC</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_hp_AT60500_19910101</NAME>
+    <DESCRIPTION> AT60500 Package:DIE Model:bjt_gp NPN MDS b.07 library extraction</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <AVAILABILITY>OBSOLETE</AVAILABILITY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_sms_T122_19960901</NAME>
+    <DESCRIPTION> rf-bjt die: SPICE Lib. V1.00 09.01.1996 valid under 6Ghz</DESCRIPTION>
+    <VENDOR>Siemens</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cf_hm_HMF03300_19911201</NAME>
+    <DESCRIPTION> HMF03300 Package:DIE Model:curtice N-channel MDS b.07 library extraction</DESCRIPTION>
+    <VENDOR>Harris</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_nec_NE68300_19921101</NAME>
+    <DESCRIPTION> embeded die, n/a</DESCRIPTION>
+    <VENDOR>NEC</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_sms_T251_19960901</NAME>
+    <DESCRIPTION> rf-bjt die: SPICE Lib. V1.00 09.01.1996 valid under 6Ghz</DESCRIPTION>
+    <VENDOR>Siemens</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cf_hm_HMF03100_19921221</NAME>
+    <DESCRIPTION> HMF03100 Package:DIE Model:eefet3 N-channel Gate Width=300, Gate Length=0.5, Pdiss(max)=800, Vds(typical)=6, Idss=86.85, Vt=-3.4</DESCRIPTION>
+    <VENDOR>Harris</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_nec_NE64500_19891214</NAME>
+    <DESCRIPTION> NE64500 Package:DIE Model:eebjt1 NPN Pdiss(max)=400, Ic(max)=65, Vce(max)=12, Ic(typical)=20, Vce(typical)=8, Ft=8.5, Hfe=100</DESCRIPTION>
+    <VENDOR>NEC</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_sms_T396_19960901</NAME>
+    <DESCRIPTION> rf-bjt die: SPICE Lib. V1.00 09.01.1996 valid under 6Ghz</DESCRIPTION>
+    <VENDOR>Siemens</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cf_nec_NE800400_19911201</NAME>
+    <DESCRIPTION> NE800400 Package:DIE Model:curtice N-channel MDS b.07 library extraction</DESCRIPTION>
+    <VENDOR>NEC</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cf_mwt_MWT1HG_19921215</NAME>
+    <DESCRIPTION> MWT-1HG Package:DIE Model:eefet3 N-channel Gate Width=630, Gate Length=0.3, Pdiss(max)=1200, Vds(typical)=5, Idss=165.8, Vt=-2.2</DESCRIPTION>
+    <VENDOR>Mwt</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>ph_mit_MGF4916C_19930915</NAME>
+    <DESCRIPTION> MGF4916C Package:GD16 Model:eehemt1 N-channel Gate Width=na, Gate Length=0.25, Pdiss(max)=200, Vds(typical)=2, Idss=44.6, Vt=-0.79</DESCRIPTION>
+    <VENDOR>Mitsubishi</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cf_mit_MGFC1405_19930730</NAME>
+    <DESCRIPTION> MGFC1405 Package:DIE Model:eefet3 N-channel Gate Width=300, Gate Length=0.4, Pdiss(max)=350, Vds(typical)=3, Idss=33.98, Vt=-0.9</DESCRIPTION>
+    <VENDOR>Mitsubishi</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cf_nec_NE900400_19930730</NAME>
+    <DESCRIPTION> NE900400 Package:DIE Model:eefet3 N-channel Gate Width=3000, Gate Length=0.5, Pdiss(max)=7500, Vds(typical)=8, Idss=822.93, Vt=-4.4</DESCRIPTION>
+    <VENDOR>NEC</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cf_hm_HMF03100d200_19940323</NAME>
+    <DESCRIPTION> HMF03100-200 Package:DIE Model:hpfet N-channel MDS b.07 library extraction</DESCRIPTION>
+    <VENDOR>Harris</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_sms_T341_19960901</NAME>
+    <DESCRIPTION> rf-bjt die: SPICE Lib. V1.00 09.01.1996 valid under 6Ghz</DESCRIPTION>
+    <VENDOR>Siemens</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_sms_T503_19960901</NAME>
+    <DESCRIPTION> rf-bjt die: SPICE Lib. V1.00 09.01.1996 valid under 6Ghz</DESCRIPTION>
+    <VENDOR>Siemens</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cf_hm_HMF06100d200_19940325</NAME>
+    <DESCRIPTION> HMF06100-200 Package:DIE Model:hpfet N-channel MDS b.07 library extraction</DESCRIPTION>
+    <VENDOR>Harris</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cf_fuj_FLK052XV_19911201</NAME>
+    <DESCRIPTION> FLK052XV Package:DIE Model:curtice N-channel MDS b.07 library extraction</DESCRIPTION>
+    <VENDOR>Fujitsu</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cf_mwt_MWT7HP_19930730</NAME>
+    <DESCRIPTION> MWT-7HP Package:DIE Model:eefet3 N-channel Gate Width=250, Gate Length=0.3, Pdiss(max)=600, Vds(typical)=4, Idss=77.55, Vt=-2</DESCRIPTION>
+    <VENDOR>Mwt</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cf_ply_P351140H_19930609</NAME>
+    <DESCRIPTION> P351140H Package:DIE Model:eefet3 N-channel Gate Width=265, Gate Length=0.35, Pdiss(max)=400, Vds(typical)=4, Idss=87, Vt=-1.9</DESCRIPTION>
+    <VENDOR>PolyFet</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_hp_AT60200_19900409</NAME>
+    <DESCRIPTION> AT60200 Package:DIE Model:eebjt1 NPN Pdiss(max)=160, Ic(max)=16, Vce(max)=12, Ic(typical)=5, Vce(typical)=8, Ft=9, Hfe=150</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <AVAILABILITY>OBSOLETE</AVAILABILITY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_nec_NE46100_19950901</NAME>
+    <DESCRIPTION> NE46100 Package:NE00 Type:NPN Vce(Max)=V, Ic(Max)=mA, Vce(typical)=V, Ic(Typical)=mA, Hfe=, Ft=Hz Valid within: Bias{Vce=5V to 12.5V, Ic=50mA to 100mA} Frequency{0.1GHz TO 4.0GHz}</DESCRIPTION>
+    <VENDOR>NEC</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_sms_T309_19960901</NAME>
+    <DESCRIPTION> rf-bjt die: SPICE Lib. V1.00 09.01.1996 valid under 6Ghz</DESCRIPTION>
+    <VENDOR>Siemens</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cf_fuj_FLK202XV_19930730</NAME>
+    <DESCRIPTION> FLK202XV Package:DIE Model:eefet3 N-channel Gate Width=4800, Gate Length=0.8, Pdiss(max)=12500, Vds(typical)=10, Idss=953.82, Vt=-2.7</DESCRIPTION>
+    <VENDOR>Fujitsu</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cf_ctk_CF00302_19930609</NAME>
+    <DESCRIPTION> CF00302 Package:DIE Model:eefet3 N-channel Gate Width=600, Gate Length=0.5, Pdiss(max)=1600, Vds(typical)=6, Idss=183.43, Vt=-1.2</DESCRIPTION>
+    <VENDOR>Celeritek</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cf_fuj_FLR016XV_19920211</NAME>
+    <DESCRIPTION> FLR016XV Package:DIE Model:curtice N-channel MDS b.07 library extraction</DESCRIPTION>
+    <VENDOR>Fujitsu</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cf_lit_LF2502_19930609</NAME>
+    <DESCRIPTION> LF2502 Package:DIE Model:eefet3 N-channel Gate Width=250, Gate Length=0.5, Pdiss(max)=450, Vds(typical)=4, Idss=31.94, Vt=-1.3</DESCRIPTION>
+    <VENDOR>Litton</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>ch_tsb_JS8910AS_19921222</NAME>
+    <DESCRIPTION> JS8910AS Package:DIE Model:eehemt1 N-channel Gate Width=100, Gate Length=0.1, Pdiss(max)=150, Vds(typical)=1.5, Idss=23.3, Vt=-0.73</DESCRIPTION>
+    <VENDOR>Toshiba</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_sms_T389_19960901</NAME>
+    <DESCRIPTION> rf-bjt die: SPICE Lib. V1.00 09.01.1996 valid under 6Ghz</DESCRIPTION>
+    <VENDOR>Siemens</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cf_hm_HMF06300_19940325</NAME>
+    <DESCRIPTION> HMF06300 Package:DIE Model:hpfet N-channel MDS b.07 library extraction</DESCRIPTION>
+    <VENDOR>Harris</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cf_mit_MGFC1403_19921217</NAME>
+    <DESCRIPTION> MGFC1403 Package:DIE Model:eefet3 N-channel Gate Width=300, Gate Length=0.5, Pdiss(max)=500, Vds(typical)=3, Idss=46.29, Vt=-1.2</DESCRIPTION>
+    <VENDOR>Mitsubishi</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_hp_AT00500_19910101</NAME>
+    <DESCRIPTION> AT00500 Package:DIE Model:bjt_gp NPN MDS b.07 library extraction</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <AVAILABILITY>OBSOLETE</AVAILABILITY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cf_ply_P351105_19930609</NAME>
+    <DESCRIPTION> P351105 Package:DIE Model:eefet3 N-channel Gate Width=300, Gate Length=0.8, Pdiss(max)=450, Vds(typical)=5, Idss=50.88, Vt=-3.2</DESCRIPTION>
+    <VENDOR>PolyFet</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_sms_T302_19960901</NAME>
+    <DESCRIPTION> rf-bjt die: SPICE Lib. V1.00 09.01.1996 valid under 6Ghz</DESCRIPTION>
+    <VENDOR>Siemens</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cf_fuj_FLK102XV_19911201</NAME>
+    <DESCRIPTION> FLK102XV Package:DIE Model:curtice N-channel MDS b.07 library extraction</DESCRIPTION>
+    <VENDOR>Fujitsu</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cf_hp_ATF10100_19911201</NAME>
+    <DESCRIPTION> ATF10100 Package:DIE Model:curtice N-channel MDS b.07 library extraction</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <AVAILABILITY>OBSOLETE</AVAILABILITY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_nec_NE64400_19931130</NAME>
+    <DESCRIPTION> NE64400 Package:DIE Model:eebjt2 NPN Pdiss(max)=260, Ic(max)=3.5, Vce(max)=10, Ic(typical)=5, Vce(typical)=6, Ft=10, Hfe=100</DESCRIPTION>
+    <VENDOR>NEC</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>ch_mit_MGFC4416C_19930915</NAME>
+    <DESCRIPTION> MGFC4416C Package:DIE Model:eehemt1 N-channel Gate Width=na, Gate Length=na, Pdiss(max)=355, Vds(typical)=2, Idss=50.6, Vt=-0.86</DESCRIPTION>
+    <VENDOR>Mitsubishi</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cf_ctk_CF00101_19930609</NAME>
+    <DESCRIPTION> CF00101 Package:DIE Model:eefet3 N-channel Gate Width=300, Gate Length=0.5, Pdiss(max)=700, Vds(typical)=5.5, Idss=93.63, Vt=-1.8</DESCRIPTION>
+    <VENDOR>Celeritek</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_nec_NE85600_19900404</NAME>
+    <DESCRIPTION> NE85600 Package:DIE Model:eebjt1 NPN Pdiss(max)=700, Ic(max)=100, Vce(max)=12, Ic(typical)=20, Vce(typical)=10, Ft=7, Hfe=120</DESCRIPTION>
+    <VENDOR>NEC</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_mot_MRFC521_19921101</NAME>
+    <DESCRIPTION></DESCRIPTION>
+    <VENDOR>Motorola</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>ch_fuj_FHR10X_19930915</NAME>
+    <DESCRIPTION> FHR10X Package:DIE Model:eehemt1 N-channel Gate Width=na, Gate Length=na, Pdiss(max)=180, Vds(typical)=2, Idss=28.2, Vt=-1.27</DESCRIPTION>
+    <VENDOR>Fujitsu</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_mot_MRFC941_19921101</NAME>
+    <DESCRIPTION></DESCRIPTION>
+    <VENDOR>Motorola</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>ch_oki_KGA1850_19930609</NAME>
+    <DESCRIPTION> KGA1850 Package:DIE Model:eehemt1 N-channel Gate Width=300, Gate Length=0.3, Pdiss(max)=200, Vds(typical)=2, Idss=20.2, Vt=-0.51</DESCRIPTION>
+    <VENDOR>Oki</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_nec_NE88900_19931124</NAME>
+    <DESCRIPTION> NE88900 Package:DIE Model:eebjt2 PNP Pdiss(max)=300, Ic(max)=-50, Vce(max)=-12, Ic(typical)=-15, Vce(typical)=-5, Ft=4, Hfe=90</DESCRIPTION>
+    <VENDOR>NEC</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cf_mit_MGFC1412_19921217</NAME>
+    <DESCRIPTION> MGFC1412 Package:DIE Model:eefet3 N-channel Gate Width=400, Gate Length=0.7, Pdiss(max)=550, Vds(typical)=3, Idss=63.18, Vt=-1.3</DESCRIPTION>
+    <VENDOR>Mitsubishi</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cf_tsb_JS8851AS_19921217</NAME>
+    <DESCRIPTION> JS8851AS Package:DIE Model:eefet3 N-channel Gate Width=800, Gate Length=0.5, Pdiss(max)=2000, Vds(typical)=10, Idss=205.49, Vt=-4</DESCRIPTION>
+    <VENDOR>Toshiba</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cf_hp_ATF45100_19930609</NAME>
+    <DESCRIPTION> ATF45100 Package:DIE Model:eefet3 N-channel Gate Width=2500, Gate Length=0.5, Pdiss(max)=4000, Vds(typical)=9, Idss=645.97, Vt=-5.6</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <AVAILABILITY>OBSOLETE</AVAILABILITY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>ch_fuj_FHX35X_19930915</NAME>
+    <DESCRIPTION> FHX35X Package:DIE Model:eehemt1 N-channel Gate Width=200, Gate Length=0.25, Pdiss(max)=290, Vds(typical)=3, Idss=32.8, Vt=-0.66</DESCRIPTION>
+    <VENDOR>Fujitsu</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_sms_T251_19921101</NAME>
+    <DESCRIPTION> T251 die ( )</DESCRIPTION>
+    <VENDOR>Siemens</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cf_mwt_MWT3HP_19911201</NAME>
+    <DESCRIPTION> MWT-3HP Package:DIE Model:curtice N-channel MDS b.07 library extraction</DESCRIPTION>
+    <VENDOR>Mwt</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cf_tsb_JS8818AAS_19921216</NAME>
+    <DESCRIPTION> JS8818AAS Package:DIE Model:eefet3 N-channel Gate Width=300, Gate Length=0.3, Pdiss(max)=400, Vds(typical)=3, Idss=67.36, Vt=-1.8</DESCRIPTION>
+    <VENDOR>Toshiba</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cf_lit_LF0777_19930609</NAME>
+    <DESCRIPTION> LF0777 Package:DIE Model:eefet3 N-channel Gate Width=280, Gate Length=0.3, Pdiss(max)=300, Vds(typical)=3.5, Idss=39.48, Vt=-1.3</DESCRIPTION>
+    <VENDOR>Litton</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cf_ply_P351130_19930609</NAME>
+    <DESCRIPTION> P351130 Package:DIE Model:eefet3 N-channel Gate Width=265, Gate Length=0.5, Pdiss(max)=400, Vds(typical)=3, Idss=75, Vt=-1.7</DESCRIPTION>
+    <VENDOR>PolyFet</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_nec_NE41600_19921101</NAME>
+    <DESCRIPTION> die, n/a</DESCRIPTION>
+    <VENDOR>NEC</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_hp_AT60500_19900411</NAME>
+    <DESCRIPTION> AT60500 Package:DIE Model:eebjt1 NPN Pdiss(max)=400, Ic(max)=40, Vce(max)=12, Ic(typical)=10, Vce(typical)=8, Ft=9, Hfe=150</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <AVAILABILITY>OBSOLETE</AVAILABILITY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_nec_NE21900_19900307</NAME>
+    <DESCRIPTION> NE21900 Package:DIE Model:bjt_gp NPN MDS b.07 library extraction</DESCRIPTION>
+    <VENDOR>NEC</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>ph_hp_ATF36163_19951110</NAME>
+    <DESCRIPTION> ATF36163 PHEMT(Pseudomorphic High Electron Mobility Transistor): SOT-363Low parasitic ceramic microstrip package -6 terminal, Pdiss=180mW, VDS(Max)=3V, VGS(Max)=-3V, VGD(Max)=-3.5V, Id(Max)=Idss(max)=40mA, VDS(typical)=1.5V, ID(Typical)=10mA, Gm=55, Ft>18GHz</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cf_ctk_CF00501_19930730</NAME>
+    <DESCRIPTION> CF00501 Package:DIE Model:eefet3 N-channel Gate Width=1200, Gate Length=0.5, Pdiss(max)=3000, Vds(typical)=6, Idss=226.97, Vt=-1.1</DESCRIPTION>
+    <VENDOR>Celeritek</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_nec_NE64800_19900413</NAME>
+    <DESCRIPTION> NE64800 Package:DIE Model:eebjt1 NPN Pdiss(max)=360, Ic(max)=40, Vce(max)=9, Ic(typical)=20, Vce(typical)=8, Ft=11, Hfe=100</DESCRIPTION>
+    <VENDOR>NEC</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>ph_hp_ATF35176_19921221</NAME>
+    <DESCRIPTION> ATF35176: ATF76 Package 4-terminal, Gw=na, Gl=na, Pdiss=225mW Vbr=na, @Vds=2V: Idss(sim)=47.20mA, Vt(sim)=-0.92V</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cf_ctk_CF00401_19930609</NAME>
+    <DESCRIPTION> CF00401 Package:DIE Model:eefet3 N-channel Gate Width=150, Gate Length=0.5, Pdiss(max)=400, Vds(typical)=5.5, Idss=34.73, Vt=-1.7</DESCRIPTION>
+    <VENDOR>Celeritek</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_sms_T359_19960901</NAME>
+    <DESCRIPTION> rf-bjt die: SPICE Lib. V1.00 09.01.1996 valid under 6Ghz</DESCRIPTION>
+    <VENDOR>Siemens</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cf_fuj_FLK052XV_19930730</NAME>
+    <DESCRIPTION> FLK052XV Package:DIE Model:eefet3 N-channel Gate Width=1200, Gate Length=0.8, Pdiss(max)=3750, Vds(typical)=10, Idss=252.54, Vt=-3</DESCRIPTION>
+    <VENDOR>Fujitsu</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cf_nec_NE72000_19930609</NAME>
+    <DESCRIPTION> NE72000 Package:DIE Model:eefet3 N-channel Gate Width=400, Gate Length=1, Pdiss(max)=500, Vds(typical)=3, Idss=69.93, Vt=-1.5</DESCRIPTION>
+    <VENDOR>NEC</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cf_nec_NE71000hi_19920211</NAME>
+    <DESCRIPTION> NE71000 Package:DIE Model:curtice N-channel MDS b.07 library extraction</DESCRIPTION>
+    <VENDOR>NEC</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cf_tsb_JS8850AAS_19920213</NAME>
+    <DESCRIPTION> JS8850AAS Package:DIE Model:curtice N-channel MDS b.07 library extraction</DESCRIPTION>
+    <VENDOR>Toshiba</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cf_ti_TGF1350_19930609</NAME>
+    <DESCRIPTION> TGF1350 Package:DIE Model:eefet3 N-channel Gate Width=300, Gate Length=0.5, Pdiss(max)=500, Vds(typical)=3, Idss=54.6, Vt=-1.2</DESCRIPTION>
+    <VENDOR>TI</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cf_hp_ATF13100_19930609</NAME>
+    <DESCRIPTION> ATF13100 Package:DIE Model:eefet3 N-channel Gate Width=250, Gate Length=0.3, Pdiss(max)=225, Vds(typical)=4, Idss=56.48, Vt=-1.6</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <AVAILABILITY>OBSOLETE</AVAILABILITY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_sms_T341_19921101</NAME>
+    <DESCRIPTION> T341 die ( )</DESCRIPTION>
+    <VENDOR>Siemens</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cf_mit_MGFC1413_19930609</NAME>
+    <DESCRIPTION> MGFC1413 Package:DIE Model:eefet3 N-channel Gate Width=180, Gate Length=0.5, Pdiss(max)=300, Vds(typical)=3, Idss=81.47, Vt=-1.9</DESCRIPTION>
+    <VENDOR>Mitsubishi</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_hp_AT00500_19900404</NAME>
+    <DESCRIPTION> AT00500 Package:DIE Model:eebjt1 NPN Pdiss(max)=500, Ic(max)=50, Vce(max)=12, Ic(typical)=20, Vce(typical)=8, Ft=9, Hfe=150</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <AVAILABILITY>OBSOLETE</AVAILABILITY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>ch_nec_NE33200_19921223</NAME>
+    <DESCRIPTION> NE33200 Package:DIE Model:eehemt1 N-channel Gate Width=na, Gate Length=0.25, Pdiss(max)=165, Vds(typical)=2, Idss=40.4, Vt=-0.67</DESCRIPTION>
+    <VENDOR>NEC</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_nec_NE68000_19960501</NAME>
+    <DESCRIPTION> NE68000 Package:NE00 Type:NPN Vce(Max)=V, Ic(Max)=mA, Vce(typical)=V, Ic(Typical)=mA, Hfe=, Ft=Hz Valid within: Bias{Vce=1V to 6V, Ic=0.25mA to 20mA} Frequency{0.1GHZ TO 20.1GHZ}</DESCRIPTION>
+    <VENDOR>NEC</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cf_fuj_FLK102XV_19930730</NAME>
+    <DESCRIPTION> FLK102XV Package:DIE Model:eefet3 N-channel Gate Width=2400, Gate Length=0.8, Pdiss(max)=7500, Vds(typical)=10, Idss=452.77, Vt=-2.3</DESCRIPTION>
+    <VENDOR>Fujitsu</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_sms_T239_19960901</NAME>
+    <DESCRIPTION> rf-bjt die: SPICE Lib. V1.00 09.01.1996 valid under 6Ghz</DESCRIPTION>
+    <VENDOR>Siemens</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_mot_MRFC911_19921101</NAME>
+    <DESCRIPTION> MRFC911 Package:DIE Model:bjt_gp NPN MDS b.07 library extraction</DESCRIPTION>
+    <VENDOR>Motorola</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cf_nec_NE900100_1993069</NAME>
+    <DESCRIPTION> NE900100 Package:DIE Model:eefet3 N-channel Gate Width=750, Gate Length=0.5, Pdiss(max)=1500, Vds(typical)=8, Idss=227.21, Vt=-4</DESCRIPTION>
+    <VENDOR>NEC</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cf_lit_LF3501_19930609</NAME>
+    <DESCRIPTION> LF3501 Package:DIE Model:eefet3 N-channel Gate Width=500, Gate Length=0.8, Pdiss(max)=800, Vds(typical)=8, Idss=134.71, Vt=-3.2</DESCRIPTION>
+    <VENDOR>Litton</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cf_lit_LF1503A_19930609</NAME>
+    <DESCRIPTION> LF1503A Package:DIE Model:eefet3 N-channel Gate Width=280, Gate Length=0.8, Pdiss(max)=300, Vds(typical)=4, Idss=76.72, Vt=-2.1</DESCRIPTION>
+    <VENDOR>Litton</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cf_fuj_FLR016XV_19921218</NAME>
+    <DESCRIPTION> FLR016XV Package:DIE Model:eefet3 N-channel Gate Width=300, Gate Length=0.25, Pdiss(max)=1150, Vds(typical)=8, Idss=59.14, Vt=-1.9</DESCRIPTION>
+    <VENDOR>Fujitsu</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cf_hm_HMF1210_19921221</NAME>
+    <DESCRIPTION> HMF1210 Package:DIE Model:eefet3 N-channel Gate Width=1200, Gate Length=0.5, Pdiss(max)=2800, Vds(typical)=6, Idss=282.42, Vt=-2.8</DESCRIPTION>
+    <VENDOR>Harris</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cf_hp_ATF26100_19930609</NAME>
+    <DESCRIPTION> ATF26100 Package:DIE Model:eefet3 N-channel Gate Width=250, Gate Length=0.3, Pdiss(max)=275, Vds(typical)=5, Idss=72.52, Vt=-2.7</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <AVAILABILITY>OBSOLETE</AVAILABILITY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cf_nec_NE900000_19930730</NAME>
+    <DESCRIPTION> NE900000 Package:DIE Model:eefet3 N-channel Gate Width=400, Gate Length=0.5, Pdiss(max)=800, Vds(typical)=8, Idss=115, Vt=-3.2</DESCRIPTION>
+    <VENDOR>NEC</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cf_fuj_FLR056XV_19921219</NAME>
+    <DESCRIPTION> FLR056XV Package:DIE Model:eefet3 N-channel Gate Width=1200, Gate Length=0.25, Pdiss(max)=3750, Vds(typical)=8, Idss=244.07, Vt=-3</DESCRIPTION>
+    <VENDOR>Fujitsu</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cf_tsb_JS8836AAS_19921217</NAME>
+    <DESCRIPTION> JS8836AAS Package:DIE Model:eefet3 N-channel Gate Width=2400, Gate Length=0.8, Pdiss(max)=5000, Vds(typical)=10, Idss=530.04, Vt=-3.9</DESCRIPTION>
+    <VENDOR>Toshiba</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cf_ctk_CF00101_19911201</NAME>
+    <DESCRIPTION> CF00101 Package:DIE Model:curtice N-channel MDS b.07 library extraction</DESCRIPTION>
+    <VENDOR>Celeritek</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cf_mit_MGFC2407A_19930730</NAME>
+    <DESCRIPTION> MGFC2407A Package:DIE Model:eefet3 N-channel Gate Width=750, Gate Length=0.6, Pdiss(max)=1500, Vds(typical)=10, Idss=140.85, Vt=-2.4</DESCRIPTION>
+    <VENDOR>Mitsubishi</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_sms_T89_19960901</NAME>
+    <DESCRIPTION> rf-bjt die: SPICE Lib. V1.00 09.01.1996 valid under 6Ghz</DESCRIPTION>
+    <VENDOR>Siemens</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cf_lit_LF6836_19930609</NAME>
+    <DESCRIPTION> LF6836 Package:DIE Model:eefet3 N-channel Gate Width=360, Gate Length=0.5, Pdiss(max)=800, Vds(typical)=5.5, Idss=115.51, Vt=-2.4</DESCRIPTION>
+    <VENDOR>Litton</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cf_nec_NE67300_37k_19931112</NAME>
+    <DESCRIPTION> NE67300 Package:DIE Model:hpfet N-channel MDS b.07 library extraction</DESCRIPTION>
+    <VENDOR>NEC</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>ph_nec_NE33284A_19921223</NAME>
+    <DESCRIPTION> NE33284A Package:NEC84A Model:eehemt1 N-channel Gate Width=na, Gate Length=0.25, Pdiss(max)=165, Vds(typical)=2, Idss=35.3, Vt=-0.65</DESCRIPTION>
+    <VENDOR>NEC</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cf_hm_HMF03100d100_19940317</NAME>
+    <DESCRIPTION> HMF03100-100 Package:DIE Model:hpfet N-channel MDS b.07 library extraction</DESCRIPTION>
+    <VENDOR>Harris</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cf_mwt_MWT3HP_19930730</NAME>
+    <DESCRIPTION> MWT-3HP Package:DIE Model:eefet3 N-channel Gate Width=300, Gate Length=0.3, Pdiss(max)=750, Vds(typical)=6, Idss=99.45, Vt=-2.7</DESCRIPTION>
+    <VENDOR>Mwt</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>ph_sny_2SK676_19921217</NAME>
+    <DESCRIPTION> 2SK676 Package:M253 Model:eehemt1 N-channel Gate Width=300, Gate Length=0.5, Pdiss(max)=340, Vds(typical)=3, Idss=45.3, Vt=-2.04</DESCRIPTION>
+    <VENDOR>Sony</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_nec_NE68100_19900403</NAME>
+    <DESCRIPTION> NE68100 Package:DIE Model:bjt_gp NPN MDS b.07 library extraction</DESCRIPTION>
+    <VENDOR>NEC</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_nec_NE24300_19891121</NAME>
+    <DESCRIPTION> NE24300 Package:DIE Model:eebjt1 NPN Pdiss(max)=2750, Ic(max)=110, Vce(max)=16, Ic(typical)=50, Vce(typical)=8, Ft=10, Hfe=20-200</DESCRIPTION>
+    <VENDOR>NEC</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cf_hm_HMF06100d100_19940318</NAME>
+    <DESCRIPTION> HMF06100-100 Package:DIE Model:hpfet N-channel MDS b.07 library extraction</DESCRIPTION>
+    <VENDOR>Harris</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cf_nec_NE90000d23kwz_19931112</NAME>
+    <DESCRIPTION> NE90000-23kwz Package:DIE Model:hpfet N-channel MDS b.07 library extraction</DESCRIPTION>
+    <VENDOR>NEC</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>ch_nec_NE32400_19940322</NAME>
+    <DESCRIPTION> NE32400 Package:DIE Model:hpfet N-channel MDS b.07 library extraction</DESCRIPTION>
+    <VENDOR>NEC</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cf_ply_P351140L_19930609</NAME>
+    <DESCRIPTION> P351140L Package:DIE Model:eefet3 N-channel Gate Width=265, Gate Length=0.35, Pdiss(max)=400, Vds(typical)=3, Idss=28, Vt=-2.3</DESCRIPTION>
+    <VENDOR>PolyFet</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_sms_T296_19960901</NAME>
+    <DESCRIPTION> rf-bjt die: SPICE Lib. V1.00 09.01.1996 valid under 6Ghz</DESCRIPTION>
+    <VENDOR>Siemens</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_mot_MRFC9331_19931129</NAME>
+    <DESCRIPTION> MRFC9331 Package:DIE Model:eebjt2 NPN Pdiss(max)=50, Ic(max)=2, Vce(max)=8, Ic(typical)=1, Vce(typical)=1, Ft=5, Hfe=80</DESCRIPTION>
+    <VENDOR>Motorola</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>ph_hp_ATF34143_19990129</NAME>
+    <DESCRIPTION> ATF34143 PHEMT(Pseudomorphic High Electron Mobility Transistor):SOT-343 Low cost surface mount small plastic package -4 terminal, Pdiss=725mW, VDS(Max)=5.5V, VGS(Max)=-5V, VGD(Max)=-5V, Id(Max)=Idss(max)=145mA, VDS(typical)=4V, ID(Typical)=60mA, Gm=230,</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cf_tsb_JS8819AS_19911201</NAME>
+    <DESCRIPTION> JS8819AS Package:DIE Model:curtice N-channel MDS b.07 library extraction</DESCRIPTION>
+    <VENDOR>Toshiba</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cf_fuj_FLR106XV_19921219</NAME>
+    <DESCRIPTION> FLR106XV Package:DIE Model:eefet3 N-channel Gate Width=2400, Gate Length=0.25, Pdiss(max)=7500, Vds(typical)=8, Idss=530.55, Vt=-3.7</DESCRIPTION>
+    <VENDOR>Fujitsu</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cf_fuj_FSX51X_19930730</NAME>
+    <DESCRIPTION> FSX51X Package:DIE Model:eefet3 N-channel Gate Width=300, Gate Length=1, Pdiss(max)=1000, Vds(typical)=8, Idss=65.57, Vt=-2.4</DESCRIPTION>
+    <VENDOR>Fujitsu</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>ph_sms_CFY76d08_19921221</NAME>
+    <DESCRIPTION> CFY76-08 Package:MW4 Model:eehemt1 N-channel Gate Width=180, Gate Length=0.25, Pdiss(max)=180, Vds(typical)=2, Idss=31.8, Vt=-0.87</DESCRIPTION>
+    <VENDOR>Siemens</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cf_fuj_FLC081XP_19930730</NAME>
+    <DESCRIPTION> FLC081XP Package:DIE Model:eefet3 N-channel Gate Width=375, Gate Length=na, Pdiss(max)=4160, Vds(typical)=10, Idss=303.47, Vt=-2</DESCRIPTION>
+    <VENDOR>Fujitsu</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cf_fuj_FSC10X_19921219</NAME>
+    <DESCRIPTION> FSC10X Package:DIE Model:eefet3 N-channel Gate Width=400, Gate Length=0.5, Pdiss(max)=1250, Vds(typical)=3, Idss=63.21, Vt=-1.4</DESCRIPTION>
+    <VENDOR>Fujitsu</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_sms_T359_19921101</NAME>
+    <DESCRIPTION> T359 die ( )</DESCRIPTION>
+    <VENDOR>Siemens</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_hp_AT60100_19900406</NAME>
+    <DESCRIPTION> AT60100 Package:DIE Model:eebjt1 NPN Pdiss(max)=80, Ic(max)=8, Vce(max)=12, Ic(typical)=3, Vce(typical)=8, Ft=9, Hfe=150</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <AVAILABILITY>OBSOLETE</AVAILABILITY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cf_mwt_MWT4LN_19930730</NAME>
+    <DESCRIPTION> MWT-4LN Package:DIE Model:eefet3 N-channel Gate Width=180, Gate Length=0.3, Pdiss(max)=360, Vds(typical)=4.5, Idss=40.85, Vt=-1.7</DESCRIPTION>
+    <VENDOR>Mwt</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cf_mwt_MWT6HP_19930730</NAME>
+    <DESCRIPTION> MWT-6HP Package:DIE Model:eefet3 N-channel Gate Width=900, Gate Length=0.3, Pdiss(max)=2250, Vds(typical)=6, Idss=108.55, Vt=-2.8</DESCRIPTION>
+    <VENDOR>Mwt</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cf_hp_ATF13100_19911201</NAME>
+    <DESCRIPTION> ATF13100 Package:DIE Model:curtice N-channel MDS b.07 library extraction</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <AVAILABILITY>OBSOLETE</AVAILABILITY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cf_nec_NE76100_19921215</NAME>
+    <DESCRIPTION> NE76100 Package:DIE Model:eefet3 N-channel Gate Width=280, Gate Length=0.3, Pdiss(max)=500, Vds(typical)=3, Idss=69.03, Vt=-1</DESCRIPTION>
+    <VENDOR>NEC</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cf_oki_KGA1460_19930609</NAME>
+    <DESCRIPTION> KGA1460 Package:DIE Model:eefet3 N-channel Gate Width=200, Gate Length=0.25, Pdiss(max)=300, Vds(typical)=2, Idss=47.79, Vt=-1.2</DESCRIPTION>
+    <VENDOR>Oki</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>ch_oki_KGA1870_19930609</NAME>
+    <DESCRIPTION> KGA1870 Package:DIE Model:eehemt1 N-channel Gate Width=200, Gate Length=0.3, Pdiss(max)=200, Vds(typical)=2, Idss=20.6, Vt=-0.63</DESCRIPTION>
+    <VENDOR>Oki</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cf_tsb_JS8835AS_19921215</NAME>
+    <DESCRIPTION> JS8835AS Package:DIE Model:eefet3 N-channel Gate Width=800, Gate Length=0.8, Pdiss(max)=2500, Vds(typical)=10, Idss=190.51, Vt=-4.1</DESCRIPTION>
+    <VENDOR>Toshiba</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cf_mit_MGFC2415_19930730</NAME>
+    <DESCRIPTION> MGFC2415 Package:DIE Model:eefet3 N-channel Gate Width=1500, Gate Length=0.6, Pdiss(max)=2500, Vds(typical)=10, Idss=324.39, Vt=-3.7</DESCRIPTION>
+    <VENDOR>Mitsubishi</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_hp_AT42000_19910101</NAME>
+    <DESCRIPTION> AT42000 Package:DIE Model:bjt_gp NPN MDS b.07 library extraction</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_hp_AT41400_19910101</NAME>
+    <DESCRIPTION> AT41400 Package:DIE Model:bjt_gp NPN MDS b.07 library extraction</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <AVAILABILITY>OBSOLETE</AVAILABILITY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_nec_NE21900_19900503</NAME>
+    <DESCRIPTION> NE21900 Package:DIE Model:eebjt1 NPN Pdiss(max)=700, Ic(max)=80, Vce(max)=10, Ic(typical)=20, Vce(typical)=8, Ft=8, Hfe=100</DESCRIPTION>
+    <VENDOR>NEC</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_hp_AT60500_19921101</NAME>
+    <DESCRIPTION> die data n/a</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <AVAILABILITY>OBSOLETE</AVAILABILITY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cf_lit_LF3501_19911201</NAME>
+    <DESCRIPTION> LF3501 Package:DIE Model:curtice N-channel MDS b.07 library extraction</DESCRIPTION>
+    <VENDOR>Litton</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cf_lit_LF1503A_19911201</NAME>
+    <DESCRIPTION> LF1503A Package:DIE Model:curtice N-channel MDS b.07 library extraction</DESCRIPTION>
+    <VENDOR>Litton</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_nec_NE73400_19900404</NAME>
+    <DESCRIPTION> NE73400 Package:DIE Model:eebjt1 NPN Pdiss(max)=300, Ic(max)=50, Vce(max)=14, Ic(typical)=10, Vce(typical)=10, Ft=1.5, Hfe=100</DESCRIPTION>
+    <VENDOR>NEC</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_nec_NE64700_19900403</NAME>
+    <DESCRIPTION> NE64700 Package:DIE Model:eebjt1 NPN Pdiss(max)=180, Ic(max)=20, Vce(max)=9, Ic(typical)=10, Vce(typical)=8, Ft=11, Hfe=100</DESCRIPTION>
+    <VENDOR>NEC</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_nec_NE85600_19921101</NAME>
+    <DESCRIPTION> embeded die, n/a</DESCRIPTION>
+    <VENDOR>NEC</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cf_mwt_MWT7LN_19930730</NAME>
+    <DESCRIPTION> MWT-7LN Package:DIE Model:eefet3 N-channel Gate Width=250, Gate Length=0.3, Pdiss(max)=600, Vds(typical)=4, Idss=54.34, Vt=-6.3</DESCRIPTION>
+    <VENDOR>Mwt</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cf_mwt_MWT9HP_19930730</NAME>
+    <DESCRIPTION> MWT-9HP Package:DIE Model:eefet3 N-channel Gate Width=750, Gate Length=0.3, Pdiss(max)=1750, Vds(typical)=6, Idss=214.77, Vt=-3.4</DESCRIPTION>
+    <VENDOR>Mwt</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cf_hp_ATF26100_19911201</NAME>
+    <DESCRIPTION> ATF26100 Package:DIE Model:curtice N-channel MDS b.07 library extraction</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <AVAILABILITY>OBSOLETE</AVAILABILITY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cf_mwt_MWT4SN_19940325</NAME>
+    <DESCRIPTION> MWT-4SN Package:DIE Model:hpfet N-channel MDS b.07 library extraction</DESCRIPTION>
+    <VENDOR>Mwt</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_sms_T395_19960901</NAME>
+    <DESCRIPTION> rf-bjt die: SPICE Lib. V1.00 09.01.1996 valid under 6Ghz</DESCRIPTION>
+    <VENDOR>Siemens</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cf_fuj_FLR026XP_19930730</NAME>
+    <DESCRIPTION> FLR026XP Package:DIE Model:eefet3 N-channel Gate Width=600, Gate Length=0.25, Pdiss(max)=1880, Vds(typical)=8, Idss=142.69, Vt=-4.2</DESCRIPTION>
+    <VENDOR>Fujitsu</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cf_lit_LF0503A_19930609</NAME>
+    <DESCRIPTION> LF0503A Package:DIE Model:eefet3 N-channel Gate Width=280, Gate Length=0.3, Pdiss(max)=300, Vds(typical)=4, Idss=46.24, Vt=-1.5</DESCRIPTION>
+    <VENDOR>Litton</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cf_lit_LF6836_19911201</NAME>
+    <DESCRIPTION> LF6836 Package:DIE Model:curtice N-channel MDS b.07 library extraction</DESCRIPTION>
+    <VENDOR>Litton</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>ch_fuj_FHX04X_19930913</NAME>
+    <DESCRIPTION> FHX04X Package:DIE Model:eehemt1 N-channel Gate Width=na, Gate Length=na, Pdiss(max)=180, Vds(typical)=2, Idss=39.3, Vt=-0.9</DESCRIPTION>
+    <VENDOR>Fujitsu</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cf_tsb_JS8850AAS_19921222</NAME>
+    <DESCRIPTION> JS8850AAS Package:DIE Model:eefet3 N-channel Gate Width=450, Gate Length=0.5, Pdiss(max)=1000, Vds(typical)=10, Idss=94.66, Vt=-3.7</DESCRIPTION>
+    <VENDOR>Toshiba</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cf_hm_HMF0330_19921221</NAME>
+    <DESCRIPTION> HMF0330 Package:DIE Model:eefet3 N-channel Gate Width=300, Gate Length=0.5, Pdiss(max)=300, Vds(typical)=4, Idss=32.21, Vt=-1.7</DESCRIPTION>
+    <VENDOR>Harris</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cf_tsb_JS8819AS_19930730</NAME>
+    <DESCRIPTION> JS8819AS Package:DIE Model:eefet3 N-channel Gate Width=300, Gate Length=0.5, Pdiss(max)=400, Vds(typical)=3, Idss=40.48, Vt=-0.9</DESCRIPTION>
+    <VENDOR>Toshiba</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>ph_nec_NE32684A_19921222</NAME>
+    <DESCRIPTION> NE32684A Package:NEC84A Model:eehemt1 N-channel Gate Width=na, Gate Length=0.2, Pdiss(max)=165, Vds(typical)=2, Idss=37.1, Vt=-0.7</DESCRIPTION>
+    <VENDOR>NEC</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_sms_T502_19960901</NAME>
+    <DESCRIPTION> rf-bjt die: SPICE Lib. V1.00 09.01.1996 valid under 6Ghz</DESCRIPTION>
+    <VENDOR>Siemens</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cf_ti_TGF1350_19920212</NAME>
+    <DESCRIPTION> TGF1350 Package:DIE Model:curtic N-channel Gate Width=MDS, Gate Length=b.07, Pdiss(max)=library, Vds(typical)=extraction, Idss=, Vt=</DESCRIPTION>
+    <VENDOR>TI</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cf_ctk_CF00301_19930609</NAME>
+    <DESCRIPTION> CF00301 Package:DIE Model:eefet3 N-channel Gate Width=600, Gate Length=0.5, Pdiss(max)=1400, Vds(typical)=6, Idss=159.08, Vt=-1.7</DESCRIPTION>
+    <VENDOR>Celeritek</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cf_nec_NE76000_19930730</NAME>
+    <DESCRIPTION> NE76000 Package:DIE Model:eefet3 N-channel Gate Width=280, Gate Length=0.3, Pdiss(max)=500, Vds(typical)=3, Idss=37.27, Vt=-0.8</DESCRIPTION>
+    <VENDOR>NEC</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_sms_T259_19960901</NAME>
+    <DESCRIPTION> rf-bjt die: SPICE Lib. V1.00 09.01.1996 valid under 6Ghz</DESCRIPTION>
+    <VENDOR>Siemens</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cf_fuj_FLR014XP_19921218</NAME>
+    <DESCRIPTION> FLR014XP Package:DIE Model:eefet3 N-channel Gate Width=360, Gate Length=0.8, Pdiss(max)=1150, Vds(typical)=8, Idss=82.66, Vt=-3.4</DESCRIPTION>
+    <VENDOR>Fujitsu</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cf_nec_NE67300_19930730</NAME>
+    <DESCRIPTION> NE67300 Package:DIE Model:eefet3 N-channel Gate Width=300, Gate Length=0.3, Pdiss(max)=400, Vds(typical)=3, Idss=72, Vt=-1.5</DESCRIPTION>
+    <VENDOR>NEC</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cf_hp_ATF21100_19930609</NAME>
+    <DESCRIPTION> ATF21100 Package:DIE Model:eefet3 N-channel Gate Width=750, Gate Length=0.3, Pdiss(max)=600, Vds(typical)=5, Idss=125.15, Vt=-1.4</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <AVAILABILITY>OBSOLETE</AVAILABILITY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_mot_MRFC951_19900411</NAME>
+    <DESCRIPTION> MRFC951 Package:DIE Model:eebjt1 NPN Pdiss(max)=1000, Ic(max)=100, Vce(max)=10, Ic(typical)=30, Vce(typical)=8, Ft=8, Hfe=50-200</DESCRIPTION>
+    <VENDOR>Motorola</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cf_mit_MGFC1402_19921216</NAME>
+    <DESCRIPTION> MGFC1402 Package:DIE Model:eefet3 N-channel Gate Width=400, Gate Length=0.8, Pdiss(max)=550, Vds(typical)=3, Idss=61.3, Vt=-1.4</DESCRIPTION>
+    <VENDOR>Mitsubishi</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>ch_fuj_FHX34X_19930913</NAME>
+    <DESCRIPTION> FHX34X Package:DIE Model:eehemt1 N-channel Gate Width=na, Gate Length=na, Pdiss(max)=290, Vds(typical)=3, Idss=36.7, Vt=-0.71</DESCRIPTION>
+    <VENDOR>Fujitsu</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cf_hp_ATF25100_19930609</NAME>
+    <DESCRIPTION> ATF25100 Package:DIE Model:eefet3 N-channel Gate Width=500, Gate Length=0.3, Pdiss(max)=450, Vds(typical)=5, Idss=53.03, Vt=-2.1</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <AVAILABILITY>OBSOLETE</AVAILABILITY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cf_mit_MGFC1801_19930730</NAME>
+    <DESCRIPTION> MGFC1801 Package:DIE Model:eefet3 N-channel Gate Width=800, Gate Length=0.7, Pdiss(max)=1200, Vds(typical)=6, Idss=212.42, Vt=-2.9</DESCRIPTION>
+    <VENDOR>Mitsubishi</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cf_mwt_MWT5HG_19930802</NAME>
+    <DESCRIPTION> MWT-5HG Package:DIE Model:eefet3 N-channel Gate Width=600, Gate Length=0.3, Pdiss(max)=750, Vds(typical)=6, Idss=70, Vt=-2.05</DESCRIPTION>
+    <VENDOR>Mwt</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cf_tsb_JS8893AS_19921217</NAME>
+    <DESCRIPTION> JS8893AS Package:DIE Model:eefet3 N-channel Gate Width=1200, Gate Length=0.5, Pdiss(max)=2500, Vds(typical)=7, Idss=397.86, Vt=-3.5</DESCRIPTION>
+    <VENDOR>Toshiba</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_hp_AT00500_19921101</NAME>
+    <DESCRIPTION> die data n/a</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <AVAILABILITY>OBSOLETE</AVAILABILITY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_hp_AT01600_19910101</NAME>
+    <DESCRIPTION> AT01600 Package:DIE Model:bjt_gp NPN MDS b.07 library extraction</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <AVAILABILITY>OBSOLETE</AVAILABILITY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>ph_sms_CFY66d08_19921221</NAME>
+    <DESCRIPTION> CFY66-08 Package:SMSMICROX Model:eehemt1 N-channel Gate Width=180, Gate Length=0.25, Pdiss(max)=200, Vds(typical)=2, Idss=31.8, Vt=-0.82</DESCRIPTION>
+    <VENDOR>Siemens</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_hp_AT42000_19900402</NAME>
+    <DESCRIPTION> AT42000 Package:DIE Model:eebjt1 NPN Pdiss(max)=500, Ic(max)=60, Vce(max)=12, Ic(typical)=25, Vce(typical)=8, Ft=9, Hfe=150</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>MicrowaveTransistorLibrary</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+</COMPONENTS>

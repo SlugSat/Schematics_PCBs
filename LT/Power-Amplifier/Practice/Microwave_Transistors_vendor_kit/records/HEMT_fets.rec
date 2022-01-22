@@ -1,0 +1,311 @@
+<?xml version="1.0" ?>
+<COMPONENTS>
+ <COMPONENT>
+    <NAME>ph_nec_NE33284A_19921223</NAME>
+    <DESCRIPTION> NE33284A Package:NEC84A Model:eehemt1 N-channel Gate Width=na, Gate Length=0.25, Pdiss(max)=165, Vds(typical)=2, Idss=35.3, Vt=-0.65</DESCRIPTION>
+    <VENDOR>NEC</VENDOR>
+    <LIBRARY>Microwave_Transistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>ch_fuj_FHR02X_19921221</NAME>
+    <DESCRIPTION> FHR02X Package:DIE Model:eehemt1 N-channel Gate Width=na, Gate Length=na, Pdiss(max)=180, Vds(typical)=2, Idss=42.2, Vt=-1.06</DESCRIPTION>
+    <VENDOR>Fujitsu</VENDOR>
+    <LIBRARY>Microwave_Transistor_Library</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>ph_sny_2SK676_19921217</NAME>
+    <DESCRIPTION> 2SK676 Package:M253 Model:eehemt1 N-channel Gate Width=300, Gate Length=0.5, Pdiss(max)=340, Vds(typical)=3, Idss=45.3, Vt=-2.04</DESCRIPTION>
+    <VENDOR>Sony</VENDOR>
+    <LIBRARY>Microwave_Transistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>ph_hp_ATF36163_19951110</NAME>
+    <DESCRIPTION> ATF36163 PHEMT(Pseudomorphic High Electron Mobility Transistor): SOT-363Low parasitic ceramic microstrip package -6 terminal, Pdiss=180mW, VDS(Max)=3V, VGS(Max)=-3V, VGD(Max)=-3.5V, Id(Max)=Idss(max)=40mA, VDS(typical)=1.5V, ID(Typical)=10mA, Gm=55, Ft>18GHz</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>Microwave_Transistor_Library</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>ch_nec_NE33200_19940322</NAME>
+    <DESCRIPTION> NE33200 Package:DIE Model:hpfet N-channel MDS b.07 library extraction</DESCRIPTION>
+    <VENDOR>NEC</VENDOR>
+    <LIBRARY>Microwave_Transistor_Library</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>ch_nec_NE32400_19940322</NAME>
+    <DESCRIPTION> NE32400 Package:DIE Model:hpfet N-channel MDS b.07 library extraction</DESCRIPTION>
+    <VENDOR>NEC</VENDOR>
+    <LIBRARY>Microwave_Transistor_Library</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>ph_hp_ATF35176_19921221</NAME>
+    <DESCRIPTION> ATF35176: ATF76 Package 4-terminal, Gw=na, Gl=na, Pdiss=225mW Vbr=na, @Vds=2V: Idss(sim)=47.20mA, Vt(sim)=-0.92V</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>Microwave_Transistor_Library</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>ph_hp_ATF34143_19990129</NAME>
+    <DESCRIPTION> ATF34143 PHEMT(Pseudomorphic High Electron Mobility Transistor):SOT-343 Low cost surface mount small plastic package -4 terminal, Pdiss=725mW, VDS(Max)=5.5V, VGS(Max)=-5V, VGD(Max)=-5V, Id(Max)=Idss(max)=145mA, VDS(typical)=4V, ID(Typical)=60mA, Gm=230,</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>Microwave_Transistor_Library</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>ch_tsb_JS8910AS_19921222</NAME>
+    <DESCRIPTION> JS8910AS Package:DIE Model:eehemt1 N-channel Gate Width=100, Gate Length=0.1, Pdiss(max)=150, Vds(typical)=1.5, Idss=23.3, Vt=-0.73</DESCRIPTION>
+    <VENDOR>Toshiba</VENDOR>
+    <LIBRARY>Microwave_Transistor_Library</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>ch_tsb_JS8902AS_19921222</NAME>
+    <DESCRIPTION> JS8902AS Package:DIE Model:eehemt1 N-channel Gate Width=200, Gate Length=0.5, Pdiss(max)=200, Vds(typical)=2, Idss=18.1, Vt=-0.46</DESCRIPTION>
+    <VENDOR>Toshiba</VENDOR>
+    <LIBRARY>Microwave_Transistor_Library</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>ch_fuj_FHX04X_19930913</NAME>
+    <DESCRIPTION> FHX04X Package:DIE Model:eehemt1 N-channel Gate Width=na, Gate Length=na, Pdiss(max)=180, Vds(typical)=2, Idss=39.3, Vt=-0.9</DESCRIPTION>
+    <VENDOR>Fujitsu</VENDOR>
+    <LIBRARY>Microwave_Transistor_Library</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>ch_oki_KGA1770_19930609</NAME>
+    <DESCRIPTION> KGA1770 Package:DIE Model:eehemt1 N-channel Gate Width=300, Gate Length=0.3, Pdiss(max)=200, Vds(typical)=2, Idss=17.5, Vt=-0.56</DESCRIPTION>
+    <VENDOR>Oki</VENDOR>
+    <LIBRARY>Microwave_Transistor_Library</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>ch_mwt_MWTH4LN_19930915</NAME>
+    <DESCRIPTION> MWT-H4LN Package:DIE Model:eehemt1 N-channel Gate Width=180, Gate Length=0.3, Pdiss(max)=280, Vds(typical)=4.5, Idss=29.6, Vt=-0.92</DESCRIPTION>
+    <VENDOR>Mwt</VENDOR>
+    <LIBRARY>Microwave_Transistor_Library</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>ph_fuj_FHX35LG_19921222</NAME>
+    <DESCRIPTION> FHX35LG Package:LG Model:eehemt1 N-channel Gate Width=na, Gate Length=na, Pdiss(max)=290, Vds(typical)=3, Idss=40, Vt=-0.77</DESCRIPTION>
+    <VENDOR>Fujitsu</VENDOR>
+    <LIBRARY>Microwave_Transistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>ph_mit_MGF4918D_19930915</NAME>
+    <DESCRIPTION> MGF4918D Package:GD16 Model:eehemt1 N-channel Gate Width=na, Gate Length=0.25, Pdiss(max)=200, Vds(typical)=2, Idss=53.6, Vt=-0.79</DESCRIPTION>
+    <VENDOR>Mitsubishi</VENDOR>
+    <LIBRARY>Microwave_Transistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>ph_sms_CFY76d08_19921221</NAME>
+    <DESCRIPTION> CFY76-08 Package:MW4 Model:eehemt1 N-channel Gate Width=180, Gate Length=0.25, Pdiss(max)=180, Vds(typical)=2, Idss=31.8, Vt=-0.87</DESCRIPTION>
+    <VENDOR>Siemens</VENDOR>
+    <LIBRARY>Microwave_Transistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>ph_nec_NE32484A_19921222</NAME>
+    <DESCRIPTION> NE32484A Package:NEC84A Model:eehemt1 N-channel Gate Width=na, Gate Length=0.25, Pdiss(max)=165, Vds(typical)=2, Idss=37.4, Vt=-0.79</DESCRIPTION>
+    <VENDOR>NEC</VENDOR>
+    <LIBRARY>Microwave_Transistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>ph_nec_NE32684A_19921222</NAME>
+    <DESCRIPTION> NE32684A Package:NEC84A Model:eehemt1 N-channel Gate Width=na, Gate Length=0.2, Pdiss(max)=165, Vds(typical)=2, Idss=37.1, Vt=-0.7</DESCRIPTION>
+    <VENDOR>NEC</VENDOR>
+    <LIBRARY>Microwave_Transistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>ph_nec_NE42484A_19921223</NAME>
+    <DESCRIPTION> NE42484A Package:NEC84A Model:eehemt1 N-channel Gate Width=na, Gate Length=0.35, Pdiss(max)=165, Vds(typical)=2, Idss=53.2, Vt=-1.04</DESCRIPTION>
+    <VENDOR>NEC</VENDOR>
+    <LIBRARY>Microwave_Transistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>ph_sny_2SK677_19921217</NAME>
+    <DESCRIPTION> 2SK677 Package:M253 Model:eehemt1 N-channel Gate Width=360, Gate Length=0.5, Pdiss(max)=340, Vds(typical)=3, Idss=61.8, Vt=-2.15</DESCRIPTION>
+    <VENDOR>Sony</VENDOR>
+    <LIBRARY>Microwave_Transistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>ch_mit_MGFC4416C_19930915</NAME>
+    <DESCRIPTION> MGFC4416C Package:DIE Model:eehemt1 N-channel Gate Width=na, Gate Length=na, Pdiss(max)=355, Vds(typical)=2, Idss=50.6, Vt=-0.86</DESCRIPTION>
+    <VENDOR>Mitsubishi</VENDOR>
+    <LIBRARY>Microwave_Transistor_Library</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>ch_nec_NE32400_19921222</NAME>
+    <DESCRIPTION> NE32400 Package:DIE Model:eehemt1 N-channel Gate Width=na, Gate Length=0.25, Pdiss(max)=165, Vds(typical)=2, Idss=35.4, Vt=-0.74</DESCRIPTION>
+    <VENDOR>NEC</VENDOR>
+    <LIBRARY>Microwave_Transistor_Library</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>ch_nec_NE33200_19921223</NAME>
+    <DESCRIPTION> NE33200 Package:DIE Model:eehemt1 N-channel Gate Width=na, Gate Length=0.25, Pdiss(max)=165, Vds(typical)=2, Idss=40.4, Vt=-0.67</DESCRIPTION>
+    <VENDOR>NEC</VENDOR>
+    <LIBRARY>Microwave_Transistor_Library</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>ph_mit_MGF4301_19930915</NAME>
+    <DESCRIPTION> MGF4301 Package:GD4 Model:eehemt1 N-channel Gate Width=na, Gate Length=na, Pdiss(max)=160, Vds(typical)=2, Idss=36.4, Vt=-0.75</DESCRIPTION>
+    <VENDOR>Mitsubishi</VENDOR>
+    <LIBRARY>Microwave_Transistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>ch_fuj_FHR10X_19930915</NAME>
+    <DESCRIPTION> FHR10X Package:DIE Model:eehemt1 N-channel Gate Width=na, Gate Length=na, Pdiss(max)=180, Vds(typical)=2, Idss=28.2, Vt=-1.27</DESCRIPTION>
+    <VENDOR>Fujitsu</VENDOR>
+    <LIBRARY>Microwave_Transistor_Library</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>ch_oki_KGA1850_19930609</NAME>
+    <DESCRIPTION> KGA1850 Package:DIE Model:eehemt1 N-channel Gate Width=300, Gate Length=0.3, Pdiss(max)=200, Vds(typical)=2, Idss=20.2, Vt=-0.51</DESCRIPTION>
+    <VENDOR>Oki</VENDOR>
+    <LIBRARY>Microwave_Transistor_Library</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>ch_oki_KGA1860_19930609</NAME>
+    <DESCRIPTION> KGA1860 Package:DIE Model:eehemt1 N-channel Gate Width=200, Gate Length=0.3, Pdiss(max)=200, Vds(typical)=2, Idss=17.05, Vt=-0.65</DESCRIPTION>
+    <VENDOR>Oki</VENDOR>
+    <LIBRARY>Microwave_Transistor_Library</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>ch_oki_KGA1870_19930609</NAME>
+    <DESCRIPTION> KGA1870 Package:DIE Model:eehemt1 N-channel Gate Width=200, Gate Length=0.3, Pdiss(max)=200, Vds(typical)=2, Idss=20.6, Vt=-0.63</DESCRIPTION>
+    <VENDOR>Oki</VENDOR>
+    <LIBRARY>Microwave_Transistor_Library</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>ch_tsb_JS8905AS_19921222</NAME>
+    <DESCRIPTION> JS8905AS Package:DIE Model:eehemt1 N-channel Gate Width=200, Gate Length=0.25, Pdiss(max)=200, Vds(typical)=2, Idss=10.1, Vt=-0.56</DESCRIPTION>
+    <VENDOR>Toshiba</VENDOR>
+    <LIBRARY>Microwave_Transistor_Library</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>ch_fuj_FHX15X_19930913</NAME>
+    <DESCRIPTION> FHX15X Package:DIE Model:eehemt1 N-channel Gate Width=na, Gate Length=na, Pdiss(max)=180, Vds(typical)=2, Idss=36.2, Vt=-0.74</DESCRIPTION>
+    <VENDOR>Fujitsu</VENDOR>
+    <LIBRARY>Microwave_Transistor_Library</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>ch_fuj_FHX34X_19930913</NAME>
+    <DESCRIPTION> FHX34X Package:DIE Model:eehemt1 N-channel Gate Width=na, Gate Length=na, Pdiss(max)=290, Vds(typical)=3, Idss=36.7, Vt=-0.71</DESCRIPTION>
+    <VENDOR>Fujitsu</VENDOR>
+    <LIBRARY>Microwave_Transistor_Library</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>ch_tsb_JS8911AS_19931207</NAME>
+    <DESCRIPTION> JS8911AS Package:DIE Model:hpfet N-channel MDS b.07 library extraction</DESCRIPTION>
+    <VENDOR>Toshiba</VENDOR>
+    <LIBRARY>Microwave_Transistor_Library</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>ph_hp_ATF36077_19940627</NAME>
+    <DESCRIPTION> ATF36077 PHEMT(Pseudomorphic High Electron Mobility Transistor):Low parasitic ceramic microstrip package(style 77) -4 terminal, Pdiss=180mW, VDS(Max)=3V, VGS(Max)=-3V, VGD(Max)=-3.5V, Id(Max)=Idss(max)=45mA, VDS(typical)=1.5V, ID(Typical)=10mA, Gm=55, Ft=10GHz</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>Microwave_Transistor_Library</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>ph_mit_MGF4916C_19930915</NAME>
+    <DESCRIPTION> MGF4916C Package:GD16 Model:eehemt1 N-channel Gate Width=na, Gate Length=0.25, Pdiss(max)=200, Vds(typical)=2, Idss=44.6, Vt=-0.79</DESCRIPTION>
+    <VENDOR>Mitsubishi</VENDOR>
+    <LIBRARY>Microwave_Transistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>ch_tsb_JS8901AS_19930913</NAME>
+    <DESCRIPTION> JS8901AS Package:DIE Model:eehemt1 N-channel Gate Width=200, Gate Length=0.5, Pdiss(max)=200, Vds(typical)=2, Idss=16.9, Vt=-0.59</DESCRIPTION>
+    <VENDOR>Toshiba</VENDOR>
+    <LIBRARY>Microwave_Transistor_Library</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>ch_fuj_FHX35X_19930915</NAME>
+    <DESCRIPTION> FHX35X Package:DIE Model:eehemt1 N-channel Gate Width=200, Gate Length=0.25, Pdiss(max)=290, Vds(typical)=3, Idss=32.8, Vt=-0.66</DESCRIPTION>
+    <VENDOR>Fujitsu</VENDOR>
+    <LIBRARY>Microwave_Transistor_Library</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>ph_sms_CFY66d08_19921221</NAME>
+    <DESCRIPTION> CFY66-08 Package:SMSMICROX Model:eehemt1 N-channel Gate Width=180, Gate Length=0.25, Pdiss(max)=200, Vds(typical)=2, Idss=31.8, Vt=-0.82</DESCRIPTION>
+    <VENDOR>Siemens</VENDOR>
+    <LIBRARY>Microwave_Transistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>ph_sny_SGH5002F_19931224</NAME>
+    <DESCRIPTION> SGH5002F Package:M253 Model:eehemt1 N-channel Gate Width=300, Gate Length=0.5, Pdiss(max)=340, Vds(typical)=3, Idss=49.1, Vt=-1.63</DESCRIPTION>
+    <VENDOR>Sony</VENDOR>
+    <LIBRARY>Microwave_Transistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+
+</COMPONENTS>

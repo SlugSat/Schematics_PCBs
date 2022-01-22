@@ -1,0 +1,14 @@
+cb_hp_AT00500_19900404 | HP |OBSOLETE   AT00500 Package:DIE Model:eebjt1 NPN Pdiss(max)=500, Ic(max)=50, Vce(max)=12, Ic(typical)=20, Vce(typical)=8, Ft=9, Hfe=150 | chip_BJTs_all | NOLAYOUT
+cb_hp_AT00500_19910101 | HP |OBSOLETE   AT00500 Package:DIE Model:bjt_gp NPN MDS b.07 library extraction | chip_BJTs_all | NOLAYOUT
+cb_hp_AT00500_19921101 | embeded |OBSOLETE   die data n/a | chip_BJTs_all | NOLAYOUT
+cb_hp_AT01600_19900404 | HP |OBSOLETE   AT01600 Package:DIE Model:eebjt1 NPN Pdiss(max)=1000, Ic(max)=150, Vce(max)=12, Ic(typical)=35, Vce(typical)=8, Ft=8, Hfe=150 | chip_BJTs_all | NOLAYOUT
+cb_hp_AT01600_19910101 | HP |OBSOLETE   AT01600 Package:DIE Model:bjt_gp NPN MDS b.07 library extraction | chip_BJTs_all | NOLAYOUT
+cb_hp_AT01600_19921101 | embeded |OBSOLETE   die data n/a | chip_BJTs_all | NOLAYOUT
+cb_hp_AT21400_19900404 | HP |OBSOLETE   AT21400 Package:DIE Model:eebjt1 NPN Pdiss(max)=250, Ic(max)=28, Vce(max)=10, Ic(typical)=14, Vce(typical)=8, Ft=10, Hfe=100 | chip_BJTs_all | NOLAYOUT
+cb_hp_AT41400_19900404 | HP |OBSOLETE   AT41400 Package:DIE Model:eebjt1 NPN Pdiss(max)=500, Ic(max)=60, Vce(max)=12, Ic(typical)=25, Vce(typical)=8, Ft=9, Hfe=150 | chip_BJTs_all | NOLAYOUT
+cb_hp_AT41400_19910101 | HP |OBSOLETE   AT41400 Package:DIE Model:bjt_gp NPN MDS b.07 library extraction | chip_BJTs_all | NOLAYOUT
+cb_hp_AT60100_19900406 | HP |OBSOLETE   AT60100 Package:DIE Model:eebjt1 NPN Pdiss(max)=80, Ic(max)=8, Vce(max)=12, Ic(typical)=3, Vce(typical)=8, Ft=9, Hfe=150 | chip_BJTs_all | NOLAYOUT
+cb_hp_AT60200_19900409 | HP |OBSOLETE   AT60200 Package:DIE Model:eebjt1 NPN Pdiss(max)=160, Ic(max)=16, Vce(max)=12, Ic(typical)=5, Vce(typical)=8, Ft=9, Hfe=150 | chip_BJTs_all | NOLAYOUT
+cb_hp_AT60500_19900411 | HP |OBSOLETE   AT60500 Package:DIE Model:eebjt1 NPN Pdiss(max)=400, Ic(max)=40, Vce(max)=12, Ic(typical)=10, Vce(typical)=8, Ft=9, Hfe=150 | chip_BJTs_all | NOLAYOUT
+cb_hp_AT60500_19910101 | HP |OBSOLETE   AT60500 Package:DIE Model:bjt_gp NPN MDS b.07 library extraction | chip_BJTs_all | NOLAYOUT
+cb_hp_AT60500_19921101 | embeded |OBSOLETE   die data n/a | chip_BJTs_all | NOLAYOUT

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DCOPData Version="1.0" Time="Fri Jan 21 14:00:32 2022" Simulator="hpeesofsim">
+ <Controller name="AC1">
+  <SweepCondition>
+   <P>freq: 2.9400000000000000e+07</P>
+  </SweepCondition>
+  <DC_OPDeclaration/>
+  <DC_Voltages>
+   <V>0: 0.0000000000000000e+00</V>
+   <V>Vin: 0.0000000000000000e+00</V>
+   <V>Vout1: 0.0000000000000000e+00</V>
+   <V>Vout2: 0.0000000000000000e+00</V>
+   <V>XFer1.n1: 0.0000000000000000e+00</V>
+   <V>XFer1.n2: 0.0000000000000000e+00</V>
+   <V>XFer1.n3: 0.0000000000000000e+00</V>
+   <V>XFer1.n4: 0.0000000000000000e+00</V>
+   <V>XFer1.n5: 0.0000000000000000e+00</V>
+  </DC_Voltages>
+  <DC_PinCurrents>
+   <I>R1: 0.0000000000000000e+00, 0.0000000000000000e+00</I>
+   <I>R2: 0.0000000000000000e+00, 0.0000000000000000e+00</I>
+   <I>SRC1: 0.0000000000000000e+00, 0.0000000000000000e+00</I>
+   <I>XFer1: 0.0000000000000000e+00, 0.0000000000000000e+00, 0.0000000000000000e+00, 0.0000000000000000e+00, 0.0000000000000000e+00</I>
+  </DC_PinCurrents>
+  <DC_OPInstances/>
+ </Controller>
+</DCOPData>

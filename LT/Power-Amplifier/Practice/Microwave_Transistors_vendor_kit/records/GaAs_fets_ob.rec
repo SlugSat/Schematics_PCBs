@@ -1,0 +1,12 @@
+cf_hp_ATF10100_19911201 | HP |OBSOLETE   ATF10100 Package:DIE Model:curtice N-channel MDS b.07 library extraction | GaAs_fets_all | NOLAYOUT
+cf_hp_ATF10100_19930609 | HP |OBSOLETE   ATF10100 Package:DIE Model:eefet3 N-channel Gate Width=250, Gate Length=0.3, Pdiss(max)=430, Vds(typical)=4, Idss=62.4, Vt=-1 | GaAs_fets_all | NOLAYOUT
+cf_hp_ATF13100_19911201 | HP |OBSOLETE   ATF13100 Package:DIE Model:curtice N-channel MDS b.07 library extraction | GaAs_fets_all | NOLAYOUT
+cf_hp_ATF13100_19930609 | HP |OBSOLETE   ATF13100 Package:DIE Model:eefet3 N-channel Gate Width=250, Gate Length=0.3, Pdiss(max)=225, Vds(typical)=4, Idss=56.48, Vt=-1.6 | GaAs_fets_all | NOLAYOUT
+cf_hp_ATF21100_19930609 | HP |OBSOLETE   ATF21100 Package:DIE Model:eefet3 N-channel Gate Width=750, Gate Length=0.3, Pdiss(max)=600, Vds(typical)=5, Idss=125.15, Vt=-1.4 | GaAs_fets_all | NOLAYOUT
+cf_hp_ATF25100_19911201 | HP |OBSOLETE   ATF25100 Package:DIE Model:curtice N-channel MDS b.07 library extraction | GaAs_fets_all | NOLAYOUT
+cf_hp_ATF25100_19930609 | HP |OBSOLETE   ATF25100 Package:DIE Model:eefet3 N-channel Gate Width=500, Gate Length=0.3, Pdiss(max)=450, Vds(typical)=5, Idss=53.03, Vt=-2.1 | GaAs_fets_all | NOLAYOUT
+cf_hp_ATF26100_19911201 | HP |OBSOLETE   ATF26100 Package:DIE Model:curtice N-channel MDS b.07 library extraction | GaAs_fets_all | NOLAYOUT
+cf_hp_ATF26100_19930609 | HP |OBSOLETE   ATF26100 Package:DIE Model:eefet3 N-channel Gate Width=250, Gate Length=0.3, Pdiss(max)=275, Vds(typical)=5, Idss=72.52, Vt=-2.7 | GaAs_fets_all | NOLAYOUT
+cf_hp_ATF44100_19930730 | HP |OBSOLETE   ATF44100 Package:DIE Model:eefet3 N-channel Gate Width=5000, Gate Length=0.5, Pdiss(max)=8300, Vds(typical)=9, Idss=1093.28, Vt=-4.5 | GaAs_fets_all | NOLAYOUT
+cf_hp_ATF45100_19930609 | HP |OBSOLETE   ATF45100 Package:DIE Model:eefet3 N-channel Gate Width=2500, Gate Length=0.5, Pdiss(max)=4000, Vds(typical)=9, Idss=645.97, Vt=-5.6 | GaAs_fets_all | NOLAYOUT
+cf_hp_ATF46100_19940317 | HP |OBSOLETE   ATF46100 Package:DIE Model:eefet3 N-channel Gate Width=1250, Gate Length=0.5, Pdiss(max)=2200, Vds(typical)=9, Idss=356.44, Vt=-5.1 | GaAs_fets_all | NOLAYOUT

@@ -1,0 +1,775 @@
+<?xml version="1.0" ?>
+<COMPONENTS>
+ <COMPONENT>
+    <NAME>cb_sms_T301_19960901</NAME>
+    <DESCRIPTION> rf-bjt die: SPICE Lib. V1.00 09.01.1996 valid under 6Ghz</DESCRIPTION>
+    <VENDOR>Siemens</VENDOR>
+    <LIBRARY>Microwave_Transistor_Library</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_nec_NE32700_19900413</NAME>
+    <DESCRIPTION> NE32700 Package:DIE Model:eebjt1 NPN Pdiss(max)=300, Ic(max)=50, Vce(max)=12, Ic(typical)=15, Vce(typical)=5, Ft=3, Hfe=100</DESCRIPTION>
+    <VENDOR>NEC</VENDOR>
+    <LIBRARY>Microwave_Transistor_Library</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_hp_AT41400_19900404</NAME>
+    <DESCRIPTION> AT41400 Package:DIE Model:eebjt1 NPN Pdiss(max)=500, Ic(max)=60, Vce(max)=12, Ic(typical)=25, Vce(typical)=8, Ft=9, Hfe=150</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>Microwave_Transistor_Library</LIBRARY>
+    <AVAILABILITY>OBSOLETE</AVAILABILITY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_hp_AT42000_19920721</NAME>
+    <DESCRIPTION> AT42000: Chip NPN Pdiss=600mW, Vce(Max)=12V, Ic(Max)=80mA, Vce(typical)=8V, Ic(Typical)=35mA, Hfe=150, Ft=10GHz</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>Microwave_Transistor_Library</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_nec_NE24300_19891121</NAME>
+    <DESCRIPTION> NE24300 Package:DIE Model:eebjt1 NPN Pdiss(max)=2750, Ic(max)=110, Vce(max)=16, Ic(typical)=50, Vce(typical)=8, Ft=10, Hfe=20-200</DESCRIPTION>
+    <VENDOR>NEC</VENDOR>
+    <LIBRARY>Microwave_Transistor_Library</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_nec_NE68100_19900403</NAME>
+    <DESCRIPTION> NE68100 Package:DIE Model:bjt_gp NPN MDS b.07 library extraction</DESCRIPTION>
+    <VENDOR>NEC</VENDOR>
+    <LIBRARY>Microwave_Transistor_Library</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_sms_T341_19960901</NAME>
+    <DESCRIPTION> rf-bjt die: SPICE Lib. V1.00 09.01.1996 valid under 6Ghz</DESCRIPTION>
+    <VENDOR>Siemens</VENDOR>
+    <LIBRARY>Microwave_Transistor_Library</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_sms_T503_19960901</NAME>
+    <DESCRIPTION> rf-bjt die: SPICE Lib. V1.00 09.01.1996 valid under 6Ghz</DESCRIPTION>
+    <VENDOR>Siemens</VENDOR>
+    <LIBRARY>Microwave_Transistor_Library</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_hp_AT60200_19900409</NAME>
+    <DESCRIPTION> AT60200 Package:DIE Model:eebjt1 NPN Pdiss(max)=160, Ic(max)=16, Vce(max)=12, Ic(typical)=5, Vce(typical)=8, Ft=9, Hfe=150</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>Microwave_Transistor_Library</LIBRARY>
+    <AVAILABILITY>OBSOLETE</AVAILABILITY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_hp_AT41400_19920721</NAME>
+    <DESCRIPTION> AT41400: Chip, NPN Pdiss=500mW, Vce(Max)=12V, Ic(Max)=60mA, Vce(typical)=8V, Ic(Typical)=10mA, Hfe=150, Ft=10GHz</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>Microwave_Transistor_Library</LIBRARY>
+    <AVAILABILITY>OBSOLETE</AVAILABILITY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_sms_T236_19960901</NAME>
+    <DESCRIPTION> rf-bjt die: SPICE Lib. V1.00 09.01.1996 valid under 6Ghz</DESCRIPTION>
+    <VENDOR>Siemens</VENDOR>
+    <LIBRARY>Microwave_Transistor_Library</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_nec_NE46100_19950901</NAME>
+    <DESCRIPTION> NE46100 Package:NE00 Type:NPN Vce(Max)=V, Ic(Max)=mA, Vce(typical)=V, Ic(Typical)=mA, Hfe=, Ft=Hz Valid within: Bias{Vce=5V to 12.5V, Ic=50mA to 100mA} Frequency{0.1GHz TO 4.0GHz}</DESCRIPTION>
+    <VENDOR>NEC</VENDOR>
+    <LIBRARY>Microwave_Transistor_Library</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_sms_T309_19960901</NAME>
+    <DESCRIPTION> rf-bjt die: SPICE Lib. V1.00 09.01.1996 valid under 6Ghz</DESCRIPTION>
+    <VENDOR>Siemens</VENDOR>
+    <LIBRARY>Microwave_Transistor_Library</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_nec_NE57800_19900403</NAME>
+    <DESCRIPTION> NE57800 Package:DIE Model:eebjt1 NPN Pdiss(max)=250, Ic(max)=30, Vce(max)=11, Ic(typical)=10, Vce(typical)=8, Ft=6, Hfe=100</DESCRIPTION>
+    <VENDOR>NEC</VENDOR>
+    <LIBRARY>Microwave_Transistor_Library</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_sms_T349_19960901</NAME>
+    <DESCRIPTION> rf-bjt die: SPICE Lib. V1.00 09.01.1996 valid under 6Ghz</DESCRIPTION>
+    <VENDOR>Siemens</VENDOR>
+    <LIBRARY>Microwave_Transistor_Library</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_mot_MRFC9331_19931129</NAME>
+    <DESCRIPTION> MRFC9331 Package:DIE Model:eebjt2 NPN Pdiss(max)=50, Ic(max)=2, Vce(max)=8, Ic(typical)=1, Vce(typical)=1, Ft=5, Hfe=80</DESCRIPTION>
+    <VENDOR>Motorola</VENDOR>
+    <LIBRARY>Microwave_Transistor_Library</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_sms_T296_19960901</NAME>
+    <DESCRIPTION> rf-bjt die: SPICE Lib. V1.00 09.01.1996 valid under 6Ghz</DESCRIPTION>
+    <VENDOR>Siemens</VENDOR>
+    <LIBRARY>Microwave_Transistor_Library</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_mot_MRFC572_19921101</NAME>
+    <DESCRIPTION> MRFC572 Package:DIE Model:NPN</DESCRIPTION>
+    <VENDOR>Motorola</VENDOR>
+    <LIBRARY>Microwave_Transistor_Library</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_sms_T389_19960901</NAME>
+    <DESCRIPTION> rf-bjt die: SPICE Lib. V1.00 09.01.1996 valid under 6Ghz</DESCRIPTION>
+    <VENDOR>Siemens</VENDOR>
+    <LIBRARY>Microwave_Transistor_Library</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_hp_AT00500_19910101</NAME>
+    <DESCRIPTION> AT00500 Package:DIE Model:bjt_gp NPN MDS b.07 library extraction</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>Microwave_Transistor_Library</LIBRARY>
+    <AVAILABILITY>OBSOLETE</AVAILABILITY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_nec_NE02100_19911007</NAME>
+    <DESCRIPTION> die, n/a</DESCRIPTION>
+    <VENDOR>NEC</VENDOR>
+    <LIBRARY>Microwave_Transistor_Library</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_sms_T351_19921101</NAME>
+    <DESCRIPTION> T351 die ( )</DESCRIPTION>
+    <VENDOR>Siemens</VENDOR>
+    <LIBRARY>Microwave_Transistor_Library</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_hp_AT42000_19921101</NAME>
+    <DESCRIPTION> die data n/a</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>Microwave_Transistor_Library</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_hp_AT41400_19921101</NAME>
+    <DESCRIPTION> die data n/a</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>Microwave_Transistor_Library</LIBRARY>
+    <AVAILABILITY>OBSOLETE</AVAILABILITY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_bit_B20V1320d00_19931130</NAME>
+    <DESCRIPTION> B20V1320-00 Package:DIE Model:eebjt2 NPN Pdiss(max)=na, Ic(max)=na, Vce(max)=na, Ic(typical)=na, Vce(typical)=na, Ft=na, Hfe=na</DESCRIPTION>
+    <VENDOR>Bipolarics</VENDOR>
+    <LIBRARY>Microwave_Transistor_Library</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_nec_NE41600_19900403</NAME>
+    <DESCRIPTION> NE41600 Package:DIE Model:eebjt1 NPN Pdiss(max)=1800, Ic(max)=100, Vce(max)=18, Ic(typical)=50, Vce(typical)=10, Ft=3.5, Hfe=100</DESCRIPTION>
+    <VENDOR>NEC</VENDOR>
+    <LIBRARY>Microwave_Transistor_Library</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_sms_T302_19960901</NAME>
+    <DESCRIPTION> rf-bjt die: SPICE Lib. V1.00 09.01.1996 valid under 6Ghz</DESCRIPTION>
+    <VENDOR>Siemens</VENDOR>
+    <LIBRARY>Microwave_Transistor_Library</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_sms_T395_19921101</NAME>
+    <DESCRIPTION> T395 die ( )</DESCRIPTION>
+    <VENDOR>Siemens</VENDOR>
+    <LIBRARY>Microwave_Transistor_Library</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_sms_T359_19921101</NAME>
+    <DESCRIPTION> T359 die ( )</DESCRIPTION>
+    <VENDOR>Siemens</VENDOR>
+    <LIBRARY>Microwave_Transistor_Library</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_nec_NE68100_19921101</NAME>
+    <DESCRIPTION> embeded die, n/a</DESCRIPTION>
+    <VENDOR>NEC</VENDOR>
+    <LIBRARY>Microwave_Transistor_Library</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_nec_NE24600_19900503</NAME>
+    <DESCRIPTION> NE24600 Package:DIE Model:eebjt1 NPN Pdiss(max)=5000, Ic(max)=250, Vce(max)=20, Ic(typical)=100, Vce(typical)=15, Ft=4.5, Hfe=80</DESCRIPTION>
+    <VENDOR>NEC</VENDOR>
+    <LIBRARY>Microwave_Transistor_Library</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_nec_NE68000_19900403</NAME>
+    <DESCRIPTION> NE68000 Package:DIE Model:eebjt1 NPN Pdiss(max)=200, Ic(max)=35, Vce(max)=10, Ic(typical)=10, Vce(typical)=6, Ft=10, Hfe=100</DESCRIPTION>
+    <VENDOR>NEC</VENDOR>
+    <LIBRARY>Microwave_Transistor_Library</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_hp_AT60100_19900406</NAME>
+    <DESCRIPTION> AT60100 Package:DIE Model:eebjt1 NPN Pdiss(max)=80, Ic(max)=8, Vce(max)=12, Ic(typical)=3, Vce(typical)=8, Ft=9, Hfe=150</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>Microwave_Transistor_Library</LIBRARY>
+    <AVAILABILITY>OBSOLETE</AVAILABILITY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_nec_NE64400_19931130</NAME>
+    <DESCRIPTION> NE64400 Package:DIE Model:eebjt2 NPN Pdiss(max)=260, Ic(max)=3.5, Vce(max)=10, Ic(typical)=5, Vce(typical)=6, Ft=10, Hfe=100</DESCRIPTION>
+    <VENDOR>NEC</VENDOR>
+    <LIBRARY>Microwave_Transistor_Library</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_sms_T504_19960901</NAME>
+    <DESCRIPTION> rf-bjt die: SPICE Lib. V1.00 09.01.1996 valid under 6Ghz</DESCRIPTION>
+    <VENDOR>Siemens</VENDOR>
+    <LIBRARY>Microwave_Transistor_Library</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_nec_NE85600_19900404</NAME>
+    <DESCRIPTION> NE85600 Package:DIE Model:eebjt1 NPN Pdiss(max)=700, Ic(max)=100, Vce(max)=12, Ic(typical)=20, Vce(typical)=10, Ft=7, Hfe=120</DESCRIPTION>
+    <VENDOR>NEC</VENDOR>
+    <LIBRARY>Microwave_Transistor_Library</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_mot_MRFC521_19921101</NAME>
+    <DESCRIPTION> MRFC521 Package:DIE Model:bjt_gp PNP</DESCRIPTION>
+    <VENDOR>Motorola</VENDOR>
+    <LIBRARY>Microwave_Transistor_Library</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_mot_MRFC901_19921101</NAME>
+    <DESCRIPTION> MRFC901 Package:DIE Model:NPN</DESCRIPTION>
+    <VENDOR>Motorola</VENDOR>
+    <LIBRARY>Microwave_Transistor_Library</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_mot_MRFC941_19921101</NAME>
+    <DESCRIPTION> MRFC941 Package:DIE Model:eebjt1 NPN</DESCRIPTION>
+    <VENDOR>Motorola</VENDOR>
+    <LIBRARY>Microwave_Transistor_Library</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_nec_NE68800_19960601</NAME>
+    <DESCRIPTION> NE68800 Package:NE00 Type:NPN Vce(Max)=V, Ic(Max)=mA, Vce(typical)=V, Ic(Typical)=mA, Hfe=, Ft=Hz Valid within: Bias{Vce=1V to 3V, Ic=1mA to 10mA} Frequency{0.1GHZ to 10GHZ}</DESCRIPTION>
+    <VENDOR>NEC</VENDOR>
+    <LIBRARY>Microwave_Transistor_Library</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_mot_MRFC941_19900412</NAME>
+    <DESCRIPTION> MRFC941 Package:DIE Model:eebjt1 NPN Pdiss(max)=400, Ic(max)=50, Vce(max)=10, Ic(typical)=15, Vce(typical)=6, Ft=8, Hfe=50-200</DESCRIPTION>
+    <VENDOR>Motorola</VENDOR>
+    <LIBRARY>Microwave_Transistor_Library</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_nec_NE88900_19931124</NAME>
+    <DESCRIPTION> NE88900 Package:DIE Model:eebjt2 PNP Pdiss(max)=300, Ic(max)=-50, Vce(max)=-12, Ic(typical)=-15, Vce(typical)=-5, Ft=4, Hfe=90</DESCRIPTION>
+    <VENDOR>NEC</VENDOR>
+    <LIBRARY>Microwave_Transistor_Library</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_sms_T134_19921101</NAME>
+    <DESCRIPTION> T134 die ( )</DESCRIPTION>
+    <VENDOR>Siemens</VENDOR>
+    <LIBRARY>Microwave_Transistor_Library</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_sms_T251_19921101</NAME>
+    <DESCRIPTION> T251 die ( )</DESCRIPTION>
+    <VENDOR>Siemens</VENDOR>
+    <LIBRARY>Microwave_Transistor_Library</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_hp_AT42000_19910101</NAME>
+    <DESCRIPTION> AT42000 Package:DIE Model:bjt_gp NPN MDS b.07 library extraction</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>Microwave_Transistor_Library</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_hp_AT41400_19910101</NAME>
+    <DESCRIPTION> AT41400 Package:DIE Model:bjt_gp NPN MDS b.07 library extraction</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>Microwave_Transistor_Library</LIBRARY>
+    <AVAILABILITY>OBSOLETE</AVAILABILITY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_nec_NE41600_19921101</NAME>
+    <DESCRIPTION> die, n/a</DESCRIPTION>
+    <VENDOR>NEC</VENDOR>
+    <LIBRARY>Microwave_Transistor_Library</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_hp_AT01600_19900404</NAME>
+    <DESCRIPTION> AT01600 Package:DIE Model:eebjt1 NPN Pdiss(max)=1000, Ic(max)=150, Vce(max)=12, Ic(typical)=35, Vce(typical)=8, Ft=8, Hfe=150</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>Microwave_Transistor_Library</LIBRARY>
+    <AVAILABILITY>OBSOLETE</AVAILABILITY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_hp_AT21400_19900404</NAME>
+    <DESCRIPTION> AT21400 Package:DIE Model:eebjt1 NPN Pdiss(max)=250, Ic(max)=28, Vce(max)=10, Ic(typical)=14, Vce(typical)=8, Ft=10, Hfe=100</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>Microwave_Transistor_Library</LIBRARY>
+    <AVAILABILITY>OBSOLETE</AVAILABILITY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_nec_NE68000_19921101</NAME>
+    <DESCRIPTION> embeded die, n/a</DESCRIPTION>
+    <VENDOR>NEC</VENDOR>
+    <LIBRARY>Microwave_Transistor_Library</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_sms_T501_19960901</NAME>
+    <DESCRIPTION> rf-bjt die: SPICE Lib. V1.00 09.01.1996 valid under 6Ghz</DESCRIPTION>
+    <VENDOR>Siemens</VENDOR>
+    <LIBRARY>Microwave_Transistor_Library</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_nec_NE21900_19900503</NAME>
+    <DESCRIPTION> NE21900 Package:DIE Model:eebjt1 NPN Pdiss(max)=700, Ic(max)=80, Vce(max)=10, Ic(typical)=20, Vce(typical)=8, Ft=8, Hfe=100</DESCRIPTION>
+    <VENDOR>NEC</VENDOR>
+    <LIBRARY>Microwave_Transistor_Library</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_hp_AT60500_19921101</NAME>
+    <DESCRIPTION> die data n/a</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>Microwave_Transistor_Library</LIBRARY>
+    <AVAILABILITY>OBSOLETE</AVAILABILITY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_hp_AT60500_19900411</NAME>
+    <DESCRIPTION> AT60500 Package:DIE Model:eebjt1 NPN Pdiss(max)=400, Ic(max)=40, Vce(max)=12, Ic(typical)=10, Vce(typical)=8, Ft=9, Hfe=150</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>Microwave_Transistor_Library</LIBRARY>
+    <AVAILABILITY>OBSOLETE</AVAILABILITY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_nec_NE21900_19900307</NAME>
+    <DESCRIPTION> NE21900 Package:DIE Model:bjt_gp NPN MDS b.07 library extraction</DESCRIPTION>
+    <VENDOR>NEC</VENDOR>
+    <LIBRARY>Microwave_Transistor_Library</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_nec_NE73400_19900404</NAME>
+    <DESCRIPTION> NE73400 Package:DIE Model:eebjt1 NPN Pdiss(max)=300, Ic(max)=50, Vce(max)=14, Ic(typical)=10, Vce(typical)=10, Ft=1.5, Hfe=100</DESCRIPTION>
+    <VENDOR>NEC</VENDOR>
+    <LIBRARY>Microwave_Transistor_Library</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_sms_T351_19960901</NAME>
+    <DESCRIPTION> rf-bjt die: SPICE Lib. V1.00 09.01.1996 valid under 6Ghz</DESCRIPTION>
+    <VENDOR>Siemens</VENDOR>
+    <LIBRARY>Microwave_Transistor_Library</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_nec_NE64700_19900403</NAME>
+    <DESCRIPTION> NE64700 Package:DIE Model:eebjt1 NPN Pdiss(max)=180, Ic(max)=20, Vce(max)=9, Ic(typical)=10, Vce(typical)=8, Ft=11, Hfe=100</DESCRIPTION>
+    <VENDOR>NEC</VENDOR>
+    <LIBRARY>Microwave_Transistor_Library</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_nec_NE85600_19921101</NAME>
+    <DESCRIPTION> embeded die, n/a</DESCRIPTION>
+    <VENDOR>NEC</VENDOR>
+    <LIBRARY>Microwave_Transistor_Library</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_nec_NE64800_19900413</NAME>
+    <DESCRIPTION> NE64800 Package:DIE Model:eebjt1 NPN Pdiss(max)=360, Ic(max)=40, Vce(max)=9, Ic(typical)=20, Vce(typical)=8, Ft=11, Hfe=100</DESCRIPTION>
+    <VENDOR>NEC</VENDOR>
+    <LIBRARY>Microwave_Transistor_Library</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_nec_NE68100_19960501</NAME>
+    <DESCRIPTION> NE68100 Package:NE00 Type:NPN Vce(Max)=V, Ic(Max)=mA, Vce(typical)=V, Ic(Typical)=mA, Hfe=, Ft=Hz Valid within: Bias{VCE=8V, IC=7mA,20mA; VCE=2.5V, IC=0.3/1/3mA} Frequency{1.5GHz TO 10GHz}</DESCRIPTION>
+    <VENDOR>NEC</VENDOR>
+    <LIBRARY>Microwave_Transistor_Library</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_sms_T395_19960901</NAME>
+    <DESCRIPTION> rf-bjt die: SPICE Lib. V1.00 09.01.1996 valid under 6Ghz</DESCRIPTION>
+    <VENDOR>Siemens</VENDOR>
+    <LIBRARY>Microwave_Transistor_Library</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_sms_T359_19960901</NAME>
+    <DESCRIPTION> rf-bjt die: SPICE Lib. V1.00 09.01.1996 valid under 6Ghz</DESCRIPTION>
+    <VENDOR>Siemens</VENDOR>
+    <LIBRARY>Microwave_Transistor_Library</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_mot_MRFC911_19931130</NAME>
+    <DESCRIPTION> MRFC911 Package:DIE Model:eebjt2 NPN Pdiss(max)=400, Ic(max)=40, Vce(max)=12, Ic(typical)=30, Vce(typical)=10, Ft=5, Hfe=30-200</DESCRIPTION>
+    <VENDOR>Motorola</VENDOR>
+    <LIBRARY>Microwave_Transistor_Library</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_mot_MRFC571_19931130</NAME>
+    <DESCRIPTION> MRFC571 Package:DIE Model:eebjt2 NPN Pdiss(max)=1500, Ic(max)=70, Vce(max)=10, Ic(typical)=50, Vce(typical)=8, Ft=8, Hfe=50-300</DESCRIPTION>
+    <VENDOR>Motorola</VENDOR>
+    <LIBRARY>Microwave_Transistor_Library</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_sms_T301_19921101</NAME>
+    <DESCRIPTION> T301 die ( )</DESCRIPTION>
+    <VENDOR>Siemens</VENDOR>
+    <LIBRARY>Microwave_Transistor_Library</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_nec_NE02100_19900412</NAME>
+    <DESCRIPTION> NE02100 Package:DIE Model:eebjt1 NPN Pdiss(max)=700, Ic(max)=70, Vce(max)=12, Ic(typical)=20, Vce(typical)=10, Ft=4.5, Hfe=70</DESCRIPTION>
+    <VENDOR>NEC</VENDOR>
+    <LIBRARY>Microwave_Transistor_Library</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_sms_T341_19921101</NAME>
+    <DESCRIPTION> T341 die ( )</DESCRIPTION>
+    <VENDOR>Siemens</VENDOR>
+    <LIBRARY>Microwave_Transistor_Library</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_sms_T236_19921101</NAME>
+    <DESCRIPTION> T236 die ( )</DESCRIPTION>
+    <VENDOR>Siemens</VENDOR>
+    <LIBRARY>Microwave_Transistor_Library</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_hp_AT01600_19921101</NAME>
+    <DESCRIPTION> die data n/a</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>Microwave_Transistor_Library</LIBRARY>
+    <AVAILABILITY>OBSOLETE</AVAILABILITY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_hp_AT00500_19900404</NAME>
+    <DESCRIPTION> AT00500 Package:DIE Model:eebjt1 NPN Pdiss(max)=500, Ic(max)=50, Vce(max)=12, Ic(typical)=20, Vce(typical)=8, Ft=9, Hfe=150</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>Microwave_Transistor_Library</LIBRARY>
+    <AVAILABILITY>OBSOLETE</AVAILABILITY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_hp_AT60500_19910101</NAME>
+    <DESCRIPTION> AT60500 Package:DIE Model:bjt_gp NPN MDS b.07 library extraction</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>Microwave_Transistor_Library</LIBRARY>
+    <AVAILABILITY>OBSOLETE</AVAILABILITY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_sms_T122_19960901</NAME>
+    <DESCRIPTION> rf-bjt die: SPICE Lib. V1.00 09.01.1996 valid under 6Ghz</DESCRIPTION>
+    <VENDOR>Siemens</VENDOR>
+    <LIBRARY>Microwave_Transistor_Library</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_nec_NE73400_19921101</NAME>
+    <DESCRIPTION> embeded die, n/a</DESCRIPTION>
+    <VENDOR>NEC</VENDOR>
+    <LIBRARY>Microwave_Transistor_Library</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_sms_T349_19921101</NAME>
+    <DESCRIPTION> T349 die ( )</DESCRIPTION>
+    <VENDOR>Siemens</VENDOR>
+    <LIBRARY>Microwave_Transistor_Library</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_sms_T502_19960901</NAME>
+    <DESCRIPTION> rf-bjt die: SPICE Lib. V1.00 09.01.1996 valid under 6Ghz</DESCRIPTION>
+    <VENDOR>Siemens</VENDOR>
+    <LIBRARY>Microwave_Transistor_Library</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_nec_NE68300_19921101</NAME>
+    <DESCRIPTION> embeded die, n/a</DESCRIPTION>
+    <VENDOR>NEC</VENDOR>
+    <LIBRARY>Microwave_Transistor_Library</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_sms_T251_19960901</NAME>
+    <DESCRIPTION> rf-bjt die: SPICE Lib. V1.00 09.01.1996 valid under 6Ghz</DESCRIPTION>
+    <VENDOR>Siemens</VENDOR>
+    <LIBRARY>Microwave_Transistor_Library</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_nec_NE68000_19960501</NAME>
+    <DESCRIPTION> NE68000 Package:NE00 Type:NPN Vce(Max)=V, Ic(Max)=mA, Vce(typical)=V, Ic(Typical)=mA, Hfe=, Ft=Hz Valid within: Bias{Vce=1V to 6V, Ic=0.25mA to 20mA} Frequency{0.1GHZ TO 20.1GHZ}</DESCRIPTION>
+    <VENDOR>NEC</VENDOR>
+    <LIBRARY>Microwave_Transistor_Library</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_sms_T239_19960901</NAME>
+    <DESCRIPTION> rf-bjt die: SPICE Lib. V1.00 09.01.1996 valid under 6Ghz</DESCRIPTION>
+    <VENDOR>Siemens</VENDOR>
+    <LIBRARY>Microwave_Transistor_Library</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_sms_T259_19960901</NAME>
+    <DESCRIPTION> rf-bjt die: SPICE Lib. V1.00 09.01.1996 valid under 6Ghz</DESCRIPTION>
+    <VENDOR>Siemens</VENDOR>
+    <LIBRARY>Microwave_Transistor_Library</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_nec_NE85600_19960501</NAME>
+    <DESCRIPTION> NE85600 Package:NE00 Type:NPN Vce(Max)=V, Ic(Max)=mA, Vce(typical)=V, Ic(Typical)=mA, Hfe=, Ft=Hz Valid within: Bias{Vce=1V to 10V, Ic=0.25mA to 40mA} Frequency{0.1GHz to 7.0GHz}</DESCRIPTION>
+    <VENDOR>NEC</VENDOR>
+    <LIBRARY>Microwave_Transistor_Library</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_mot_MRFC911_19921101</NAME>
+    <DESCRIPTION> MRFC911 Package:DIE Model:bjt_gp NPN MDS b.07 library extraction</DESCRIPTION>
+    <VENDOR>Motorola</VENDOR>
+    <LIBRARY>Microwave_Transistor_Library</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_nec_NE64500_19891214</NAME>
+    <DESCRIPTION> NE64500 Package:DIE Model:eebjt1 NPN Pdiss(max)=400, Ic(max)=65, Vce(max)=12, Ic(typical)=20, Vce(typical)=8, Ft=8.5, Hfe=100</DESCRIPTION>
+    <VENDOR>NEC</VENDOR>
+    <LIBRARY>Microwave_Transistor_Library</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_sms_T396_19960901</NAME>
+    <DESCRIPTION> rf-bjt die: SPICE Lib. V1.00 09.01.1996 valid under 6Ghz</DESCRIPTION>
+    <VENDOR>Siemens</VENDOR>
+    <LIBRARY>Microwave_Transistor_Library</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_mot_MRFC951_19921101</NAME>
+    <DESCRIPTION> MRFC951 Package:DIE Model:eebjt1 NPN</DESCRIPTION>
+    <VENDOR>Motorola</VENDOR>
+    <LIBRARY>Microwave_Transistor_Library</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_mot_MRFC951_19900411</NAME>
+    <DESCRIPTION> MRFC951 Package:DIE Model:eebjt1 NPN Pdiss(max)=1000, Ic(max)=100, Vce(max)=10, Ic(typical)=30, Vce(typical)=8, Ft=8, Hfe=50-200</DESCRIPTION>
+    <VENDOR>Motorola</VENDOR>
+    <LIBRARY>Microwave_Transistor_Library</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_mot_BFRC90_19931130</NAME>
+    <DESCRIPTION> BFRC90 Package:DIE Model:eebjt2 NPN Pdiss(max)=180, Ic(max)=30, Vce(max)=15, Ic(typical)=14, Vce(typical)=10, Ft=5, Hfe=25-250</DESCRIPTION>
+    <VENDOR>Motorola</VENDOR>
+    <LIBRARY>Microwave_Transistor_Library</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_hp_AT00500_19921101</NAME>
+    <DESCRIPTION> die data n/a</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>Microwave_Transistor_Library</LIBRARY>
+    <AVAILABILITY>OBSOLETE</AVAILABILITY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_hp_AT01600_19910101</NAME>
+    <DESCRIPTION> AT01600 Package:DIE Model:bjt_gp NPN MDS b.07 library extraction</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>Microwave_Transistor_Library</LIBRARY>
+    <AVAILABILITY>OBSOLETE</AVAILABILITY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_sms_T89_19960901</NAME>
+    <DESCRIPTION> rf-bjt die: SPICE Lib. V1.00 09.01.1996 valid under 6Ghz</DESCRIPTION>
+    <VENDOR>Siemens</VENDOR>
+    <LIBRARY>Microwave_Transistor_Library</LIBRARY>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+ <COMPONENT>
+    <NAME>cb_hp_AT42000_19900402</NAME>
+    <DESCRIPTION> AT42000 Package:DIE Model:eebjt1 NPN Pdiss(max)=500, Ic(max)=60, Vce(max)=12, Ic(typical)=25, Vce(typical)=8, Ft=9, Hfe=150</DESCRIPTION>
+    <VENDOR>Agilent Technologies</VENDOR>
+    <LIBRARY>Microwave_Transistor_Library</LIBRARY>
+    <URL>http://www.semiconductor.agilent.com</URL>
+    <PLACEMENT>NOLAYOUT</PLACEMENT>
+ </COMPONENT>
+
+</COMPONENTS>

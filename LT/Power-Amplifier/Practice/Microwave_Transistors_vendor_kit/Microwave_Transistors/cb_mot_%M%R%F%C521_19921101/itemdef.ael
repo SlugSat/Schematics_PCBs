@@ -1,0 +1,1 @@
+create_item("cb_mot_MRFC521_19921101","Motorola MRFC521 Package:DIE Model:bjt_gp PNP","Q",1073741824,-1,NULL,"Component Parameters","BJT","#uselib \"MicrowaveTransistorLibrary\" , \"%d\"\n%d:%t %# %44?0%:%31?%C%:_net%c%;%;%e %r%b%8?%29?%:%30?%p %:%k%?[%1i]%;=%p %;%;%e%e","cb_mot_MRFC521_19921101","%t%b%r%38?%:\n%30?%s%:%k%?[%1i]%;=%s%;%;%e%e%;","SYM_BJT_PNP",1,"DIE",32);

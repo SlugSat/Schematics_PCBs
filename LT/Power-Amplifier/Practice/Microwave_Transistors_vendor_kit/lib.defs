@@ -1,0 +1,5 @@
+# ADS technology library definitions file
+INCLUDE  $HPEESOF_DIR/oalibs/tech.defs
+
+DEFINE Microwave_Transistors ./Microwave_Transistors
+ASSIGN Microwave_Transistors libMode readOnly

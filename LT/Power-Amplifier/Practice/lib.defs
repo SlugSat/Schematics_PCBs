@@ -1,0 +1,8 @@
+INCLUDE $HPEESOF_DIR/oalibs/analog_rf.defs
+DEFINE LT_lib LT_lib
+ASSIGN LT_lib libMode shared
+DEFINE RF_Transistors $HPEESOF_DIR/oalibs/componentLib/RF_Transistors_vendor_kit/RF_Transistors
+ASSIGN RF_Transistors libMode shared
+INCLUDE $HOME/RF_Transistors_vendor_kit/lib.defs
+INCLUDE $HOME/LT_wrk/Microwave_Transistors_vendor_kit/lib.defs
+INCLUDE $HOME/LT_wrk/Analog_Parts_vendor_kit/lib.defs
