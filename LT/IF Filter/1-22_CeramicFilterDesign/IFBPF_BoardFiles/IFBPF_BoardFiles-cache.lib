@@ -1,0 +1,114 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Device_C_Small
+#
+DEF Device_C_Small C 0 10 N N 1 F N
+F0 "C" 10 70 50 H V L CNN
+F1 "Device_C_Small" 10 -80 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ C_*
+$ENDFPLIST
+DRAW
+P 2 0 1 13 -60 -20 60 -20 N
+P 2 0 1 12 -60 20 60 20 N
+X ~ 1 0 100 80 D 50 50 1 1 P
+X ~ 2 0 -100 80 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Device_L_Small
+#
+DEF Device_L_Small L 0 10 N N 1 F N
+F0 "L" 30 40 50 H V L CNN
+F1 "Device_L_Small" 30 -40 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Choke_*
+ *Coil*
+ Inductor_*
+ L_*
+$ENDFPLIST
+DRAW
+A 0 -60 20 -899 899 0 1 0 N 0 -80 0 -40
+A 0 -20 20 -899 899 0 1 0 N 0 -40 0 0
+A 0 20 20 -899 899 0 1 0 N 0 0 0 40
+A 0 60 20 -899 899 0 1 0 N 0 40 0 80
+X ~ 1 0 100 20 D 50 50 1 1 P
+X ~ 2 0 -100 20 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# IFBPF_SFECK10M7KA00S0-R0
+#
+DEF IFBPF_SFECK10M7KA00S0-R0 FL 0 30 Y Y 1 F N
+F0 "FL" 850 300 50 H V L CNN
+F1 "IFBPF_SFECK10M7KA00S0-R0" 850 200 50 H V L CNN
+F2 "SFECK10M7KA00S0R0" 850 100 50 H I L CNN
+F3 "https://www.murata.com/en-sg/products/productdetail?cate=luCeramicFilters&partno=SFECK10M7KA00S0-R0" 850 0 50 H I L CNN
+F4 "Ceramic Filter" 850 -100 50 H I L CNN "Description"
+F5 "1.7" 850 -200 50 H I L CNN "Height"
+F6 "81-SFECK10M7KA00S0R0" 850 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/SFECK10M7KA00S0-R0?qs=xZ%2FP%252Ba9zWqbs%2FJgfcR13pQ%3D%3D" 850 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Murata Electronics" 850 -500 50 H I L CNN "Manufacturer_Name"
+F9 "SFECK10M7KA00S0-R0" 850 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 100 800 100 800 -300 200 -300 200 100 N
+X INPUT 1 0 -200 200 R 50 50 0 0 P
+X GROUND 2 0 -100 200 R 50 50 0 0 P
+X OUTPUT 3 0 0 200 R 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# SMA_Side_Mount_CONSMA003.031
+#
+DEF SMA_Side_Mount_CONSMA003.031 J 0 40 N N 1 L N
+F0 "J" -150 60 50 H V L BNN
+F1 "SMA_Side_Mount_CONSMA003.031" -160 -270 50 H V L BNN
+F2 "LINX_CONSMA003.031" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+F4 "None" 0 0 50 H I L BNN "Price"
+F5 "https://pricing.snapeda.com/search/part/CONSMA003.031/?ref=eda" 0 0 50 H I L BNN "Purchase-URL"
+F6 "None" 0 0 50 H I L BNN "Package"
+F7 "CONSMA003.031" 0 0 50 H I L BNN "MP"
+F8 "In Stock" 0 0 50 H I L BNN "Availability"
+F9 "Linx Technologies" 0 0 50 H I L BNN "MF"
+F10 "SMA Female Edge-Mount Connector for 0.031 in Boards" 0 0 50 H I L BNN "Description"
+DRAW
+A -125 -100 25 -900 899 0 0 10 N -125 -125 -125 -75
+A -125 0 25 -900 899 0 0 10 N -125 -25 -125 25
+C 0 -100 10 0 0 10 N
+C 0 0 40 0 0 10 N
+P 2 0 0 10 -40 -40 0 -40 N
+P 2 0 0 10 -30 -130 -50 -160 N
+P 2 0 0 10 0 -130 -30 -130 N
+P 2 0 0 10 0 -130 -20 -160 N
+P 2 0 0 10 0 -130 30 -130 N
+P 2 0 0 10 0 -40 0 -130 N
+P 2 0 0 10 0 -40 40 -40 N
+P 2 0 0 10 30 -130 10 -160 N
+X ~ 1 100 0 200 L 40 40 0 0 P
+X ~ S1 100 -100 200 L 40 40 0 0 P
+X ~ S2 100 -100 200 L 40 40 0 0 P
+X ~ S3 100 -100 200 L 40 40 0 0 P
+X ~ S4 100 -100 200 L 40 40 0 0 P
+ENDDRAW
+ENDDEF
+#
+# power_GND
+#
+DEF power_GND #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "power_GND" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+#End Library
