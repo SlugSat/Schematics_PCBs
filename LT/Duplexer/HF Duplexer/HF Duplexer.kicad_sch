@@ -319,7 +319,6 @@
     )
   )
 
-
   (junction (at 143.51 74.93) (diameter 0) (color 0 0 0 0)
     (uuid 04af618e-16bd-497f-9e30-c11cf8d81548)
   )
@@ -781,7 +780,7 @@
     (uuid fd9568df-cf05-4d00-a2e1-7970d39961bf)
   )
 
-  (text "29.4 BPF" (at 105.41 101.6 0)
+  (text "29.4 MHz BPF" (at 105.41 101.6 0)
     (effects (font (size 1.27 1.27) (thickness 0.254) bold italic) (justify left bottom))
     (uuid 05f55d35-5560-4d14-add1-a3d2542952e5)
   )
@@ -1092,7 +1091,7 @@
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 8fbc2c57-cdca-4683-85e8-ae376b7c4062)
     (property "Reference" "L7" (id 0) (at 186.69 52.07 90))
-    (property "Value" "15.27uH" (id 1) (at 186.69 54.61 90))
+    (property "Value" "27uH" (id 1) (at 186.69 54.61 90))
     (property "Footprint" "Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder" (id 2) (at 186.69 58.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -1368,7 +1367,7 @@
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid f0344b90-fe50-4ec5-b5d2-4573617b6e6a)
     (property "Reference" "L11" (id 0) (at 91.44 104.14 90))
-    (property "Value" "24.4uH" (id 1) (at 91.44 106.68 90))
+    (property "Value" "4uH" (id 1) (at 91.44 106.68 90))
     (property "Footprint" "Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder" (id 2) (at 91.44 110.49 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -1554,7 +1553,7 @@
       (reference "L6") (unit 1) (value "2.895uH") (footprint "Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
     )
     (path "/8fbc2c57-cdca-4683-85e8-ae376b7c4062"
-      (reference "L7") (unit 1) (value "15.27uH") (footprint "Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
+      (reference "L7") (unit 1) (value "27uH") (footprint "Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
     )
     (path "/fa398d76-e65a-4fec-bd14-a4169f0f303c"
       (reference "L8") (unit 1) (value "1.8uH") (footprint "Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
@@ -1566,7 +1565,7 @@
       (reference "L10") (unit 1) (value "3uH") (footprint "Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
     )
     (path "/f0344b90-fe50-4ec5-b5d2-4573617b6e6a"
-      (reference "L11") (unit 1) (value "24.4uH") (footprint "Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
+      (reference "L11") (unit 1) (value "4uH") (footprint "Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
     )
     (path "/cf744f90-6893-410e-a11f-6b04a4c9414b"
       (reference "L12") (unit 1) (value "32.31nH") (footprint "Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder")

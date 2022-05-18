@@ -1,7 +1,7 @@
 (export (version "E")
   (design
     (source "C:\\Users\\hata2\\Desktop\\SlugSat\\Schematics_PCBs\\LT\\Duplexer\\HF Duplexer\\HF Duplexer.kicad_sch")
-    (date "1/19/2022 9:28:31 PM")
+    (date "1/20/2022 11:21:00 PM")
     (tool "Eeschema (6.0.0)")
     (sheet (number "1") (name "/") (tstamps "/")
       (title_block
@@ -251,7 +251,7 @@
       (sheetpath (names "/") (tstamps "/"))
       (tstamps "4fc13012-3f7a-4e51-b506-aa57e6c57142"))
     (comp (ref "L7")
-      (value "15.27uH")
+      (value "27uH")
       (footprint "Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
       (datasheet "~")
       (libsource (lib "Device") (part "L") (description "Inductor"))
@@ -287,7 +287,7 @@
       (sheetpath (names "/") (tstamps "/"))
       (tstamps "9fe9c0b5-e648-40ec-a0fd-adbd784655a6"))
     (comp (ref "L11")
-      (value "24.4uH")
+      (value "4uH")
       (footprint "Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
       (datasheet "~")
       (libsource (lib "Device") (part "L") (description "Inductor"))
